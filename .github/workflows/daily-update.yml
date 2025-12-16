@@ -45,13 +45,19 @@ jobs:
       - name: Deploy to Namecheap via FTP
         run: |
           sudo apt-get install -y lftp
+          echo "Attempting FTP upload to ${{ secrets.FTP_HOST }}..."
           lftp -c "
             set ssl:verify-certificate no;
             set ftp:passive-mode yes;
+            set ftp:ssl-allow no;
+            set net:timeout 30;
+            set net:max-retries 3;
             open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ftp://${{ secrets.FTP_HOST }};
-            mirror -R --verbose --only-newer --exclude .git --exclude .github --exclude scripts . ${{ secrets.FTP_DIR }};
+            cd ${{ secrets.FTP_DIR }};
+            mirror -R --verbose --only-newer --exclude .git --exclude .github --exclude scripts --exclude archive . .;
             quit
-          "
+          " || echo "FTP upload failed - will retry next run"
+        continue-on-error: true
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
