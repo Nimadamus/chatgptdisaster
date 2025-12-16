@@ -32,11 +32,11 @@ except ImportError:
 # Configuration
 CONFIG = {
     "site_dir": r"C:\Users\Nima\chatgptdisaster",
-    "ftp_host": "ftp.chatgptdisaster.com",
+    "ftp_host": os.environ.get("FTP_HOST", "ftp.chatgptdisaster.com"),
     "ftp_port": 21,
-    "ftp_user": "deploy@chatgptdisaster.com",
-    "ftp_pass": "REDACTED",
-    "ftp_dir": "/",
+    "ftp_user": os.environ.get("FTP_USER", "deploy@chatgptdisaster.com"),
+    "ftp_pass": os.environ.get("FTP_PASS", ""),  # Set via environment variable
+    "ftp_dir": os.environ.get("FTP_DIR", "/"),
     "max_stories_per_page": 30,
     "data_file": r"C:\Users\Nima\chatgptdisaster\scripts\content_data.json",
     "min_upvotes": 10,  # Only include posts with at least this many upvotes
