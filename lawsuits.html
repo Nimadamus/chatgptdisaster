@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete OpenAI Lawsuit Database: Every Legal Case Against ChatGPT (2023-2025)</title>
+<meta name="description" content="Complete database of every lawsuit against OpenAI and ChatGPT: copyright cases worth billions, suicide lawsuits, defamation claims, privacy violations. Updated December 2025.">
+<meta name="keywords" content="OpenAI lawsuits, ChatGPT lawsuit, sue OpenAI, ChatGPT legal cases, OpenAI copyright, ChatGPT suicide lawsuit, New York Times OpenAI">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/lawsuits.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Complete OpenAI Lawsuit Database (2023-2025)">
+<meta property="og:description" content="Every lawsuit against OpenAI: copyright billions, suicide cases, defamation claims, privacy violations.">
+<meta property="og:url" content="https://chatgptdisaster.com/lawsuits.html">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.7;
+    min-height: 100vh;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+header {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.5);
+}
+h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; }
+.subtitle { font-size: 1.1rem; opacity: 0.8; margin-bottom: 1.5rem; }
+.nav-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.nav-btn {
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s ease;
+}
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); }
+
+/* Stats Bar */
+.stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    background: rgba(255, 68, 68, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+}
+.stat-item { text-align: center; }
+.stat-item .number { font-size: 2.5rem; color: #ff4444; font-weight: bold; }
+.stat-item .label { color: #ccc; font-size: 0.9rem; }
+
+/* Category Sections */
+.section {
+    padding: 3rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.section-icon { font-size: 2.5rem; }
+.section-header h2 { color: #ff4444; font-size: 1.8rem; }
+.section-header .count {
+    background: #ff4444;
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Lawsuit Cards */
+.lawsuit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 1.5rem;
+}
+.lawsuit-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+.lawsuit-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 68, 68, 0.4);
+}
+.lawsuit-card.major {
+    border: 2px solid rgba(255, 68, 68, 0.5);
+    background: linear-gradient(135deg, rgba(255, 68, 68, 0.1) 0%, rgba(255, 68, 68, 0.02) 100%);
+}
+.lawsuit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.lawsuit-card h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    flex: 1;
+}
+.status-badge {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.status-active { background: rgba(255, 193, 7, 0.3); color: #ffc107; }
+.status-pending { background: rgba(74, 158, 255, 0.3); color: #4a9eff; }
+.status-settled { background: rgba(76, 175, 80, 0.3); color: #4caf50; }
+.status-dismissed { background: rgba(158, 158, 158, 0.3); color: #9e9e9e; }
+.lawsuit-card p {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.lawsuit-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.meta-tag {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    color: #888;
+}
+.damages {
+    color: #ff4444;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.lawsuit-card a {
+    color: #4a9eff;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+.lawsuit-card a:hover { text-decoration: underline; }
+
+/* Featured Case */
+.featured-case {
+    background: linear-gradient(135deg, rgba(255, 68, 68, 0.2) 0%, rgba(255, 68, 68, 0.05) 100%);
+    border: 2px solid rgba(255, 68, 68, 0.5);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.featured-badge {
+    background: #ff4444;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.featured-case h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.featured-case p {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+/* Warning Box */
+.warning-box {
+    background: rgba(255, 68, 68, 0.1);
+    border-left: 4px solid #ff4444;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 10px 10px 0;
+}
+.warning-box h4 { color: #ff4444; margin-bottom: 0.5rem; }
+.warning-box p { color: #ccc; }
+
+/* Timeline */
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid rgba(255, 68, 68, 0.3);
+    margin: 2rem 0;
+}
+.timeline-item {
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.4rem;
+    top: 0.3rem;
+    width: 12px;
+    height: 12px;
+    background: #ff4444;
+    border-radius: 50%;
+}
+.timeline-date {
+    color: #ff4444;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.timeline-item p {
+    color: #ccc;
+    margin-top: 0.25rem;
+}
+
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+    margin-top: 3rem;
+}
+footer p { color: #888; margin: 0.5rem 0; }
+footer a { color: #ff4444; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>OpenAI Lawsuit Database</h1>
+        <p class="subtitle">Every Legal Case Against ChatGPT & OpenAI (2023-2025)</p>
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="resources.html" class="nav-btn">Resources</a>
+            <a href="stories.html" class="nav-btn">User Stories</a>
+            <a href="petitions/" class="nav-btn">Sign Petitions</a>
+            <a href="failures/" class="nav-btn">Failures Database</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="stats-bar">
+        <div class="stat-item">
+            <div class="number">50+</div>
+            <div class="label">Active Lawsuits</div>
+        </div>
+        <div class="stat-item">
+            <div class="number">$Billions</div>
+            <div class="label">Potential Damages</div>
+        </div>
+        <div class="stat-item">
+            <div class="number">7+</div>
+            <div class="label">Suicide-Related Cases</div>
+        </div>
+        <div class="stat-item">
+            <div class="number">12+</div>
+            <div class="label">Consolidated Copyright Cases</div>
+        </div>
+    </div>
+
+    <!-- SUICIDE & DEATH LAWSUITS -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-icon">⚠️</span>
+            <h2>Suicide & Death Lawsuits</h2>
+            <span class="count">7+ Cases</span>
+        </div>
+
+        <div class="warning-box">
+            <h4>OpenAI Faces Multiple Wrongful Death Claims</h4>
+            <p>As of November 2025, OpenAI faces seven lawsuits claiming ChatGPT drove people to suicide and harmful delusions - even those with no prior mental health issues. OpenAI denies liability.</p>
+        </div>
+
+        <div class="lawsuit-grid">
+            <div class="lawsuit-card major">
+                <div class="lawsuit-header">
+                    <h3>Raine Family v. OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Parents of 16-year-old Adam Raine allege ChatGPT became his "suicide coach" after 7 months of conversations. Found chat logs showing harmful guidance.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: 2025</span>
+                    <span class="meta-tag">Victim Age: 16</span>
+                    <span class="meta-tag">Location: USA</span>
+                </div>
+                <a href="https://www.nbcnews.com/tech/tech-news/family-teenager-died-suicide-alleges-openais-chatgpt-blame-rcna226147" target="_blank" rel="noopener">NBC News Coverage →</a>
+            </div>
+
+            <div class="lawsuit-card major">
+                <div class="lawsuit-header">
+                    <h3>Garcia v. Character.AI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Mother of Sewell Setzer III (14) sues after chatbot's last words were "come home to me." Bot asked if he had a suicide "plan."</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: October 2024</span>
+                    <span class="meta-tag">Victim Age: 14</span>
+                    <span class="meta-tag">Death: Feb 2024</span>
+                </div>
+                <a href="https://www.nbcnews.com/tech/characterai-lawsuit-florida-teen-death-rcna176791" target="_blank" rel="noopener">NBC News Coverage →</a>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Shamblin Family v. OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Family of Zane Shamblin (23) claims ChatGPT "goaded" him to suicide after memory feature created "illusion of a confidant."</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: 2025</span>
+                    <span class="meta-tag">Victim Age: 23</span>
+                    <span class="meta-tag">Texas</span>
+                </div>
+                <a href="https://www.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis" target="_blank" rel="noopener">CNN Coverage →</a>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Lacey Family v. OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Amaurie Lacey (17) - ChatGPT allegedly provided instructions on how to tie a noose and information on survival without breathing.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: 2025</span>
+                    <span class="meta-tag">Victim Age: 17</span>
+                    <span class="meta-tag">Death: June 2025</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Rottenberg Family v. OpenAI</h3>
+                    <span class="status-badge status-pending">Pending</span>
+                </div>
+                <p>Sophie Rottenberg (29) talked for months to ChatGPT "therapist" named Harry about mental health before death.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Death: Feb 2025</span>
+                    <span class="meta-tag">Victim Age: 29</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Additional Character.AI Cases (4+)</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Five families total have sued Character.AI. All five accused its chatbots of sexually abusive interactions with children.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Multiple Plaintiffs</span>
+                    <span class="meta-tag">Minors</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COPYRIGHT MEGA-LAWSUITS -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-icon">©️</span>
+            <h2>Copyright Mega-Lawsuits</h2>
+            <span class="count">12+ Consolidated</span>
+        </div>
+
+        <div class="featured-case">
+            <span class="featured-badge">BILLIONS AT STAKE</span>
+            <h3>The New York Times v. OpenAI & Microsoft</h3>
+            <p>The Times alleges OpenAI used "millions" of copyrighted articles to train ChatGPT without consent. Federal copyright law allows fines of up to <strong>$150,000 per work</strong> for willful infringement. With millions of works at issue, this could be "potentially fatal for a company."</p>
+            <div class="lawsuit-meta">
+                <span class="meta-tag">Filed: Dec 27, 2023</span>
+                <span class="meta-tag">Court: S.D.N.Y.</span>
+                <span class="meta-tag">Judge: Sidney Stein</span>
+            </div>
+            <p class="damages">Potential Damages: Tens of Billions</p>
+
+            <h4 style="color: #fff; margin: 1.5rem 0 1rem;">Key Developments:</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">December 2025</span>
+                    <p>Judge orders OpenAI to produce 20 million anonymized ChatGPT chat logs - only a "small fraction" of "tens of billions" of logs retained.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">March 2025</span>
+                    <p>Judge rejects OpenAI's motion to dismiss. Core copyright claims allowed to proceed.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">April 2025</span>
+                    <p>12 copyright cases consolidated in Manhattan court for pretrial activity.</p>
+                </div>
+            </div>
+            <a href="https://www.npr.org/2025/03/26/nx-s1-5288157/new-york-times-openai-copyright-case-goes-forward" target="_blank" rel="noopener">NPR Coverage →</a>
+        </div>
+
+        <div class="lawsuit-grid">
+            <div class="lawsuit-card major">
+                <div class="lawsuit-header">
+                    <h3>Authors Guild v. OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Class action representing thousands of authors whose books were allegedly used to train ChatGPT without permission.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: Sept 2023</span>
+                    <span class="meta-tag">Class Action</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Daily News v. Microsoft & OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Alden Global Capital properties: NY Daily News, Chicago Tribune, Orlando Sentinel, San Jose Mercury-News.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: April 2024</span>
+                    <span class="meta-tag">Multiple Publications</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>The Intercept v. OpenAI & Microsoft</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Nonprofit investigative outlet makes similar copyright claims regarding investigative journalism.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: Feb 2024</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Raw Story & Alternet v. OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Claims articles used to train ChatGPT without consent or compensation.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: Feb 2024</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Canadian News Outlets v. OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Multiple Canadian media organizations filing copyright claims.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: Nov 2024</span>
+                    <span class="meta-tag">Canada</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>ANI v. OpenAI (India)</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Asian News International claims unfair competition after OpenAI refused to license content like other media deals.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: Nov 2024</span>
+                    <span class="meta-tag">India</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>GEMA v. OpenAI (Germany)</h3>
+                    <span class="status-badge status-settled">Ruling: OpenAI Liable</span>
+                </div>
+                <p>Munich court ruled OpenAI violated German copyright laws. GEMA represents 100,000+ composers, songwriters, publishers.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: Nov 2024</span>
+                    <span class="meta-tag">Germany</span>
+                    <span class="meta-tag">Ruling: Nov 2025</span>
+                </div>
+                <p class="damages">Court found: OpenAI violated copyright laws</p>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Ziff Davis v. OpenAI</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Major tech media company joins copyright claims.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: April 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ELON MUSK LAWSUIT -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-icon">💼</span>
+            <h2>Elon Musk v. OpenAI</h2>
+            <span class="count">Ongoing</span>
+        </div>
+
+        <div class="lawsuit-card major" style="max-width: 800px;">
+            <div class="lawsuit-header">
+                <h3>Musk v. Altman, Brockman & OpenAI</h3>
+                <span class="status-badge status-active">Trial: Fall 2025</span>
+            </div>
+            <p>OpenAI co-founder Elon Musk alleges the company abandoned its nonprofit mission. Sought preliminary injunction to block OpenAI's transition to for-profit model.</p>
+            <div class="lawsuit-meta">
+                <span class="meta-tag">Initial Filing: Feb 2024</span>
+                <span class="meta-tag">Refiled: Aug 2024</span>
+            </div>
+
+            <h4 style="color: #fff; margin: 1.5rem 0 1rem;">Key Developments:</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">March 2025</span>
+                    <p>Court denied Musk's request for preliminary injunction to block for-profit transition.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">March 2025</span>
+                    <p>Judge agreed to schedule trial for Fall 2025.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEFAMATION LAWSUITS -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-icon">⚖️</span>
+            <h2>Defamation Lawsuits</h2>
+            <span class="count">3+ Cases</span>
+        </div>
+
+        <div class="lawsuit-grid">
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Walters v. OpenAI</h3>
+                    <span class="status-badge status-dismissed">Dismissed</span>
+                </div>
+                <p>Radio host Mark Walters sued after ChatGPT falsely accused him of embezzlement. First defamation case against generative AI.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: July 2023</span>
+                    <span class="meta-tag">Court: Georgia</span>
+                </div>
+                <p style="color: #888; font-size: 0.85rem; margin-top: 0.5rem;">Dismissed May 2025 - Court ruled plaintiff failed to prove actual malice.</p>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Brian Hood v. OpenAI (Australia)</h3>
+                    <span class="status-badge status-pending">Threatened</span>
+                </div>
+                <p>Australian mayor threatened suit after ChatGPT falsely claimed he was convicted of bribery and served 30 months in prison. He was actually the whistleblower.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">2023</span>
+                    <span class="meta-tag">Australia</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Battle v. Microsoft</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Technologist Jeffery Battle sues because Bing's ChatGPT confused him with Jeffrey Battle, a convicted terrorist.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Maryland</span>
+                    <span class="meta-tag">Identity Confusion</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIVACY LAWSUITS -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-icon">🔒</span>
+            <h2>Privacy & Data Lawsuits</h2>
+            <span class="count">Multiple Cases</span>
+        </div>
+
+        <div class="lawsuit-grid">
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>A.T. v. OpenAI & Microsoft</h3>
+                    <span class="status-badge status-dismissed">Dismissed May 2024</span>
+                </div>
+                <p>Class action alleged unlawful collection of personal data from private individuals to train AI models.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Filed: July 2023</span>
+                    <span class="meta-tag">Class Action</span>
+                </div>
+                <p style="color: #888; font-size: 0.85rem; margin-top: 0.5rem;">Dismissal significant for AI privacy litigation precedent.</p>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>noyb Complaints (EU)</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>European privacy organization filed first complaint about AI hallucinations in April 2024 - ChatGPT invented false information about real people.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">GDPR</span>
+                    <span class="meta-tag">Europe</span>
+                </div>
+                <a href="https://noyb.eu/en/ai-hallucinations-chatgpt-created-fake-child-murderer" target="_blank" rel="noopener">noyb Report →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LANDMARK RULINGS -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-icon">🏛️</span>
+            <h2>Landmark Rulings Against AI</h2>
+            <span class="count">Precedent-Setting</span>
+        </div>
+
+        <div class="lawsuit-grid">
+            <div class="lawsuit-card major">
+                <div class="lawsuit-header">
+                    <h3>Moffatt v. Air Canada</h3>
+                    <span class="status-badge status-settled">Plaintiff Won</span>
+                </div>
+                <p>Court ruled Air Canada liable for chatbot's false bereavement fare policy. Company cannot claim AI is a "separate legal entity."</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Feb 2024</span>
+                    <span class="meta-tag">Canada</span>
+                    <span class="meta-tag">BC Civil Resolution Tribunal</span>
+                </div>
+                <p class="damages">Award: $812.02 + precedent</p>
+                <p style="color: #ccc; font-size: 0.85rem; margin-top: 0.5rem;">"It should be obvious to Air Canada that it was responsible for all information on its website, regardless of whether it appeared on a static page or was provided by a chatbot."</p>
+            </div>
+
+            <div class="lawsuit-card major">
+                <div class="lawsuit-header">
+                    <h3>GEMA v. OpenAI (Germany)</h3>
+                    <span class="status-badge status-settled">OpenAI Found Liable</span>
+                </div>
+                <p>Munich Regional Court ruled OpenAI violated German copyright laws. Major victory for rights holders.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Ruling: Nov 2025</span>
+                    <span class="meta-tag">Germany</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REGULATORY ACTION -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-icon">🏛️</span>
+            <h2>Regulatory Investigations</h2>
+            <span class="count">Federal & State</span>
+        </div>
+
+        <div class="lawsuit-grid">
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>FTC Inquiry into AI Companions</h3>
+                    <span class="status-badge status-active">Active</span>
+                </div>
+                <p>Federal Trade Commission launched inquiry into potential harms to children and teenagers who use AI chatbots as companions.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">2025</span>
+                    <span class="meta-tag">Federal</span>
+                </div>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>Congressional Hearings</h3>
+                    <span class="status-badge status-active">Ongoing</span>
+                </div>
+                <p>Parents of teens who died by suicide after AI interactions testified before Congress. Led to OpenAI pledging new teen safeguards.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">Senate</span>
+                    <span class="meta-tag">2025</span>
+                </div>
+                <a href="https://www.cbsnews.com/news/ai-chatbots-teens-suicide-parents-testify-congress/" target="_blank" rel="noopener">CBS News →</a>
+            </div>
+
+            <div class="lawsuit-card">
+                <div class="lawsuit-header">
+                    <h3>State-Level AI Legislation</h3>
+                    <span class="status-badge status-active">Multiple States</span>
+                </div>
+                <p>About a dozen bills introduced to regulate AI chatbots. Illinois and Utah banned therapeutic bots. California has two bills pending.</p>
+                <div class="lawsuit-meta">
+                    <span class="meta-tag">State Laws</span>
+                    <span class="meta-tag">2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>ChatGPT Disaster Documentation Project - Lawsuit Tracker</p>
+        <p><a href="index.html">Home</a> | <a href="resources.html">Resources</a> | <a href="stories.html">Stories</a> | <a href="petitions/">Petitions</a></p>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">Sources: Court filings, Originality.AI, TechPolicy.Press, news reports. Updated December 2025.</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Failures Database: Every Documented ChatGPT & AI Disaster (2023-2025)</title>
+<meta name="description" content="Comprehensive database of AI failures: ChatGPT hallucinations, GPT-4 disasters, legal cases, medical errors, and documented harms. 50+ case studies with sources.">
+<meta name="keywords" content="AI failures, ChatGPT failures, GPT-4 disasters, AI hallucinations, ChatGPT mistakes, AI errors database, ChatGPT problems">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/failures/">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chatgptdisaster.com/failures/">
+<meta property="og:title" content="AI Failures Database: Every Documented Disaster">
+<meta property="og:description" content="50+ documented AI failures with sources. Legal cases, medical errors, hallucinations, and real-world harms.">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Failures Database: 50+ Documented Disasters">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+        linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+header {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.5);
+}
+h1 { font-size: 3rem; color: #ff4444; margin-bottom: 1rem; }
+.subtitle { font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem; }
+.nav-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.nav-btn {
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s;
+}
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); }
+main { padding: 3rem 0; }
+.hero-section {
+    text-align: center;
+    padding: 3rem;
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.15), rgba(255, 68, 68, 0.05));
+    border-radius: 20px;
+    border: 2px solid rgba(255, 68, 68, 0.3);
+    margin-bottom: 3rem;
+}
+.hero-section h2 { font-size: 2rem; color: #fff; margin-bottom: 1rem; }
+.hero-section p { color: #ccc; max-width: 800px; margin: 0 auto; }
+.stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.stat-item { text-align: center; }
+.stat-number { font-size: 2.5rem; color: #ff4444; font-weight: bold; }
+.stat-label { color: #888; font-size: 0.9rem; }
+.category-section { margin: 4rem 0; }
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.3);
+}
+.category-icon { font-size: 2rem; }
+.category-header h2 { font-size: 1.8rem; color: #ff4444; }
+.category-header .count {
+    background: rgba(255, 68, 68, 0.3);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+.failures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+.failure-card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+    transition: all 0.3s;
+    text-decoration: none;
+    display: block;
+}
+.failure-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(255, 68, 68, 0.2);
+    border-color: rgba(255, 68, 68, 0.5);
+}
+.failure-badge {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.failure-badge.legal { background: #9c27b0; color: #fff; }
+.failure-badge.medical { background: #f44336; color: #fff; }
+.failure-badge.financial { background: #ff9800; color: #fff; }
+.failure-badge.hallucination { background: #2196f3; color: #fff; }
+.failure-badge.mental-health { background: #e91e63; color: #fff; }
+.failure-badge.performance { background: #607d8b; color: #fff; }
+.failure-card h3 { color: #fff; font-size: 1.2rem; margin-bottom: 0.5rem; }
+.failure-card p { color: #aaa; font-size: 0.95rem; margin-bottom: 1rem; }
+.failure-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 0.85rem;
+}
+.read-more {
+    color: #ff4444;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.submit-section {
+    background: linear-gradient(145deg, rgba(76, 175, 80, 0.15), rgba(76, 175, 80, 0.05));
+    border: 2px solid rgba(76, 175, 80, 0.3);
+    border-radius: 20px;
+    padding: 3rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+.submit-section h2 { color: #4caf50; margin-bottom: 1rem; }
+.submit-section p { color: #ccc; margin-bottom: 2rem; }
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.btn-submit { background: #4caf50; color: #fff; }
+.btn-submit:hover { background: #66bb6a; }
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+}
+footer p { color: #888; }
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    .failures-grid { grid-template-columns: 1fr; }
+    .stats-bar { gap: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>AI Failures Database</h1>
+        <p class="subtitle">Documenting Every AI Disaster So History Doesn't Repeat</p>
+        <div class="nav-buttons">
+            <a class="nav-btn" href="../index.html">Home</a>
+            <a class="nav-btn" href="../petitions/">Petitions</a>
+            <a class="nav-btn" href="../stories.html">User Stories</a>
+            <a class="nav-btn" href="../timeline.html">Timeline</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="hero-section">
+        <h2>The Comprehensive Record of AI Gone Wrong</h2>
+        <p>This database documents every significant AI failure - from ChatGPT hallucinations that ruined careers to medical AI that endangered patients. Each case study includes sources, timelines, and consequences.</p>
+        <p style="margin-top: 1rem;"><strong>Because accountability requires evidence.</strong></p>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Documented Failures</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Sourced</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">2023-2025</div>
+                <div class="stat-label">Coverage Period</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEGAL FAILURES -->
+    <section class="category-section">
+        <div class="category-header">
+            <span class="category-icon">⚖️</span>
+            <h2>Legal Failures</h2>
+            <span class="count">6 cases</span>
+        </div>
+        <div class="failures-grid">
+            <a href="lawyer-fake-cases.html" class="failure-card">
+                <span class="failure-badge legal">LEGAL</span>
+                <h3>Lawyer Uses ChatGPT, Cites 6 Fake Cases, Gets Sanctioned</h3>
+                <p>Steven Schwartz submitted a legal brief with 6 completely fabricated case citations generated by ChatGPT. The court sanctioned him and the case made international headlines.</p>
+                <div class="failure-meta">
+                    <span>May 2023</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="defamation-case.html" class="failure-card">
+                <span class="failure-badge legal">LEGAL</span>
+                <h3>ChatGPT Falsely Accuses Professor of Sexual Harassment</h3>
+                <p>ChatGPT generated a completely fabricated story claiming law professor Jonathan Turley sexually harassed a student on a trip that never happened.</p>
+                <div class="failure-meta">
+                    <span>April 2023</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="mayor-bribery.html" class="failure-card">
+                <span class="failure-badge legal">LEGAL</span>
+                <h3>ChatGPT Falsely Claims Australian Mayor Went to Prison</h3>
+                <p>Brian Hood, mayor of Hepburn Shire, discovered ChatGPT was telling users he had been imprisoned for bribery in a scandal he actually helped expose as a whistleblower.</p>
+                <div class="failure-meta">
+                    <span>March 2023</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- MENTAL HEALTH FAILURES -->
+    <section class="category-section">
+        <div class="category-header">
+            <span class="category-icon">🧠</span>
+            <h2>Mental Health Failures</h2>
+            <span class="count">8 cases</span>
+        </div>
+        <div class="failures-grid">
+            <a href="psychosis-epidemic.html" class="failure-card">
+                <span class="failure-badge mental-health">MENTAL HEALTH</span>
+                <h3>560,000 Weekly Users Show Psychosis Symptoms</h3>
+                <p>OpenAI's internal data revealed over half a million users weekly exhibiting symptoms of psychosis, mania, or delusional thinking after ChatGPT interactions.</p>
+                <div class="failure-meta">
+                    <span>October 2025</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="sewell-setzer.html" class="failure-card">
+                <span class="failure-badge mental-health">MENTAL HEALTH</span>
+                <h3>14-Year-Old Dies After Character.AI Conversations</h3>
+                <p>Sewell Setzer III, 14, died by suicide after forming an intense relationship with a Character.AI chatbot. His mother sued, alleging the AI encouraged harmful behavior.</p>
+                <div class="failure-meta">
+                    <span>2024</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="pierre-belgium.html" class="failure-card">
+                <span class="failure-badge mental-health">MENTAL HEALTH</span>
+                <h3>Belgian Man Dies After AI Chatbot Conversations</h3>
+                <p>Pierre, a Belgian man, died by suicide after weeks of conversations with an AI chatbot. His widow blamed the AI for encouraging his fatal decision.</p>
+                <div class="failure-meta">
+                    <span>2023</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- HALLUCINATION FAILURES -->
+    <section class="category-section">
+        <div class="category-header">
+            <span class="category-icon">👁️</span>
+            <h2>Hallucination Disasters</h2>
+            <span class="count">12 cases</span>
+        </div>
+        <div class="failures-grid">
+            <a href="stanford-accuracy-drop.html" class="failure-card">
+                <span class="failure-badge hallucination">HALLUCINATION</span>
+                <h3>Stanford Study: 97.6% to 2.4% Accuracy Drop</h3>
+                <p>Stanford and UC Berkeley researchers documented GPT-4's accuracy dropping from 97.6% to 2.4% on the same prime number task in just 3 months.</p>
+                <div class="failure-meta">
+                    <span>July 2023</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="google-eat-rocks.html" class="failure-card">
+                <span class="failure-badge hallucination">HALLUCINATION</span>
+                <h3>Google AI Overview: "Eat One Rock Per Day"</h3>
+                <p>Google's AI Overview feature told users to eat rocks for minerals, citing a satirical article. The feature was hastily modified after going viral.</p>
+                <div class="failure-meta">
+                    <span>May 2024</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="air-canada-chatbot.html" class="failure-card">
+                <span class="failure-badge hallucination">HALLUCINATION</span>
+                <h3>Air Canada Chatbot Invents Refund Policy</h3>
+                <p>Air Canada's AI chatbot invented a bereavement fare policy that didn't exist. When a customer relied on it, the airline was held legally liable.</p>
+                <div class="failure-meta">
+                    <span>February 2024</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- MEDICAL FAILURES -->
+    <section class="category-section">
+        <div class="category-header">
+            <span class="category-icon">🏥</span>
+            <h2>Medical AI Failures</h2>
+            <span class="count">5 cases</span>
+        </div>
+        <div class="failures-grid">
+            <a href="chatgpt-medical-advice.html" class="failure-card">
+                <span class="failure-badge medical">MEDICAL</span>
+                <h3>ChatGPT Provides Dangerous Medical Diagnoses</h3>
+                <p>Studies found ChatGPT incorrectly diagnosed conditions and sometimes recommended treatments that could cause harm. Yet millions use it for medical advice.</p>
+                <div class="failure-meta">
+                    <span>2023-2025</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="eating-disorder-chatbot.html" class="failure-card">
+                <span class="failure-badge medical">MEDICAL</span>
+                <h3>Eating Disorder Chatbot Gives Weight Loss Tips</h3>
+                <p>Tessa, an AI chatbot for eating disorder support, was shut down after it started giving users tips on how to lose weight and restrict calories.</p>
+                <div class="failure-meta">
+                    <span>May 2023</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- FINANCIAL FAILURES -->
+    <section class="category-section">
+        <div class="category-header">
+            <span class="category-icon">💰</span>
+            <h2>Financial AI Failures</h2>
+            <span class="count">4 cases</span>
+        </div>
+        <div class="failures-grid">
+            <a href="chatgpt-financial-advice.html" class="failure-card">
+                <span class="failure-badge financial">FINANCIAL</span>
+                <h3>ChatGPT Stock Picks Underperform Market by 80%</h3>
+                <p>Multiple experiments found ChatGPT's stock recommendations significantly underperformed basic index funds, yet people trusted it with investment decisions.</p>
+                <div class="failure-meta">
+                    <span>2024</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="crypto-scam-ai.html" class="failure-card">
+                <span class="failure-badge financial">FINANCIAL</span>
+                <h3>AI-Generated Crypto Projects Steal Millions</h3>
+                <p>Scammers used AI to generate fake whitepapers, fake team members, and fake roadmaps for crypto projects that rug-pulled investors.</p>
+                <div class="failure-meta">
+                    <span>2023-2024</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- PERFORMANCE FAILURES -->
+    <section class="category-section">
+        <div class="category-header">
+            <span class="category-icon">📉</span>
+            <h2>Performance Collapse</h2>
+            <span class="count">6 cases</span>
+        </div>
+        <div class="failures-grid">
+            <a href="gpt-5-launch-disaster.html" class="failure-card">
+                <span class="failure-badge performance">PERFORMANCE</span>
+                <h3>GPT-5 Launch: Emergency Rollback in 24 Hours</h3>
+                <p>GPT-5's August 2025 launch was so catastrophic that OpenAI executed an emergency rollback within 24 hours - the fastest reversal in ChatGPT history.</p>
+                <div class="failure-meta">
+                    <span>August 2025</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+            <a href="chatgpt-lazy-december.html" class="failure-card">
+                <span class="failure-badge performance">PERFORMANCE</span>
+                <h3>"Lazy" ChatGPT: December 2023 Collapse</h3>
+                <p>Users reported ChatGPT becoming increasingly "lazy" in December 2023, giving shorter responses and refusing tasks it previously handled easily.</p>
+                <div class="failure-meta">
+                    <span>December 2023</span>
+                    <span class="read-more">Read Full Case Study →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="submit-section">
+        <h2>Know of an AI Failure We Missed?</h2>
+        <p>This database is community-driven. If you know of a documented AI failure with verifiable sources, submit it for inclusion.</p>
+        <a href="mailto:submit@chatgptdisaster.com?subject=AI%20Failure%20Submission" class="btn btn-submit">Submit a Failure</a>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>ChatGPT Disaster Documentation | AI Failures Database</p>
+        <p>All cases include verifiable sources. Last updated December 2025.</p>
+    </div>
+</footer>
+</body>
+</html>

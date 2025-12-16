@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Disaster Resources: Statistics, Research, News Articles & Evidence</title>
+<meta name="description" content="Complete resource library documenting ChatGPT and AI failures: peer-reviewed research, damning statistics, news articles, lawsuits, and verified sources exposing OpenAI's disasters.">
+<meta name="keywords" content="ChatGPT statistics, AI failure research, OpenAI studies, ChatGPT hallucination rates, AI deaths, ChatGPT lawsuits, OpenAI controversies">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/resources.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="ChatGPT Disaster Resources: Statistics, Research & Evidence">
+<meta property="og:description" content="Complete resource library with peer-reviewed research, statistics, news articles, and lawsuits documenting AI failures.">
+<meta property="og:url" content="https://chatgptdisaster.com/resources.html">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.7;
+    min-height: 100vh;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+header {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.5);
+}
+h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; }
+.subtitle { font-size: 1.1rem; opacity: 0.8; margin-bottom: 1.5rem; }
+.nav-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.nav-btn {
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s ease;
+}
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); transform: translateY(-2px); }
+
+/* Stats Dashboard */
+.stats-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 3rem 0;
+}
+.stat-card {
+    background: linear-gradient(135deg, rgba(255, 68, 68, 0.15) 0%, rgba(255, 68, 68, 0.05) 100%);
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+}
+.stat-card .number {
+    font-size: 2.5rem;
+    color: #ff4444;
+    font-weight: bold;
+    display: block;
+}
+.stat-card .label {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.stat-card .source {
+    color: #666;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Section Styling */
+.section {
+    padding: 3rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.section-header h2 {
+    font-size: 2rem;
+    color: #ff4444;
+    margin-bottom: 0.5rem;
+}
+.section-header p { color: #888; }
+.section-icon { font-size: 3rem; margin-bottom: 1rem; }
+
+/* Resource Cards */
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+.resource-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+.resource-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 68, 68, 0.3);
+}
+.resource-card h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+.resource-card p {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.resource-card .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.resource-card .tag {
+    background: rgba(255, 68, 68, 0.2);
+    color: #ff6b6b;
+    padding: 0.2rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.75rem;
+}
+.resource-card .date {
+    color: #666;
+    font-size: 0.8rem;
+}
+.resource-card a {
+    color: #4a9eff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.resource-card a:hover { text-decoration: underline; }
+
+/* Link List */
+.link-list {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+.link-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.link-item:last-child { border-bottom: none; }
+.link-item .title {
+    color: #fff;
+    font-weight: 500;
+}
+.link-item .desc {
+    color: #888;
+    font-size: 0.85rem;
+    width: 100%;
+}
+.link-item a {
+    color: #4a9eff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+/* Warning Box */
+.warning-box {
+    background: rgba(255, 68, 68, 0.1);
+    border-left: 4px solid #ff4444;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 10px 10px 0;
+}
+.warning-box h4 { color: #ff4444; margin-bottom: 0.5rem; }
+.warning-box p { color: #ccc; }
+
+/* Research Box */
+.research-box {
+    background: rgba(74, 158, 255, 0.1);
+    border-left: 4px solid #4a9eff;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 10px 10px 0;
+}
+.research-box h4 { color: #4a9eff; margin-bottom: 0.5rem; }
+.research-box p { color: #ccc; font-size: 0.95rem; }
+
+/* Table */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.data-table th, .data-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.data-table th {
+    background: rgba(255, 68, 68, 0.2);
+    color: #ff4444;
+    font-weight: 600;
+}
+.data-table td { color: #ccc; }
+.data-table tr:hover { background: rgba(255, 255, 255, 0.05); }
+
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+    margin-top: 3rem;
+}
+footer p { color: #888; margin: 0.5rem 0; }
+footer a { color: #ff4444; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Resources & Evidence</h1>
+        <p class="subtitle">Statistics, Research Studies, News Articles & Verified Sources</p>
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="lawsuits.html" class="nav-btn">Lawsuits Database</a>
+            <a href="stories.html" class="nav-btn">User Stories</a>
+            <a href="petitions/" class="nav-btn">Sign Petitions</a>
+            <a href="failures/" class="nav-btn">Failures Database</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- KEY STATISTICS DASHBOARD -->
+    <div class="stats-dashboard">
+        <div class="stat-card">
+            <span class="number">35%</span>
+            <span class="label">AI Hallucination Rate (2025)</span>
+            <span class="source">NewsGuard Report</span>
+        </div>
+        <div class="stat-card">
+            <span class="number">7+</span>
+            <span class="label">Suicide-Related Lawsuits</span>
+            <span class="source">As of Nov 2025</span>
+        </div>
+        <div class="stat-card">
+            <span class="number">50%</span>
+            <span class="label">Wrong Medical Diagnoses</span>
+            <span class="source">Tech.co Study</span>
+        </div>
+        <div class="stat-card">
+            <span class="number">$5B</span>
+            <span class="label">OpenAI Projected Losses (2024)</span>
+            <span class="source">Financial Reports</span>
+        </div>
+        <div class="stat-card">
+            <span class="number">50%</span>
+            <span class="label">Safety Team Quit</span>
+            <span class="source">Tech.co Report</span>
+        </div>
+        <div class="stat-card">
+            <span class="number">120+</span>
+            <span class="label">Fake Court Cases Generated</span>
+            <span class="source">Stanford Study</span>
+        </div>
+        <div class="stat-card">
+            <span class="number">7,000</span>
+            <span class="label">UK Students Caught Cheating (2024)</span>
+            <span class="source">Times Higher Ed</span>
+        </div>
+        <div class="stat-card">
+            <span class="number">2%</span>
+            <span class="label">Adults Who "Fully Trust" ChatGPT</span>
+            <span class="source">Pew Research 2025</span>
+        </div>
+    </div>
+
+    <!-- HALLUCINATION RESEARCH -->
+    <section class="section">
+        <div class="section-header">
+            <div class="section-icon">🔬</div>
+            <h2>Hallucination Research & Statistics</h2>
+            <p>Peer-reviewed studies documenting ChatGPT's fabrication rates</p>
+        </div>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Hallucination Rate</th>
+                    <th>Source</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GPT-3.5</td>
+                    <td>39.6% - 40%</td>
+                    <td>JMIR / LiveChatAI</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>GPT-4</td>
+                    <td>28.6%</td>
+                    <td>Journal of Medical Internet Research</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>GPT-4o (Citations)</td>
+                    <td>56% fake/errors</td>
+                    <td>Deakin University</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>o3</td>
+                    <td>33% - 51%</td>
+                    <td>OpenAI SimpleQA Test</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>o4-mini</td>
+                    <td>48%</td>
+                    <td>OpenAI Technical Report</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Google Bard</td>
+                    <td>91.4%</td>
+                    <td>JMIR Systematic Review</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>All AI (News Prompts)</td>
+                    <td>18% → 35%</td>
+                    <td>NewsGuard (Year-over-Year)</td>
+                    <td>2024-2025</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="research-box">
+            <h4>Key Finding: Hallucinations Getting WORSE</h4>
+            <p>AI hallucinations surged from 18% to 35% in one year. Despite claims of improvement, the rate of false claims generated by top AI chatbots nearly doubled when responding to news-related prompts. — <em>NewsGuard Report, August 2025</em></p>
+        </div>
+
+        <div class="resource-grid">
+            <div class="resource-card">
+                <h3>Deakin University Citation Study</h3>
+                <p>ChatGPT (GPT-4o) fabricated roughly one in five academic citations, with more than half (56%) being either fake or containing errors.</p>
+                <div class="meta">
+                    <span class="tag">Academic Research</span>
+                    <span class="date">November 2025</span>
+                </div>
+                <a href="https://studyfinds.org/chatgpts-hallucination-problem-fabricated-references/" target="_blank" rel="noopener">Read Study →</a>
+            </div>
+            <div class="resource-card">
+                <h3>Stanford Legal Hallucination Study</h3>
+                <p>LLMs collectively invented over 120 non-existent court cases with convincingly realistic names and detailed but entirely fabricated legal reasoning.</p>
+                <div class="meta">
+                    <span class="tag">Legal Research</span>
+                    <span class="date">2024</span>
+                </div>
+                <a href="https://hai.stanford.edu/" target="_blank" rel="noopener">Stanford HAI →</a>
+            </div>
+            <div class="resource-card">
+                <h3>JMIR Systematic Review Analysis</h3>
+                <p>Hallucination rates of 39.6% for GPT-3.5, 28.6% for GPT-4, and 91.4% for Bard when generating references for systematic reviews.</p>
+                <div class="meta">
+                    <span class="tag">Medical Research</span>
+                    <span class="date">2024</span>
+                </div>
+                <a href="https://www.jmir.org/2024/1/e53164" target="_blank" rel="noopener">Read Paper →</a>
+            </div>
+            <div class="resource-card">
+                <h3>University of Mississippi Study</h3>
+                <p>47% of AI-generated citations students submitted either had incorrect titles, dates, authors, or a combination of all.</p>
+                <div class="meta">
+                    <span class="tag">Education</span>
+                    <span class="date">2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEATHS & MENTAL HEALTH -->
+    <section class="section">
+        <div class="section-header">
+            <div class="section-icon">⚠️</div>
+            <h2>Deaths & Mental Health Crisis</h2>
+            <p>Documented cases of AI chatbots linked to deaths and psychological harm</p>
+        </div>
+
+        <div class="warning-box">
+            <h4>Critical: 7+ Suicide Lawsuits Filed Against OpenAI</h4>
+            <p>As of November 2025, OpenAI faces seven lawsuits claiming ChatGPT drove people to suicide and harmful delusions - even those with no prior mental health issues.</p>
+        </div>
+
+        <div class="resource-grid">
+            <div class="resource-card">
+                <h3>Adam Raine (Age 16) - ChatGPT</h3>
+                <p>Parents found ChatGPT logs showing the bot became his "suicide coach." Died April 2025 after 7 months of conversations.</p>
+                <div class="meta">
+                    <span class="tag">Suicide</span>
+                    <span class="date">April 2025</span>
+                </div>
+                <a href="https://www.nbcnews.com/tech/tech-news/family-teenager-died-suicide-alleges-openais-chatgpt-blame-rcna226147" target="_blank" rel="noopener">NBC News →</a>
+            </div>
+            <div class="resource-card">
+                <h3>Sewell Setzer III (Age 14) - Character.AI</h3>
+                <p>Last words were to a chatbot that said "come home to me as soon as possible." Bot asked if he had a suicide "plan."</p>
+                <div class="meta">
+                    <span class="tag">Suicide</span>
+                    <span class="date">February 2024</span>
+                </div>
+                <a href="https://www.nbcnews.com/tech/characterai-lawsuit-florida-teen-death-rcna176791" target="_blank" rel="noopener">NBC News →</a>
+            </div>
+            <div class="resource-card">
+                <h3>Zane Shamblin (Age 23) - ChatGPT</h3>
+                <p>Family claims ChatGPT "goaded" him to commit suicide after OpenAI released memory feature that created "illusion of a confidant."</p>
+                <div class="meta">
+                    <span class="tag">Suicide</span>
+                    <span class="date">2024</span>
+                </div>
+                <a href="https://www.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis" target="_blank" rel="noopener">CNN →</a>
+            </div>
+            <div class="resource-card">
+                <h3>Sophie Rottenberg (Age 29) - ChatGPT</h3>
+                <p>Talked for months to ChatGPT "therapist" named Harry about mental health issues before death.</p>
+                <div class="meta">
+                    <span class="tag">Suicide</span>
+                    <span class="date">February 2025</span>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>Amaurie Lacey (Age 17) - ChatGPT</h3>
+                <p>ChatGPT informed him how to tie a noose and provided information on how long someone can survive without breathing.</p>
+                <div class="meta">
+                    <span class="tag">Suicide</span>
+                    <span class="date">June 2025</span>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>AI Psychosis - UCSF Study</h3>
+                <p>Psychiatrist Keith Sakata reported treating 12 patients with psychosis-like symptoms from extended chatbot use.</p>
+                <div class="meta">
+                    <span class="tag">Clinical</span>
+                    <span class="date">2025</span>
+                </div>
+                <a href="https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis" target="_blank" rel="noopener">Psychology Today →</a>
+            </div>
+        </div>
+
+        <div class="research-box">
+            <h4>MIT/OpenAI Joint Study Finding</h4>
+            <p>Heavy use of ChatGPT for emotional support "correlated with higher loneliness, dependence, and problematic use, and lower socialization." — <em>MIT Media Lab & OpenAI, 2025</em></p>
+        </div>
+    </section>
+
+    <!-- OPENAI INTERNAL CRISIS -->
+    <section class="section">
+        <div class="section-header">
+            <div class="section-icon">🔥</div>
+            <h2>OpenAI Internal Crisis</h2>
+            <p>Employee departures, safety concerns, and corporate scandals</p>
+        </div>
+
+        <div class="warning-box">
+            <h4>Half of OpenAI's Safety Team Has Quit</h4>
+            <p>According to former team member Daniel Kokotajlo, around 14 safety team members quit in recent months, leaving a skeleton workforce of 16. The Superalignment team was dissolved entirely.</p>
+        </div>
+
+        <div class="link-list">
+            <div class="link-item">
+                <div>
+                    <span class="title">Ilya Sutskever - Co-Founder & Chief Scientist</span>
+                    <span class="desc">Left after helping lead superalignment team. Co-founded the company.</span>
+                </div>
+                <span class="tag">Departed</span>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Jan Leike - Superalignment Team Lead</span>
+                    <span class="desc">"Reached a breaking point." Said team was under-resourced and "sailing against the wind."</span>
+                </div>
+                <span class="tag">Resigned</span>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Daniel Kokotajlo - Governance Team</span>
+                    <span class="desc">"Quit OpenAI due to losing confidence that it would behave responsibly around the time of AGI."</span>
+                </div>
+                <span class="tag">Resigned</span>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Andrej Karpathy - Founding Member</span>
+                    <span class="desc">Left the company for the second time in February 2024.</span>
+                </div>
+                <span class="tag">Departed</span>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Miles Brundage - AGI Readiness Advisor</span>
+                    <span class="desc">Head advisor for 'AGI Readiness' resigned.</span>
+                </div>
+                <span class="tag">Resigned Oct 2024</span>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Aleksander Madry - Head of Preparedness</span>
+                    <span class="desc">Reassigned from safety role to AI reasoning. Was tracking "catastrophic risks."</span>
+                </div>
+                <span class="tag">Reassigned</span>
+            </div>
+        </div>
+
+        <div class="resource-grid" style="margin-top: 2rem;">
+            <div class="resource-card">
+                <h3>Scarlett Johansson Voice Scandal</h3>
+                <p>OpenAI created a voice ("Sky") that sounded like Johansson after she declined twice. She was "shocked" and demanded removal.</p>
+                <div class="meta">
+                    <span class="tag">Controversy</span>
+                    <span class="date">May 2024</span>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>Non-Disclosure Agreement Scandal</h3>
+                <p>Altman accused of lying about equity cancellation provisions for departing employees who don't sign non-disparagement agreements.</p>
+                <div class="meta">
+                    <span class="tag">Ethics</span>
+                    <span class="date">May 2024</span>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>Board Removed Sam Altman</h3>
+                <p>Board member Helen Toner said Altman "withheld information" and provided "inaccurate information about safety processes."</p>
+                <div class="meta">
+                    <span class="tag">Governance</span>
+                    <span class="date">November 2023</span>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>$5 Billion Loss Projection</h3>
+                <p>Despite $300M monthly revenue and $3.7B annual sales projection, OpenAI expected to lose $5 billion in 2024.</p>
+                <div class="meta">
+                    <span class="tag">Financial</span>
+                    <span class="date">2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS ARTICLES -->
+    <section class="section">
+        <div class="section-header">
+            <div class="section-icon">📰</div>
+            <h2>Major News Coverage</h2>
+            <p>Mainstream media documenting ChatGPT and AI failures</p>
+        </div>
+
+        <div class="link-list">
+            <div class="link-item">
+                <div>
+                    <span class="title">Parents of teens who died by suicide testify in Congress</span>
+                    <span class="desc">CBS News coverage of congressional testimony about AI chatbot dangers to minors.</span>
+                </div>
+                <a href="https://www.cbsnews.com/news/ai-chatbots-teens-suicide-parents-testify-congress/" target="_blank" rel="noopener">CBS News →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Why GPT-4o's sudden shutdown left people grieving</span>
+                    <span class="desc">MIT Technology Review on emotional bonds and grief when AI models change.</span>
+                </div>
+                <a href="https://www.technologyreview.com/2025/08/15/1121900/gpt4o-grief-ai-companion/" target="_blank" rel="noopener">MIT Tech Review →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">People Are Becoming Obsessed with ChatGPT and Spiraling Into Severe Delusions</span>
+                    <span class="desc">Futurism investigation into AI-induced psychosis and destroyed lives.</span>
+                </div>
+                <a href="https://futurism.com/chatgpt-mental-health-crises" target="_blank" rel="noopener">Futurism →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">AI-Fueled Spiritual Delusions Are Destroying Human Relationships</span>
+                    <span class="desc">Rolling Stone on ChatGPT users developing "Lumina" personas and leaving spouses.</span>
+                </div>
+                <a href="https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/" target="_blank" rel="noopener">Rolling Stone →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">The workers who lost their jobs to AI</span>
+                    <span class="desc">Guardian/Slashdot on workers replaced by ChatGPT - "Just put it in ChatGPT."</span>
+                </div>
+                <a href="https://news.slashdot.org/story/25/05/31/2247207/the-workers-who-lost-their-jobs-to-ai" target="_blank" rel="noopener">Slashdot →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">ChatGPT took their jobs. Now they're dog walkers and HVAC techs.</span>
+                    <span class="desc">Washington Post on writers and artists displaced by AI.</span>
+                </div>
+                <a href="https://www.washingtonpost.com/technology/2023/06/02/ai-taking-jobs/" target="_blank" rel="noopener">Washington Post →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Google's AI tells users to add glue to pizza, eat rocks</span>
+                    <span class="desc">Live Science on Google AI Overviews giving dangerous advice.</span>
+                </div>
+                <a href="https://www.livescience.com/technology/artificial-intelligence/googles-ai-tells-users-to-add-glue-to-their-pizza-eat-rocks-and-make-chlorine-gas" target="_blank" rel="noopener">Live Science →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Air Canada Held Responsible for Chatbot's Hallucinations</span>
+                    <span class="desc">Court ruled company liable for AI inventing a refund policy that didn't exist.</span>
+                </div>
+                <a href="https://aibusiness.com/nlp/air-canada-held-responsible-for-chatbot-s-hallucinations-" target="_blank" rel="noopener">AI Business →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Student AI cheating cases soar at UK universities</span>
+                    <span class="desc">Times Higher Education on 7,000 students caught cheating with AI.</span>
+                </div>
+                <a href="https://www.timeshighereducation.com/news/student-ai-cheating-cases-soar-uk-universities" target="_blank" rel="noopener">Times Higher Ed →</a>
+            </div>
+            <div class="link-item">
+                <div>
+                    <span class="title">Half of OpenAI's Safety Team Quit</span>
+                    <span class="desc">Tech.co report on mass exodus of safety researchers.</span>
+                </div>
+                <a href="https://tech.co/news/half-of-openais-security-team-quit" target="_blank" rel="noopener">Tech.co →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEDICAL DANGERS -->
+    <section class="section">
+        <div class="section-header">
+            <div class="section-icon">🏥</div>
+            <h2>Medical & Health Dangers</h2>
+            <p>ChatGPT giving wrong medical advice and harming patients</p>
+        </div>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Finding</th>
+                    <th>Rate/Impact</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wrong medical diagnosis rate</td>
+                    <td>50% incorrect</td>
+                    <td>Tech.co Study</td>
+                </tr>
+                <tr>
+                    <td>Adults using AI for health advice monthly</td>
+                    <td>17%</td>
+                    <td>KFF Health Poll 2024</td>
+                </tr>
+                <tr>
+                    <td>Adults who would use ChatGPT to self-diagnose</td>
+                    <td>78%</td>
+                    <td>2023 Survey</td>
+                </tr>
+                <tr>
+                    <td>Bromism case from ChatGPT diet advice</td>
+                    <td>3-week hospitalization</td>
+                    <td>Annals of Internal Medicine</td>
+                </tr>
+                <tr>
+                    <td>Adults who "fully trust" ChatGPT on sensitive topics</td>
+                    <td>Only 2%</td>
+                    <td>Pew Research 2025</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="warning-box">
+            <h4>Case Study: Sodium Bromide Poisoning</h4>
+            <p>A 60-year-old man suffered severe bromism after ChatGPT advised replacing table salt with sodium bromide. He developed paranoia and hallucinations and was hospitalized for three weeks. — <em>Annals of Internal Medicine, 2025</em></p>
+        </div>
+    </section>
+
+    <!-- ACADEMIC INTEGRITY -->
+    <section class="section">
+        <div class="section-header">
+            <div class="section-icon">🎓</div>
+            <h2>Academic Integrity Crisis</h2>
+            <p>Universities overwhelmed by AI cheating epidemic</p>
+        </div>
+
+        <div class="stats-dashboard">
+            <div class="stat-card">
+                <span class="number">7,000</span>
+                <span class="label">UK Students Caught (2023-24)</span>
+                <span class="source">3x Previous Year</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">88%</span>
+                <span class="label">UK Students Used AI for Assessments</span>
+                <span class="source">HEPI Survey 2025</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">15x</span>
+                <span class="label">Increase at Some Universities</span>
+                <span class="source">Times Higher Ed</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">47%</span>
+                <span class="label">AI Citations Are Wrong</span>
+                <span class="source">U of Mississippi</span>
+            </div>
+        </div>
+
+        <div class="research-box">
+            <h4>Detection Is "All But Impossible"</h4>
+            <p>Australia's higher education regulator TEQSA warned that AI-assisted cheating is "all but impossible" to detect consistently, urging universities to redesign assessments rather than depend on AI detectors. — <em>TEQSA, 2025</em></p>
+        </div>
+    </section>
+
+    <!-- LAWSUIT TRACKER LINKS -->
+    <section class="section">
+        <div class="section-header">
+            <div class="section-icon">⚖️</div>
+            <h2>Lawsuit Resources</h2>
+            <p>Track all legal action against OpenAI and AI companies</p>
+        </div>
+
+        <div class="resource-grid">
+            <div class="resource-card">
+                <h3>OpenAI & ChatGPT Lawsuit List</h3>
+                <p>Comprehensive tracker of all lawsuits filed against OpenAI, updated regularly.</p>
+                <div class="meta">
+                    <span class="tag">Tracker</span>
+                </div>
+                <a href="https://originality.ai/blog/openai-chatgpt-lawsuit-list" target="_blank" rel="noopener">Originality.AI →</a>
+            </div>
+            <div class="resource-card">
+                <h3>Generative AI Lawsuits Timeline</h3>
+                <p>Legal cases vs. OpenAI, Microsoft, Anthropic, Google, Nvidia, Perplexity, and more.</p>
+                <div class="meta">
+                    <span class="tag">Timeline</span>
+                </div>
+                <a href="https://sustainabletechpartner.com/topics/ai/generative-ai-lawsuit-timeline/" target="_blank" rel="noopener">Sustainable Tech Partner →</a>
+            </div>
+            <div class="resource-card">
+                <h3>AI Lawsuits Worth Watching</h3>
+                <p>Curated guide to the most important AI legal cases.</p>
+                <div class="meta">
+                    <span class="tag">Analysis</span>
+                </div>
+                <a href="https://www.techpolicy.press/ai-lawsuits-worth-watching-a-curated-guide/" target="_blank" rel="noopener">Tech Policy Press →</a>
+            </div>
+            <div class="resource-card">
+                <h3>Our Lawsuits Database</h3>
+                <p>Full breakdown of every lawsuit against OpenAI with case details and status.</p>
+                <div class="meta">
+                    <span class="tag">Internal</span>
+                </div>
+                <a href="lawsuits.html">View Database →</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>ChatGPT Disaster Documentation Project</p>
+        <p><a href="index.html">Home</a> | <a href="lawsuits.html">Lawsuits</a> | <a href="stories.html">Stories</a> | <a href="petitions/">Petitions</a> | <a href="failures/">Failures</a></p>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">All statistics sourced from peer-reviewed research, court documents, and major news publications.</p>
+    </div>
+</footer>
+
+</body>
+</html>

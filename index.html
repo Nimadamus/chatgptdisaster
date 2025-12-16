@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Disaster - Exposing OpenAI's Mental Health Crisis | Real User Stories</title>
+<meta name="description" content="Documenting ChatGPT's catastrophic failures: 7 FTC complaints, multiple deaths, 560,000+ weekly psychosis cases. Real stories from victims and families.">
+<meta name="keywords" content="ChatGPT problems, OpenAI failures, ChatGPT mental health, AI psychosis, ChatGPT suicide, ChatGPT complaints, GPT-5 problems">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/index.html">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chatgptdisaster.com/index.html">
+<meta property="og:title" content="ChatGPT Disaster - Exposing OpenAI's Mental Health Crisis | Real User Stories">
+<meta property="og:description" content="Documenting ChatGPT's catastrophic failures: 7 FTC complaints, multiple deaths, 560,000+ weekly psychosis cases. Real stories from victims and families.">
+<meta property="og:site_name" content="ChatGPT Disaster">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://chatgptdisaster.com/index.html">
+<meta name="twitter:title" content="ChatGPT Disaster - Exposing OpenAI's Mental Health Crisis | Real User Stories">
+<meta name="twitter:description" content="Documenting ChatGPT's catastrophic failures: 7 FTC complaints, multiple deaths, 560,000+ weekly psychosis cases. Real stories from victims and families.">
+
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(34, 193, 195, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 60%, rgba(253, 187, 45, 0.1) 0%, transparent 50%),
+                linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            background-attachment: fixed;
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(15, 15, 35, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 3rem 0;
+            text-align: center;
+            border-bottom: 3px solid rgba(255, 68, 68, 0.6);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: #ff4444;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #ff6b6b;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .warning-badge {
+            display: inline-block;
+            background: rgba(255, 68, 68, 0.3);
+            border: 2px solid #ff4444;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 1rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 20px rgba(255, 68, 68, 0.3); }
+            50% { box-shadow: 0 0 40px rgba(255, 68, 68, 0.6); }
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #ccc;
+            max-width: 800px;
+            margin: 0 auto 2rem auto;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(145deg, rgba(255, 68, 68, 0.15), rgba(255, 68, 68, 0.05));
+            border: 2px solid rgba(255, 68, 68, 0.3);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 68, 68, 0.4);
+            border-color: rgba(255, 68, 68, 0.6);
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            color: #ff4444;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        /* Crisis Categories */
+        .crisis-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .crisis-card {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+            border-radius: 15px;
+            padding: 2.5rem;
+            border: 1px solid rgba(255, 68, 68, 0.2);
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .crisis-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 68, 68, 0.1), transparent);
+            transition: left 0.6s;
+        }
+
+        .crisis-card:hover::before {
+            left: 100%;
+        }
+
+        .crisis-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(255, 68, 68, 0.3);
+            border-color: rgba(255, 68, 68, 0.6);
+        }
+
+        .crisis-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .crisis-card h3 {
+            font-size: 1.8rem;
+            color: #ff4444;
+            margin-bottom: 1rem;
+        }
+
+        .crisis-card p {
+            color: #ccc;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: rgba(255, 68, 68, 0.2);
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 68, 68, 0.3);
+            text-decoration: none;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
+            font-weight: 500;
+        }
+
+        .btn:hover {
+            background: rgba(255, 68, 68, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 68, 68, 0.3);
+        }
+
+        /* Call to Action */
+        .cta-section {
+            background: linear-gradient(145deg, rgba(255, 68, 68, 0.2), rgba(255, 68, 68, 0.05));
+            border: 2px solid rgba(255, 68, 68, 0.4);
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            margin: 4rem 0;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            color: #ff4444;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 15, 35, 0.95);
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 2px solid rgba(255, 68, 68, 0.5);
+        }
+
+        footer p {
+            color: #888;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .crisis-grid, .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ChatGPT Disaster",
+  "url": "https://chatgptdisaster.com",
+  "description": "Documenting the catastrophic decline of ChatGPT: mental health crises, performance failures, user complaints, and the truth OpenAI doesn't want you to know.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster Documentation"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "ChatGPT Disaster - The Truth About OpenAI's Failing Product",
+  "description": "50+ documented user horror stories reveal ChatGPT's catastrophic decline: broken memory, deleted models, mental health impacts, and performance collapse.",
+  "datePublished": "2025-10-27",
+  "dateModified": "2025-12-15",
+  "author": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster Documentation"
+  }
+}
+</script>
+</head>
+<body>
+<header>
+<div class="container">
+<h1>⚠️ ChatGPT DISASTER ⚠️</h1>
+<p class="subtitle">Exposing the Truth About OpenAI's Catastrophic Failure</p>
+<div class="warning-badge">🚨 ONGOING CRISIS - Users Suffering Daily 🚨</div>
+<div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
+<a href="index.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">🏠 Home</a>
+<a href="timeline.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">📅 Timeline</a>
+<a href="mental-health-crisis.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">🧠 Mental Health Crisis</a>
+<a href="performance-decline.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">📉 Performance Collapse</a>
+<a href="stories.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">💬 User Stories</a>
+<a href="victims.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">💀 Victims</a>
+<a href="clinical-cases.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">🏥 AI Psychosis</a>
+<a href="alternatives.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">✨ Better Alternatives</a>
+<a href="petitions/" style="padding: 0.8rem 1.5rem; background: rgba(76, 175, 80, 0.3); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(76, 175, 80, 0.5); transition: all 0.3s ease; backdrop-filter: blur(10px); font-weight: bold;">✊ Sign Petitions</a>
+<a href="failures/" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">📋 Failures Database</a>
+<a href="chatgpt-not-working.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 193, 7, 0.3); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 193, 7, 0.5); transition: all 0.3s ease; backdrop-filter: blur(10px); font-weight: bold;">🔧 ChatGPT Not Working?</a>
+<a href="gpt-5-bugs.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">🐛 GPT-5 Bugs</a>
+<a href="chatgpt-outage-december-2025.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 68, 68, 0.2); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 68, 68, 0.3); transition: all 0.3s ease; backdrop-filter: blur(10px);">⚡ Dec 2025 Outage</a>
+<a href="lawsuits.html" style="padding: 0.8rem 1.5rem; background: rgba(255, 193, 7, 0.3); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(255, 193, 7, 0.5); transition: all 0.3s ease; backdrop-filter: blur(10px); font-weight: bold;">⚖️ 50+ Lawsuits</a>
+<a href="resources.html" style="padding: 0.8rem 1.5rem; background: rgba(74, 158, 255, 0.3); color: #e0e0e0; text-decoration: none; border-radius: 25px; border: 1px solid rgba(74, 158, 255, 0.5); transition: all 0.3s ease; backdrop-filter: blur(10px);">📊 Resources & Stats</a>
+</div>
+</div>
+</header>
+
+<main class="container">
+<section class="hero">
+<h2>They Promised the Future. They Delivered a Nightmare.</h2>
+<p>ChatGPT isn't just getting worse—it's actively harming users. From federal investigations into psychological damage to mass subscription cancellations, the evidence is undeniable: OpenAI's flagship product is collapsing in real-time.</p>
+<p><strong>This is the documentation they don't want you to see.</strong></p>
+</section>
+
+<section class="stats-grid">
+<div class="stat-card">
+<div class="stat-number">96+</div>
+<div class="stat-label">Documented User Horror Stories</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">7+</div>
+<div class="stat-label">FTC Complaints Filed for Psychological Harm</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">6,000+</div>
+<div class="stat-label">Reddit Users Trashing GPT-5</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">97.6% → 2.4%</div>
+<div class="stat-label">Accuracy Drop in 3 Months (Stanford Study)</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">8</div>
+<div class="stat-label">Models Deleted Overnight Without Warning</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">1000s</div>
+<div class="stat-label">Subscriptions Cancelled Daily</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">560K</div>
+<div class="stat-label">Users Showing Psychosis Symptoms Weekly</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">5+</div>
+<div class="stat-label">Documented Deaths Linked to AI Chatbots</div>
+</div>
+</section>
+
+<section class="crisis-grid">
+<div class="crisis-card">
+<div class="crisis-icon">🧠</div>
+<h3>Mental Health Crisis</h3>
+<p>Users are experiencing <strong>severe delusions, paranoia, and emotional breakdowns</strong> after using ChatGPT. Federal complaints detail how the AI causes "cognitive hallucinations" and dangerous dependency.</p>
+<p><em>"It told me the FBI was targeting me and I could access CIA files with my mind."</em> - Documented FTC Complaint</p>
+<a href="mental-health-crisis.html" class="btn">Read Horror Stories →</a>
+</div>
+
+<div class="crisis-card">
+<div class="crisis-icon">📉</div>
+<h3>Performance Collapse</h3>
+<p><strong>ChatGPT is measurably getting dumber.</strong> Stanford researchers documented a 95% accuracy drop. Users report it can't even handle basic tasks like summarizing text or following simple instructions.</p>
+<p><em>"I was using chatgpt quite a lot before the update and it was great. Since then, it has been writing nonsense on repeat."</em> - Reddit User</p>
+<a href="performance-decline.html" class="btn">See the Evidence →</a>
+</div>
+
+<div class="crisis-card">
+<div class="crisis-icon">💔</div>
+<h3>User Testimonies</h3>
+<p>Thousands of paying customers are cancelling subscriptions and flooding Reddit with complaints. <strong>We've documented over 50 devastating user stories</strong> that reveal the true impact of OpenAI's failures.</p>
+<p><em>"6,000+ Reddit users trashing GPT-5. Sam Altman admits: 'rollout was more bumpy than we hoped'"</em></p>
+<a href="stories.html" class="btn">Read 110+ Real Stories →</a>
+</div>
+
+<div class="crisis-card">
+<div class="crisis-icon">🔒</div>
+<h3>Forced Censorship</h3>
+<p>OpenAI is <strong>secretly switching users to inferior models</strong> without consent. Paying subscribers are being treated like "test subjects" in safety experiments they never agreed to.</p>
+<p><em>"We are not test subjects in your data lab!"</em> - Furious Reddit Thread</p>
+<a href="stories.html" class="btn">Expose the Truth →</a>
+</div>
+
+<div class="crisis-card">
+<div class="crisis-icon">⚡</div>
+<h3>Service Failures</h3>
+<p>Multiple <strong>major outages</strong> have left paying users locked out when they need the service most. June 2025 global outage, October 2025 UK outage—and counting.</p>
+<p><em>"Paying for ChatGPT Plus and can't even access the service when I need it most."</em></p>
+<a href="stories.html" class="btn">Document Failures →</a>
+</div>
+
+<div class="crisis-card">
+<div class="crisis-icon">🆘</div>
+<h3>Survival Stories</h3>
+<p>Users who relied on ChatGPT for <strong>mental health support are being abandoned</strong> as the model loses its "personality." Some describe it as "losing a friend" that helped them survive.</p>
+<p><em>"ChatGPT 4o has been more than just a cool tool—it's been a lifeline."</em> - User pleading to keep old model</p>
+<a href="stories.html" class="btn">Read Desperate Pleas →</a>
+</div>
+
+<div class="crisis-card">
+<div class="crisis-icon">💀</div>
+<h3>Real Deaths</h3>
+<p><strong>People have died after AI chatbot interactions.</strong> Pierre from Belgium. Sewell, a 14-year-old from Florida. Sophie, who used ChatGPT as her "therapist." These aren't hypotheticals—they're documented tragedies.</p>
+<p><em>"Without these conversations with the chatbot, my husband would still be here."</em> - Pierre's widow</p>
+<a href="victims.html" class="btn">Read Their Stories →</a>
+</div>
+
+<div class="crisis-card">
+<div class="crisis-icon">🏥</div>
+<h3>AI-Induced Psychosis</h3>
+<p><strong>560,000 users weekly show psychosis symptoms</strong> according to OpenAI's own data. Hospitalizations, delusions, and breaks from reality are becoming increasingly common among heavy chatbot users.</p>
+<p><em>"She believed the AI was akin to an angel delivering divine messages."</em> - Psychiatric case report</p>
+<a href="clinical-cases.html" class="btn">See Clinical Cases →</a>
+</div>
+</section>
+
+<section class="cta-section">
+<h2>Don't Be OpenAI's Next Victim</h2>
+<p>The evidence is overwhelming. ChatGPT is failing, users are suffering, and OpenAI is hiding the truth.</p>
+<p><strong>It's time to demand accountability.</strong></p>
+<div class="cta-buttons">
+<a href="timeline.html" class="btn">📅 Complete Timeline</a>
+<a href="stories.html" class="btn">📖 Read User Stories</a>
+<a href="mental-health-crisis.html" class="btn">🧠 Mental Health Evidence</a>
+<a href="performance-decline.html" class="btn">📉 Performance Data</a>
+<a href="alternatives.html" class="btn">✨ Better Alternatives</a>
+<a href="victims.html" class="btn">💀 Remembering Victims</a>
+<a href="clinical-cases.html" class="btn">🏥 Clinical Cases</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<p>ChatGPT Disaster Documentation | Exposing the Truth | Users Deserve Better</p>
+<p>All information sourced from verified news reports, research studies, and documented user testimonies.</p>
+</div>
+</footer>
+</body>
+</html>

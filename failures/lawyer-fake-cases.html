@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lawyer Uses ChatGPT, Cites 6 Fake Cases, Gets Sanctioned - Full Case Study</title>
+<meta name="description" content="Steven Schwartz submitted a legal brief with 6 fabricated case citations from ChatGPT. The full story: court documents, sanctions, and lessons for AI use in law.">
+<meta name="keywords" content="ChatGPT lawyer fake cases, Steven Schwartz ChatGPT, AI legal hallucination, ChatGPT court case, fake legal citations">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/failures/lawyer-fake-cases.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lawyer Cites 6 Fake ChatGPT Cases - Full Story">
+<meta property="og:description" content="The complete case study of the lawyer who submitted ChatGPT-generated fake legal citations.">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.8;
+    min-height: 100vh;
+}
+.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+header {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.5);
+}
+.breadcrumb { color: #888; font-size: 0.9rem; margin-bottom: 1rem; }
+.breadcrumb a { color: #ff4444; text-decoration: none; }
+h1 { font-size: 2rem; color: #ff4444; margin-bottom: 1rem; line-height: 1.3; }
+.meta-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: #888;
+    font-size: 0.9rem;
+}
+main { padding: 3rem 0; }
+article { background: rgba(255, 255, 255, 0.03); border-radius: 15px; padding: 2rem; }
+article h2 { color: #ff4444; font-size: 1.5rem; margin: 2rem 0 1rem; }
+article h3 { color: #fff; font-size: 1.2rem; margin: 1.5rem 0 0.5rem; }
+article p { color: #ccc; margin-bottom: 1.5rem; }
+.key-facts {
+    background: rgba(255, 68, 68, 0.1);
+    border-left: 4px solid #ff4444;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 10px 10px 0;
+}
+.key-facts h3 { color: #ff4444; margin-top: 0; }
+.key-facts ul { margin-left: 1.5rem; color: #ccc; }
+.key-facts li { margin: 0.5rem 0; }
+.quote-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #4a9eff;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+}
+.quote-box .attribution { color: #888; font-size: 0.9rem; margin-top: 1rem; font-style: normal; }
+.timeline {
+    border-left: 2px solid rgba(255, 68, 68, 0.3);
+    padding-left: 2rem;
+    margin: 2rem 0;
+}
+.timeline-item { margin: 1.5rem 0; position: relative; }
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.35rem;
+    top: 0.5rem;
+    width: 10px;
+    height: 10px;
+    background: #ff4444;
+    border-radius: 50%;
+}
+.timeline-date { color: #ff4444; font-weight: bold; }
+.fake-cases {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+.fake-case {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.fake-case:last-child { border-bottom: none; }
+.fake-case .case-name { color: #ff4444; font-weight: bold; }
+.fake-case .status { color: #888; font-size: 0.9rem; }
+.consequences {
+    background: rgba(255, 68, 68, 0.15);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+.consequences h3 { color: #ff4444; }
+.lessons {
+    background: rgba(76, 175, 80, 0.1);
+    border-left: 4px solid #4caf50;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 10px 10px 0;
+}
+.lessons h3 { color: #4caf50; margin-top: 0; }
+.sources { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.sources h3 { color: #fff; margin-bottom: 1rem; }
+.sources ul { list-style: none; }
+.sources li { margin: 0.5rem 0; }
+.sources a { color: #4a9eff; text-decoration: none; }
+.sources a:hover { text-decoration: underline; }
+.related-failures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.related-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.related-card:hover { background: rgba(255, 255, 255, 0.1); }
+.related-card h4 { color: #ff4444; font-size: 1rem; margin-bottom: 0.5rem; }
+.related-card p { color: #888; font-size: 0.85rem; margin: 0; }
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+}
+footer p { color: #888; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Lawyer Uses ChatGPT, Cites 6 Fake Cases, Gets Sanctioned",
+  "description": "The complete case study of Steven Schwartz who submitted ChatGPT-generated fake legal citations to federal court.",
+  "datePublished": "2023-06-22",
+  "dateModified": "2025-12-05",
+  "author": {"@type": "Organization", "name": "ChatGPT Disaster Documentation"}
+}
+</script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a> → <a href="index.html">Failures Database</a> → Legal Failures
+        </div>
+        <h1>Lawyer Uses ChatGPT, Cites 6 Fake Cases, Gets Sanctioned</h1>
+        <div class="meta-info">
+            <span>Category: Legal Failure</span>
+            <span>Date: May-June 2023</span>
+            <span>Location: New York, USA</span>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <article>
+        <div class="key-facts">
+            <h3>Key Facts</h3>
+            <ul>
+                <li><strong>What happened:</strong> Attorney Steven Schwartz used ChatGPT to research case law and submitted a brief containing 6 completely fabricated cases</li>
+                <li><strong>Court:</strong> U.S. District Court, Southern District of New York</li>
+                <li><strong>Judge:</strong> Hon. P. Kevin Castel</li>
+                <li><strong>Sanctions:</strong> $5,000 fine for Schwartz and his colleague Peter LoDuca</li>
+                <li><strong>Impact:</strong> International media coverage, spawned new AI use policies in courts worldwide</li>
+            </ul>
+        </div>
+
+        <h2>The Incident</h2>
+
+        <p>In early 2023, attorney Steven Schwartz of the law firm Levidow, Levidow & Oberman was preparing a legal brief in the case <em>Mata v. Avianca Airlines</em>. His client, Roberto Mata, was suing the Colombian airline for an injury sustained on a flight.</p>
+
+        <p>To strengthen his arguments, Schwartz turned to ChatGPT to research relevant case law. ChatGPT obligingly provided him with several case citations that seemed perfect for his brief - cases involving airline liability, personal injury, and statute of limitations issues.</p>
+
+        <p>There was just one problem: <strong>None of the cases existed.</strong></p>
+
+        <p>ChatGPT had "hallucinated" - generating plausible-sounding but entirely fictional case citations, complete with fake judges, fake courts, and fake legal holdings.</p>
+
+        <h2>The Fake Cases</h2>
+
+        <div class="fake-cases">
+            <div class="fake-case">
+                <div class="case-name">Varghese v. China Southern Airlines Co. Ltd.</div>
+                <div class="status">Fabricated - No such case exists</div>
+            </div>
+            <div class="fake-case">
+                <div class="case-name">Shaboon v. Egyptair</div>
+                <div class="status">Fabricated - No such case exists</div>
+            </div>
+            <div class="fake-case">
+                <div class="case-name">Petersen v. Iran Air</div>
+                <div class="status">Fabricated - No such case exists</div>
+            </div>
+            <div class="fake-case">
+                <div class="case-name">Martinez v. Delta Airlines</div>
+                <div class="status">Fabricated - No such case exists</div>
+            </div>
+            <div class="fake-case">
+                <div class="case-name">Estate of Durden v. KLM Royal Dutch Airlines</div>
+                <div class="status">Fabricated - No such case exists</div>
+            </div>
+            <div class="fake-case">
+                <div class="case-name">Miller v. United Airlines</div>
+                <div class="status">Fabricated - No such case exists</div>
+            </div>
+        </div>
+
+        <h2>Timeline of Events</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">February 2023</div>
+                <p>Schwartz uses ChatGPT to research case law for the Avianca brief.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">March 1, 2023</div>
+                <p>Brief containing fabricated citations is filed with the court.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">May 4, 2023</div>
+                <p>Opposing counsel notices the cases cannot be found in any legal database.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">May 25, 2023</div>
+                <p>Judge Castel orders Schwartz to show cause why he should not be sanctioned.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">June 8, 2023</div>
+                <p>Hearing held. Schwartz admits using ChatGPT and not verifying citations.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">June 22, 2023</div>
+                <p>Judge Castel issues sanctions: $5,000 fine and required letters of apology.</p>
+            </div>
+        </div>
+
+        <h2>What Schwartz Told the Court</h2>
+
+        <div class="quote-box">
+            <p>"I did not comprehend that ChatGPT could fabricate cases... I have never used ChatGPT as a source for conducting legal research prior to this occurrence and was unaware of the possibility that its content could be false."</p>
+            <div class="attribution">- Steven Schwartz, in court filing</div>
+        </div>
+
+        <p>When confronted with the non-existent cases, Schwartz did something that made the situation worse: he asked ChatGPT to confirm the cases were real. ChatGPT, doubling down on its hallucination, assured him the cases existed and could be found in legal databases.</p>
+
+        <div class="quote-box">
+            <p>"Is Varghese a real case?"</p>
+            <p>"Yes, Varghese v. China Southern Airlines Co. Ltd., 925 F.3d 1339 (11th Cir. 2019) is a real case."</p>
+            <div class="attribution">- ChatGPT conversation submitted to the court</div>
+        </div>
+
+        <h2>The Judge's Response</h2>
+
+        <p>Judge P. Kevin Castel was not amused. In his sanctions order, he wrote:</p>
+
+        <div class="quote-box">
+            <p>"Technological advances are commonplace and they should not be combated. But, in the context of attorneys using AI to assist in legal writing, there are risks involved... here, technological tools need to be used with skill and care."</p>
+            <div class="attribution">- Judge P. Kevin Castel</div>
+        </div>
+
+        <div class="consequences">
+            <h3>Consequences</h3>
+            <ul style="margin-left: 1.5rem; color: #ccc;">
+                <li><strong>$5,000 fine</strong> imposed on Schwartz and colleague Peter LoDuca</li>
+                <li><strong>Public apology letters</strong> required to each judge falsely cited</li>
+                <li><strong>Professional embarrassment</strong> - case made international news</li>
+                <li><strong>Bar complaints</strong> filed (disposition unclear)</li>
+                <li><strong>Client harm</strong> - Mata's case was damaged by the fiasco</li>
+            </ul>
+        </div>
+
+        <h2>Broader Impact</h2>
+
+        <p>This case became the first major public example of ChatGPT hallucinations causing real-world professional harm. It triggered:</p>
+
+        <ul style="margin-left: 1.5rem; color: #ccc; margin-bottom: 1.5rem;">
+            <li>New AI disclosure requirements in courts across the US</li>
+            <li>Ethics opinions from state bar associations</li>
+            <li>Updates to legal research training programs</li>
+            <li>Corporate policies requiring AI output verification</li>
+            <li>Academic papers on AI reliability in professional contexts</li>
+        </ul>
+
+        <div class="lessons">
+            <h3>Lessons Learned</h3>
+            <ul style="margin-left: 1.5rem; color: #ccc;">
+                <li><strong>Always verify AI output</strong> - ChatGPT will confidently present false information as fact</li>
+                <li><strong>AI will confirm its own lies</strong> - asking ChatGPT to verify its output doesn't work</li>
+                <li><strong>Professional responsibility survives AI use</strong> - you're still accountable for what you submit</li>
+                <li><strong>"I didn't know" isn't a defense</strong> - professionals must understand their tools</li>
+                <li><strong>Hallucinations aren't rare edge cases</strong> - they're fundamental to how LLMs work</li>
+            </ul>
+        </div>
+
+        <div class="sources">
+            <h3>Sources</h3>
+            <ul>
+                <li><a href="https://www.nytimes.com/2023/05/27/nyregion/avianca-airline-chatgpt-lawyer.html" target="_blank" rel="noopener">New York Times - Here's What Happens When Your Lawyer Uses ChatGPT</a></li>
+                <li><a href="https://www.reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-2023-06-22/" target="_blank" rel="noopener">Reuters - New York lawyers sanctioned for using fake ChatGPT cases</a></li>
+                <li>Court filings: Mata v. Avianca, Inc., Case No. 1:22-cv-01461 (S.D.N.Y.)</li>
+            </ul>
+        </div>
+
+        <h2>Related Failures</h2>
+        <div class="related-failures">
+            <a href="defamation-case.html" class="related-card">
+                <h4>ChatGPT Falsely Accuses Professor</h4>
+                <p>Generated fake sexual harassment allegations against a law professor.</p>
+            </a>
+            <a href="air-canada-chatbot.html" class="related-card">
+                <h4>Air Canada Chatbot Invents Policy</h4>
+                <p>AI created a refund policy that didn't exist, airline held liable.</p>
+            </a>
+            <a href="mayor-bribery.html" class="related-card">
+                <h4>ChatGPT Claims Mayor Went to Prison</h4>
+                <p>Falsely told users an Australian mayor was convicted of bribery.</p>
+            </a>
+        </div>
+    </article>
+</main>
+
+<footer>
+    <div class="container">
+        <p>ChatGPT Disaster Documentation | AI Failures Database</p>
+        <p><a href="index.html" style="color: #ff4444;">← Back to Failures Database</a></p>
+    </div>
+</footer>
+</body>
+</html>

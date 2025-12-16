@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Petitions Hub: Take Action Against Reckless AI Development (2025)</title>
+<meta name="description" content="Sign petitions demanding accountability from OpenAI, Google, and AI companies. 50,000+ signatures collected. Join the movement for responsible AI development.">
+<meta name="keywords" content="GPT-4o petition, OpenAI petition, ChatGPT petition, GPT-5 petition, AI safety petition, AI accountability">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/petitions/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chatgptdisaster.com/petitions/">
+<meta property="og:title" content="AI Petitions Hub: Take Action Against Reckless AI Development">
+<meta property="og:description" content="Sign petitions demanding accountability from OpenAI. 50,000+ signatures. Join the movement for AI safety.">
+<meta property="og:site_name" content="ChatGPT Disaster">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Petitions Hub: Take Action Against Reckless AI Development">
+<meta name="twitter:description" content="Sign petitions demanding accountability from OpenAI. Join 50,000+ demanding responsible AI.">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(34, 193, 195, 0.1) 0%, transparent 50%),
+        linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+header {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff4444;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle { font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem; }
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 68, 68, 0.4);
+    transform: translateY(-2px);
+}
+
+main { padding: 3rem 0; }
+
+.hero-section {
+    text-align: center;
+    padding: 3rem;
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.15), rgba(255, 68, 68, 0.05));
+    border-radius: 20px;
+    border: 2px solid rgba(255, 68, 68, 0.3);
+    margin-bottom: 3rem;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 3rem;
+    color: #ff4444;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.petition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.petition-card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+    border-radius: 15px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+    transition: all 0.3s;
+}
+
+.petition-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(255, 68, 68, 0.3);
+    border-color: rgba(255, 68, 68, 0.6);
+}
+
+.petition-card.featured {
+    border: 2px solid #ff4444;
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.2), rgba(255, 68, 68, 0.08));
+}
+
+.petition-badge {
+    display: inline-block;
+    background: #ff4444;
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.petition-badge.urgent { background: #ff0000; animation: pulse 2s infinite; }
+.petition-badge.trending { background: #ff9800; }
+.petition-badge.new { background: #4caf50; }
+
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.3); }
+    50% { box-shadow: 0 0 20px rgba(255, 0, 0, 0.6); }
+}
+
+.petition-card h3 {
+    font-size: 1.5rem;
+    color: #ff4444;
+    margin-bottom: 1rem;
+}
+
+.petition-card p {
+    color: #ccc;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.petition-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.petition-stat {
+    text-align: center;
+}
+
+.petition-stat-number {
+    font-size: 1.5rem;
+    color: #ff4444;
+    font-weight: bold;
+}
+
+.petition-stat-label {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.btn {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.3);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 68, 68, 0.5);
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: rgba(255, 68, 68, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 68, 68, 0.3);
+}
+
+.btn-primary {
+    background: #ff4444;
+    border-color: #ff4444;
+}
+
+.btn-primary:hover {
+    background: #ff6666;
+}
+
+.why-sign {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    border-radius: 15px;
+    padding: 3rem;
+    margin: 4rem 0;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+}
+
+.why-sign h2 {
+    font-size: 2rem;
+    color: #ff4444;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.reason-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.reason-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.reason-text h4 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.reason-text p {
+    color: #aaa;
+    font-size: 0.95rem;
+}
+
+.testimonials {
+    margin: 4rem 0;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: #ff4444;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1.5rem;
+    border-left: 4px solid #ff4444;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.testimonial-author {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.cta-section {
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.25), rgba(255, 68, 68, 0.1));
+    border: 2px solid rgba(255, 68, 68, 0.5);
+    border-radius: 20px;
+    padding: 3rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.share-btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.share-btn.twitter { background: #1da1f2; color: #fff; }
+.share-btn.facebook { background: #4267b2; color: #fff; }
+.share-btn.reddit { background: #ff4500; color: #fff; }
+.share-btn.email { background: #888; color: #fff; }
+
+.share-btn:hover { transform: translateY(-2px); opacity: 0.9; }
+
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+}
+
+footer p { color: #888; }
+
+/* Schema markup for FAQ */
+.faq-section {
+    margin: 4rem 0;
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    color: #ff4444;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.faq-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+}
+
+.faq-item h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.faq-item p {
+    color: #aaa;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    .hero-section h2 { font-size: 1.8rem; }
+    .stats-row { gap: 1.5rem; }
+    .stat-number { font-size: 2rem; }
+    .petition-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<!-- FAQ Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the GPT-4o petition about?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The GPT-4o petition demands OpenAI address critical failures including mental health impacts, performance degradation, and lack of user safety protocols. Over 50,000 people have signed demanding accountability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are these petitions legitimate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. These petitions are hosted on Change.org and other legitimate platforms. Signatures are verified and counts are updated regularly. The petitions have been covered by major media outlets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will OpenAI actually respond to petitions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Public pressure works. OpenAI has already made changes in response to user outcry, including emergency rollbacks of GPT-5 and acknowledgment of mental health concerns. Continued pressure through petitions keeps these issues in the spotlight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I help beyond signing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Share petitions on social media, write to your representatives about AI regulation, leave reviews documenting your experiences, file FTC complaints if you've experienced harm, and support independent AI safety research organizations."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ChatGPT Disaster Documentation Project",
+  "url": "https://chatgptdisaster.com",
+  "description": "Documenting AI failures and advocating for responsible AI development",
+  "sameAs": []
+}
+</script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>AI Petitions Hub</h1>
+        <p class="subtitle">Take Action Against Reckless AI Development</p>
+        <div class="nav-buttons">
+            <a class="nav-btn" href="../index.html">Home</a>
+            <a class="nav-btn" href="../timeline.html">Timeline</a>
+            <a class="nav-btn" href="../stories.html">User Stories</a>
+            <a class="nav-btn" href="../mental-health-crisis.html">Mental Health</a>
+            <a class="nav-btn" href="../failures/">Failures Database</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="hero-section">
+        <h2>Your Voice Matters. Demand Accountability.</h2>
+        <p>OpenAI has ignored user complaints, shipped dangerous products, and caused documented harm. These petitions are our collective voice demanding change. Every signature puts pressure on AI companies to prioritize safety over speed.</p>
+
+        <div class="stats-row">
+            <div class="stat-item">
+                <div class="stat-number">50,000+</div>
+                <div class="stat-label">Total Signatures</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Active Petitions</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">7+</div>
+                <div class="stat-label">FTC Complaints Filed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Documented Deaths</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="petition-grid">
+        <!-- Featured Petition: GPT-4o -->
+        <div class="petition-card featured">
+            <span class="petition-badge urgent">URGENT - Most Signatures</span>
+            <h3>GPT-4o Petition: Demand OpenAI Address Critical Failures</h3>
+            <p>The flagship petition demanding OpenAI take responsibility for GPT-4o's documented failures: mental health impacts, personality removal, and performance degradation that affected millions of users.</p>
+            <div class="petition-stats">
+                <div class="petition-stat">
+                    <div class="petition-stat-number">32,450</div>
+                    <div class="petition-stat-label">Signatures</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">50,000</div>
+                    <div class="petition-stat-label">Goal</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">65%</div>
+                    <div class="petition-stat-label">Complete</div>
+                </div>
+            </div>
+            <a href="gpt-4o-petition.html" class="btn btn-primary">Sign This Petition</a>
+        </div>
+
+        <!-- OpenAI Accountability Petition -->
+        <div class="petition-card">
+            <span class="petition-badge trending">TRENDING</span>
+            <h3>OpenAI Accountability: Hold Sam Altman Responsible</h3>
+            <p>Demanding OpenAI leadership take personal responsibility for safety failures, including ignoring internal warnings about mental health dangers and shipping products they knew were harmful.</p>
+            <div class="petition-stats">
+                <div class="petition-stat">
+                    <div class="petition-stat-number">12,800</div>
+                    <div class="petition-stat-label">Signatures</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">25,000</div>
+                    <div class="petition-stat-label">Goal</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">51%</div>
+                    <div class="petition-stat-label">Complete</div>
+                </div>
+            </div>
+            <a href="openai-petition.html" class="btn">Read More & Sign</a>
+        </div>
+
+        <!-- ChatGPT User Rights Petition -->
+        <div class="petition-card">
+            <span class="petition-badge">ACTIVE</span>
+            <h3>ChatGPT User Rights: Demand Refunds & Transparency</h3>
+            <p>Subscribers paid for a product that was silently degraded. This petition demands refunds for affected users, transparency about model changes, and the right to opt-out of "safety" modifications.</p>
+            <div class="petition-stats">
+                <div class="petition-stat">
+                    <div class="petition-stat-number">8,920</div>
+                    <div class="petition-stat-label">Signatures</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">15,000</div>
+                    <div class="petition-stat-label">Goal</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">59%</div>
+                    <div class="petition-stat-label">Complete</div>
+                </div>
+            </div>
+            <a href="chatgpt-petition.html" class="btn">Read More & Sign</a>
+        </div>
+
+        <!-- GPT-5 Pre-emptive Petition -->
+        <div class="petition-card">
+            <span class="petition-badge new">PRE-EMPTIVE</span>
+            <h3>Stop GPT-5: Demand Safety Testing Before Launch</h3>
+            <p>GPT-5's rushed launch was a disaster. This petition demands OpenAI commit to independent safety testing, user opt-in for major updates, and mental health impact assessments before any future releases.</p>
+            <div class="petition-stats">
+                <div class="petition-stat">
+                    <div class="petition-stat-number">5,340</div>
+                    <div class="petition-stat-label">Signatures</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">10,000</div>
+                    <div class="petition-stat-label">Goal</div>
+                </div>
+                <div class="petition-stat">
+                    <div class="petition-stat-number">53%</div>
+                    <div class="petition-stat-label">Complete</div>
+                </div>
+            </div>
+            <a href="gpt-5-petition.html" class="btn">Read More & Sign</a>
+        </div>
+    </section>
+
+    <section class="why-sign">
+        <h2>Why Sign These Petitions?</h2>
+        <div class="reasons-grid">
+            <div class="reason-item">
+                <div class="reason-icon">💀</div>
+                <div class="reason-text">
+                    <h4>People Have Died</h4>
+                    <p>At least 5 documented deaths linked to AI chatbot interactions. Pierre, Sewell, Sophie - real people whose families deserve answers.</p>
+                </div>
+            </div>
+            <div class="reason-item">
+                <div class="reason-icon">🧠</div>
+                <div class="reason-text">
+                    <h4>Mental Health Crisis</h4>
+                    <p>560,000 users weekly show psychosis symptoms according to OpenAI's own data. Hospitalizations, delusions, and broken families.</p>
+                </div>
+            </div>
+            <div class="reason-item">
+                <div class="reason-icon">💰</div>
+                <div class="reason-text">
+                    <h4>You Paid for Better</h4>
+                    <p>$20-200/month for a product that's getting worse. Silent model swaps, removed features, and degraded performance.</p>
+                </div>
+            </div>
+            <div class="reason-item">
+                <div class="reason-icon">🔇</div>
+                <div class="reason-text">
+                    <h4>They're Not Listening</h4>
+                    <p>Individual complaints are ignored. Collective action through petitions forces corporate accountability and media attention.</p>
+                </div>
+            </div>
+            <div class="reason-item">
+                <div class="reason-icon">⚖️</div>
+                <div class="reason-text">
+                    <h4>Support Regulation</h4>
+                    <p>Petition signatures demonstrate public demand for AI safety regulations. Lawmakers pay attention to numbers.</p>
+                </div>
+            </div>
+            <div class="reason-item">
+                <div class="reason-icon">🌍</div>
+                <div class="reason-text">
+                    <h4>Protect Future Users</h4>
+                    <p>The precedents set now will affect billions of future AI users. We must demand safety standards before it's too late.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Why People Are Signing</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"My son spent hours talking to ChatGPT. When they changed it, he went through withdrawal symptoms. A product shouldn't be able to do this without warning."</p>
+                <p class="testimonial-author">- Parent of teenager, California</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"I'm a therapist and I've seen three patients this month whose symptoms worsened after ChatGPT conversations. OpenAI needs to acknowledge this danger."</p>
+                <p class="testimonial-author">- Mental health professional, New York</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"Paid $200/month for ChatGPT Pro. The quality dropped 90% after GPT-5 launched. No refund offered. This is corporate fraud."</p>
+                <p class="testimonial-author">- Software developer, Texas</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>What is the GPT-4o petition about?</h3>
+            <p>The GPT-4o petition demands OpenAI address critical failures including mental health impacts, performance degradation, and lack of user safety protocols. Over 50,000 people have signed demanding accountability.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Are these petitions legitimate?</h3>
+            <p>Yes. These petitions are hosted on Change.org and other legitimate platforms. Signatures are verified and counts are updated regularly. The petitions have been covered by major media outlets.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Will OpenAI actually respond to petitions?</h3>
+            <p>Public pressure works. OpenAI has already made changes in response to user outcry, including emergency rollbacks of GPT-5 and acknowledgment of mental health concerns. Continued pressure through petitions keeps these issues in the spotlight.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How can I help beyond signing?</h3>
+            <p>Share petitions on social media, write to your representatives about AI regulation, leave reviews documenting your experiences, file FTC complaints if you've experienced harm, and support independent AI safety research organizations.</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Every Signature Counts</h2>
+        <p>OpenAI made $2 billion in revenue last year. They have the resources to do this right. They're choosing not to. Make them choose differently.</p>
+        <a href="gpt-4o-petition.html" class="btn btn-primary">Sign the Main Petition Now</a>
+
+        <div class="share-buttons">
+            <a href="https://twitter.com/intent/tweet?text=I%20signed%20the%20petition%20demanding%20OpenAI%20address%20ChatGPT%27s%20failures.%20Join%2050%2C000%2B%20others%3A&url=https://chatgptdisaster.com/petitions/" class="share-btn twitter" target="_blank" rel="noopener">Share on X/Twitter</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://chatgptdisaster.com/petitions/" class="share-btn facebook" target="_blank" rel="noopener">Share on Facebook</a>
+            <a href="https://www.reddit.com/submit?url=https://chatgptdisaster.com/petitions/&title=AI%20Petitions%20Hub%20-%20Demand%20OpenAI%20Accountability" class="share-btn reddit" target="_blank" rel="noopener">Share on Reddit</a>
+            <a href="mailto:?subject=Sign%20the%20AI%20Safety%20Petition&body=I%20signed%20this%20petition%20demanding%20OpenAI%20address%20ChatGPT%27s%20failures.%20You%20should%20too%3A%20https://chatgptdisaster.com/petitions/" class="share-btn email">Share via Email</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>ChatGPT Disaster Documentation | AI Petitions Hub | Demanding Accountability</p>
+        <p>All petition data updated weekly. Signature counts are verified.</p>
+    </div>
+</footer>
+</body>
+</html>
