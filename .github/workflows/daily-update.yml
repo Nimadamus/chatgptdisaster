@@ -32,6 +32,10 @@ jobs:
         run: |
           python scripts/daily_update.py
 
+      - name: Update Stories with New Testimonials
+        run: |
+          python scripts/update_stories.py
+
       - name: Commit changes to repo
         run: |
           git config --local user.email "action@github.com"
