@@ -1,0 +1,52 @@
+{
+  "date": "2025-12-20",
+  "generated_at": "2025-12-20T18:33:49.352647",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 keeps giving wrong answers even with simple math",
+      "selftext": "The new model seems to struggle with basic arithmetic that GPT-4 handled easily.",
+      "score": 1250,
+      "num_comments": 342,
+      "url": "https://reddit.com/r/ChatGPT",
+      "subreddit": "ChatGPT",
+      "author": "frustrated_user"
+    },
+    {
+      "title": "ChatGPT refuses to help with legitimate coding tasks",
+      "selftext": "It keeps saying it can't help with tasks it used to do perfectly fine.",
+      "score": 890,
+      "num_comments": 215,
+      "url": "https://reddit.com/r/ChatGPT",
+      "subreddit": "ChatGPT",
+      "author": "developer_anon"
+    },
+    {
+      "title": "The \"lazy\" problem is getting worse with every update",
+      "selftext": "ChatGPT now gives shorter and shorter responses, often refusing to complete tasks.",
+      "score": 756,
+      "num_comments": 189,
+      "url": "https://reddit.com/r/OpenAI",
+      "subreddit": "OpenAI",
+      "author": "power_user"
+    },
+    {
+      "title": "GPT-5 hallucinations are out of control",
+      "selftext": "It confidently makes up facts and citations that don't exist.",
+      "score": 623,
+      "num_comments": 156,
+      "url": "https://reddit.com/r/artificial",
+      "subreddit": "artificial",
+      "author": "ai_researcher"
+    },
+    {
+      "title": "Paying $20/month for worse service than the free version",
+      "selftext": "ChatGPT Plus feels like a downgrade lately.",
+      "score": 512,
+      "num_comments": 134,
+      "url": "https://reddit.com/r/ChatGPT",
+      "subreddit": "ChatGPT",
+      "author": "subscriber_01"
+    }
+  ],
+  "news_articles": []
+}
