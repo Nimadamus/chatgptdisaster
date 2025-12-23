@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-23",
+  "date_seed": 3447935591,
+  "generated_at": "2025-12-23T06:13:02.864200",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 203,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1578"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7168"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 241,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3815"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 300,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5062"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 277,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4137"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 224,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8542"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 152,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9107"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 145,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8184"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9973"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 389,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_9506"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claude Code gets native LSP support",
+      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "score": 370,
+      "comments": 192,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Scaling LLMs to Larger Codebases",
+      "url": "https://blog.kierangill.xyz/oversight-and-guidance",
+      "score": 236,
+      "comments": 90,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Flock Exposed Its AI-Powered Cameras to the Internet. We Tracked Ourselves",
+      "url": "https://www.404media.co/flock-exposed-its-ai-powered-cameras-to-the-internet-we-tracked-ourselves/",
+      "score": 510,
+      "comments": 391,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Lotusbail npm package found to be harvesting WhatsApp messages and contacts",
+      "url": "https://www.koi.ai/blog/npm-package-with-56k-downloads-malware-stealing-whatsapp-messages",
+      "score": 248,
+      "comments": 154,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Diesel pollution particles impair lysosomal functions of iPSC-derived microglia",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160412025002181",
+      "score": 22,
+      "comments": 7,
+      "source": "Hacker News"
+    }
+  ]
+}
