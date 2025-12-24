@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-24",
+  "date_seed": 980577296,
+  "generated_at": "2025-12-24T18:37:28.992149",
+  "reddit_posts": [
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 267,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_6647"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 335,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_9634"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 89,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6709"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 259,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6025"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 70,
+      "url": "https://reddit.com/r/law",
+      "author": "user_9221"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 90,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1482"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 160,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6822"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 303,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5453"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 141,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4762"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 161,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7554"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Show HN: Vibium \u2013 Browser automation for AI and humans, by Selenium's creator",
+      "url": "https://github.com/VibiumDev/vibium",
+      "score": 6,
+      "comments": 3,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A faster path to container images in Bazel",
+      "url": "https://www.tweag.io/blog/2025-12-18-rules_img/",
+      "score": 8,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Mt. Gox CEO Karpel\u00e8s Reveals Details of 2014 Collapse and Japanese Detention",
+      "url": "https://bitcoinmagazine.com/business/former-mt-gox-ceo-mark-karpeles-reveals-details-of-2014-collapse-and-japanese-detention",
+      "score": 38,
+      "comments": 19,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Learn Lisp/Fennel Programming Against Neovim",
+      "url": "https://github.com/humorless/fennel-fp-neovim",
+      "score": 68,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Toad is a unified experience for AI in the terminal",
+      "url": "https://willmcgugan.github.io/toad-released/",
+      "score": 216,
+      "comments": 75,
+      "source": "Hacker News"
+    }
+  ]
+}
