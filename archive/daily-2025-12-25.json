@@ -1,7 +1,7 @@
 {
   "date": "2025-12-25",
   "date_seed": 915142487,
-  "generated_at": "2025-12-25T03:09:17.147842",
+  "generated_at": "2025-12-25T18:37:16.211946",
   "reddit_posts": [
     {
       "title": "ChatGPT's SQL suggestions would drop my production database",
@@ -128,38 +128,38 @@
   ],
   "hn_stories": [
     {
+      "title": "Asahi Linux with Sway on the MacBook Air M2",
+      "url": "https://daniel.lawrence.lu/blog/2024-12-01-asahi-linux-with-sway-on-the-macbook-air-m2/",
+      "score": 58,
+      "comments": 28,
+      "source": "Hacker News"
+    },
+    {
       "title": "Asterisk AI Voice Agent",
       "url": "https://github.com/hkjarral/Asterisk-AI-Voice-Agent",
-      "score": 47,
-      "comments": 19,
+      "score": 163,
+      "comments": 91,
       "source": "Hacker News"
     },
     {
       "title": "Show HN: Vibium \u2013 Browser automation for AI and humans, by Selenium's creator",
       "url": "https://github.com/VibiumDev/vibium",
-      "score": 238,
-      "comments": 77,
+      "score": 379,
+      "comments": 108,
       "source": "Hacker News"
     },
     {
-      "title": "Nvidia buying AI chip startup Groq for about $20B in cash",
-      "url": "https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html",
-      "score": 388,
-      "comments": 238,
+      "title": "The next-gen mainboard designed with amigaos4 and morphos in mind",
+      "url": "https://mirari.vitasys.nl/our-story/",
+      "score": 71,
+      "comments": 14,
       "source": "Hacker News"
     },
     {
       "title": "A faster path to container images in Bazel",
       "url": "https://www.tweag.io/blog/2025-12-18-rules_img/",
-      "score": 67,
-      "comments": 34,
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: A local-first, reversible PII scrubber for AI workflows",
-      "url": "https://medium.com/@tj.ruesch/a-local-first-reversible-pii-scrubber-for-ai-workflows-using-onnx-and-regex-e9850a7531fc",
-      "score": 23,
-      "comments": 4,
+      "score": 98,
+      "comments": 52,
       "source": "Hacker News"
     }
   ]
