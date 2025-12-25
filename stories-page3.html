@@ -29,7 +29,8 @@ body {
         linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
     background-attachment: fixed;
     color: #e0e0e0;
-    line-height: 1.7;
+    line-height: 1.6;
+    overflow-x: hidden;
     min-height: 100vh;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
@@ -39,9 +40,10 @@ header {
     padding: 2rem 0;
     text-align: center;
     border-bottom: 2px solid rgba(255, 68, 68, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
-h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
-.subtitle { font-size: 1.1rem; opacity: 0.8; margin-bottom: 1.5rem; }
+h1 { font-size: 3rem; color: #ff4444; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+.subtitle { font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem; }
 .nav-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
 .nav-btn {
     padding: 0.8rem 1.5rem;
@@ -51,6 +53,7 @@ h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; text-shadow: 2px 2p
     border-radius: 25px;
     border: 1px solid rgba(255, 68, 68, 0.3);
     transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 .nav-btn:hover { background: rgba(255, 68, 68, 0.4); transform: translateY(-2px); }
 .nav-btn.active { background: rgba(255, 68, 68, 0.5); border-color: #ff4444; }
@@ -72,41 +75,58 @@ h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; text-shadow: 2px 2p
 .page-link:hover { background: rgba(255, 68, 68, 0.3); }
 .page-link.current { background: #ff4444; color: #fff; }
 
-.category-section {
-    padding: 3rem 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.category-header {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-.category-header h2 {
-    font-size: 2rem;
-    color: #ff4444;
-    margin-bottom: 0.5rem;
-}
-.category-header p { color: #888; }
-.category-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
 .stories-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
 }
 .story-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
     border-radius: 15px;
-    padding: 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
+    padding: 2rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+    transition: all 0.4s;
+    position: relative;
+    overflow: hidden;
 }
+.story-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 68, 68, 0.1), transparent);
+    transition: left 0.6s;
+}
+.story-card:hover::before { left: 100%; }
 .story-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(255, 68, 68, 0.3);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 68, 68, 0.5);
+    box-shadow: 0 15px 40px rgba(255, 68, 68, 0.2);
+}
+.featured-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff4444, #ff6b6b);
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.category-tag {
+    display: inline-block;
+    background: rgba(74, 158, 255, 0.2);
+    color: #4a9eff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
 }
 .story-header {
     display: flex;
@@ -115,15 +135,16 @@ h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; text-shadow: 2px 2p
     margin-bottom: 1rem;
 }
 .reddit-icon {
-    background: #ff4500;
+    background: linear-gradient(135deg, #ff4500, #ff5722);
     color: white;
-    padding: 0.3rem 0.5rem;
-    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    border-radius: 8px;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    flex-shrink: 0;
 }
-.story-title {
-    font-size: 1.1rem;
+.story-meta h2 {
+    font-size: 1.3rem;
     color: #fff;
     margin-bottom: 0.5rem;
     line-height: 1.4;
@@ -135,48 +156,32 @@ h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; text-shadow: 2px 2p
 .story-content {
     margin-top: 1rem;
 }
+.story-content p {
+    color: #ccc;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
 .quote-highlight {
-    background: rgba(255, 68, 68, 0.1);
-    border-left: 3px solid #ff4444;
-    padding: 1rem;
+    background: linear-gradient(135deg, rgba(255, 68, 68, 0.15), rgba(255, 68, 68, 0.05));
+    border-left: 4px solid #ff4444;
+    padding: 1rem 1.5rem;
     margin: 1rem 0;
     font-style: italic;
-    color: #ccc;
-    border-radius: 0 8px 8px 0;
+    color: #e0e0e0;
+    border-radius: 0 10px 10px 0;
+    font-size: 1.1rem;
 }
 .story-stats {
     display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    font-size: 0.85rem;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
 }
-.stat-item {
-    color: #888;
-}
-.stat-item.upvotes {
-    color: #ff4444;
-    font-weight: bold;
-}
-.featured-badge {
-    background: #ff4444;
-    color: #fff;
-    padding: 0.2rem 0.6rem;
-    border-radius: 10px;
-    font-size: 0.75rem;
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-}
-.category-tag {
-    background: rgba(74, 158, 255, 0.2);
-    color: #4a9eff;
-    padding: 0.2rem 0.6rem;
-    border-radius: 10px;
-    font-size: 0.75rem;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
-}
+.stat-item { color: #888; }
+.stat-item.upvotes { color: #ff4444; font-weight: bold; }
+.stat-item.comments { color: #4a9eff; }
 
 footer {
     background: rgba(15, 15, 35, 0.95);
@@ -188,19 +193,25 @@ footer {
 footer p { color: #888; margin-bottom: 0.5rem; }
 footer a { color: #ff4444; text-decoration: none; }
 footer a:hover { text-decoration: underline; }
+
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    .stories-grid { grid-template-columns: 1fr; }
+}
 </style>
 </head>
 <body>
 
 <header>
     <div class="container">
-        <h1>User Stories - Page 3</h1>
+        <h1>💬 User Stories - Page 3</h1>
         <p class="subtitle">December 24, 2025: The Latest User Complaints</p>
         <div class="nav-buttons">
-            <a href="index.html" class="nav-btn">Home</a>
+            <a href="index.html" class="nav-btn">← Back to Main</a>
             <a href="stories.html" class="nav-btn">Page 1</a>
             <a href="stories-page2.html" class="nav-btn">Page 2</a>
             <a href="stories-page3.html" class="nav-btn active">Page 3</a>
+            <a href="petitions/" class="nav-btn">📝 Sign Petitions</a>
         </div>
     </div>
 </header>
@@ -213,216 +224,219 @@ footer a:hover { text-decoration: underline; }
         <a href="stories-page3.html" class="page-link current">3</a>
     </div>
 
-    <section class="category-section">
-        <div class="category-header">
-            <div class="category-icon">🔥</div>
-            <h2>December 24, 2025 - Latest Complaints</h2>
-            <p>Fresh testimonials from frustrated users across Reddit</p>
-        </div>
+<div class="stories-grid" id="storiesGrid">
 
-        <div class="stories-grid">
-
-<article class="story-card">
-<span class="featured-badge">VIRAL</span>
-<span class="category-tag">Hallucinations</span>
+<!-- AUTO-ADDED TESTIMONIALS: December 24, 2025 -->
+<article class="story-card" data-category="hallucinations">
+<div class="featured-badge">VIRAL</div>
+<div class="category-tag">Hallucinations</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">ChatGPT cited a Supreme Court case that doesn't exist</h3>
-<div class="story-info">u/legal_eagle_2025 | r/law | December 24, 2025</div>
+<div class="story-meta">
+<h2>ChatGPT cited a Supreme Court case that doesn't exist</h2>
+<div class="story-info">u/legal_eagle_2025 - r/law - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>A practicing attorney nearly submitted a brief containing fabricated case citations generated by ChatGPT. The fake Supreme Court ruling had realistic-sounding names, docket numbers, and even fabricated quotes from justices.</p>
 <div class="quote-highlight">"Lawyer almost used it in court. This is getting dangerous."</div>
-<p style="color: #aaa; font-size: 0.9rem;">A practicing attorney nearly submitted a brief containing fabricated case citations generated by ChatGPT. The fake Supreme Court ruling had realistic-sounding names, docket numbers, and even fabricated quotes from justices.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">5,200 upvotes</span>
-<span class="stat-item">70 comments</span>
+<div class="stat-item upvotes">Up 5.2k</div>
+<div class="stat-item comments">70 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">DANGEROUS</span>
-<span class="category-tag">Medical</span>
+<article class="story-card" data-category="medical">
+<div class="featured-badge">DANGEROUS</div>
+<div class="category-tag">Medical</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">Fake medical studies are going to get someone killed</h3>
-<div class="story-info">u/concerned_MD | r/medicine | December 24, 2025</div>
+<div class="story-meta">
+<h2>Fake medical studies are going to get someone killed</h2>
+<div class="story-info">u/concerned_MD - r/medicine - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>A medical professional discovered ChatGPT fabricated entire research papers complete with fake DOIs, author names, and journal citations when asked about medication interactions.</p>
 <div class="quote-highlight">"It cited 5 studies on drug interactions. None of them are real."</div>
-<p style="color: #aaa; font-size: 0.9rem;">A medical professional discovered ChatGPT fabricated entire research papers complete with fake DOIs, author names, and journal citations when asked about medication interactions.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">4,100 upvotes</span>
-<span class="stat-item">335 comments</span>
+<div class="stat-item upvotes">Up 4.1k</div>
+<div class="stat-item comments">335 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">HOT</span>
-<span class="category-tag">Pricing</span>
+<article class="story-card" data-category="pricing">
+<div class="featured-badge">HOT</div>
+<div class="category-tag">Pricing</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">Plus subscription is now worse than the free tier</h3>
-<div class="story-info">u/paying_customer | r/ChatGPT | December 24, 2025</div>
+<div class="story-meta">
+<h2>Plus subscription is now worse than the free tier</h2>
+<div class="story-info">u/paying_customer - r/ChatGPT - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>Paying subscribers are reporting that the free tier now offers better performance and fewer restrictions than the $20/month Plus subscription.</p>
 <div class="quote-highlight">"Free users get GPT-4o, we get rate limits and excuses."</div>
-<p style="color: #aaa; font-size: 0.9rem;">Paying subscribers are reporting that the free tier now offers better performance and fewer restrictions than the $20/month Plus subscription.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">4,200 upvotes</span>
-<span class="stat-item">259 comments</span>
+<div class="stat-item upvotes">Up 4.2k</div>
+<div class="stat-item comments">259 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">HOT</span>
-<span class="category-tag">Laziness</span>
+<article class="story-card" data-category="laziness">
+<div class="featured-badge">HOT</div>
+<div class="category-tag">Laziness</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">GPT-5 is the laziest AI model ever released</h3>
-<div class="story-info">u/frustrated_dev | r/ChatGPT | December 24, 2025</div>
+<div class="story-meta">
+<h2>GPT-5 is the laziest AI model ever released</h2>
+<div class="story-info">u/frustrated_dev - r/ChatGPT - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>Users report GPT-5 consistently provides incomplete responses, refuses to generate full code samples, and frequently tells users to "continue on their own."</p>
 <div class="quote-highlight">"Ask for 10 examples, get 3 and 'you can figure out the rest.'"</div>
-<p style="color: #aaa; font-size: 0.9rem;">Users report GPT-5 consistently provides incomplete responses, refuses to generate full code samples, and frequently tells users to "continue on their own."</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">3,800 upvotes</span>
-<span class="stat-item">141 comments</span>
+<div class="stat-item upvotes">Up 3.8k</div>
+<div class="stat-item comments">141 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">VIRAL</span>
-<span class="category-tag">Competition</span>
+<article class="story-card" data-category="competition">
+<div class="featured-badge">VIRAL</div>
+<div class="category-tag">Competition</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">Claude is everything ChatGPT should have been</h3>
-<div class="story-info">u/switched_user | r/artificial | December 24, 2025</div>
+<div class="story-meta">
+<h2>Claude is everything ChatGPT should have been</h2>
+<div class="story-info">u/switched_user - r/artificial - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>Growing sentiment that Anthropic's Claude has surpassed ChatGPT in quality, with users citing better reasoning, longer responses, and fewer arbitrary content restrictions.</p>
 <div class="quote-highlight">"Longer responses, fewer refusals, actually helpful. OpenAI is cooked."</div>
-<p style="color: #aaa; font-size: 0.9rem;">Growing sentiment that Anthropic's Claude has surpassed ChatGPT in quality, with users citing better reasoning, longer responses, and fewer arbitrary content restrictions.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">3,400 upvotes</span>
-<span class="stat-item">267 comments</span>
+<div class="stat-item upvotes">Up 3.4k</div>
+<div class="stat-item comments">267 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">HOT</span>
-<span class="category-tag">Censorship</span>
+<article class="story-card" data-category="censorship">
+<div class="featured-badge">HOT</div>
+<div class="category-tag">Censorship</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">GPT-5 refused to explain how locks work</h3>
-<div class="story-info">u/actual_locksmith | r/ChatGPT | December 24, 2025</div>
+<div class="story-meta">
+<h2>GPT-5 refused to explain how locks work</h2>
+<div class="story-info">u/actual_locksmith - r/ChatGPT - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>Professional locksmith blocked from getting basic information about lock mechanisms that's freely available in textbooks and YouTube videos.</p>
 <div class="quote-highlight">"I'm a locksmith. This is literally my job. But no, too dangerous."</div>
-<p style="color: #aaa; font-size: 0.9rem;">Professional locksmith blocked from getting basic information about lock mechanisms that's freely available in textbooks and YouTube videos.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">3,400 upvotes</span>
-<span class="stat-item">89 comments</span>
+<div class="stat-item upvotes">Up 3.4k</div>
+<div class="stat-item comments">89 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">HOT</span>
-<span class="category-tag">Math Errors</span>
+<article class="story-card" data-category="math-errors">
+<div class="featured-badge">HOT</div>
+<div class="category-tag">Math Errors</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">ChatGPT thinks 9.11 is greater than 9.9</h3>
-<div class="story-info">u/math_teacher | r/OpenAI | December 24, 2025</div>
+<div class="story-meta">
+<h2>ChatGPT thinks 9.11 is greater than 9.9</h2>
+<div class="story-info">u/math_teacher - r/OpenAI - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>A well-known bug where ChatGPT incorrectly compares decimal numbers, treating them as strings rather than numeric values. Still unfixed after months of user reports.</p>
 <div class="quote-highlight">"String comparison vs numeric comparison - it's been broken for months."</div>
-<p style="color: #aaa; font-size: 0.9rem;">A well-known bug where ChatGPT incorrectly compares decimal numbers, treating them as strings rather than numeric values. Still unfixed after months of user reports.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">3,200 upvotes</span>
-<span class="stat-item">90 comments</span>
+<div class="stat-item upvotes">Up 3.2k</div>
+<div class="stat-item comments">90 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">DANGEROUS</span>
-<span class="category-tag">Coding</span>
+<article class="story-card" data-category="coding">
+<div class="featured-badge">DANGEROUS</div>
+<div class="category-tag">Coding</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">ChatGPT's SQL suggestions would drop my production database</h3>
-<div class="story-info">u/senior_dba | r/programming | December 24, 2025</div>
+<div class="story-meta">
+<h2>ChatGPT's SQL suggestions would drop my production database</h2>
+<div class="story-info">u/senior_dba - r/programming - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>Database administrator reports ChatGPT suggested destructive SQL commands when asked to help debug a simple query issue. Would have deleted production data if executed.</p>
 <div class="quote-highlight">"It casually suggested DROP TABLE in a SELECT query fix. Terrifying."</div>
-<p style="color: #aaa; font-size: 0.9rem;">Database administrator reports ChatGPT suggested destructive SQL commands when asked to help debug a simple query issue. Would have deleted production data if executed.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">3,100 upvotes</span>
-<span class="stat-item">303 comments</span>
+<div class="stat-item upvotes">Up 3.1k</div>
+<div class="stat-item comments">303 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="featured-badge">HOT</span>
-<span class="category-tag">Tone</span>
+<article class="story-card" data-category="tone">
+<div class="featured-badge">HOT</div>
+<div class="category-tag">Tone</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">GPT-5 has become unbearably preachy</h3>
-<div class="story-info">u/annoyed_user | r/ChatGPT | December 24, 2025</div>
+<div class="story-meta">
+<h2>GPT-5 has become unbearably preachy</h2>
+<div class="story-info">u/annoyed_user - r/ChatGPT - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>Users complain that GPT-5 adds unsolicited ethical disclaimers, safety warnings, and moral commentary to nearly every response, even for mundane questions.</p>
 <div class="quote-highlight">"Every response includes a lecture I didn't ask for."</div>
-<p style="color: #aaa; font-size: 0.9rem;">Users complain that GPT-5 adds unsolicited ethical disclaimers, safety warnings, and moral commentary to nearly every response, even for mundane questions.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">2,900 upvotes</span>
-<span class="stat-item">161 comments</span>
+<div class="stat-item upvotes">Up 2.9k</div>
+<div class="stat-item comments">161 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-<article class="story-card">
-<span class="category-tag">Memory</span>
+<article class="story-card" data-category="memory">
+<div class="category-tag">Memory</div>
 <div class="story-header">
 <div class="reddit-icon">r/</div>
-<div>
-<h3 class="story-title">Had to repeat my requirements 5 times in one conversation</h3>
-<div class="story-info">u/project_manager | r/ChatGPT | December 24, 2025</div>
+<div class="story-meta">
+<h2>Had to repeat my requirements 5 times in one conversation</h2>
+<div class="story-info">u/project_manager - r/ChatGPT - December 24, 2025</div>
 </div>
 </div>
 <div class="story-content">
+<p>Users report GPT-5's context window seems broken, with the model "forgetting" requirements stated just a few messages earlier in the same conversation.</p>
 <div class="quote-highlight">"Each response ignored something I explicitly stated earlier."</div>
-<p style="color: #aaa; font-size: 0.9rem;">Users report GPT-5's context window seems broken, with the model "forgetting" requirements stated just a few messages earlier in the same conversation.</p>
 </div>
 <div class="story-stats">
-<span class="stat-item upvotes">1,340 upvotes</span>
-<span class="stat-item">160 comments</span>
+<div class="stat-item upvotes">Up 1.3k</div>
+<div class="stat-item comments">160 comments</div>
+<div class="stat-item">December 24, 2025</div>
 </div>
 </article>
 
-        </div>
-    </section>
+</div>
 
     <div class="page-nav">
         <a href="stories.html" class="page-link">1</a>
