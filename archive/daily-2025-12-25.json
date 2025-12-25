@@ -1,7 +1,7 @@
 {
   "date": "2025-12-25",
   "date_seed": 915142487,
-  "generated_at": "2025-12-25T03:02:24.637873",
+  "generated_at": "2025-12-25T03:09:17.147842",
   "reddit_posts": [
     {
       "title": "ChatGPT's SQL suggestions would drop my production database",
@@ -130,14 +130,14 @@
     {
       "title": "Asterisk AI Voice Agent",
       "url": "https://github.com/hkjarral/Asterisk-AI-Voice-Agent",
-      "score": 46,
-      "comments": 18,
+      "score": 47,
+      "comments": 19,
       "source": "Hacker News"
     },
     {
       "title": "Show HN: Vibium \u2013 Browser automation for AI and humans, by Selenium's creator",
       "url": "https://github.com/VibiumDev/vibium",
-      "score": 235,
+      "score": 238,
       "comments": 77,
       "source": "Hacker News"
     },
@@ -145,20 +145,20 @@
       "title": "Nvidia buying AI chip startup Groq for about $20B in cash",
       "url": "https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html",
       "score": 388,
-      "comments": 236,
+      "comments": 238,
       "source": "Hacker News"
     },
     {
       "title": "A faster path to container images in Bazel",
       "url": "https://www.tweag.io/blog/2025-12-18-rules_img/",
-      "score": 66,
+      "score": 67,
       "comments": 34,
       "source": "Hacker News"
     },
     {
       "title": "Show HN: A local-first, reversible PII scrubber for AI workflows",
       "url": "https://medium.com/@tj.ruesch/a-local-first-reversible-pii-scrubber-for-ai-workflows-using-onnx-and-regex-e9850a7531fc",
-      "score": 22,
+      "score": 23,
       "comments": 4,
       "source": "Hacker News"
     }
