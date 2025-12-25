@@ -441,9 +441,10 @@ def main():
     print("\n[HTML] Generating update content...")
     update_html = generate_html(reddit_posts, news_articles, hn_stories)
 
-    # 5. Update index.html
-    print("\n[UPDATE] Updating index.html...")
-    update_index_html(update_html)
+    # 5. DISABLED - No longer adding to index.html (content goes to stories pages instead)
+    # print("\n[UPDATE] Updating index.html...")
+    # update_index_html(update_html)
+    print("\n[SKIP] Skipping index.html update (content added to stories pages only)")
 
     # 6. Save archive
     print("\n[ARCHIVE] Saving daily archive...")
