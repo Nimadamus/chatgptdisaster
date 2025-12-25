@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-25",
+  "date_seed": 915142487,
+  "generated_at": "2025-12-25T03:02:24.637873",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 379,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8556"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 68,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1794"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 307,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7828"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1521"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 146,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8721"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_7017"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 84,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_1779"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 85,
+      "url": "https://reddit.com/r/law",
+      "author": "user_6812"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6035"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 95,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8683"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Asterisk AI Voice Agent",
+      "url": "https://github.com/hkjarral/Asterisk-AI-Voice-Agent",
+      "score": 46,
+      "comments": 18,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Vibium \u2013 Browser automation for AI and humans, by Selenium's creator",
+      "url": "https://github.com/VibiumDev/vibium",
+      "score": 235,
+      "comments": 77,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Nvidia buying AI chip startup Groq for about $20B in cash",
+      "url": "https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html",
+      "score": 388,
+      "comments": 236,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A faster path to container images in Bazel",
+      "url": "https://www.tweag.io/blog/2025-12-18-rules_img/",
+      "score": 66,
+      "comments": 34,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: A local-first, reversible PII scrubber for AI workflows",
+      "url": "https://medium.com/@tj.ruesch/a-local-first-reversible-pii-scrubber-for-ai-workflows-using-onnx-and-regex-e9850a7531fc",
+      "score": 22,
+      "comments": 4,
+      "source": "Hacker News"
+    }
+  ]
+}
