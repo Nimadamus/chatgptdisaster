@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-27",
+  "date_seed": 1310600199,
+  "generated_at": "2025-12-27T18:35:42.252115",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 235,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4900"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 181,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8150"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 158,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3188"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 126,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5663"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 268,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7744"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 164,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_3515"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 130,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6291"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 152,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9094"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1552"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 172,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_1099"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Gpg.fail",
+      "url": "https://gpg.fail",
+      "score": 50,
+      "comments": 26,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Ez FFmpeg \u2013 Video editing in plain English",
+      "url": "http://npmjs.com/package/ezff",
+      "score": 274,
+      "comments": 127,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Mysti \u2013 Claude, Codex, and Gemini debate your code, then synthesize",
+      "url": "https://github.com/DeepMyst/Mysti",
+      "score": 107,
+      "comments": 93,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Nvidia just paid $20B for a company that missed its revenue target by 75%",
+      "url": "https://blog.drjoshcsimmons.com/p/nvidia-just-paid-20-billion-for-a",
+      "score": 148,
+      "comments": 102,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Witr \u2013 Explain why a process is running on your Linux system",
+      "url": "https://github.com/pranshuparmar/witr",
+      "score": 440,
+      "comments": 86,
+      "source": "Hacker News"
+    }
+  ]
+}
