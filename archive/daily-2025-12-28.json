@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-28",
+  "date_seed": 498261053,
+  "generated_at": "2025-12-28T18:36:25.229756",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 312,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4222"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 239,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_7511"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 195,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8279"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 280,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1796"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 114,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2797"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 389,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7478"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7667"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 168,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6847"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 155,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_8484"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 193,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3145"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Designing Predictable LLM-Verifier Systems for Formal Method Guarantee",
+      "url": "https://arxiv.org/abs/2512.02080",
+      "score": 19,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How we lost communication to entertainment",
+      "url": "https://ploum.net/2025-12-15-communication-entertainment.html",
+      "score": 591,
+      "comments": 334,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Gpg.fail",
+      "url": "https://gpg.fail",
+      "score": 413,
+      "comments": 249,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Rainbow Six Siege hacked as players get billions of credits and random bans",
+      "url": "https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/",
+      "score": 257,
+      "comments": 110,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Ez FFmpeg \u2013 Video editing in plain English",
+      "url": "http://npmjs.com/package/ezff",
+      "score": 390,
+      "comments": 190,
+      "source": "Hacker News"
+    }
+  ]
+}
