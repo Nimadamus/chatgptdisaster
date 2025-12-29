@@ -1,7 +1,7 @@
 {
   "date": "2025-12-29",
   "date_seed": 2490312865,
-  "generated_at": "2025-12-29T02:26:13.662258",
+  "generated_at": "2025-12-29T18:37:54.610511",
   "reddit_posts": [
     {
       "title": "Plus subscription is now worse than the free tier",
@@ -128,38 +128,38 @@
   ],
   "hn_stories": [
     {
-      "title": "Stepping down as Mockito maintainer after 10 years",
-      "url": "https://github.com/mockito/mockito/issues/3777",
-      "score": 212,
-      "comments": 108,
+      "title": "Tesla's 4680 battery supply chain collapses as partner writes down deal by 99%",
+      "url": "https://electrek.co/2025/12/29/tesla-4680-battery-supply-chain-collapses-partner-writes-down-dea/",
+      "score": 122,
+      "comments": 72,
       "source": "Hacker News"
     },
     {
-      "title": "MongoBleed Explained Simply",
-      "url": "https://bigdata.2minutestreaming.com/p/mongobleed-explained-simply",
-      "score": 102,
-      "comments": 27,
+      "title": "Show HN: Z80-\u03bcLM, a 'Conversational AI' That Fits in 40KB",
+      "url": "https://github.com/HarryR/z80ai",
+      "score": 397,
+      "comments": 90,
       "source": "Hacker News"
     },
     {
-      "title": "Researchers Discover Molecular Difference in Autistic Brains",
-      "url": "https://medicine.yale.edu/news-article/molecular-difference-in-autistic-brains/",
-      "score": 53,
-      "comments": 35,
+      "title": "Show HN: Vibe coding a bookshelf with Claude Code",
+      "url": "https://balajmarius.com/writings/vibe-coding-a-bookshelf-with-claude-code/",
+      "score": 207,
+      "comments": 160,
       "source": "Hacker News"
     },
     {
-      "title": "Why I Disappeared \u2013 My week with minimal internet in a remote island chain",
-      "url": "https://www.kenklippenstein.com/p/why-i-disappeared",
-      "score": 41,
-      "comments": 17,
+      "title": "As AI gobbles up chips, prices for devices may rise",
+      "url": "https://www.npr.org/2025/12/28/nx-s1-5656190/ai-chips-memory-prices-ram",
+      "score": 281,
+      "comments": 427,
       "source": "Hacker News"
     },
     {
-      "title": "How to Complain",
-      "url": "https://outerproduct.net/trivial/2024-03-25_complain.html",
-      "score": 22,
-      "comments": 2,
+      "title": "Show HN: My not-for-profit search engine with no ads, no AI, & all DDG bangs",
+      "url": "https://nilch.org",
+      "score": 161,
+      "comments": 64,
       "source": "Hacker News"
     }
   ]
