@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-29",
+  "date_seed": 2490312865,
+  "generated_at": "2025-12-29T02:26:13.662258",
+  "reddit_posts": [
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 313,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5831"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 62,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_6933"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 89,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7800"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1466"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 94,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4046"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 336,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5415"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 303,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1241"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 304,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5481"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 213,
+      "url": "https://reddit.com/r/law",
+      "author": "user_3667"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 243,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7135"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Stepping down as Mockito maintainer after 10 years",
+      "url": "https://github.com/mockito/mockito/issues/3777",
+      "score": 212,
+      "comments": 108,
+      "source": "Hacker News"
+    },
+    {
+      "title": "MongoBleed Explained Simply",
+      "url": "https://bigdata.2minutestreaming.com/p/mongobleed-explained-simply",
+      "score": 102,
+      "comments": 27,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Researchers Discover Molecular Difference in Autistic Brains",
+      "url": "https://medicine.yale.edu/news-article/molecular-difference-in-autistic-brains/",
+      "score": 53,
+      "comments": 35,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Why I Disappeared \u2013 My week with minimal internet in a remote island chain",
+      "url": "https://www.kenklippenstein.com/p/why-i-disappeared",
+      "score": 41,
+      "comments": 17,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How to Complain",
+      "url": "https://outerproduct.net/trivial/2024-03-25_complain.html",
+      "score": 22,
+      "comments": 2,
+      "source": "Hacker News"
+    }
+  ]
+}
