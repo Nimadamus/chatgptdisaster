@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-30",
+  "date_seed": 2639566392,
+  "generated_at": "2025-12-30T18:40:10.469610",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4239"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 71,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3687"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 108,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9640"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 380,
+      "url": "https://reddit.com/r/law",
+      "author": "user_9335"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 141,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1373"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 212,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3339"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 59,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2163"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5476"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 199,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9127"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 234,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6794"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Tesla's 4680 battery supply chain collapses as partner writes down deal by 99%",
+      "url": "https://electrek.co/2025/12/29/tesla-4680-battery-supply-chain-collapses-partner-writes-down-dea/",
+      "score": 600,
+      "comments": 664,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: A Claude Code plugin that catch destructive Git and filesystem commands",
+      "url": "https://github.com/kenryu42/claude-code-safety-net",
+      "score": 44,
+      "comments": 45,
+      "source": "Hacker News"
+    },
+    {
+      "title": "ManusAI Joins Meta",
+      "url": "https://manus.im/blog/manus-joins-meta-for-next-era-of-innovation",
+      "score": 293,
+      "comments": 191,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI is forcing us to write good code",
+      "url": "https://bits.logic.inc/p/ai-is-forcing-us-to-write-good-code",
+      "score": 273,
+      "comments": 201,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The 70% AI productivity myth: why most companies aren't seeing the gains",
+      "url": "https://sderosiaux.substack.com/p/the-70-ai-productivity-myth-why-most",
+      "score": 41,
+      "comments": 94,
+      "source": "Hacker News"
+    }
+  ]
+}
