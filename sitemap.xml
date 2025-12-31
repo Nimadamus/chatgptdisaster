@@ -78,6 +78,14 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Year-End Report -->
+  <url>
+    <loc>https://chatgptdisaster.com/year-end-2025-meltdown.html</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Analysis Pages -->
   <url>
     <loc>https://chatgptdisaster.com/promises-vs-reality.html</loc>
