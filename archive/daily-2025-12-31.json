@@ -1,0 +1,166 @@
+{
+  "date": "2025-12-31",
+  "date_seed": 3647919527,
+  "generated_at": "2025-12-31T18:37:10.572092",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 191,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1131"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 242,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8770"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 181,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4355"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 351,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2220"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 332,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6664"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 305,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_3302"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 262,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3560"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 238,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5725"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 52,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3490"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4561"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.",
+      "url": "https://exopriors.com/scry",
+      "score": 219,
+      "comments": 62,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Animated AI",
+      "url": "https://animatedai.github.io/",
+      "score": 274,
+      "comments": 23,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Court report detailing ChatGPT's involvement with a recent murder suicide [pdf]",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.461878/gov.uscourts.cand.461878.1.0.pdf",
+      "score": 10,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenAI's cash burn will be one of the big bubble questions of 2026",
+      "url": "https://www.economist.com/leaders/2025/12/30/openais-cash-burn-will-be-one-of-the-big-bubble-questions-of-2026",
+      "score": 462,
+      "comments": 666,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Escaping containment: A security analysis of FreeBSD jails [video]",
+      "url": "https://media.ccc.de/v/39c3-escaping-containment-a-security-analysis-of-freebsd-jails",
+      "score": 119,
+      "comments": 9,
+      "source": "Hacker News"
+    }
+  ]
+}
