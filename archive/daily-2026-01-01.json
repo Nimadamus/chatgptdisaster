@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-01",
+  "date_seed": 3600267600,
+  "generated_at": "2026-01-01T18:38:21.860692",
+  "reddit_posts": [
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 317,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3174"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 223,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1161"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 180,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6577"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 343,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4013"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7697"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 232,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_7733"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 235,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7556"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 52,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4011"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 335,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3192"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 103,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6517"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Sony PS5 ROM keys leaked \u2013 jailbreaking could be made easier with BootROM codes",
+      "url": "https://www.tomshardware.com/video-games/playstation/playstation-5-rom-keys-leaked-jailbreaking-could-be-made-easier-with-bootrom-codes",
+      "score": 130,
+      "comments": 25,
+      "source": "Hacker News"
+    },
+    {
+      "title": "2025: The Year in LLMs",
+      "url": "https://simonwillison.net/2025/Dec/31/the-year-in-llms/",
+      "score": 778,
+      "comments": 406,
+      "source": "Hacker News"
+    },
+    {
+      "title": "European Space Agency hit again as cybercriminals claim 200 GB data up for sale",
+      "url": "https://www.theregister.com/2025/12/31/european_space_agency_hacked/",
+      "score": 29,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Resistance training load does not determine hypertrophy",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP289684",
+      "score": 216,
+      "comments": 293,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.",
+      "url": "https://exopriors.com/scry",
+      "score": 360,
+      "comments": 126,
+      "source": "Hacker News"
+    }
+  ]
+}
