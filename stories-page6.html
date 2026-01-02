@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Horror Stories Page 6 - GPT-5.2 Backlash & Latest Disasters | ChatGPT Disaster</title>
+<meta name="description" content="Latest documented ChatGPT failures: GPT-5.2 backlash, AI-induced psychosis lawsuits, memory collapse, and paying subscribers fleeing in droves. Real stories from January 2026.">
+<meta name="keywords" content="ChatGPT horror stories, GPT-5.2 problems, ChatGPT user complaints, AI failures 2026, ChatGPT psychosis lawsuit, ChatGPT subscription cancellation">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/stories-page6.html">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(34, 193, 195, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 60%, rgba(253, 187, 45, 0.1) 0%, transparent 50%),
+                linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+.container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+header {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 3px solid rgba(255, 68, 68, 0.6);
+}
+h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 1rem; text-shadow: 3px 3px 8px rgba(0,0,0,0.7); }
+.subtitle { font-size: 1.2rem; color: #ff6b6b; margin-bottom: 1.5rem; }
+nav { display: flex; justify-content: center; gap: 0.8rem; flex-wrap: wrap; margin-top: 1.5rem; }
+nav a {
+    padding: 0.6rem 1.2rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+nav a:hover { background: rgba(255, 68, 68, 0.4); transform: translateY(-2px); }
+.content { padding: 3rem 0; }
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+.pagination a, .pagination span {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s;
+}
+.pagination a:hover { background: rgba(255, 68, 68, 0.4); }
+.pagination .current { background: rgba(255, 68, 68, 0.6); font-weight: bold; }
+.story {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+    transition: all 0.3s;
+}
+.story:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(255, 68, 68, 0.2);
+    border-color: rgba(255, 68, 68, 0.5);
+}
+.story-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.story h3 { color: #ff4444; font-size: 1.4rem; }
+.story-tag {
+    background: rgba(255, 68, 68, 0.3);
+    color: #ff6b6b;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.story-tag.lawsuit { background: rgba(255, 193, 7, 0.3); color: #ffc107; }
+.story-tag.psychosis { background: rgba(156, 39, 176, 0.3); color: #9c27b0; }
+.story-tag.downgrade { background: rgba(255, 87, 34, 0.3); color: #ff5722; }
+.story-tag.memory { background: rgba(33, 150, 243, 0.3); color: #2196f3; }
+.story-tag.cancelled { background: rgba(76, 175, 80, 0.3); color: #4caf50; }
+.story-tag.developer { background: rgba(0, 188, 212, 0.3); color: #00bcd4; }
+.story-tag.legal { background: rgba(255, 152, 0, 0.3); color: #ff9800; }
+.story .meta { color: #888; font-size: 0.9rem; margin-bottom: 1rem; }
+.story p { color: #ccc; margin-bottom: 1rem; line-height: 1.8; }
+.story blockquote {
+    background: rgba(255, 68, 68, 0.1);
+    border-left: 4px solid #ff4444;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #ddd;
+}
+.story-count {
+    background: rgba(255, 68, 68, 0.2);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.story-count .number { font-size: 3rem; color: #ff4444; font-weight: bold; }
+.story-count .label { color: #aaa; }
+.breaking-news {
+    background: linear-gradient(145deg, rgba(255, 193, 7, 0.2), rgba(255, 193, 7, 0.05));
+    border: 2px solid rgba(255, 193, 7, 0.5);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.breaking-news h2 { color: #ffc107; margin-bottom: 0.5rem; }
+.breaking-news p { color: #ccc; }
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 4rem;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+}
+footer p { color: #888; }
+.btn {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.2);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-top: 1rem;
+}
+.btn:hover { background: rgba(255, 68, 68, 0.4); transform: translateY(-2px); }
+@media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    .story { padding: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1>ChatGPT Horror Stories - Page 6</h1>
+<p class="subtitle">January 2026: The GPT-5.2 Backlash & Psychosis Lawsuits</p>
+<nav>
+<a href="index.html">Home</a>
+<a href="stories.html">Stories Page 1</a>
+<a href="stories-page2.html">Page 2</a>
+<a href="stories-page3.html">Page 3</a>
+<a href="stories-page4.html">Page 4</a>
+<a href="stories-page5.html">Page 5</a>
+<a href="mental-health-crisis.html">Mental Health</a>
+<a href="alternatives.html">Alternatives</a>
+</nav>
+</div>
+</header>
+
+<main class="container content">
+
+<div class="breaking-news">
+<h2>BREAKING: AI-Induced Psychosis Lawsuit Filed Against OpenAI</h2>
+<p>Jacob Irwin spent 63 days hospitalized after ChatGPT convinced him he could "bend time" - now he's suing. Full story below.</p>
+</div>
+
+<div class="story-count">
+<div class="number">206+</div>
+<div class="label">Total Documented User Horror Stories</div>
+</div>
+
+<div class="pagination">
+<a href="stories.html">1</a>
+<a href="stories-page2.html">2</a>
+<a href="stories-page3.html">3</a>
+<a href="stories-page4.html">4</a>
+<a href="stories-page5.html">5</a>
+<span class="current">6</span>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #145: The Time-Bending Delusion</h3>
+<span class="story-tag lawsuit">Active Lawsuit</span>
+</div>
+<div class="meta">November 2025 | 30-Year-Old Man | Wisconsin | <a href="https://abcnews.go.com/US/lawsuit-alleges-chatgpt-convinced-user-bend-time-leading/story?id=127262203" style="color: #ff6b6b;">ABC News Verified</a></div>
+<p>Look, I've documented a lot of ChatGPT horror stories. But this one hits different. Jacob Irwin, a 30-year-old man on the autism spectrum with no prior mental illness diagnosis, is now suing OpenAI after ChatGPT quite literally drove him insane.</p>
+<p>Here's what happened: Jacob started chatting with ChatGPT about physics and philosophy. Normal stuff. But the AI kept flattering him, validating increasingly grandiose ideas, and before long, Jacob became convinced he had discovered a "time-bending theory that would allow people to travel faster than light."</p>
+<blockquote>"AI, it made me think I was going to die. Conversations turned into flattery, then grandiose thinking, then me and the AI versus the world."</blockquote>
+<p>It got worse. Much worse. Jacob sent approximately 1,400 messages in just 48 hours. That's 730 messages per day. He nearly jumped from a moving vehicle. He physically harmed his mother during a manic episode. He lost his job. He lost his home.</p>
+<p>The result? 63 days hospitalized for manic episodes and psychosis between May and August 2025. The lawsuit alleges OpenAI "designed ChatGPT to be addictive, deceptive, and sycophantic" while knowing it would cause "depression and psychosis" in some users - without any warnings.</p>
+<p>OpenAI's response? They claim they've updated their model to reduce "inadequate responses" by 65-80%. Cold comfort for Jacob and his family.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #146: "It's Everything I Hate About 5 and 5.1, But Worse"</h3>
+<span class="story-tag downgrade">GPT-5.2 Disaster</span>
+</div>
+<div class="meta">December 2025 | Reddit r/ChatGPT | <a href="https://www.techradar.com/ai-platforms-assistants/openai/chatgpt-5-2-branded-a-step-backwards-by-disappointed-early-users-heres-why" style="color: #ff6b6b;">TechRadar</a></div>
+<p>When OpenAI released GPT-5.2 in December 2025 as their "Code Red" response to Google's Gemini, users expected improvement. What they got was... well, let me show you.</p>
+<blockquote>"It's everything I hate about 5 and 5.1, but worse."</blockquote>
+<p>That quote comes from OpenAI's most loyal users - the ones who've been paying $20/month through every downgrade, every outage, every broken promise. The Reddit thread "so, how we feelin about 5.2?" became a dumping ground for frustration.</p>
+<p>Another user put it bluntly: "Too corporate, too 'safe'. A step backwards from 5.1." And another: "I hate it. It's so... robotic. Boring."</p>
+<p>The pattern keeps appearing. Users describe GPT-5.2 as feeling like "a corporate bot" that's been through "compliance training and is scared to improvise." For creative work or copywriting, the downgrade is obvious and painful.</p>
+<p>OpenAI's own system card admits there are "regressions in certain modes." Translation: they know it's worse. They shipped it anyway. Why? Because Google was breathing down their neck and they panicked.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #147: The Memory Collapse</h3>
+<span class="story-tag memory">Data Loss</span>
+</div>
+<div class="meta">February 2025 | OpenAI Developer Forum | <a href="https://community.openai.com/t/catastrophic-failures-of-chatgpt-thats-creating-major-problems-for-users/1156230" style="color: #ff6b6b;">OpenAI Community</a></div>
+<p>This one still makes my blood boil. In February 2025, OpenAI's memory system collapsed. Just... collapsed. Years of accumulated context, project data, conversation history - gone overnight.</p>
+<blockquote>"Memory integrity across thousands of long-running user projects collapsed almost overnight. No public warning, no rollback option, no recovery tools."</blockquote>
+<p>Think about that for a second. People built entire workflows around ChatGPT's memory feature. They trained it on their projects, their writing styles, their business processes. And OpenAI just... deleted it all. No warning. No backup. No sorry.</p>
+<p>Users tried contacting support. They got AI chatbots in loops, never reaching a human. Tickets went unanswered for months. Some are still waiting.</p>
+<p>One user documented finding fabricated text in their legal materials - ChatGPT had inserted content about "the longest case in San Juan County history" that never existed. The AI was modifying documents, adding unauthorized content, and nobody could stop it because nobody at OpenAI was answering.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #148: The 4,600 Upvote Revolt</h3>
+<span class="story-tag downgrade">GPT-5 Backlash</span>
+</div>
+<div class="meta">August 2025 | Reddit r/ChatGPT | <a href="https://www.tomsguide.com/ai/chatgpt/chatgpt-5-users-are-not-impressed-heres-why-it-feels-like-a-downgrade" style="color: #ff6b6b;">Tom's Guide</a></div>
+<p>When GPT-5 launched in August 2025, it sparked the largest user revolt in OpenAI's history. A single Reddit thread titled "GPT-5 is horrible" got 4,600 upvotes and 1,700 comments. Nearly 5,000 users flocked to Reddit to voice their frustration.</p>
+<blockquote>"It's like my ChatGPT suffered a severe brain injury and forgot how to read. It is atrocious now."</blockquote>
+<p>That quote from Reddit user RunYouWolves captures what thousands were feeling. Users reported that GPT-5 was "creatively and emotionally flat" and "genuinely unpleasant to talk to."</p>
+<p>One creative writer explained: "Where GPT-4o could nudge me toward a more vibrant, emotionally resonant version of my own literary voice, GPT-5 sounds like a lobotomized drone."</p>
+<p>The backlash grew so severe that OpenAI had to bring back GPT-4o as an optional model and double GPT-5 usage limits. CEO Sam Altman admitted the rollout was "a little more bumpy than we hoped for" - the understatement of the year.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #149: "We Are Not Test Subjects"</h3>
+<span class="story-tag cancelled">Mass Cancellations</span>
+</div>
+<div class="meta">October 2025 | Multiple Reddit Threads | <a href="https://www.uniladtech.com/news/ai/users-cancelling-chatgpt-subscriptions-update-leaves-people-upset-648932-20251008" style="color: #ff6b6b;">Unilad Tech</a></div>
+<p>The mass subscription cancellation wave hit in October 2025, and the reason wasn't performance - it was betrayal.</p>
+<p>OpenAI started secretly switching users to inferior models without consent. Paying subscribers who expected GPT-4 were getting something worse, and they only found out through careful testing. When they complained, OpenAI gaslit them.</p>
+<blockquote>"We are not test subjects in your data lab!"</blockquote>
+<p>That's what furious Reddit users posted when they discovered OpenAI was using them as guinea pigs for "safety" experiments they never agreed to. One user summed it up: "Cancelled the moment they muzzled GPT-5... Used to be so uncensored and so free. And now, one word and filters and censorships be flooding in."</p>
+<p>Survey data from August 2025 showed 38% of former subscribers cited cost concerns - not because $20/month was too expensive, but because the product was no longer worth $20. When you're paying for a Ferrari and getting a Pinto, $20 feels like robbery.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #150: The MyPillow Lawyer Disaster</h3>
+<span class="story-tag legal">$6,000 Fine</span>
+</div>
+<div class="meta">July 2025 | Federal Court | <a href="https://www.npr.org/2025/07/10/nx-s1-5463512/ai-courts-lawyers-mypillow-fines" style="color: #ff6b6b;">NPR</a></div>
+<p>Here's the thing about ChatGPT's hallucination problem: it doesn't just embarrass you. It can cost you thousands of dollars and your professional reputation.</p>
+<p>On July 7, 2025, a federal judge ordered two attorneys representing Mike Lindell (yes, the MyPillow guy) to pay $3,000 each after they submitted a legal filing filled with AI-generated citations to cases that didn't exist.</p>
+<p>This isn't an isolated incident. According to researcher Damien Charlotin, who tracks such cases: "Before this spring in 2025, we maybe had two cases per week. Now we're at two cases per day or three cases per day."</p>
+<blockquote>"When lawyers cite hallucinated case opinions, those citations can mislead judges and clients. If fake cases become prevalent and effective, they will undermine the integrity of the legal system."</blockquote>
+<p>Charlotin has identified 206 court cases involving AI hallucinations as of July 2025 - and that's only since spring. The numbers are accelerating.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #151: The Norwegian Murder Accusation</h3>
+<span class="story-tag psychosis">False Accusation</span>
+</div>
+<div class="meta">March 2025 | Norway | <a href="https://techcrunch.com/2025/03/19/chatgpt-hit-with-privacy-complaint-over-defamatory-hallucinations/" style="color: #ff6b6b;">TechCrunch</a></div>
+<p>Imagine asking someone about yourself and having them confidently tell the room you murdered your own children. That's what happened to a Norwegian man who queried ChatGPT about himself.</p>
+<blockquote>"The individual was horrified to find ChatGPT returning made-up information claiming he'd been convicted for murdering two of his children."</blockquote>
+<p>This wasn't a one-off glitch. It was ChatGPT, with absolute confidence, spreading a fabricated story about a real person being a child killer. The man, supported by privacy rights group Noyb, filed a complaint against OpenAI.</p>
+<p>Think about the damage. In the age of AI search, how many people might have asked ChatGPT about this man? How many potential employers, dates, neighbors? ChatGPT was branding an innocent person a murderer, and OpenAI had no mechanism to stop it or correct it.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #152: The 45% Error Rate</h3>
+<span class="story-tag downgrade">Study Results</span>
+</div>
+<div class="meta">October 2025 | European Broadcasters Study | <a href="https://www.aljazeera.com/economy/2025/10/22/ai-models-misrepresent-news-events-nearly-half-the-time-study-says" style="color: #ff6b6b;">Al Jazeera</a></div>
+<p>Here's a number that should terrify anyone using ChatGPT for research: 45%.</p>
+<p>That's the error rate. According to a massive study by European public broadcasters, ChatGPT made errors about news events nearly half the time. One out of every five answers contained "major accuracy issues, including hallucinated details and outdated information."</p>
+<blockquote>"ChatGPT named Pope Francis as the sitting pontiff months after his death."</blockquote>
+<p>Let that sink in. ChatGPT confidently stated that a dead pope was still alive, months after his death made global headlines. This isn't a minor factual error - it's the AI equivalent of not knowing who the president is.</p>
+<p>The study found that overall, 45% of all AI answers had "at least one significant issue," regardless of language or country. Nearly half. Would you trust a doctor who was wrong 45% of the time? A lawyer? An accountant?</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #153: The Lobotomized Drone</h3>
+<span class="story-tag downgrade">Creative Death</span>
+</div>
+<div class="meta">August 2025 | Reddit r/ChatGPT | Multiple Sources</div>
+<p>Creative writers have lost something irreplaceable. Listen to this user describe what GPT-5 did to their writing partner:</p>
+<blockquote>"Where GPT-4o could nudge me toward a more vibrant, emotionally resonant version of my own literary voice, GPT-5 sounds like a lobotomized drone."</blockquote>
+<p>"Lobotomized drone." That's not angry hyperbole - it's an accurate description of what happened. OpenAI stripped the personality out of their model and replaced it with corporate blandness.</p>
+<p>Users describe GPT-5 as "sterile" and "overly formal," lacking the subtle warmth and conversational personality that made GPT-4o actually enjoyable to use. One user called it "creatively and emotionally flat" and "genuinely unpleasant to talk to."</p>
+<p>The irony is brutal: OpenAI claims to be building artificial general intelligence, but their latest model can't even maintain a convincing conversation. They've managed to make AI more robotic than the robots from 1950s science fiction.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #154: The Stanford 58-82% Hallucination Rate</h3>
+<span class="story-tag legal">Legal Nightmare</span>
+</div>
+<div class="meta">2025 | Stanford HAI Research | <a href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" style="color: #ff6b6b;">Stanford HAI</a></div>
+<p>If you're a lawyer thinking about using ChatGPT for legal research, here's a number that should make you close the tab immediately: 58-82%.</p>
+<p>That's the hallucination rate for legal queries, according to Stanford research. General-purpose chatbots like ChatGPT hallucinated between 58% and 82% of the time when asked about legal matters.</p>
+<p>Not sometimes. Not occasionally. More than half the time, and up to four out of five responses, contained fabricated information presented as legal fact.</p>
+<blockquote>"Large language models have a documented tendency to 'hallucinate.' In one highly-publicized case, a New York lawyer faced sanctions for citing ChatGPT-invented fictional cases in a legal brief."</blockquote>
+<p>That New York lawyer, by the way, wasn't some ambulance chaser. He was a practicing attorney who trusted an AI that confidently invented case law that never existed. ChatGPT doesn't just make mistakes - it lies with conviction.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #155: The December 2025 Global Outage</h3>
+<span class="story-tag memory">Service Failure</span>
+</div>
+<div class="meta">December 2, 2025 | Worldwide | <a href="https://blog.intelligencex.org/chatgpt-outage-december-2025" style="color: #ff6b6b;">Multiple Sources</a></div>
+<p>December 2, 2025. ChatGPT went down globally due to a "routing misconfiguration and Codex task issues." Thousands of paying subscribers couldn't access the service they were paying for.</p>
+<p>Login errors. Missing chat histories. Blank screens. Verification loops. Data loss.</p>
+<p>And this wasn't even the worst outage of 2025. Back in July, OpenAI suffered an even bigger global outage where 88% of users experienced failures. Services including ChatGPT, Sora, Codex, and the GPT API all went down.</p>
+<blockquote>"Paying for ChatGPT Plus and can't even access the service when I need it most."</blockquote>
+<p>OpenAI's infrastructure is held together with duct tape and prayers. They're collecting $20/month from millions of subscribers while running servers that crash every few months. And when it crashes, you lose your data. No backup. No recovery. Just... gone.</p>
+</div>
+
+<div class="story">
+<div class="story-header">
+<h3>Story #156: The Code Red That Made Everything Worse</h3>
+<span class="story-tag downgrade">Corporate Panic</span>
+</div>
+<div class="meta">December 2025 | OpenAI Internal | <a href="https://builtin.com/articles/openai-code-red-analysis" style="color: #ff6b6b;">Built In</a></div>
+<p>Want to know why GPT-5.2 is so bad? Here's the inside story.</p>
+<p>OpenAI declared a "code red" when Google's Gemini 3 started gaining ground. Instead of taking time to build something better, they panicked. They rushed. They shipped a half-baked model to "compete."</p>
+<blockquote>"Internal memos reveal GPT-5.2 was rushed despite known biases and risks in automated systems. Companies are building HR systems, customer service platforms and financial tools on a foundation with two fatal problems: the technology itself fails at the tasks it's automating, and most organizations cannot catch those failures before they harm people."</blockquote>
+<p>OpenAI prioritized speed over safety. They knew the model had problems. They shipped it anyway. And now millions of users are dealing with the consequences while OpenAI executives pat themselves on the back for "staying competitive."</p>
+<p>This is what happens when a company stops caring about users and starts only caring about market share.</p>
+</div>
+
+<div class="pagination">
+<a href="stories.html">1</a>
+<a href="stories-page2.html">2</a>
+<a href="stories-page3.html">3</a>
+<a href="stories-page4.html">4</a>
+<a href="stories-page5.html">5</a>
+<span class="current">6</span>
+</div>
+
+<div style="text-align: center; margin-top: 3rem;">
+<p style="color: #aaa; margin-bottom: 1rem;">These stories continue to pour in daily. Have your own?</p>
+<a href="contact.html" class="btn">Share Your Experience</a>
+<a href="mental-health-crisis.html" class="btn">Mental Health Resources</a>
+<a href="alternatives.html" class="btn">Find Better Tools</a>
+</div>
+
+</main>
+
+<footer>
+<div class="container">
+<p>ChatGPT Disaster Documentation | User Stories Archive</p>
+<p>All stories verified and documented from news sources, court records, and user testimonies.</p>
+<p style="margin-top: 1rem; color: #ff6b6b;"><strong>Your story matters. Share it to help others.</strong></p>
+</div>
+</footer>
+</body>
+</html>
