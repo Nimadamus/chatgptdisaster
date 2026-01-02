@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-02",
+  "date_seed": 3471624086,
+  "generated_at": "2026-01-02T18:37:16.226267",
+  "reddit_posts": [
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 99,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1536"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8984"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 386,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3939"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 326,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8705"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 393,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_5679"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 65,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8311"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 320,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7974"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 199,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6490"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 269,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1830"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 63,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3443"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "10 years of personal finances in plain text files",
+      "url": "https://sgoel.dev/posts/10-years-of-personal-finances-in-plain-text-files/",
+      "score": 310,
+      "comments": 123,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Standard Ebooks: Public Domain Day 2026 in Literature",
+      "url": "https://standardebooks.org/blog/public-domain-day-2026",
+      "score": 269,
+      "comments": 43,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Happy Public Domain Day 2026",
+      "url": "https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/",
+      "score": 390,
+      "comments": 77,
+      "source": "Hacker News"
+    },
+    {
+      "title": "FreeBSD: Home NAS, part 1 \u2013 configuring ZFS mirror (RAID1)",
+      "url": "https://rtfm.co.ua/en/freebsd-home-nas-part-1-configuring-zfs-mirror-raid1/",
+      "score": 112,
+      "comments": 33,
+      "source": "Hacker News"
+    },
+    {
+      "title": "One Number I Trust: Plain-Text Accounting for a Multi-Currency Household",
+      "url": "https://lalitm.com/post/one-number-i-trust/",
+      "score": 94,
+      "comments": 62,
+      "source": "Hacker News"
+    }
+  ]
+}
