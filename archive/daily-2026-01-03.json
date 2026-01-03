@@ -1,0 +1,152 @@
+{
+  "date": "2026-01-03",
+  "date_seed": 344694422,
+  "generated_at": "2026-01-03T18:36:10.062484",
+  "reddit_posts": [
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 276,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9703"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 358,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3186"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 198,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1153"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 192,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5467"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 265,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9662"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 92,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_5564"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 217,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5151"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 341,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7866"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 165,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4948"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 219,
+      "url": "https://reddit.com/r/law",
+      "author": "user_4576"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf]",
+      "url": "https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf",
+      "score": 138,
+      "comments": 39,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Chain Flinger",
+      "url": "https://nealstephenson.substack.com/p/kdk-kinetik-der-kontinua-part-1-introduction",
+      "score": 59,
+      "comments": 8,
+      "source": "Hacker News"
+    },
+    {
+      "title": "10 years of personal finances in plain text files",
+      "url": "https://sgoel.dev/posts/10-years-of-personal-finances-in-plain-text-files/",
+      "score": 478,
+      "comments": 174,
+      "source": "Hacker News"
+    }
+  ]
+}
