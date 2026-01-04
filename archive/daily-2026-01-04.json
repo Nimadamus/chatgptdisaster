@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-04",
+  "date_seed": 3228881639,
+  "generated_at": "2026-01-04T18:36:24.204241",
+  "reddit_posts": [
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 287,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2166"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2414"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 308,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1000"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 111,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1151"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 315,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_3844"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 151,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5070"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 349,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4565"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 106,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9162"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 294,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4659"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 109,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5680"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Web development is fun again",
+      "url": "https://ma.ttias.be/web-development-is-fun-again/",
+      "score": 86,
+      "comments": 99,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Trellis AI (YC W24) is hiring engineers to build AI agents for healthcare access",
+      "url": "https://www.ycombinator.com/companies/trellis-ai/jobs/ngvfeaq-member-of-technical-staff-full-time",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Maybe comments should explain 'what' (2017)",
+      "url": "https://www.hillelwayne.com/post/what-comments/",
+      "score": 144,
+      "comments": 142,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI sycophancy panic",
+      "url": "https://github.com/firasd/vibesbench/blob/main/docs/ai-sycophancy-panic.md",
+      "score": 36,
+      "comments": 51,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Magic CSV \u2013 Transform CSVs with plain English, no formulas",
+      "url": "https://magiccsv.app/",
+      "score": 6,
+      "comments": 1,
+      "source": "Hacker News"
+    }
+  ]
+}
