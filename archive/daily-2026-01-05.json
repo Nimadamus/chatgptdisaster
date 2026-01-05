@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-05",
+  "date_seed": 3542589667,
+  "generated_at": "2026-01-05T18:40:57.514348",
+  "reddit_posts": [
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 360,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7199"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 221,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4173"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 74,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5449"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 186,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5123"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 266,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6235"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 367,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_2668"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 167,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6637"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 357,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_7359"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4530"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 119,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5838"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Show HN: Tailsnitch \u2013 A Security Auditor for Tailscale",
+      "url": "https://github.com/Adversis/tailsnitch",
+      "score": 80,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Murder-suicide case shows OpenAI selectively hides data after users die",
+      "url": "https://arstechnica.com/tech-policy/2025/12/openai-refuses-to-say-where-chatgpt-logs-go-when-users-die/",
+      "score": 205,
+      "comments": 76,
+      "source": "Hacker News"
+    },
+    {
+      "title": "All AI Videos Are Harmful (2025)",
+      "url": "https://idiallo.com/blog/all-ai-videos-are-harmful",
+      "score": 205,
+      "comments": 178,
+      "source": "Hacker News"
+    },
+    {
+      "title": "RevisionDojo, a YC startup, is running astroturfing campaigns targeting kids",
+      "url": "https://news.ycombinator.com/item?id=46499976",
+      "score": 253,
+      "comments": 32,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anna's Archive loses .org domain after surprise suspension",
+      "url": "https://torrentfreak.com/annas-archive-loses-org-domain-after-surprise-suspension/",
+      "score": 492,
+      "comments": 253,
+      "source": "Hacker News"
+    }
+  ]
+}
