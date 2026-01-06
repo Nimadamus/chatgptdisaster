@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-06",
+  "date_seed": 2118732764,
+  "generated_at": "2026-01-06T18:40:01.035404",
+  "reddit_posts": [
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2232"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 59,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_8658"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 240,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3647"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1167"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2730"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 278,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4193"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 243,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5473"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 273,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4326"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 212,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4503"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 233,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6920"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Launch HN: Tamarind Bio (YC W24) \u2013 AI Inference Provider for Drug Discovery",
+      "url": "https://news.ycombinator.com/item?id=46515777",
+      "score": 18,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Why is the Gmail app 700 MB?",
+      "url": "https://akr.am/blog/posts/why-is-the-gmail-app-700-mb",
+      "score": 166,
+      "comments": 150,
+      "source": "Hacker News"
+    },
+    {
+      "title": "High-performance header-only container library for C++23 on x86-64",
+      "url": "https://github.com/kressler/fast-containers",
+      "score": 48,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Gemini Protocol Deployment Statistics",
+      "url": "https://www.obsessivefacts.com/gemini-proxy?uri=gemini%3A%2F%2Fgemini.bortzmeyer.org%2Fsoftware%2Flupa%2Fstats.gmi",
+      "score": 48,
+      "comments": 7,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AWS raises GPU prices 15% on a Saturday, hopes you weren't paying attention",
+      "url": "https://www.theregister.com/2026/01/05/aws_price_increase/",
+      "score": 552,
+      "comments": 370,
+      "source": "Hacker News"
+    }
+  ]
+}
