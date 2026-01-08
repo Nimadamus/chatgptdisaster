@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-08",
+  "date_seed": 1368468537,
+  "generated_at": "2026-01-08T18:37:32.409245",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 159,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5332"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 239,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5793"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 318,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7713"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 85,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8042"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 183,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1393"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 330,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6589"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 244,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8109"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 165,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_2035"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 348,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5950"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 275,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7019"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "IBM AI ('Bob') Downloads and Executes Malware",
+      "url": "https://www.promptarmor.com/resources/ibm-ai-(-bob-)-downloads-and-executes-malware",
+      "score": 15,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Chinese AI models have lagged the US frontier by 7 months on average since 2023",
+      "url": "https://epoch.ai/data-insights/us-vs-china-eci",
+      "score": 27,
+      "comments": 18,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+      "url": "https://sakana.ai/drq/",
+      "score": 16,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "He was called a 'terrorist sympathizer.' Now his AI company is valued at $3B",
+      "url": "https://sfstandard.com/2026/01/07/called-terrorist-sympathizer-now-ai-company-valued-3b/",
+      "score": 20,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Nvidia Kicks Off the Next Generation of AI with Rubin",
+      "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+      "score": 11,
+      "comments": 1,
+      "source": "Hacker News"
+    }
+  ]
+}
