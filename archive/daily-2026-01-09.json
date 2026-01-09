@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-09",
+  "date_seed": 3367023490,
+  "generated_at": "2026-01-09T18:40:36.321351",
+  "reddit_posts": [
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 96,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9227"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 389,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_2002"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 86,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5371"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 371,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2271"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 202,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9223"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 235,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8841"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 153,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2801"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 64,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_1941"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 177,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2289"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 75,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3667"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Why is SendGrid emailing me about supporting ICE?",
+      "url": "https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/",
+      "score": 96,
+      "comments": 50,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How to Code Claude Code in 200 Lines of Code",
+      "url": "https://www.mihaileric.com/The-Emperor-Has-No-Clothes/",
+      "score": 668,
+      "comments": 211,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI coding assistants are getting worse?",
+      "url": "https://spectrum.ieee.org/ai-coding-degrades",
+      "score": 420,
+      "comments": 660,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Replit founder Amjad Masad isn\u2019t afraid of Silicon Valley",
+      "url": "https://sfstandard.com/2026/01/07/called-terrorist-sympathizer-now-ai-company-valued-3b/",
+      "score": 275,
+      "comments": 426,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anthropic blocks third-party use of Claude Code subscriptions",
+      "url": "https://github.com/anomalyco/opencode/issues/7410",
+      "score": 527,
+      "comments": 436,
+      "source": "Hacker News"
+    }
+  ]
+}
