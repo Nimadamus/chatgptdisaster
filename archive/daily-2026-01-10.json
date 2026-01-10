@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-10",
+  "date_seed": 1413066014,
+  "generated_at": "2026-01-10T18:36:48.785746",
+  "reddit_posts": [
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 92,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4735"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 297,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4785"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8138"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 66,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9080"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 85,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7169"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 266,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9028"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 80,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3608"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 214,
+      "url": "https://reddit.com/r/law",
+      "author": "user_5442"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 158,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9454"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 104,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_6653"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "AI is a business model stress test",
+      "url": "https://dri.es/ai-is-a-business-model-stress-test",
+      "score": 41,
+      "comments": 35,
+      "source": "Hacker News"
+    },
+    {
+      "title": "\u201cErdos problem #728 was solved more or less autonomously by AI\u201d",
+      "url": "https://mathstodon.xyz/@tao/115855840223258103",
+      "score": 573,
+      "comments": 315,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Greenland sharks maintain vision for centuries through DNA repair mechanism",
+      "url": "https://phys.org/news/2026-01-eye-greenland-sharks-vision-centuries.html",
+      "score": 215,
+      "comments": 86,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Yuanzai World \u2013 LLM RPGs with branching world-lines",
+      "url": "https://www.yuanzai.world/",
+      "score": 18,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How to code Claude Code in 200 lines of code",
+      "url": "https://www.mihaileric.com/The-Emperor-Has-No-Clothes/",
+      "score": 780,
+      "comments": 235,
+      "source": "Hacker News"
+    }
+  ]
+}
