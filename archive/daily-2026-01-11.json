@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-11",
+  "date_seed": 4277728930,
+  "generated_at": "2026-01-11T18:36:45.413592",
+  "reddit_posts": [
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 316,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9762"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 169,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_9319"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 326,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1007"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 233,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5479"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 347,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9666"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 316,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5264"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 397,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5299"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 356,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9682"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 147,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7319"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 329,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3216"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "\"Food JPEGs\" in Super Smash Bros. & Kirby Air Riders",
+      "url": "https://sethmlarson.dev/food-jpegs-in-super-smash-bros-and-kirby-air-riders",
+      "score": 204,
+      "comments": 52,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Vojtux \u2013 Unofficial Linux Distribution Aimed at Visually Impaired Users",
+      "url": "https://github.com/vojtapolasek/vojtux",
+      "score": 101,
+      "comments": 26,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: I used Claude Code to discover connections between 100 books",
+      "url": "https://trails.pieterma.es/",
+      "score": 450,
+      "comments": 135,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI industry insiders launch site to poison the data that feeds them",
+      "url": "https://www.theregister.com/2026/01/11/industry_insiders_seek_to_poison/",
+      "score": 67,
+      "comments": 43,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Ferrite \u2013 Markdown editor in Rust with native Mermaid diagram rendering",
+      "url": "https://github.com/OlaProeis/Ferrite",
+      "score": 214,
+      "comments": 125,
+      "source": "Hacker News"
+    }
+  ]
+}
