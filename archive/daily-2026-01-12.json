@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-12",
+  "date_seed": 127761371,
+  "generated_at": "2026-01-12T18:41:15.411893",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 259,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2778"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2752"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 275,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4162"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 290,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6039"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 127,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7465"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 342,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3507"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 96,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6126"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 280,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3223"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2556"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 164,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7750"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "TimeCapsuleLLM: LLM trained only on data from 1800-1875",
+      "url": "https://github.com/haykgrigo3/TimeCapsuleLLM",
+      "score": 224,
+      "comments": 90,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: AI in SolidWorks",
+      "url": "https://www.trylad.com",
+      "score": 33,
+      "comments": 16,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Carma (YC W24 clients, A in 6mo) Eng hiring: Replace $500B human fleet ops with AI",
+      "url": "https://news.ycombinator.com/item?id=46591170",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Ai, Japanese chimpanzee who counted and painted dies at 49",
+      "url": "https://www.bbc.com/news/articles/cj9r3zl2ywyo",
+      "score": 129,
+      "comments": 46,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Statement from Federal Reserve Chair",
+      "url": "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink",
+      "score": 126,
+      "comments": 10,
+      "source": "Hacker News"
+    }
+  ]
+}
