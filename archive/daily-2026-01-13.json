@@ -1,7 +1,7 @@
 {
   "date": "2026-01-13",
   "date_seed": 4249968176,
-  "generated_at": "2026-01-13T01:14:52.199361",
+  "generated_at": "2026-01-13T18:39:12.053596",
   "reddit_posts": [
     {
       "title": "Basic algebra is broken in the latest update",
@@ -128,38 +128,38 @@
   ],
   "hn_stories": [
     {
+      "title": "Legion Health (YC S21) Hiring Cracked Founding Eng for AI-Native Ops",
+      "url": "https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: An iOS budget app I've been maintaining since 2011",
+      "url": "https://primoco.me/en/",
+      "score": 102,
+      "comments": 51,
+      "source": "Hacker News"
+    },
+    {
       "title": "Cowork: Claude Code for the rest of your work",
       "url": "https://claude.com/blog/cowork-research-preview",
-      "score": 583,
-      "comments": 300,
-      "source": "Hacker News"
-    },
-    {
-      "title": "TimeCapsuleLLM: LLM trained only on data from 1800-1875",
-      "url": "https://github.com/haykgrigo3/TimeCapsuleLLM",
-      "score": 470,
-      "comments": 192,
-      "source": "Hacker News"
-    },
-    {
-      "title": "'I rarely get outside': scientists ditch fieldwork in the age of AI",
-      "url": "https://www.nature.com/articles/d41586-025-04150-w",
-      "score": 33,
-      "comments": 16,
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: AI in SolidWorks",
-      "url": "https://www.trylad.com",
-      "score": 122,
-      "comments": 60,
+      "score": 1191,
+      "comments": 515,
       "source": "Hacker News"
     },
     {
       "title": "The chess bot on Delta Air Lines will destroy you (2024) [video]",
       "url": "https://www.youtube.com/watch?v=c0mLhHDcY3I",
-      "score": 142,
-      "comments": 90,
+      "score": 318,
+      "comments": 320,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Mozilla's open source AI strategy",
+      "url": "https://blog.mozilla.org/en/mozilla/mozilla-open-source-ai-strategy/",
+      "score": 125,
+      "comments": 101,
       "source": "Hacker News"
     }
   ]
