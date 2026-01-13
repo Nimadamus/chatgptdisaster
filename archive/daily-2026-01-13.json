@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-13",
+  "date_seed": 4249968176,
+  "generated_at": "2026-01-13T01:14:52.199361",
+  "reddit_posts": [
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2904"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_2203"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 183,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5436"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 298,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9985"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 387,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5892"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 158,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9105"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 201,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6370"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 305,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9334"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 316,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7919"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 290,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9835"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Cowork: Claude Code for the rest of your work",
+      "url": "https://claude.com/blog/cowork-research-preview",
+      "score": 583,
+      "comments": 300,
+      "source": "Hacker News"
+    },
+    {
+      "title": "TimeCapsuleLLM: LLM trained only on data from 1800-1875",
+      "url": "https://github.com/haykgrigo3/TimeCapsuleLLM",
+      "score": 470,
+      "comments": 192,
+      "source": "Hacker News"
+    },
+    {
+      "title": "'I rarely get outside': scientists ditch fieldwork in the age of AI",
+      "url": "https://www.nature.com/articles/d41586-025-04150-w",
+      "score": 33,
+      "comments": 16,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: AI in SolidWorks",
+      "url": "https://www.trylad.com",
+      "score": 122,
+      "comments": 60,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The chess bot on Delta Air Lines will destroy you (2024) [video]",
+      "url": "https://www.youtube.com/watch?v=c0mLhHDcY3I",
+      "score": 142,
+      "comments": 90,
+      "source": "Hacker News"
+    }
+  ]
+}
