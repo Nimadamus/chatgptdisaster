@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-14",
+  "date_seed": 236981744,
+  "generated_at": "2026-01-14T18:41:32.889371",
+  "reddit_posts": [
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 213,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8684"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 322,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2764"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 181,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8100"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 304,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_3361"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 379,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3278"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 152,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9807"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 371,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9800"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 233,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2247"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 92,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4209"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 197,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6158"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "FBI raids Washington Post reporter's home",
+      "url": "https://www.theguardian.com/us-news/2026/jan/14/fbi-raid-washington-post-hannah-natanson",
+      "score": 686,
+      "comments": 403,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: OSS AI agent that indexes and searches the Epstein files",
+      "url": "https://epstein.trynia.ai/",
+      "score": 184,
+      "comments": 87,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Matthew McConaughey trademarks himself to fight AI misuse",
+      "url": "https://www.msn.com/en-in/entertainment/celebrities/matthew-mcconaughey-trademarks-himself-to-fight-ai-misuse/ar-AA1UaVvt",
+      "score": 16,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "vLLM large scale serving: DeepSeek 2.2k tok/s/h200 with wide-ep",
+      "url": "https://blog.vllm.ai/2025/12/17/large-scale-serving.html",
+      "score": 140,
+      "comments": 47,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Nori CLI, a better interface for Claude Code (no flicker)",
+      "url": "https://github.com/tilework-tech/nori-cli",
+      "score": 14,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
