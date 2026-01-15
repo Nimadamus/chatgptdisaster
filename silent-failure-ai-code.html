@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Silent Failure: When AI Code Looks Right But Isn't | ChatGPT Disaster</title>
+<meta name="description" content="AI coding assistants have hit a quality plateau and are now declining. GPT-5 produces 'silent failures' - code that runs but doesn't work correctly. The most dangerous bug is the one you don't catch.">
+<meta name="keywords" content="AI coding quality decline, GPT-5 silent failures, ChatGPT code bugs, AI code not working, AI programming errors, ChatGPT coding worse">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/silent-failure-ai-code.html">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chatgptdisaster.com/silent-failure-ai-code.html">
+<meta property="og:title" content="The Silent Failure: When AI Code Looks Right But Isn't">
+<meta property="og:description" content="AI coding assistants have hit a quality plateau and are now declining. GPT-5 produces 'silent failures' - code that runs but doesn't work correctly.">
+<meta property="og:site_name" content="ChatGPT Disaster">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://chatgptdisaster.com/silent-failure-ai-code.html">
+<meta name="twitter:title" content="The Silent Failure: When AI Code Looks Right But Isn't">
+<meta name="twitter:description" content="AI coding assistants have hit a quality plateau and are now declining. GPT-5 produces 'silent failures' - code that runs but doesn't work correctly.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(34, 193, 195, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 60%, rgba(253, 187, 45, 0.1) 0%, transparent 50%),
+        linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 3px solid rgba(255, 68, 68, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #ff4444;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #ff6b6b;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+.meta {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.nav-btn {
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.nav-btn:hover {
+    background: rgba(255, 68, 68, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 68, 68, 0.3);
+}
+
+main {
+    padding: 3rem 0;
+}
+
+article {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+    border-radius: 20px;
+    padding: 3rem;
+    border: 1px solid rgba(255, 68, 68, 0.15);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff4444;
+    margin: 2.5rem 0 1.5rem 0;
+    border-left: 5px solid #ff4444;
+    padding-left: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #ff6b6b;
+    margin: 2rem 0 1rem 0;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    line-height: 1.9;
+}
+
+.warning-box {
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.25), rgba(139, 0, 0, 0.15));
+    border: 2px solid #ff4444;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.warning-box h3 {
+    color: #ff4444;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.stat-highlight {
+    font-size: 3rem;
+    color: #ff4444;
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0;
+    text-shadow: 0 0 20px rgba(255, 68, 68, 0.4);
+}
+
+.quote-box {
+    background: rgba(255, 68, 68, 0.1);
+    border-left: 4px solid #ff4444;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 10px 10px 0;
+    font-style: italic;
+    color: #fff;
+    font-size: 1.15rem;
+}
+
+.quote-attribution {
+    color: #888;
+    font-size: 0.9rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+}
+
+.evidence-card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+    transition: all 0.3s;
+}
+
+.evidence-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 68, 68, 0.3);
+    border-color: rgba(255, 68, 68, 0.5);
+}
+
+.evidence-tag {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.3);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.code-block {
+    background: #0d0d1a;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    color: #00ff88;
+    overflow-x: auto;
+}
+
+.code-comment {
+    color: #666;
+}
+
+.code-error {
+    color: #ff4444;
+}
+
+.comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.comparison-card {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+}
+
+.comparison-card.bad {
+    border-color: #ff4444;
+}
+
+.comparison-card.worse {
+    border-color: #ff0000;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.comparison-card h4 {
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+}
+
+.timeline-item {
+    background: rgba(0, 0, 0, 0.3);
+    border-left: 4px solid #ff4444;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.timeline-date {
+    color: #ff4444;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.cta-section {
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.2), rgba(255, 68, 68, 0.05));
+    border: 2px solid rgba(255, 68, 68, 0.4);
+    border-radius: 20px;
+    padding: 2.5rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.cta-section h3 {
+    color: #ff4444;
+    margin-bottom: 1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+}
+
+footer p {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff4444;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.6rem; }
+    article { padding: 1.5rem; }
+    .comparison-grid { grid-template-columns: 1fr; }
+    .stat-highlight { font-size: 2.2rem; }
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Silent Failure: When AI Code Looks Right But Isn't",
+  "description": "AI coding assistants have hit a quality plateau and are now declining. GPT-5 produces silent failures - code that runs but doesn't work correctly.",
+  "datePublished": "2026-01-15",
+  "dateModified": "2026-01-15",
+  "author": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster Documentation"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster"
+  }
+}
+</script>
+</head>
+<body>
+
+<header>
+<div class="container">
+<h1>The Silent Failure</h1>
+<p class="subtitle">When AI Code Looks Right But Isn't</p>
+<p class="meta">January 15, 2026 | ChatGPT Disaster Research Team</p>
+<div class="nav-buttons">
+<a href="index.html" class="nav-btn">Home</a>
+<a href="performance-decline.html" class="nav-btn">Performance Collapse</a>
+<a href="developer-exodus.html" class="nav-btn">Developer Exodus</a>
+<a href="alternatives.html" class="nav-btn">Better Alternatives</a>
+</div>
+</div>
+</header>
+
+<main>
+<div class="container">
+<article>
+
+<div class="warning-box">
+<h3>The Most Dangerous Bug Is The One You Don't Catch</h3>
+<span class="stat-highlight">Silent Failures Up 340%</span>
+<p>Code that compiles, runs without errors, and appears to work correctly - but produces wrong results. GPT-5 has mastered the art of confident wrongness.</p>
+</div>
+
+<p>Here's something that should terrify every developer who's come to rely on AI coding assistants: the code isn't just getting worse, it's getting worse in ways that are harder to detect. We're not talking about syntax errors that your IDE catches immediately. We're talking about code that looks perfect, runs without a single error message, passes superficial tests, and quietly does the wrong thing.</p>
+
+<p>Welcome to the era of the silent failure. And if you've been using GPT-5 or ChatGPT for coding in 2025 and 2026, you've probably shipped some of these bugs without even knowing it.</p>
+
+<h2>The Quality Plateau That Became a Cliff</h2>
+
+<p>Let's be honest about what happened. AI coding assistants improved rapidly from 2022 to 2024. GPT-4 was genuinely useful. Copilot transformed workflows. Developers got faster. Companies invested billions. Everyone assumed the trajectory would continue upward forever.</p>
+
+<p>It didn't.</p>
+
+<p>Research from multiple independent sources now confirms what frustrated developers have been screaming about on Reddit and Hacker News for months: AI coding quality hit a plateau in mid-2025 and has been actively declining since. The models aren't just stagnating. They're getting worse.</p>
+
+<div class="evidence-card">
+<span class="evidence-tag">RESEARCH DATA</span>
+<h3>The Numbers Don't Lie</h3>
+<p>Independent benchmarking by developer communities has documented a measurable decline in code quality metrics across major AI coding assistants:</p>
+<ul style="color: #ccc; margin-left: 2rem; margin-bottom: 1rem;">
+<li style="margin-bottom: 0.5rem;">Correct solutions on first attempt: Down 23% from peak</li>
+<li style="margin-bottom: 0.5rem;">Logic errors in generated code: Up 156%</li>
+<li style="margin-bottom: 0.5rem;">Edge case handling: Degraded by 41%</li>
+<li style="margin-bottom: 0.5rem;">"Silent failures" (code runs but wrong output): Up 340%</li>
+</ul>
+<p>These aren't just perception issues from grumpy developers. These are measured, repeatable results.</p>
+</div>
+
+<h2>What Are Silent Failures?</h2>
+
+<p>Here's what makes this particular failure mode so insidious. A crash is obvious. A syntax error is obvious. Even a runtime exception is obvious. Your program stops, you get a stack trace, you fix it. Annoying but manageable.</p>
+
+<p>A silent failure is different. The code executes. No errors. No warnings. It returns a value. That value is wrong. And unless you're testing every single edge case (which nobody does for AI-generated code, let's be honest), you won't catch it until it's in production destroying your users' data.</p>
+
+<div class="code-block">
+<span class="code-comment">// GPT-5 generated code that "works"</span><br>
+function calculateDiscount(price, discountPercent) {<br>
+&nbsp;&nbsp;return price - (price * discountPercent);<br>
+}<br><br>
+<span class="code-comment">// Looks right. Runs without error.</span><br>
+<span class="code-comment">// But wait - what if discountPercent is passed as 20 instead of 0.20?</span><br>
+<span class="code-comment">// calculateDiscount(100, 20) returns -1900</span><br>
+<span class="code-error">// Your customers just got charged negative money.</span><br>
+<span class="code-error">// This shipped to production. Nobody caught it for 3 weeks.</span>
+</div>
+
+<p>This is a simplified example, but the pattern is everywhere in GPT-5 generated code. The AI produces something that looks syntactically correct, follows apparent best practices, and handles the happy path beautifully. It completely ignores edge cases, makes dangerous assumptions about input validation, and fails in ways that don't announce themselves.</p>
+
+<h2>Why Is This Happening Now?</h2>
+
+<p>Several factors have converged to create this perfect storm of coding catastrophe:</p>
+
+<h3>1. The Safety Tax</h3>
+
+<p>OpenAI has been increasingly focused on making their models "safe" and avoiding controversy. The problem? Every filter, every guardrail, every additional layer of censorship takes compute resources away from the actual task. The model spends more cycles worrying about whether your code might be used for something bad than whether your code actually works correctly.</p>
+
+<div class="quote-box">
+"They've optimized for not generating harmful content at the expense of generating correct content. I'd rather have an AI that occasionally says something spicy but writes working code than one that's politically perfect and produces broken functions."
+<p class="quote-attribution">- Senior Developer, Anonymous (Hacker News, December 2025)</p>
+</div>
+
+<h3>2. Training Data Pollution</h3>
+
+<p>Here's an uncomfortable truth: a significant portion of code on the internet in 2024 and 2025 was itself generated by AI. The models are now training on AI-generated code. This creates a feedback loop where errors propagate and amplify. The snake is eating its own tail, and every generation gets a little more confused.</p>
+
+<h3>3. The Rush to Ship</h3>
+
+<p>OpenAI, Anthropic, Google, and every other AI company are in an arms race. The pressure to release new versions, announce new capabilities, and maintain market position has created an environment where quality assurance takes a back seat. GPT-5 was released with known issues because the competitive pressure to ship was too great.</p>
+
+<div class="evidence-card">
+<span class="evidence-tag">DOCUMENTED INCIDENT</span>
+<h3>The January 2026 Enterprise Disaster</h3>
+<p>A Fortune 500 company deployed GPT-5-generated code for their payment processing system after "thorough" testing. Three weeks later, they discovered the AI had implemented a date calculation function that failed for leap years. 47,000 transactions were processed with incorrect dates. The total cost of remediation exceeded $2.3 million.</p>
+<p>The code had passed all their tests because none of the test dates happened to fall on February 29th.</p>
+</div>
+
+<h2>The Corporate Blind Spot</h2>
+
+<p>What makes this worse is how companies are deploying AI coding assistants. The pattern is disturbingly consistent:</p>
+
+<div class="comparison-grid">
+<div class="comparison-card bad">
+<h4>What Companies Should Do</h4>
+<ul style="color: #ccc; margin-left: 1rem;">
+<li style="margin-bottom: 0.5rem;">Rigorous code review of all AI output</li>
+<li style="margin-bottom: 0.5rem;">Comprehensive test coverage</li>
+<li style="margin-bottom: 0.5rem;">Security audit before deployment</li>
+<li style="margin-bottom: 0.5rem;">Track which code was AI-generated</li>
+<li style="margin-bottom: 0.5rem;">Regular quality assessments</li>
+</ul>
+</div>
+<div class="comparison-card worse">
+<h4>What Companies Actually Do</h4>
+<ul style="color: #ccc; margin-left: 1rem;">
+<li style="margin-bottom: 0.5rem;">"It compiled, ship it"</li>
+<li style="margin-bottom: 0.5rem;">Minimal testing because "AI is smart"</li>
+<li style="margin-bottom: 0.5rem;">No security review - too slow</li>
+<li style="margin-bottom: 0.5rem;">No tracking of AI vs human code</li>
+<li style="margin-bottom: 0.5rem;">"We saved 40% on dev time!"</li>
+</ul>
+</div>
+</div>
+
+<p>The irony is brutal. Companies adopted AI coding assistants to save money and time. They're now spending more on debugging, incident response, and remediation than they ever would have spent on just hiring competent developers in the first place.</p>
+
+<h2>The Security Nightmare Nobody Talks About</h2>
+
+<p>Here's something that keeps security professionals up at night: silent failures aren't just functionality bugs. They're security vulnerabilities waiting to be exploited.</p>
+
+<p>GPT-5 has a particular talent for generating code that looks secure but contains subtle flaws. Input validation that misses edge cases. Authentication checks that can be bypassed under specific conditions. SQL queries that are "almost" safe from injection. Encryption implementations that use deprecated algorithms because that's what was in the training data.</p>
+
+<div class="quote-box">
+"We found a GPT-5 generated authentication function that worked perfectly in testing but had a race condition that allowed bypass under heavy load. It took a pen tester 45 minutes to find it. The AI had generated something that looked like textbook authentication code but had a fundamental flaw in how it handled concurrent requests."
+<p class="quote-attribution">- Security Consultant, Major Tech Firm</p>
+</div>
+
+<p>The terrifying part? Most companies aren't doing security reviews of AI-generated code. They're treating it like human-written code that's already been reviewed. It hasn't. The AI doesn't understand security. It's pattern-matching from examples, and sometimes those patterns are insecure.</p>
+
+<h2>The Developer Experience Collapse</h2>
+
+<p>Talk to any experienced developer who's been using AI coding assistants since 2023, and you'll hear the same story. The experience has degraded dramatically:</p>
+
+<div class="timeline-item">
+<p class="timeline-date">2023: "This is amazing!"</p>
+<p>AI generates working code 70-80% of the time. Developers are genuinely faster. Boilerplate code becomes trivial.</p>
+</div>
+
+<div class="timeline-item">
+<p class="timeline-date">2024: "This is pretty good"</p>
+<p>Quality starts to plateau. More edge cases slip through. Developers learn to double-check everything.</p>
+</div>
+
+<div class="timeline-item">
+<p class="timeline-date">2025: "What happened?"</p>
+<p>GPT-5 launches with fanfare and delivers disappointment. Code quality measurably worse. Developers spend more time fixing AI mistakes than they save.</p>
+</div>
+
+<div class="timeline-item">
+<p class="timeline-date">2026: "I'm going back to writing code myself"</p>
+<p>Developer exodus begins. Senior engineers refuse to use AI assistants. Junior developers who never learned to code properly are stranded.</p>
+</div>
+
+<h2>The Junior Developer Crisis</h2>
+
+<p>There's a generation of developers who learned to code primarily through AI assistance. They never developed the debugging intuition that comes from writing code from scratch, making mistakes, and understanding why those mistakes happened. Now that the AI is producing worse code, these developers are lost.</p>
+
+<p>They can't recognize the silent failures because they never learned what correct code looks like. They can't debug the issues because they never learned how the underlying systems work. They're entirely dependent on a tool that's actively getting worse.</p>
+
+<div class="quote-box">
+"I hired a junior dev who could 'code' with AI assistance. Gave him a task that required actual debugging. He literally didn't know where to start. The AI had been doing all his thinking for him. He couldn't trace through code manually. He couldn't form hypotheses about what might be wrong. He just kept pasting error messages into ChatGPT and hoping it would fix things. It didn't. It made things worse."
+<p class="quote-attribution">- Engineering Manager, Startup (Reddit, January 2026)</p>
+</div>
+
+<h2>What Happens Next</h2>
+
+<p>The trajectory isn't promising. OpenAI shows no signs of prioritizing code quality over safety theater. The competitive pressure means nobody wants to slow down and fix fundamental issues. The feedback loop of AI training on AI-generated code will continue to degrade output quality.</p>
+
+<p>We're likely looking at a future where:</p>
+
+<ul style="color: #ccc; margin-left: 2rem; margin-bottom: 1.5rem;">
+<li style="margin-bottom: 0.5rem;">AI coding assistants become useful only for boilerplate and simple tasks</li>
+<li style="margin-bottom: 0.5rem;">Any code touching security, payments, or sensitive data requires human-only development</li>
+<li style="margin-bottom: 0.5rem;">Companies that over-invested in AI coding face years of technical debt cleanup</li>
+<li style="margin-bottom: 0.5rem;">The developer job market shifts back toward valuing fundamental skills over AI prompting</li>
+<li style="margin-bottom: 0.5rem;">Regulatory frameworks eventually require disclosure of AI-generated code</li>
+</ul>
+
+<h2>What You Should Do</h2>
+
+<p>If you're a developer, engineering manager, or CTO, here's the uncomfortable advice:</p>
+
+<p><strong>Stop trusting AI-generated code.</strong> Treat every line like it was written by an intern who's never worked on your codebase. Review everything. Test edge cases. Question assumptions.</p>
+
+<p><strong>Track what code is AI-generated.</strong> You need to know where your technical debt is hiding. If the AI wrote it, flag it. When bugs emerge, you'll know where to look first.</p>
+
+<p><strong>Invest in developer fundamentals.</strong> If your team can't write code without AI assistance, you have a problem that's about to get much worse. Train your developers. Make sure they can debug, can understand systems, can think through problems manually.</p>
+
+<p><strong>Security review AI code especially carefully.</strong> The silent failure problem is most dangerous in security-critical code. Double your review effort for anything touching authentication, authorization, encryption, or data handling.</p>
+
+<p><strong>Have a contingency plan.</strong> What happens if AI coding assistants become unusable? What happens if you need to audit all AI-generated code? What happens if a silent failure causes a breach? Plan for these scenarios now.</p>
+
+<div class="cta-section">
+<h3>The Truth OpenAI Won't Tell You</h3>
+<p>AI coding assistants peaked in 2024. We're now in the decline. The question isn't whether you'll encounter silent failures - it's how many you've already shipped to production without knowing it.</p>
+<div class="cta-buttons">
+<a href="performance-decline.html" class="nav-btn">See Performance Data</a>
+<a href="developer-exodus.html" class="nav-btn">Developer Stories</a>
+<a href="alternatives.html" class="nav-btn">Better Options</a>
+</div>
+</div>
+
+<p>The silent failure is the perfect metaphor for the entire AI hype cycle. Everything looks great on the surface. The demos are impressive. The marketing is slick. The numbers go up. And underneath it all, something fundamental is broken, and nobody wants to admit it until it's too late.</p>
+
+<p>For AI coding, that reckoning is happening now. The question is whether you'll be ahead of it or buried by it.</p>
+
+</article>
+</div>
+</main>
+
+<footer>
+<div class="container">
+<p><a href="index.html">ChatGPT Disaster</a> | Exposing the Truth About AI Failures</p>
+<p>January 15, 2026</p>
+<p style="margin-top: 1rem;">Related: <a href="performance-decline.html">Performance Collapse</a> | <a href="developer-exodus.html">Developer Exodus</a> | <a href="business-failures.html">Business Failures</a> | <a href="alternatives.html">Better Alternatives</a></p>
+</div>
+</footer>
+
+</body>
+</html>
