@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-15",
+  "date_seed": 803739230,
+  "generated_at": "2026-01-15T18:45:08.904635",
+  "reddit_posts": [
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 217,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1699"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 114,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7322"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 255,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9580"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 318,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_5439"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 156,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4392"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 335,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3826"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 205,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5477"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 319,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3472"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 190,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8124"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 149,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7457"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "First impressions of Claude Cowork",
+      "url": "https://simonw.substack.com/p/first-impressions-of-claude-cowork",
+      "score": 38,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Cowork runs Linux VM via Apple virtualization framework",
+      "url": "https://gist.github.com/simonw/35732f187edbe4fbd0bf976d013f22c8",
+      "score": 12,
+      "comments": 3,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Tabstack \u2013 Browser infrastructure for AI agents (by Mozilla)",
+      "url": "https://news.ycombinator.com/item?id=46620358",
+      "score": 26,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude is good at assembling blocks, but still falls apart at creating them",
+      "url": "https://www.approachwithalacrity.com/claude-ne/",
+      "score": 11,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: OpenWork \u2013 an open-source alternative to Claude Cowork",
+      "url": "https://github.com/different-ai/openwork",
+      "score": 9,
+      "comments": 3,
+      "source": "Hacker News"
+    }
+  ]
+}
