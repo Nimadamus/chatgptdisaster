@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Model Collapse: When AI Eats Its Own Tail - The Data Poisoning Crisis | ChatGPT Disaster</title>
+<meta name="description" content="AI models are now training on AI-generated garbage. The result? Model collapse - a documented phenomenon where each generation loses fidelity. The ouroboros of artificial stupidity.">
+<meta name="keywords" content="model collapse, AI training data, data poisoning, AI generated content, synthetic data, ChatGPT quality decline, AI degradation, machine learning failure">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/model-collapse-ai-training.html">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chatgptdisaster.com/model-collapse-ai-training.html">
+<meta property="og:title" content="Model Collapse: When AI Eats Its Own Tail - The Data Poisoning Crisis">
+<meta property="og:description" content="AI models are now training on AI-generated garbage. The result? Model collapse - a documented phenomenon where each generation loses fidelity.">
+<meta property="og:site_name" content="ChatGPT Disaster">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://chatgptdisaster.com/model-collapse-ai-training.html">
+<meta name="twitter:title" content="Model Collapse: When AI Eats Its Own Tail - The Data Poisoning Crisis">
+<meta name="twitter:description" content="AI models are now training on AI-generated garbage. The result? Model collapse - a documented phenomenon where each generation loses fidelity.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(34, 193, 195, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 60%, rgba(253, 187, 45, 0.1) 0%, transparent 50%),
+        linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.8;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 3px solid rgba(255, 68, 68, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.back-link {
+    display: inline-block;
+    color: #ff6b6b;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #ff4444;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #ff4444;
+    margin-bottom: 0.5rem;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.meta-info {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Article Content */
+article {
+    padding: 3rem 0;
+}
+
+.article-content {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    border-radius: 20px;
+    padding: 3rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+}
+
+.article-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #d0d0d0;
+}
+
+.article-content h2 {
+    font-size: 1.8rem;
+    color: #ff4444;
+    margin: 2.5rem 0 1.5rem 0;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.3);
+    padding-bottom: 0.5rem;
+}
+
+.article-content h3 {
+    font-size: 1.4rem;
+    color: #ff6b6b;
+    margin: 2rem 0 1rem 0;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.15), rgba(255, 68, 68, 0.05));
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    border-left: 4px solid #ff4444;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.highlight-box p {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}
+
+.highlight-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* Quote Box */
+.quote-box {
+    background: rgba(0, 0, 0, 0.3);
+    border-left: 4px solid #22c1c3;
+    border-radius: 0 10px 10px 0;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+}
+
+.quote-box .attribution {
+    color: #888;
+    font-style: normal;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.stat-card {
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.12), rgba(255, 68, 68, 0.05));
+    border: 1px solid rgba(255, 68, 68, 0.25);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.2rem;
+    color: #ff4444;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.stat-label {
+    font-size: 0.95rem;
+    color: #aaa;
+}
+
+/* Warning Section */
+.warning-section {
+    background: linear-gradient(145deg, rgba(255, 193, 7, 0.15), rgba(255, 193, 7, 0.05));
+    border: 2px solid rgba(255, 193, 7, 0.4);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+.warning-section h3 {
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+/* Process Diagram */
+.process-diagram {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.process-step {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.2);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin: 0.5rem;
+    color: #ff6b6b;
+    font-weight: 600;
+}
+
+.process-arrow {
+    display: inline-block;
+    color: #ff4444;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+}
+
+/* Impact List */
+.impact-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.impact-list li {
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    border-left: 3px solid #ff4444;
+    font-size: 1.05rem;
+}
+
+.impact-list li strong {
+    color: #ff6b6b;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.2), rgba(255, 68, 68, 0.05));
+    border: 2px solid rgba(255, 68, 68, 0.4);
+    border-radius: 20px;
+    padding: 2.5rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.cta-section h2 {
+    color: #ff4444;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.2);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: rgba(255, 68, 68, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 68, 68, 0.3);
+}
+
+/* Footer */
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 4rem;
+    border-top: 2px solid rgba(255, 68, 68, 0.5);
+}
+
+footer p {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Navigation */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.nav-links a {
+    padding: 0.6rem 1.2rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 68, 68, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .article-content {
+        padding: 1.5rem;
+    }
+
+    .process-step {
+        display: block;
+        margin: 0.5rem auto;
+        max-width: 250px;
+    }
+
+    .process-arrow {
+        display: block;
+        transform: rotate(90deg);
+        margin: 0.5rem auto;
+    }
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Model Collapse: When AI Eats Its Own Tail - The Data Poisoning Crisis",
+  "description": "AI models are now training on AI-generated garbage. The result? Model collapse - a documented phenomenon where each generation loses fidelity. The ouroboros of artificial stupidity.",
+  "datePublished": "2026-01-15",
+  "dateModified": "2026-01-15",
+  "author": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster Documentation"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster"
+  }
+}
+</script>
+</head>
+<body>
+
+<header>
+<div class="container">
+<a href="index.html" class="back-link">Back to ChatGPT Disaster Home</a>
+<h1>Model Collapse: When AI Eats Its Own Tail</h1>
+<p class="subtitle">The Data Poisoning Problem That's Making AI Progressively Dumber</p>
+<p class="meta-info">Published: January 15, 2026 | Reading Time: 8 minutes</p>
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="performance-decline.html">Performance Collapse</a>
+<a href="is-chatgpt-getting-worse.html">Is It Getting Worse?</a>
+<a href="silent-failure-ai-code.html">AI Code Failures</a>
+<a href="alternatives.html">Alternatives</a>
+</div>
+</div>
+</header>
+
+<main class="container">
+<article>
+<div class="article-content">
+
+<p>Here's a terrifying thought experiment: What happens when AI systems start training on content that was itself generated by AI? The answer, according to researchers, is something called "model collapse" and it's already happening. The internet is drowning in AI-generated slop, and the next generation of AI models is being trained on it. We're witnessing the birth of an ouroboros of artificial stupidity, a snake eating its own tail until nothing remains but digital noise.</p>
+
+<p>And the worst part? Nobody seems to be doing anything to stop it.</p>
+
+<h2>The Feedback Loop From Hell</h2>
+
+<p>Let me paint you a picture of how we got here. In 2022, when ChatGPT launched, the internet was still mostly human-generated content. Sure, there were spam bots and auto-generated SEO garbage, but the vast majority of text online came from actual human beings. That's the data the original models trained on. Human knowledge, human creativity, human mistakes and all.</p>
+
+<p>Fast forward to 2026. Conservative estimates suggest that somewhere between 30 to 50 percent of new text content on the internet is now AI-generated. Some researchers put it even higher. Blog posts, news articles, product descriptions, social media comments, forum posts, reviews. All of it increasingly synthetic. All of it getting scraped up to train the next generation of AI models.</p>
+
+<div class="highlight-box">
+<p><strong>The Data Poisoning Cycle:</strong></p>
+<p>1. AI Model v1 trains on human-generated content</p>
+<p>2. AI Model v1 generates millions of articles, posts, and comments</p>
+<p>3. AI Model v2 trains on the internet, which now includes v1's output</p>
+<p>4. AI Model v2's quality degrades because it learned from synthetic data</p>
+<p>5. AI Model v2 generates even lower-quality content</p>
+<p>6. AI Model v3 trains on this degraded content</p>
+<p>7. Repeat until complete gibberish</p>
+</div>
+
+<p>Researchers at Oxford, Cambridge, and Toronto published a landmark paper in 2023 that coined the term "model collapse." They demonstrated that when AI models are recursively trained on synthetic data, the output degrades with each generation. It's not a slow decline. It's exponential. By the fifth or sixth generation, the models start producing incoherent nonsense.</p>
+
+<h2>What Model Collapse Actually Looks Like</h2>
+
+<p>So what happens when AI trains on AI? The researchers found several distinct failure modes that compound on each other.</p>
+
+<div class="process-diagram">
+<span class="process-step">Generation 1</span>
+<span class="process-arrow">&rarr;</span>
+<span class="process-step">Generation 2</span>
+<span class="process-arrow">&rarr;</span>
+<span class="process-step">Generation 3</span>
+<span class="process-arrow">&rarr;</span>
+<span class="process-step">Collapse</span>
+</div>
+
+<p>First, there's what they call "early model collapse." This is where the model starts losing information about the tails of the distribution. In plain English, it means the AI forgets about rare knowledge, unusual phrasings, and edge cases. It becomes more generic, more bland, more likely to give you the same cookie-cutter response that every other AI gives.</p>
+
+<p>Sound familiar? How many times have you asked ChatGPT a question and gotten that weirdly formal, corporate-speak response that doesn't actually say anything? That's early model collapse in action. The model has been trained on so much AI-generated "helpful assistant" text that it's forgotten how humans actually communicate.</p>
+
+<p>Then comes "late model collapse." This is where things get truly ugly. The model starts losing the ability to distinguish between common and rare phenomena. It converges on a narrow set of outputs. Diversity disappears. Every response starts sounding the same because the model has lost the richness of human expression that it originally learned from.</p>
+
+<div class="quote-box">
+<p>"We find that learning from data produced by other models causes 'model collapse' - a degenerative process whereby, over time, models forget the true underlying data distribution. We show that this process is inevitable, even for cases where the training data is perfectly sampled from the model."</p>
+<p class="attribution">- Shumailov et al., "The Curse of Recursion: Training on Generated Data Makes Models Forget" (2023)</p>
+</div>
+
+<h2>The Internet Is Now Poisoned</h2>
+
+<p>Here's where it gets really scary. The researchers who discovered model collapse were running controlled experiments. They knew which data was synthetic and which was human-generated. They could measure the degradation precisely.</p>
+
+<p>The actual internet doesn't have that luxury. Nobody knows exactly how much AI-generated content is out there. Nobody can reliably filter it out. Detection tools exist, but they're far from perfect and they can't keep up with the volume. We're talking about billions of web pages, updated constantly, with AI content mixed in at every level.</p>
+
+<div class="stats-grid">
+<div class="stat-card">
+<div class="stat-number">30-50%</div>
+<div class="stat-label">Of new internet content estimated to be AI-generated</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">90%</div>
+<div class="stat-label">Of online content could be AI-generated by 2030</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">5-6</div>
+<div class="stat-label">Generations until complete model collapse in studies</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">0%</div>
+<div class="stat-label">Reliable detection rate for advanced AI content</div>
+</div>
+</div>
+
+<p>And it's not just text. AI-generated images are flooding stock photo sites, social media, and news outlets. AI-generated code is being pushed to GitHub repositories at an unprecedented rate. AI-generated music is filling streaming platforms. Every training dataset from here on out will be contaminated with synthetic content, and there's no practical way to clean it.</p>
+
+<h2>Why ChatGPT Is Getting Worse (And It's Not Just You)</h2>
+
+<p>Users have been complaining for years that ChatGPT is getting dumber. OpenAI keeps denying it or attributing it to "recency bias." But the model collapse research provides a compelling alternative explanation: the training data itself is being poisoned.</p>
+
+<p>Think about it. Every time OpenAI trains a new model, they scrape massive amounts of internet data. That data increasingly contains AI-generated content, including content generated by their own previous models. They're training GPT-5 on text that GPT-4 wrote. They're training GPT-5 on text that was written by people using GPT-4 to help them write. The contamination is everywhere.</p>
+
+<ul class="impact-list">
+<li><strong>Code Quality Degradation:</strong> AI-generated code often contains subtle bugs that work in test cases but fail in production. When this code gets pushed to Stack Overflow and GitHub, the next AI model learns these broken patterns.</li>
+<li><strong>Factual Accuracy Decline:</strong> AI models hallucinate. They make up facts. When these hallucinations get published online and scraped for training data, the next model learns the hallucinations as truth.</li>
+<li><strong>Writing Quality Collapse:</strong> AI text has distinctive patterns, including certain word choices, sentence structures, and a weird sort of confident blandness. When models train on this, they amplify these patterns until all output sounds the same.</li>
+<li><strong>Loss of Nuance:</strong> Human writing contains subtlety, irony, cultural references, and emotional depth. AI training on AI loses these qualities with each generation until only surface-level meaning remains.</li>
+</ul>
+
+<p>The Stanford study that showed ChatGPT's accuracy dropped from 97.6% to 2.4% on certain math problems over just three months? That's consistent with model collapse. The widespread reports of ChatGPT being unable to follow simple instructions that it used to handle easily? Model collapse. The bizarre new behaviors, the increased hallucinations, the loss of context awareness? All of it fits the pattern.</p>
+
+<h2>The Self-Cannibalizing AI Industry</h2>
+
+<p>Here's the darkest irony of all: the AI companies are doing this to themselves, and they know it.</p>
+
+<p>Every major AI company is racing to generate more content. They're building AI tools for writing, coding, image generation, video creation, music composition. They're encouraging users to flood the internet with synthetic content because that's how they demonstrate engagement and justify their valuations. Meanwhile, they're simultaneously trying to scrape that same internet to train their next models.</p>
+
+<p>They're polluting the very well they're drinking from.</p>
+
+<p>Some companies have tried to address this by focusing on "high-quality" training data. OpenAI has licensing deals with publishers. Anthropic claims to be more selective about training data. But these are band-aids on a severed artery. The internet is already contaminated. There's no going back to a pre-AI training corpus. The pure human-generated data that the original models learned from? It's being buried under an avalanche of synthetic content every single day.</p>
+
+<div class="warning-section">
+<h3>The Uncomfortable Truth</h3>
+<p>We may have already passed the point of no return. The models trained in 2023 on largely human data may represent peak AI capability. Everything after could be a slow degradation as training data becomes increasingly polluted with synthetic content.</p>
+</div>
+
+<h2>Why Nobody Is Fixing This</h2>
+
+<p>If this is such a serious problem, why isn't anyone doing anything about it? The answer is economics.</p>
+
+<p>Training AI models is enormously expensive. The big companies have already invested billions in their training pipelines. Redesigning those pipelines to filter out synthetic content would cost additional billions and slow down development at a time when everyone is racing to ship the next model. No company wants to be the one that falls behind because they were being "careful" about training data.</p>
+
+<p>There's also the detection problem. Current AI detection tools have high false-positive rates and can be fooled by simple rephrasing. Building reliable detection at the scale needed to filter training datasets would be a massive technical challenge. And it would need to be done for every language, every domain, every type of content. The cost would be astronomical.</p>
+
+<p>Finally, there's denial. The AI companies have a vested interest in downplaying model collapse. Admitting that their products are getting worse because of a fundamental flaw in their training approach would tank stock prices and user confidence. So they attribute quality declines to other factors, promise improvements in the next version, and hope nobody notices that each new version seems a little bit worse than the last.</p>
+
+<h2>What This Means for the Future</h2>
+
+<p>Model collapse isn't some distant theoretical concern. It's happening right now, in real-time, to every AI system being trained on internet data. The effects are cumulative and irreversible. Each generation of models degrades a little more. Each wave of AI-generated content further poisons the training pool.</p>
+
+<p>The optimistic view is that AI companies will figure out how to solve this. Maybe they'll develop better detection tools. Maybe they'll find ways to train on synthetic data without collapse. Maybe they'll pivot to different training approaches entirely.</p>
+
+<p>The pessimistic view is that we're watching the beginning of the end for current AI capabilities. The models will keep getting worse. The content they generate will keep getting worse. The internet will become an unnavigable swamp of increasingly incoherent synthetic text. And eventually, people will stop using these tools because they'll be worse than useless.</p>
+
+<p>The realistic view is somewhere in between. AI will probably survive, but it may never be as good as it was during that brief window when it was trained on predominantly human data. We got a glimpse of what these systems could do, and then we collectively ruined it by flooding the internet with AI-generated garbage.</p>
+
+<div class="highlight-box">
+<p><strong>The fundamental problem:</strong> AI systems are only as good as the data they learn from. By filling the internet with AI-generated content, we've created a feedback loop that degrades that data with each iteration. It's not malice. It's not incompetence. It's just the inevitable consequence of a technology that consumes the very thing it produces.</p>
+</div>
+
+<h2>The Ouroboros Completes Its Circle</h2>
+
+<p>There's a cruel poetry to all of this. The AI industry promised us a future of unlimited content, of machines that could write and create and think. They delivered. They delivered so well that they drowned the internet in synthetic content. And now that same content is poisoning the next generation of their creations.</p>
+
+<p>The snake is eating its tail. Each bite makes the snake a little smaller, a little weaker. Eventually, there won't be anything left but a tight loop of increasingly degraded outputs, models training on models training on models, each generation a little dumber than the last.</p>
+
+<p>Maybe that's what we deserve for thinking we could automate knowledge and creativity. Maybe it's just another reminder that there are no free lunches in technology, that every solution creates new problems, that the consequences of our tools always outlast our ability to predict them.</p>
+
+<p>Or maybe it's a wake-up call. Maybe the model collapse crisis will force us to value human creativity more, to invest in human knowledge workers instead of trying to replace them, to recognize that some things can't be automated without losing something essential in the process.</p>
+
+<p>Either way, the next time ChatGPT gives you a weirdly generic response, forgets what you told it two messages ago, or confidently asserts something completely false, remember: it's not a bug. It's model collapse. It's the inevitable result of AI eating its own tail.</p>
+
+<p>And it's only going to get worse.</p>
+
+</div>
+</article>
+
+<section class="cta-section">
+<h2>The AI Crisis Is Real</h2>
+<p>Model collapse is just one piece of ChatGPT's ongoing disaster. Explore the full documentation of what's going wrong.</p>
+<div class="cta-buttons">
+<a href="index.html" class="btn">Full Documentation</a>
+<a href="performance-decline.html" class="btn">Performance Evidence</a>
+<a href="is-chatgpt-getting-worse.html" class="btn">Quality Decline Data</a>
+<a href="alternatives.html" class="btn">Better Alternatives</a>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="container">
+<p>ChatGPT Disaster Documentation | Exposing the Truth | Users Deserve Better</p>
+<p>All information sourced from verified research studies and documented user experiences.</p>
+<p style="margin-top: 1rem; font-size: 0.85rem;">This site is not affiliated with OpenAI. All trademarks belong to their respective owners.</p>
+</div>
+</footer>
+
+</body>
+</html>
