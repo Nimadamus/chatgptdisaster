@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit Your AI Experience | ChatGPT Disaster Documentation</title>
+<meta name="description" content="Share your experience with AI chatbots. We document verified incidents of AI failures, hallucinations, and unexpected behavior for educational purposes.">
+<meta name="keywords" content="submit AI experience, report ChatGPT problem, AI failure report, chatbot incident submission">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/submit-your-experience.html">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.8;
+    min-height: 100vh;
+}
+
+.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+
+header {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 2.5rem 0;
+    text-align: center;
+    border-bottom: 3px solid rgba(255, 68, 68, 0.6);
+}
+
+h1 { font-size: 2.2rem; color: #ff4444; margin-bottom: 1rem; }
+.subtitle { color: #aaa; font-size: 1.1rem; max-width: 600px; margin: 0 auto 1.5rem; }
+
+.nav-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.nav-btn {
+    background: rgba(255, 68, 68, 0.2);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    color: #ff6b6b;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); }
+
+main { padding: 3rem 0; }
+
+.intro-section {
+    background: rgba(100, 149, 237, 0.1);
+    border: 1px solid rgba(100, 149, 237, 0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.intro-section h2 { color: #6495ED; font-size: 1.4rem; margin-bottom: 1rem; }
+.intro-section p { color: #ccc; margin-bottom: 1rem; }
+.intro-section p:last-child { margin-bottom: 0; }
+
+.guidelines-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.guidelines-box h3 { color: #fff; margin-bottom: 1rem; }
+.guidelines-box ul { list-style: none; }
+.guidelines-box li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: #ccc; }
+.guidelines-box li::before { content: "✓"; position: absolute; left: 0; color: #4CAF50; }
+
+.form-section {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-section h2 { color: #fff; font-size: 1.5rem; margin-bottom: 1.5rem; }
+
+.form-group { margin-bottom: 1.5rem; }
+
+.form-group label {
+    display: block;
+    color: #ddd;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-group .optional { color: #888; font-weight: normal; font-size: 0.9rem; }
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgba(255, 68, 68, 0.6);
+}
+
+.form-group textarea { min-height: 200px; resize: vertical; }
+
+.form-group select { cursor: pointer; }
+.form-group select option { background: #1a1a2e; }
+
+.char-count { text-align: right; font-size: 0.85rem; color: #888; margin-top: 0.3rem; }
+
+.disclaimer-box {
+    background: rgba(255, 68, 68, 0.1);
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.disclaimer-box h4 { color: #ff6b6b; font-size: 0.95rem; margin-bottom: 0.5rem; }
+.disclaimer-box p { color: #bbb; font-size: 0.9rem; margin: 0; }
+
+.submit-btn {
+    background: linear-gradient(135deg, #ff4444, #cc3333);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #ff5555, #dd4444);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(255, 68, 68, 0.3);
+}
+
+.alternative-contact {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+.alternative-contact h3 { color: #fff; margin-bottom: 0.5rem; }
+.alternative-contact p { color: #888; font-size: 0.95rem; }
+.alternative-contact a { color: #6495ED; text-decoration: none; }
+
+.what-happens {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.what-happens h3 { color: #fff; margin-bottom: 1rem; }
+
+.process-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+
+.step {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.step .number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 68, 68, 0.3);
+    color: #ff6b6b;
+    border-radius: 50%;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.step p { color: #ccc; font-size: 0.9rem; margin: 0; }
+
+.internal-links {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.internal-links h3 { color: #ff6b6b; margin-bottom: 1rem; }
+.internal-links ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.5rem; }
+.internal-links a { color: #6495ED; text-decoration: none; display: block; padding: 0.4rem 0; }
+.internal-links a:hover { color: #ff6b6b; }
+
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p { color: #666; font-size: 0.9rem; }
+footer a { color: #ff6b6b; text-decoration: none; }
+
+@media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    .form-section { padding: 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Submit Your AI Experience</h1>
+        <p class="subtitle">Help document AI chatbot incidents by sharing your experience. All submissions are reviewed before potential publication.</p>
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="archive/" class="nav-btn">Failure Archive</a>
+            <a href="stories.html" class="nav-btn">User Stories</a>
+            <a href="strengths-and-limits-of-ai.html" class="nav-btn">AI Assessment</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <div class="intro-section">
+        <h2>Why We Collect These Accounts</h2>
+        <p>This project documents AI chatbot incidents to help researchers, journalists, policymakers, and the public understand the current limitations and failure modes of AI systems.</p>
+        <p>Your experience, whether it involves hallucinated information, unexpected behavior, service failures, or other issues, contributes to a growing body of evidence that helps inform better AI development and usage practices.</p>
+    </div>
+
+    <div class="guidelines-box">
+        <h3>What We Are Looking For</h3>
+        <ul>
+            <li>Factual hallucinations: AI provided false information presented as fact</li>
+            <li>Legal or professional issues: AI-generated content caused real-world problems</li>
+            <li>Service reliability issues: Outages, errors, or unexpected behavior</li>
+            <li>Safety concerns: Inappropriate, harmful, or concerning AI responses</li>
+            <li>Enterprise or business impacts: AI failures affecting organizations</li>
+            <li>Any documented incident with verifiable details</li>
+        </ul>
+    </div>
+
+    <div class="form-section">
+        <h2>Submission Form</h2>
+
+        <form action="https://formspree.io/f/submit" method="POST" id="submission-form">
+            <div class="form-group">
+                <label for="incident-type">Type of Incident</label>
+                <select id="incident-type" name="incident_type" required>
+                    <option value="">Select category...</option>
+                    <option value="hallucination">Factual Hallucination (false information)</option>
+                    <option value="legal">Legal/Professional Impact</option>
+                    <option value="medical">Medical/Health Misinformation</option>
+                    <option value="financial">Financial/Business Impact</option>
+                    <option value="safety">Safety/Harmful Content</option>
+                    <option value="reliability">Service Outage/Reliability</option>
+                    <option value="emotional">Emotional/Psychological Impact</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="ai-system">AI System Involved</label>
+                <select id="ai-system" name="ai_system" required>
+                    <option value="">Select AI system...</option>
+                    <option value="chatgpt">ChatGPT (OpenAI)</option>
+                    <option value="claude">Claude (Anthropic)</option>
+                    <option value="gemini">Gemini (Google)</option>
+                    <option value="copilot">Copilot (Microsoft)</option>
+                    <option value="grok">Grok (xAI)</option>
+                    <option value="character-ai">Character.AI</option>
+                    <option value="meta-ai">Meta AI</option>
+                    <option value="other">Other (specify in description)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Approximate Date of Incident <span class="optional">(optional)</span></label>
+                <input type="text" id="date" name="incident_date" placeholder="e.g., January 2026, Last week, etc.">
+            </div>
+
+            <div class="form-group">
+                <label for="description">Describe What Happened</label>
+                <textarea id="description" name="description" required placeholder="Please describe the incident in detail. Include: What you asked the AI, what response you received, what was incorrect or problematic, and any consequences that resulted. Be as specific as possible."></textarea>
+                <p class="char-count">Minimum 100 characters recommended for meaningful documentation</p>
+            </div>
+
+            <div class="form-group">
+                <label for="impact">Real-World Impact <span class="optional">(optional)</span></label>
+                <textarea id="impact" name="impact" placeholder="Did this incident have any real-world consequences? Financial loss, professional embarrassment, incorrect decisions made, time wasted, etc." style="min-height: 100px;"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="evidence">Evidence or Documentation <span class="optional">(optional)</span></label>
+                <textarea id="evidence" name="evidence" placeholder="Do you have screenshots, chat logs, or other documentation? Describe what you have. (Note: We cannot accept file uploads through this form, but you can describe your evidence here.)" style="min-height: 80px;"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address <span class="optional">(optional, for follow-up only)</span></label>
+                <input type="email" id="email" name="email" placeholder="your@email.com">
+                <p style="font-size: 0.85rem; color: #888; margin-top: 0.3rem;">We will only contact you if we need clarification. Your email will not be published or shared.</p>
+            </div>
+
+            <div class="form-group">
+                <label for="attribution">How Should We Attribute This? <span class="optional">(optional)</span></label>
+                <input type="text" id="attribution" name="attribution" placeholder="e.g., Anonymous, First name only, Full name, Professional title">
+                <p style="font-size: 0.85rem; color: #888; margin-top: 0.3rem;">Default is anonymous. We will use whatever attribution you prefer if published.</p>
+            </div>
+
+            <div class="disclaimer-box">
+                <h4>Important Notice</h4>
+                <p>By submitting, you acknowledge that: (1) Your submission may be edited for clarity, length, or accuracy. (2) We are not obligated to publish any submission. (3) We may verify details before publication. (4) Published accounts may be attributed as you specify or kept anonymous. (5) We reserve the right to decline submissions that cannot be verified or do not meet our documentation standards.</p>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Your Experience</button>
+        </form>
+    </div>
+
+    <div class="what-happens">
+        <h3>What Happens After You Submit</h3>
+        <div class="process-steps">
+            <div class="step">
+                <div class="number">1</div>
+                <p>We receive and review your submission</p>
+            </div>
+            <div class="step">
+                <div class="number">2</div>
+                <p>We may reach out for clarification if needed</p>
+            </div>
+            <div class="step">
+                <div class="number">3</div>
+                <p>Verified incidents are documented in our archive</p>
+            </div>
+            <div class="step">
+                <div class="number">4</div>
+                <p>Published with your preferred attribution</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="alternative-contact">
+        <h3>Prefer Email?</h3>
+        <p>You can also send detailed incident reports directly to <a href="mailto:submit@chatgptdisaster.com">submit@chatgptdisaster.com</a></p>
+    </div>
+
+    <div class="internal-links">
+        <h3>Explore Our Documentation</h3>
+        <ul>
+            <li><a href="archive/">Full Documented Failure Archive</a></li>
+            <li><a href="stories.html">User Stories and Testimonials</a></li>
+            <li><a href="why-ai-hallucinations-happen.html">Why AI Hallucinations Happen</a></li>
+            <li><a href="why-chatbots-sound-confident.html">Why AI Sounds Confident When Wrong</a></li>
+            <li><a href="strengths-and-limits-of-ai.html">AI Strengths and Limitations</a></li>
+            <li><a href="lawsuits.html">Legal Actions Against AI Companies</a></li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 ChatGPT Disaster Documentation Project | <a href="index.html">Home</a> | <a href="contact.html">Contact</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">All submissions are reviewed before publication. We prioritize accuracy and verification.</p>
+    </div>
+</footer>
+
+</body>
+</html>

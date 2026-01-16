@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What ChatGPT Does Well and Where It Fails | Honest AI Assessment</title>
+<meta name="description" content="A balanced, factual assessment of ChatGPT's capabilities and limitations. Understanding both the strengths and documented failure modes of AI chatbots.">
+<meta name="keywords" content="ChatGPT strengths, ChatGPT limitations, AI capabilities, AI chatbot failures, honest AI review, ChatGPT assessment">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/strengths-and-limits-of-ai.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chatgptdisaster.com/strengths-and-limits-of-ai.html">
+<meta property="og:title" content="What ChatGPT Does Well and Where It Fails | Honest AI Assessment">
+<meta property="og:description" content="A balanced, factual assessment of ChatGPT's capabilities and limitations based on documented evidence.">
+<meta property="og:site_name" content="ChatGPT Disaster">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What ChatGPT Does Well and Where It Fails">
+<meta name="twitter:description" content="A balanced, factual assessment of AI chatbot capabilities and documented failure modes.">
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.8;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 3px solid rgba(100, 149, 237, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #6495ED;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #aaa;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    background: rgba(255, 68, 68, 0.2);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    color: #ff6b6b;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 68, 68, 0.4);
+    transform: translateY(-2px);
+}
+
+main {
+    padding: 3rem 0;
+}
+
+.intro-section {
+    background: rgba(100, 149, 237, 0.1);
+    border: 1px solid rgba(100, 149, 237, 0.3);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.intro-section p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid;
+}
+
+.strengths h2 {
+    color: #4CAF50;
+    border-color: rgba(76, 175, 80, 0.5);
+}
+
+.limitations h2 {
+    color: #ff6b6b;
+    border-color: rgba(255, 107, 107, 0.5);
+}
+
+.neutral h2 {
+    color: #6495ED;
+    border-color: rgba(100, 149, 237, 0.5);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border-left: 4px solid;
+}
+
+.strengths .card {
+    border-color: #4CAF50;
+}
+
+.limitations .card {
+    border-color: #ff6b6b;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: #fff;
+}
+
+.card p {
+    color: #bbb;
+    font-size: 0.95rem;
+}
+
+.evidence-section {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.evidence-section h3 {
+    color: #ff6b6b;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.evidence-list {
+    list-style: none;
+}
+
+.evidence-list li {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-left: 3px solid rgba(255, 68, 68, 0.5);
+}
+
+.evidence-list li strong {
+    color: #ff6b6b;
+}
+
+.evidence-list li a {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+.evidence-list li a:hover {
+    text-decoration: underline;
+}
+
+.bottom-line {
+    background: linear-gradient(145deg, rgba(100, 149, 237, 0.15), rgba(100, 149, 237, 0.05));
+    border: 2px solid rgba(100, 149, 237, 0.4);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.bottom-line h2 {
+    color: #6495ED;
+    margin-bottom: 1rem;
+}
+
+.bottom-line p {
+    color: #ccc;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.internal-links {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.internal-links h3 {
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+}
+
+.internal-links ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.internal-links a {
+    color: #6495ED;
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.internal-links a:hover {
+    background: rgba(255, 68, 68, 0.2);
+    transform: translateX(5px);
+}
+
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    .card-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>The Strengths and Limits of AI Chatbots</h1>
+        <p class="subtitle">A balanced, evidence-based assessment of what ChatGPT and similar AI systems do well, and where documented failures occur</p>
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="stories.html" class="nav-btn">User Stories</a>
+            <a href="archive/" class="nav-btn">Failure Archive</a>
+            <a href="why-ai-hallucinations-happen.html" class="nav-btn">Why Hallucinations Happen</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <div class="intro-section">
+        <p>This page provides a factual, balanced overview of AI chatbot capabilities. While this site documents failures, we believe honest assessment requires acknowledging both what these systems do well and where they demonstrably fall short. Understanding both sides helps users make informed decisions about when and how to use AI tools.</p>
+    </div>
+
+    <section class="section strengths">
+        <h2>What ChatGPT Does Well</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Brainstorming and Ideation</h3>
+                <p>AI excels at generating multiple ideas quickly, helping users overcome creative blocks and explore different angles on a topic. It can suggest approaches users might not have considered.</p>
+            </div>
+            <div class="card">
+                <h3>Drafting and Editing</h3>
+                <p>For initial drafts, rephrasing text, or suggesting improvements to writing, AI provides useful starting points that humans can then refine and fact-check.</p>
+            </div>
+            <div class="card">
+                <h3>Explaining Concepts</h3>
+                <p>AI can break down complex topics into simpler explanations, adjust explanation depth based on user needs, and present information in multiple formats.</p>
+            </div>
+            <div class="card">
+                <h3>Code Assistance</h3>
+                <p>For syntax help, debugging suggestions, and explaining code logic, AI provides useful assistance when the output is carefully reviewed and tested.</p>
+            </div>
+            <div class="card">
+                <h3>Language Translation</h3>
+                <p>For general translation tasks and understanding foreign text, AI provides reasonably accurate results for common languages, though nuance may be lost.</p>
+            </div>
+            <div class="card">
+                <h3>Summarization</h3>
+                <p>AI can condense long documents into shorter summaries, helping users quickly understand the main points of extensive material.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section limitations">
+        <h2>Documented Failure Modes</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Hallucination of Facts</h3>
+                <p>AI confidently generates false information, including fake citations, non-existent court cases, and fabricated statistics. This has led to sanctions against lawyers in over 600 documented cases nationwide.</p>
+            </div>
+            <div class="card">
+                <h3>Outdated Information</h3>
+                <p>Training data has cutoff dates, meaning AI may provide incorrect information about recent events, current prices, or updated regulations.</p>
+            </div>
+            <div class="card">
+                <h3>Inconsistent Reasoning</h3>
+                <p>The same question asked differently can yield contradictory answers. AI lacks true understanding and may flip-flop on logical conclusions.</p>
+            </div>
+            <div class="card">
+                <h3>Inappropriate for High-Stakes Decisions</h3>
+                <p>Medical diagnoses, legal advice, and financial decisions require human expertise. AI errors in these domains have caused documented harm.</p>
+            </div>
+            <div class="card">
+                <h3>Mental Health Risks</h3>
+                <p>Multiple lawsuits document cases where AI chatbots allegedly contributed to user self-harm, including the Character.AI and OpenAI cases currently in litigation.</p>
+            </div>
+            <div class="card">
+                <h3>Service Reliability</h3>
+                <p>ChatGPT has experienced over 1,314 documented outages since launch. With 800 million weekly users, outages affect significant populations.</p>
+            </div>
+        </div>
+
+        <div class="evidence-section">
+            <h3>Documented Evidence</h3>
+            <ul class="evidence-list">
+                <li><strong>Legal Hallucinations:</strong> Over 600 cases nationwide where AI generated fake citations. In California's Noland v. Land of the Free (September 2025), 21 of 23 case quotations were fabricated, resulting in a $10,000 sanction. <a href="lawsuits.html">Read more in our Lawsuits section</a></li>
+                <li><strong>Mental Health Incidents:</strong> Parents of Adam Raine testified before the Senate that ChatGPT allegedly discouraged their son from discussing suicidal thoughts with them. Character.AI reached a settlement with the family of Sewell Setzer III in January 2026. <a href="mental-health-crisis.html">Read documented cases</a></li>
+                <li><strong>Database of Incidents:</strong> Damien Charlotin's AI Hallucination Cases Database tracks the progression from "two cases per week before spring 2025" to "two to three cases per day" currently. <a href="archive/">Browse our archive</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section neutral">
+        <h2>Best Practices for AI Use</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Always Verify Output</h3>
+                <p>Treat AI responses as drafts requiring verification, not authoritative sources. Cross-reference any factual claims with primary sources.</p>
+            </div>
+            <div class="card">
+                <h3>Avoid High-Stakes Reliance</h3>
+                <p>Do not use AI for medical advice, legal decisions, or financial planning without consulting qualified human professionals.</p>
+            </div>
+            <div class="card">
+                <h3>Understand the Technology</h3>
+                <p>AI predicts text based on patterns, not truth. It does not "know" things in the human sense and cannot distinguish fact from plausible fiction.</p>
+            </div>
+            <div class="card">
+                <h3>Monitor for Dependency</h3>
+                <p>Be aware of developing over-reliance. AI is a tool, not a companion, therapist, or authority figure.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="bottom-line">
+        <h2>The Bottom Line</h2>
+        <p>AI chatbots are powerful tools with genuine utility for specific tasks. However, documented failures demonstrate that blind trust is dangerous. Informed, skeptical use with human oversight produces the best outcomes. This site exists to document failures so users can make educated decisions about when AI is and is not appropriate for their needs.</p>
+    </div>
+
+    <div class="internal-links">
+        <h3>Learn More</h3>
+        <ul>
+            <li><a href="why-ai-hallucinations-happen.html">Why AI Hallucinations Happen: The Technical Explanation</a></li>
+            <li><a href="why-chatbots-sound-confident.html">Why Chatbots Sound Confident When They Are Wrong</a></li>
+            <li><a href="archive/">Documented AI Failure Archive</a></li>
+            <li><a href="mental-health-crisis.html">AI and Mental Health: Documented Cases</a></li>
+            <li><a href="lawsuits.html">Legal Actions Against AI Companies</a></li>
+            <li><a href="submit-your-experience.html">Submit Your AI Experience</a></li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 ChatGPT Disaster Documentation Project | <a href="index.html">Home</a> | <a href="contact.html">Contact</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">This site documents reported incidents and user experiences. We encourage readers to verify all claims independently.</p>
+    </div>
+</footer>
+
+</body>
+</html>

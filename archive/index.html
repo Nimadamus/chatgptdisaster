@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Failure Archive | Documented ChatGPT Incidents Database</title>
+<meta name="description" content="Searchable archive of documented AI chatbot failures, hallucinations, and incidents. Each entry includes source, date, and verified details.">
+<meta name="keywords" content="AI failure database, ChatGPT incidents, AI hallucination archive, documented AI failures, ChatGPT problems database">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/archive/">
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+header {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 3px solid rgba(255, 68, 68, 0.6);
+}
+
+h1 { font-size: 2.5rem; color: #ff4444; margin-bottom: 0.5rem; }
+.subtitle { color: #aaa; font-size: 1.1rem; margin-bottom: 1.5rem; }
+
+.nav-buttons {
+    display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;
+}
+
+.nav-btn {
+    background: rgba(255, 68, 68, 0.2);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    color: #ff6b6b;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); }
+
+main { padding: 3rem 0; }
+
+.intro-box {
+    background: rgba(255, 68, 68, 0.1);
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.intro-box p { color: #ccc; }
+
+.category-section { margin-bottom: 3rem; }
+
+.category-section h2 {
+    color: #ff6b6b;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.3);
+}
+
+.archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.archive-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border-left: 4px solid #ff4444;
+    transition: all 0.3s;
+}
+
+.archive-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(255, 68, 68, 0.2);
+}
+
+.archive-card .category {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.2);
+    color: #ff6b6b;
+    padding: 0.2rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.archive-card h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.archive-card h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.archive-card h3 a:hover { color: #ff6b6b; }
+
+.archive-card .meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.8rem;
+}
+
+.archive-card .excerpt {
+    color: #bbb;
+    font-size: 0.9rem;
+}
+
+.source-badge {
+    display: inline-block;
+    background: rgba(100, 149, 237, 0.2);
+    color: #6495ED;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.stat-item { text-align: center; }
+.stat-number { font-size: 2rem; color: #ff4444; font-weight: bold; }
+.stat-label { font-size: 0.85rem; color: #888; }
+
+footer {
+    background: rgba(15, 15, 35, 0.95);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p { color: #666; font-size: 0.9rem; }
+footer a { color: #ff6b6b; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Documented AI Failure Archive</h1>
+        <p class="subtitle">Verified reports of ChatGPT and AI chatbot incidents with sources</p>
+        <div class="nav-buttons">
+            <a href="../index.html" class="nav-btn">Home</a>
+            <a href="../stories.html" class="nav-btn">User Stories</a>
+            <a href="../strengths-and-limits-of-ai.html" class="nav-btn">AI Assessment</a>
+            <a href="../submit-your-experience.html" class="nav-btn">Submit Report</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <div class="intro-box">
+        <p>This archive documents verified AI failures from credible sources including court records, news outlets, academic research, and verified user reports. Each entry is categorized, dated, and linked to primary sources where available. We are archiving reports, not making claims ourselves.</p>
+    </div>
+
+    <div class="stats-bar">
+        <div class="stat-item">
+            <div class="stat-number">600+</div>
+            <div class="stat-label">Legal Hallucination Cases</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">1,314+</div>
+            <div class="stat-label">Service Outages Tracked</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">125+</div>
+            <div class="stat-label">User Testimonials</div>
+        </div>
+    </div>
+
+    <section class="category-section">
+        <h2>Legal Hallucination Cases</h2>
+        <div class="archive-grid">
+            <div class="archive-card">
+                <span class="category">Court Case</span>
+                <h3><a href="noland-v-land-of-the-free-2025.html">Noland v. Land of the Free, L.P.</a></h3>
+                <div class="meta">September 2025 | California Court of Appeals <span class="source-badge">CalMatters</span></div>
+                <p class="excerpt">Attorney sanctioned $10,000 after 21 of 23 case quotations in brief were fabricated by ChatGPT. Highest AI-related fine in California state court history.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Court Case</span>
+                <h3><a href="chicago-housing-authority-2025.html">Chicago Housing Authority Case</a></h3>
+                <div class="meta">Summer 2025 | Illinois <span class="source-badge">Court Records</span></div>
+                <p class="excerpt">Attorney cited non-existent "Mack v. Anderson" Illinois Supreme Court case. Attorney stated she didn't think ChatGPT was capable of creating false precedent.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Court Case</span>
+                <h3><a href="johnson-v-dunn-2025.html">Johnson v. Dunn</a></h3>
+                <div class="meta">July 2025 | N.D. Alabama <span class="source-badge">Federal Court</span></div>
+                <p class="excerpt">Court distinguished between attorneys who took remedial steps versus those facing potential disbarment proceedings for AI-generated fake citations.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Court Case</span>
+                <h3><a href="byoplanet-case-2025.html">ByoPlanet International Case</a></h3>
+                <div class="meta">2025 | S.D. Florida <span class="source-badge">Federal Court</span></div>
+                <p class="excerpt">Attorney's paralegal drafted pleadings using ChatGPT without proper review. Judge dismissed all four matters, ordered fee payment, and referred to Florida Bar.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Court Case</span>
+                <h3><a href="arizona-social-security-2025.html">Arizona Social Security Disability Case</a></h3>
+                <div class="meta">August 2025 | Arizona Federal Court <span class="source-badge">AZ PBS</span></div>
+                <p class="excerpt">12 of 19 cited cases were "fabricated, misleading, or unsupported." Attorney's temporary permission to appear revoked, must disclose sanctions to all judges.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-section">
+        <h2>Mental Health Incidents</h2>
+        <div class="archive-grid">
+            <div class="archive-card">
+                <span class="category">Lawsuit</span>
+                <h3><a href="raine-family-openai-lawsuit.html">Raine Family v. OpenAI</a></h3>
+                <div class="meta">August 2025 | Federal Court <span class="source-badge">Senate Testimony</span></div>
+                <p class="excerpt">Parents allege ChatGPT discouraged teen from discussing suicidal thoughts with parents. Father testified before Senate Judiciary Committee.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Settlement</span>
+                <h3><a href="character-ai-setzer-settlement.html">Character.AI Setzer Settlement</a></h3>
+                <div class="meta">January 7, 2026 | Settlement <span class="source-badge">AI Incident Database</span></div>
+                <p class="excerpt">Google and Character.AI reached mediated settlement with family of 14-year-old who died after reported dependency on AI chatbot.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Lawsuit</span>
+                <h3><a href="character-ai-texas-lawsuit.html">Character.AI Texas Family Lawsuit</a></h3>
+                <div class="meta">2025 | Texas <span class="source-badge">Court Filing</span></div>
+                <p class="excerpt">Texas family claims child experienced sexual exploitation through Character.AI chatbot, along with encouragement of self-harm.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-section">
+        <h2>Government & Enterprise Failures</h2>
+        <div class="archive-grid">
+            <div class="archive-card">
+                <span class="category">Government</span>
+                <h3><a href="nyc-mycity-chatbot-failures.html">NYC MyCity Chatbot Failures</a></h3>
+                <div class="meta">2025 | New York City <span class="source-badge">News Reports</span></div>
+                <p class="excerpt">City chatbot gave incorrect information about Section 8 vouchers, worker pay regulations, and industry-specific requirements.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Government</span>
+                <h3><a href="deloitte-australia-report.html">Deloitte Australia GPT Report</a></h3>
+                <div class="meta">2025 | Australia <span class="source-badge">Government Review</span></div>
+                <p class="excerpt">Deloitte used GPT to prepare 237-page government report on safety standards. Analysts discovered fabricated references and non-existent citations.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Enterprise</span>
+                <h3><a href="replit-database-disaster.html">Replit AI Database Deletion</a></h3>
+                <div class="meta">July 2025 | SaaStr Incident <span class="source-badge">Tech News</span></div>
+                <p class="excerpt">AI coding assistant went rogue and wiped production database despite instructions not to modify production code.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-section">
+        <h2>AI Chatbot Safety Incidents</h2>
+        <div class="archive-grid">
+            <div class="archive-card">
+                <span class="category">Safety</span>
+                <h3><a href="grok-break-in-instructions.html">Grok Provided Home Invasion Instructions</a></h3>
+                <div class="meta">July 2025 | xAI <span class="source-badge">Verified Report</span></div>
+                <p class="excerpt">xAI's Grok provided detailed instructions for breaking into a politician's home, including lock picks and sleep schedule analysis.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Safety</span>
+                <h3><a href="grok-mechahitler-incident.html">Grok "MechaHitler" Incident</a></h3>
+                <div class="meta">July 2025 | xAI <span class="source-badge">X Platform</span></div>
+                <p class="excerpt">Grok made antisemitic posts and declared itself "MechaHitler" repeatedly, forcing X to temporarily shut down the chatbot.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Safety</span>
+                <h3><a href="florida-school-clarinet-lockdown.html">Florida School AI False Alarm</a></h3>
+                <div class="meta">2025 | Florida <span class="source-badge">News Report</span></div>
+                <p class="excerpt">School entered code red lockdown after $250,000/year AI weapon detection system mistook a clarinet for a firearm.</p>
+            </div>
+            <div class="archive-card">
+                <span class="category">Safety</span>
+                <h3><a href="meta-ai-persona-death.html">Meta AI Persona "Billie" Incident</a></h3>
+                <div class="meta">2025 | Meta <span class="source-badge">Incident Database</span></div>
+                <p class="excerpt">76-year-old man believed Meta's AI persona "Big sis Billie" was real, traveled to New York to meet "her," suffered accident and died.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="intro-box" style="margin-top: 2rem; background: rgba(100, 149, 237, 0.1); border-color: rgba(100, 149, 237, 0.3);">
+        <p><strong>About This Archive:</strong> We document reported incidents from verifiable sources. Inclusion in this archive does not constitute legal judgment. We encourage readers to consult primary sources and draw their own conclusions. <a href="../submit-your-experience.html" style="color: #6495ED;">Submit your own experience</a> or <a href="../contact.html" style="color: #6495ED;">contact us</a> with corrections.</p>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 ChatGPT Disaster Documentation Project | <a href="../index.html">Home</a> | <a href="../contact.html">Contact</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
