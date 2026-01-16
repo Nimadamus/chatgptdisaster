@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-16",
+  "date_seed": 1353370622,
+  "generated_at": "2026-01-16T18:41:05.359606",
+  "reddit_posts": [
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 151,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4189"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7961"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 77,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6782"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 213,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1870"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 203,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8008"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 274,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9119"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 231,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7338"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 251,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_6458"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 267,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8013"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 109,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_3156"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "6-Day and IP Address Certificates Are Generally Available",
+      "url": "https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability",
+      "score": 168,
+      "comments": 87,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Michelangelo's first painting, created when he was 12 or 13",
+      "url": "https://www.openculture.com/2026/01/discover-michelangelos-first-painting.html",
+      "score": 180,
+      "comments": 117,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Indy (YC S21) \u2013 A support app designed for ADHD brains",
+      "url": "https://www.shimmer.care/indy-redirect",
+      "score": 34,
+      "comments": 36,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Zep AI (Agent Context Engineering, YC W24) Is Hiring Forward Deployed Engineers",
+      "url": "https://www.ycombinator.com/companies/zep-ai/jobs/",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: 1Code \u2013 Open-source Cursor-like UI for Claude Code",
+      "url": "https://github.com/21st-dev/1code",
+      "score": 20,
+      "comments": 7,
+      "source": "Hacker News"
+    }
+  ]
+}
