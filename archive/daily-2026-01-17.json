@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-17",
+  "date_seed": 2778541656,
+  "generated_at": "2026-01-17T18:36:02.158430",
+  "reddit_posts": [
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 75,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_9102"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 292,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2100"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 223,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9840"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 174,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7093"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 126,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5691"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 334,
+      "url": "https://reddit.com/r/law",
+      "author": "user_6469"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 160,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3964"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 124,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1898"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 234,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8110"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 117,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_7584"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "We Put Claude Code in Rollercoaster Tycoon",
+      "url": "https://labs.ramp.com/rct",
+      "score": 165,
+      "comments": 80,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: I built a tool to assist AI agents to know when a PR is good to go",
+      "url": "https://dsifry.github.io/goodtogo/",
+      "score": 11,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "6-Day and IP Address Certificates Are Generally Available",
+      "url": "https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability",
+      "score": 458,
+      "comments": 251,
+      "source": "Hacker News"
+    },
+    {
+      "title": "LLM Structured Outputs Handbook",
+      "url": "https://nanonets.com/cookbooks/structured-llm-outputs",
+      "score": 331,
+      "comments": 57,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Releasing rainbow tables to accelerate Net-NTLMv1 protocol deprecation",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables",
+      "score": 143,
+      "comments": 81,
+      "source": "Hacker News"
+    }
+  ]
+}
