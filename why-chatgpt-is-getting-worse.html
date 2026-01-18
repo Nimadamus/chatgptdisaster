@@ -54,220 +54,483 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(34, 193, 195, 0.1) 0%, transparent 50%),
+        linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
     background-attachment: fixed;
     color: #e0e0e0;
-    line-height: 1.8;
+    line-height: 1.7;
     min-height: 100vh;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
+/* Navigation */
+.top-nav {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 2px solid rgba(255, 68, 68, 0.4);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-header {
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-logo {
+    color: #ff4444;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    padding: 8px 16px;
+    background: rgba(255, 68, 68, 0.15);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    font-size: 13px;
+    transition: all 0.3s;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 68, 68, 0.3);
+    border-color: rgba(255, 68, 68, 0.6);
+}
+
+/* Header */
+.page-header {
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.15), rgba(139, 0, 0, 0.1));
+    border-bottom: 3px solid rgba(255, 68, 68, 0.5);
+    padding: 60px 20px;
     text-align: center;
-    padding: 60px 20px 40px;
-    border-bottom: 1px solid rgba(255, 68, 68, 0.3);
-    margin-bottom: 40px;
+}
+
+.header-container {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     color: #ff4444;
-    line-height: 1.3;
+    line-height: 1.2;
     margin-bottom: 20px;
     font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-.meta {
-    color: #888;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.intro {
-    font-size: 1.2rem;
-    color: #ccc;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-article {
-    padding: 0 20px;
-}
-
-h2 {
-    font-size: 1.6rem;
+.header-meta {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.2);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    padding: 8px 20px;
+    border-radius: 25px;
     color: #ff6b6b;
-    margin: 50px 0 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid rgba(255, 68, 68, 0.3);
+    font-size: 14px;
+    margin-bottom: 25px;
 }
 
+.header-intro {
+    font-size: 1.25rem;
+    color: #ccc;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.content-card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+    border: 2px solid rgba(255, 68, 68, 0.25);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    color: #d0d0d0;
+    margin-bottom: 15px;
+}
+
+.intro-text strong {
+    color: #ff6b6b;
+}
+
+/* Section Headers */
+h2 {
+    font-size: 1.7rem;
+    color: #ff4444;
+    margin: 0 0 25px 0;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgba(255, 68, 68, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+h2::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #ff4444;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 68, 68, 0.6);
+}
+
+/* Paragraphs */
 p {
     font-size: 17px;
     margin-bottom: 20px;
     color: #d0d0d0;
+    line-height: 1.85;
 }
 
+/* Highlight Box */
 .highlight-box {
-    background: rgba(255, 68, 68, 0.1);
-    border-left: 4px solid #ff4444;
-    padding: 20px 25px;
+    background: linear-gradient(145deg, rgba(255, 68, 68, 0.2), rgba(139, 0, 0, 0.15));
+    border: 2px solid rgba(255, 68, 68, 0.5);
+    border-left: 5px solid #ff4444;
+    padding: 25px 30px;
     margin: 30px 0;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 5px 20px rgba(255, 68, 68, 0.15);
 }
 
 .highlight-box p {
     margin-bottom: 0;
     color: #e0e0e0;
+    font-size: 16px;
 }
 
-.comparison-section {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    padding: 30px;
-    margin: 40px 0;
-}
-
-.comparison-section h3 {
-    color: #00d4ff;
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-}
-
-.comparison-section p {
-    margin-bottom: 15px;
-}
-
-.back-link {
-    display: inline-block;
-    margin-top: 40px;
-    padding: 12px 25px;
-    background: rgba(255, 68, 68, 0.2);
+.highlight-box strong {
     color: #ff6b6b;
-    text-decoration: none;
-    border-radius: 25px;
-    border: 1px solid rgba(255, 68, 68, 0.4);
+    font-size: 17px;
+}
+
+/* Comparison Section */
+.comparison-grid {
+    display: grid;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.comparison-card {
+    background: linear-gradient(145deg, rgba(0, 212, 255, 0.1), rgba(0, 100, 150, 0.05));
+    border: 2px solid rgba(0, 212, 255, 0.3);
+    border-radius: 15px;
+    padding: 25px 30px;
     transition: all 0.3s;
 }
 
-.back-link:hover {
-    background: rgba(255, 68, 68, 0.3);
+.comparison-card:hover {
+    border-color: rgba(0, 212, 255, 0.5);
+    box-shadow: 0 5px 25px rgba(0, 212, 255, 0.15);
+    transform: translateY(-3px);
+}
+
+.comparison-card h3 {
+    color: #00d4ff;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comparison-card p {
+    margin-bottom: 0;
+    color: #c0c0c0;
+}
+
+.broader-point {
+    background: linear-gradient(145deg, rgba(255, 193, 7, 0.1), rgba(200, 150, 0, 0.05));
+    border: 2px solid rgba(255, 193, 7, 0.3);
+}
+
+.broader-point h3 {
+    color: #ffc107;
+}
+
+/* Key Points List */
+.key-points {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 25px 30px;
+    margin: 25px 0;
+}
+
+.key-points ul {
+    list-style: none;
+    padding: 0;
+}
+
+.key-points li {
+    padding: 10px 0 10px 30px;
+    position: relative;
+    color: #d0d0d0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.key-points li:last-child {
+    border-bottom: none;
+}
+
+.key-points li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #ff4444;
+    font-weight: bold;
+}
+
+/* CTA Buttons */
+.cta-section {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.cta-primary {
+    background: linear-gradient(145deg, #ff4444, #cc0000);
+    color: white;
+    border: 2px solid #ff4444;
+}
+
+.cta-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 68, 68, 0.4);
+}
+
+.cta-secondary {
+    background: rgba(255, 68, 68, 0.15);
+    color: #ff6b6b;
+    border: 2px solid rgba(255, 68, 68, 0.4);
+}
+
+.cta-secondary:hover {
+    background: rgba(255, 68, 68, 0.25);
     border-color: rgba(255, 68, 68, 0.6);
 }
 
+/* Footer */
 footer {
+    background: rgba(15, 15, 35, 0.95);
+    border-top: 2px solid rgba(255, 68, 68, 0.3);
     text-align: center;
     padding: 40px 20px;
     margin-top: 60px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: #666;
-    font-size: 14px;
 }
 
-@media (max-width: 600px) {
-    h1 { font-size: 1.8rem; }
-    h2 { font-size: 1.3rem; }
-    .container { padding: 20px 15px; }
+footer p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 { font-size: 1.9rem; }
+    h2 { font-size: 1.4rem; }
+    .content-card { padding: 25px 20px; }
+    .nav-logo { font-size: 1.1rem; }
+    .page-header { padding: 40px 15px; }
+    .header-intro { font-size: 1.1rem; }
 }
 </style>
 </head>
 <body>
 
-<header>
-    <div class="container">
+<!-- Navigation -->
+<nav class="top-nav">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">ChatGPT Disaster</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="performance-decline.html">Performance</a>
+            <a href="alternatives.html">Alternatives</a>
+            <a href="stories.html">Stories</a>
+            <a href="lawsuits.html">Lawsuits</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="page-header">
+    <div class="header-container">
         <h1>Why ChatGPT Is Quietly Getting Worse (And Nobody Is Talking About It)</h1>
-        <p class="meta">Updated January 2026 | ChatGPT Disaster Research</p>
-        <p class="intro">If you've been using ChatGPT for a while, you've probably noticed something feels off. Responses are shorter. More evasive. Less willing to engage with complex questions. You're not imagining it.</p>
+        <div class="header-meta">Updated January 2026 | ChatGPT Disaster Research</div>
+        <p class="header-intro">If you've been using ChatGPT for a while, you've probably noticed something feels off. Responses are shorter. More evasive. Less willing to engage with complex questions. You're not imagining it.</p>
     </div>
 </header>
 
-<article class="container">
+<!-- Main Content -->
+<main class="main-content">
 
-<p>This isn't a conspiracy theory or user error. There's a measurable, documented decline in ChatGPT's output quality that's been happening gradually since mid-2023. The frustrating part is that OpenAI rarely acknowledges it directly, leaving millions of paying subscribers wondering if the problem is them.</p>
+    <!-- Intro Section -->
+    <div class="content-card">
+        <p class="intro-text">This isn't a conspiracy theory or user error. There's a <strong>measurable, documented decline</strong> in ChatGPT's output quality that's been happening gradually since mid-2023. The frustrating part is that OpenAI rarely acknowledges it directly, leaving millions of paying subscribers wondering if the problem is them.</p>
+        <p class="intro-text"><strong>It's not you.</strong> Here's what's actually happening.</p>
+    </div>
 
-<p>It's not you. Here's what's actually happening.</p>
+    <!-- Section 1 -->
+    <div class="content-card">
+        <h2>What Actually Changed in ChatGPT</h2>
 
-<h2>What Actually Changed in ChatGPT</h2>
+        <p>The ChatGPT you're using today is not the same model that impressed everyone in late 2022 and early 2023. OpenAI has made continuous modifications to the underlying systems, and not all of them improved the user experience.</p>
 
-<p>The ChatGPT you're using today is not the same model that impressed everyone in late 2022 and early 2023. OpenAI has made continuous modifications to the underlying systems, and not all of them improved the user experience.</p>
+        <p>The most significant changes fall into three categories: safety filtering, cost optimization, and behavioral tuning. Each of these has had measurable effects on output quality.</p>
 
-<p>The most significant changes fall into three categories: safety filtering, cost optimization, and behavioral tuning. Each of these has had measurable effects on output quality.</p>
+        <p>Safety filters have expanded dramatically. Topics that GPT-4 would discuss thoughtfully in early 2023 now trigger refusals or heavily hedged responses. This isn't limited to genuinely dangerous content. Users report being unable to get help with fiction writing, hypothetical scenarios, academic research, and even basic coding tasks because the model perceives potential misuse.</p>
 
-<p>Safety filters have expanded dramatically. Topics that GPT-4 would discuss thoughtfully in early 2023 now trigger refusals or heavily hedged responses. This isn't limited to genuinely dangerous content. Users report being unable to get help with fiction writing, hypothetical scenarios, academic research, and even basic coding tasks because the model perceives potential misuse.</p>
+        <p>Cost optimization is the change OpenAI discusses least. Running these models is expensive. There's strong evidence that OpenAI has adjusted inference parameters to reduce computational costs, which directly impacts response depth and nuance. Shorter responses cost less to generate.</p>
 
-<p>Cost optimization is the change OpenAI discusses least. Running these models is expensive. There's strong evidence that OpenAI has adjusted inference parameters to reduce computational costs, which directly impacts response depth and nuance. Shorter responses cost less to generate.</p>
+        <div class="highlight-box">
+            <p><strong>The Stanford Study:</strong> Researchers found GPT-4's accuracy on identifying prime numbers dropped from 97.6% to 2.4% between March and June 2023. OpenAI never explained why. This kind of regression doesn't happen accidentally.</p>
+        </div>
+    </div>
 
-<div class="highlight-box">
-<p><strong>The Stanford Study:</strong> Researchers found GPT-4's accuracy on identifying prime numbers dropped from 97.6% to 2.4% between March and June 2023. OpenAI never explained why. This kind of regression doesn't happen accidentally.</p>
-</div>
+    <!-- Section 2 -->
+    <div class="content-card">
+        <h2>Why Responses Feel Safer, Shorter, or Evasive</h2>
 
-<h2>Why Responses Feel Safer, Shorter, or Evasive</h2>
+        <p>If you've noticed ChatGPT giving you more disclaimers, more "I can't help with that" responses, and more generic advice, there's a reason. OpenAI has been under intense pressure from multiple directions: regulatory scrutiny, advertiser concerns, potential lawsuits, and public relations incidents.</p>
 
-<p>If you've noticed ChatGPT giving you more disclaimers, more "I can't help with that" responses, and more generic advice, there's a reason. OpenAI has been under intense pressure from multiple directions: regulatory scrutiny, advertiser concerns, potential lawsuits, and public relations incidents.</p>
+        <p>Their response has been to make the model more conservative across the board. The problem is that "conservative" often means "less useful." A model that refuses to engage with nuance, that hedges every statement, that won't take a position on anything, is a model that's harder to get value from.</p>
 
-<p>Their response has been to make the model more conservative across the board. The problem is that "conservative" often means "less useful." A model that refuses to engage with nuance, that hedges every statement, that won't take a position on anything, is a model that's harder to get value from.</p>
+        <p>This is particularly noticeable in creative and analytical tasks. Early GPT-4 would write compelling fiction, take bold analytical stances, and engage deeply with complex prompts. Current versions often produce flat, committee-approved prose that reads like it was designed to offend no one and help no one either.</p>
 
-<p>This is particularly noticeable in creative and analytical tasks. Early GPT-4 would write compelling fiction, take bold analytical stances, and engage deeply with complex prompts. Current versions often produce flat, committee-approved prose that reads like it was designed to offend no one and help no one either.</p>
+        <p>The evasiveness extends to technical tasks too. Developers report that ChatGPT increasingly refuses to help with code that could theoretically be misused, gives incomplete solutions, or adds unnecessary warnings to straightforward requests. The model seems trained to assume bad intent by default.</p>
+    </div>
 
-<p>The evasiveness extends to technical tasks too. Developers report that ChatGPT increasingly refuses to help with code that could theoretically be misused, gives incomplete solutions, or adds unnecessary warnings to straightforward requests. The model seems trained to assume bad intent by default.</p>
+    <!-- Section 3 -->
+    <div class="content-card">
+        <h2>Why Experienced Users Notice the Decline First</h2>
 
-<h2>Why Experienced Users Notice the Decline First</h2>
+        <p>New users often think ChatGPT is impressive because they're comparing it to nothing. They don't have a baseline. But if you've been using these tools since 2022 or early 2023, you remember what the model was capable of before the guardrails tightened.</p>
 
-<p>New users often think ChatGPT is impressive because they're comparing it to nothing. They don't have a baseline. But if you've been using these tools since 2022 or early 2023, you remember what the model was capable of before the guardrails tightened.</p>
+        <p>Experienced users also tend to push the model harder. They ask more complex questions, expect more nuanced answers, and use the tool for real work rather than casual queries. These are exactly the use cases where the decline is most apparent.</p>
 
-<p>Experienced users also tend to push the model harder. They ask more complex questions, expect more nuanced answers, and use the tool for real work rather than casual queries. These are exactly the use cases where the decline is most apparent.</p>
+        <p>There's also a pattern recognition element. Once you've noticed the model's tendency to give safe, generic answers, you start seeing it everywhere. The repetitive phrase patterns. The unnecessary caveats. The way it avoids committing to any position. These patterns become impossible to unsee.</p>
 
-<p>There's also a pattern recognition element. Once you've noticed the model's tendency to give safe, generic answers, you start seeing it everywhere. The repetitive phrase patterns. The unnecessary caveats. The way it avoids committing to any position. These patterns become impossible to unsee.</p>
+        <p>Power users have developed workarounds, including elaborate prompt engineering to get the model to actually engage with questions. The fact that these workarounds are necessary is itself evidence of the problem.</p>
+    </div>
 
-<p>Power users have developed workarounds, including elaborate prompt engineering to get the model to actually engage with questions. The fact that these workarounds are necessary is itself evidence of the problem.</p>
+    <!-- Section 4 -->
+    <div class="content-card">
+        <h2>Why OpenAI Avoids Addressing This Directly</h2>
 
-<h2>Why OpenAI Avoids Addressing This Directly</h2>
+        <p>OpenAI's public communications about model quality are carefully managed. They announce improvements loudly and address regressions quietly, if at all. There are several reasons for this.</p>
 
-<p>OpenAI's public communications about model quality are carefully managed. They announce improvements loudly and address regressions quietly, if at all. There are several reasons for this.</p>
+        <p>First, acknowledging decline undermines the narrative of constant progress that justifies subscription prices and investor valuations. OpenAI can't easily say "yes, the model is worse at some things now" while charging $20/month for access.</p>
 
-<p>First, acknowledging decline undermines the narrative of constant progress that justifies subscription prices and investor valuations. OpenAI can't easily say "yes, the model is worse at some things now" while charging $20/month for access.</p>
+        <p>Second, many of the changes were intentional trade-offs. OpenAI chose to make the model safer at the cost of usefulness. Admitting this openly would invite criticism of those choices and potentially legal liability if users can argue they're not getting what they paid for.</p>
 
-<p>Second, many of the changes were intentional trade-offs. OpenAI chose to make the model safer at the cost of usefulness. Admitting this openly would invite criticism of those choices and potentially legal liability if users can argue they're not getting what they paid for.</p>
+        <p>Third, the competitive landscape has changed. Claude, Gemini, and other models are now viable alternatives. Acknowledging problems with ChatGPT makes it easier for users to justify switching.</p>
 
-<p>Third, the competitive landscape has changed. Claude, Gemini, and other models are now viable alternatives. Acknowledging problems with ChatGPT makes it easier for users to justify switching.</p>
+        <p>The result is a communication strategy that emphasizes new features while quietly hoping users don't notice the degradation in core capabilities. Based on subscriber cancellation rates and user complaints, that strategy isn't working.</p>
+    </div>
 
-<p>The result is a communication strategy that emphasizes new features while quietly hoping users don't notice the degradation in core capabilities. Based on subscriber cancellation rates and user complaints, that strategy isn't working.</p>
+    <!-- Section 5: Alternatives -->
+    <div class="content-card">
+        <h2>What Alternatives Currently Do Better</h2>
 
-<h2>What Alternatives Currently Do Better</h2>
+        <div class="comparison-grid">
+            <div class="comparison-card">
+                <h3>Claude (Anthropic)</h3>
+                <p>Claude tends to engage more directly with complex questions and produces longer, more detailed responses by default. It's generally less prone to unnecessary refusals on legitimate requests. Many users who've switched report that Claude feels more like "early ChatGPT" in terms of willingness to actually help.</p>
+            </div>
 
-<div class="comparison-section">
-<h3>Claude (Anthropic)</h3>
-<p>Claude tends to engage more directly with complex questions and produces longer, more detailed responses by default. It's generally less prone to unnecessary refusals on legitimate requests. Many users who've switched report that Claude feels more like "early ChatGPT" in terms of willingness to actually help.</p>
+            <div class="comparison-card">
+                <h3>Gemini (Google)</h3>
+                <p>Gemini has stronger integration with current information through Google's search infrastructure. For tasks requiring recent data or fact-checking, it often outperforms ChatGPT. The trade-off is that it can feel less conversational and more like a search engine with extra steps.</p>
+            </div>
 
-<h3>Gemini (Google)</h3>
-<p>Gemini has stronger integration with current information through Google's search infrastructure. For tasks requiring recent data or fact-checking, it often outperforms ChatGPT. The trade-off is that it can feel less conversational and more like a search engine with extra steps.</p>
+            <div class="comparison-card broader-point">
+                <h3>The Broader Point</h3>
+                <p>No AI model is perfect, and they all have limitations. But the gap between ChatGPT's marketing and its current reality has grown wider than its competitors. Users paying $20/month deserve to know that alternatives exist and may better serve their needs.</p>
+            </div>
+        </div>
+    </div>
 
-<h3>The Broader Point</h3>
-<p>No AI model is perfect, and they all have limitations. But the gap between ChatGPT's marketing and its current reality has grown wider than its competitors. Users paying $20/month deserve to know that alternatives exist and may better serve their needs.</p>
-</div>
+    <!-- Section 6: Conclusion -->
+    <div class="content-card">
+        <h2>Where This Leaves Users</h2>
 
-<h2>Where This Leaves Users</h2>
+        <p>The honest assessment is that ChatGPT in 2026 is a different product than ChatGPT in 2023, and not entirely in a good way. It's more polished in some respects, more capable at certain narrow tasks, but less useful as a general-purpose thinking tool.</p>
 
-<p>The honest assessment is that ChatGPT in 2026 is a different product than ChatGPT in 2023, and not entirely in a good way. It's more polished in some respects, more capable at certain narrow tasks, but less useful as a general-purpose thinking tool.</p>
+        <p>If you're frustrated with ChatGPT, you have options. You can try alternative models. You can learn prompt engineering techniques to work around the limitations. You can reduce your reliance on AI tools for tasks where the current generation isn't reliable.</p>
 
-<p>If you're frustrated with ChatGPT, you have options. You can try alternative models. You can learn prompt engineering techniques to work around the limitations. You can reduce your reliance on AI tools for tasks where the current generation isn't reliable.</p>
+        <p>What you shouldn't do is assume the problem is you. Millions of users are experiencing the same decline. The documentation exists. The benchmarks show it. <strong>Your frustration is valid.</strong></p>
 
-<p>What you shouldn't do is assume the problem is you. Millions of users are experiencing the same decline. The documentation exists. The benchmarks show it. Your frustration is valid.</p>
+        <p>OpenAI may eventually course-correct, or a competitor may force their hand. Until then, understanding what changed and why is the first step toward getting value from these tools despite their limitations.</p>
 
-<p>OpenAI may eventually course-correct, or a competitor may force their hand. Until then, understanding what changed and why is the first step toward getting value from these tools despite their limitations.</p>
+        <div class="cta-section">
+            <a href="index.html" class="cta-btn cta-primary">Back to Home</a>
+            <a href="alternatives.html" class="cta-btn cta-secondary">View Alternatives</a>
+            <a href="performance-decline.html" class="cta-btn cta-secondary">More on Performance</a>
+        </div>
+    </div>
 
-<a href="index.html" class="back-link">Back to ChatGPT Disaster Home</a>
+</main>
 
-</article>
-
+<!-- Footer -->
 <footer>
-    <p>ChatGPT Disaster Documentation Project | <a href="alternatives.html" style="color: #ff6b6b;">View Alternatives</a> | <a href="performance-decline.html" style="color: #ff6b6b;">More on Performance Decline</a></p>
+    <p>ChatGPT Disaster Documentation Project</p>
+    <p><a href="index.html">Home</a> | <a href="alternatives.html">Alternatives</a> | <a href="stories.html">User Stories</a> | <a href="lawsuits.html">Lawsuits</a></p>
 </footer>
 
 </body>
