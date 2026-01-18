@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-18",
+  "date_seed": 237225136,
+  "generated_at": "2026-01-18T08:29:40.359974",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 340,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8721"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 293,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_3161"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 60,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7815"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 150,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5813"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 305,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6251"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 250,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9218"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 230,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8841"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 320,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4871"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 106,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1474"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 228,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7855"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Erdos 281 solved with ChatGPT 5.2 Pro",
+      "url": "https://twitter.com/neelsomani/status/2012695714187325745",
+      "score": 173,
+      "comments": 138,
+      "source": "Hacker News"
+    },
+    {
+      "title": "We put Claude Code in Rollercoaster Tycoon",
+      "url": "https://labs.ramp.com/rct",
+      "score": 438,
+      "comments": 235,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How scientists are using Claude to accelerate research and discovery",
+      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+      "score": 76,
+      "comments": 43,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Raising money fucked me up",
+      "url": "https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up",
+      "score": 226,
+      "comments": 77,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Shannon's randomness-guessing machine",
+      "url": "https://www.loper-os.org/bad-at-entropy/manmach.html",
+      "score": 14,
+      "comments": 2,
+      "source": "Hacker News"
+    }
+  ]
+}
