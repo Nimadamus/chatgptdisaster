@@ -1,7 +1,7 @@
 {
   "date": "2026-01-18",
   "date_seed": 237225136,
-  "generated_at": "2026-01-18T08:57:12.913175",
+  "generated_at": "2026-01-18T09:44:30.868713",
   "reddit_posts": [
     {
       "title": "ChatGPT cited a Supreme Court case that doesn't exist",
@@ -130,36 +130,36 @@
     {
       "title": "Erdos 281 solved with ChatGPT 5.2 Pro",
       "url": "https://twitter.com/neelsomani/status/2012695714187325745",
-      "score": 182,
-      "comments": 143,
+      "score": 191,
+      "comments": 154,
       "source": "Hacker News"
     },
     {
       "title": "We put Claude Code in Rollercoaster Tycoon",
       "url": "https://labs.ramp.com/rct",
-      "score": 444,
-      "comments": 239,
+      "score": 453,
+      "comments": 246,
       "source": "Hacker News"
     },
     {
       "title": "Raising money fucked me up",
       "url": "https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up",
-      "score": 234,
-      "comments": 79,
-      "source": "Hacker News"
-    },
-    {
-      "title": "How scientists are using Claude to accelerate research and discovery",
-      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
-      "score": 79,
-      "comments": 44,
+      "score": 243,
+      "comments": 80,
       "source": "Hacker News"
     },
     {
       "title": "Claude Shannon's randomness-guessing machine",
       "url": "https://www.loper-os.org/bad-at-entropy/manmach.html",
-      "score": 16,
-      "comments": 4,
+      "score": 18,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "U.S. Court Order Against Anna's Archive Spells More Trouble for the Site",
+      "url": "https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/",
+      "score": 74,
+      "comments": 35,
       "source": "Hacker News"
     }
   ]
