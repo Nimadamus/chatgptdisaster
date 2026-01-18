@@ -1,7 +1,7 @@
 {
   "date": "2026-01-18",
   "date_seed": 237225136,
-  "generated_at": "2026-01-18T09:44:30.868713",
+  "generated_at": "2026-01-18T09:55:58.772405",
   "reddit_posts": [
     {
       "title": "ChatGPT cited a Supreme Court case that doesn't exist",
@@ -130,22 +130,22 @@
     {
       "title": "Erdos 281 solved with ChatGPT 5.2 Pro",
       "url": "https://twitter.com/neelsomani/status/2012695714187325745",
-      "score": 191,
-      "comments": 154,
+      "score": 193,
+      "comments": 156,
       "source": "Hacker News"
     },
     {
       "title": "We put Claude Code in Rollercoaster Tycoon",
       "url": "https://labs.ramp.com/rct",
-      "score": 453,
-      "comments": 246,
+      "score": 456,
+      "comments": 247,
       "source": "Hacker News"
     },
     {
       "title": "Raising money fucked me up",
       "url": "https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up",
-      "score": 243,
-      "comments": 80,
+      "score": 244,
+      "comments": 83,
       "source": "Hacker News"
     },
     {
@@ -158,8 +158,8 @@
     {
       "title": "U.S. Court Order Against Anna's Archive Spells More Trouble for the Site",
       "url": "https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/",
-      "score": 74,
-      "comments": 35,
+      "score": 77,
+      "comments": 37,
       "source": "Hacker News"
     }
   ]
