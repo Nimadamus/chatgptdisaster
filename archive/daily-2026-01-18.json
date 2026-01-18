@@ -1,7 +1,7 @@
 {
   "date": "2026-01-18",
   "date_seed": 237225136,
-  "generated_at": "2026-01-18T08:29:40.359974",
+  "generated_at": "2026-01-18T08:57:12.913175",
   "reddit_posts": [
     {
       "title": "ChatGPT cited a Supreme Court case that doesn't exist",
@@ -130,36 +130,36 @@
     {
       "title": "Erdos 281 solved with ChatGPT 5.2 Pro",
       "url": "https://twitter.com/neelsomani/status/2012695714187325745",
-      "score": 173,
-      "comments": 138,
+      "score": 182,
+      "comments": 143,
       "source": "Hacker News"
     },
     {
       "title": "We put Claude Code in Rollercoaster Tycoon",
       "url": "https://labs.ramp.com/rct",
-      "score": 438,
-      "comments": 235,
-      "source": "Hacker News"
-    },
-    {
-      "title": "How scientists are using Claude to accelerate research and discovery",
-      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
-      "score": 76,
-      "comments": 43,
+      "score": 444,
+      "comments": 239,
       "source": "Hacker News"
     },
     {
       "title": "Raising money fucked me up",
       "url": "https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up",
-      "score": 226,
-      "comments": 77,
+      "score": 234,
+      "comments": 79,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How scientists are using Claude to accelerate research and discovery",
+      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+      "score": 79,
+      "comments": 44,
       "source": "Hacker News"
     },
     {
       "title": "Claude Shannon's randomness-guessing machine",
       "url": "https://www.loper-os.org/bad-at-entropy/manmach.html",
-      "score": 14,
-      "comments": 2,
+      "score": 16,
+      "comments": 4,
       "source": "Hacker News"
     }
   ]
