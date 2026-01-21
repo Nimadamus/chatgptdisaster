@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-21",
+  "date_seed": 3030958230,
+  "generated_at": "2026-01-21T18:52:10.050886",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 242,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6938"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4257"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 275,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_2760"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 88,
+      "url": "https://reddit.com/r/law",
+      "author": "user_5764"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 319,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5941"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 94,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4169"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7602"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 172,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2570"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 317,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6618"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 269,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9072"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Waiting for dawn in search: Search index, Google rulings and impact on Kagi",
+      "url": "https://blog.kagi.com/waiting-dawn-search",
+      "score": 67,
+      "comments": 36,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GenAI, the Snake Eating Its Own Tail",
+      "url": "https://www.ybrikman.com/blog/2026/01/21/gen-ai-snake-eating-its-own-tail/",
+      "score": 22,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude's New Constitution",
+      "url": "https://www.anthropic.com/news/claude-new-constitution",
+      "score": 52,
+      "comments": 15,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Autonomous (YC F25) is hiring \u2013 AI-native financial advisor at 0% advisory fees",
+      "url": "https://atg.science/",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Rails UI",
+      "url": "https://railsui.com/",
+      "score": 5,
+      "comments": 5,
+      "source": "Hacker News"
+    }
+  ]
+}
