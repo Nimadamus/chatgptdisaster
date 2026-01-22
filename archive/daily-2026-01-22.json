@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-22",
+  "date_seed": 2382906868,
+  "generated_at": "2026-01-22T18:41:57.055564",
+  "reddit_posts": [
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7165"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 216,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3502"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 235,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8763"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 386,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6376"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 82,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7315"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 139,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5150"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 322,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7043"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 312,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6348"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 100,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3980"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 233,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3386"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
+      "url": "https://gptzero.me/news/neurips/",
+      "score": 381,
+      "comments": 216,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Constellation Space (YC W26) \u2013 AI for satellite mission assurance",
+      "url": "https://constellation-io.com/",
+      "score": 13,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant",
+      "url": "https://www.media.mit.edu/publications/your-brain-on-chatgpt/",
+      "score": 524,
+      "comments": 381,
+      "source": "Hacker News"
+    },
+    {
+      "title": "In Praise of APL (1977)",
+      "url": "https://www.jsoftware.com/papers/perlis77.htm",
+      "score": 82,
+      "comments": 45,
+      "source": "Hacker News"
+    },
+    {
+      "title": "eBay explicitly bans AI \"buy for me\" agents in user agreement update",
+      "url": "https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/",
+      "score": 278,
+      "comments": 294,
+      "source": "Hacker News"
+    }
+  ]
+}
