@@ -576,4 +576,28 @@
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
     </url>
+    <url>
+        <loc>https://chatgptdisaster.com/openai-controversy-2026.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://chatgptdisaster.com/ai-misinformation-2026.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://chatgptdisaster.com/chatgpt-addiction-2026.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://chatgptdisaster.com/ai-ethics-crisis-2026.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
 </urlset>
