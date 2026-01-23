@@ -564,4 +564,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
+    <url>
+        <loc>https://chatgptdisaster.com/is-chatgpt-safe-2026.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://chatgptdisaster.com/chatgpt-vs-claude-2026.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
 </urlset>
