@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-23",
+  "date_seed": 1082810244,
+  "generated_at": "2026-01-23T18:42:26.068697",
+  "reddit_posts": [
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 159,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8537"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 183,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4674"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 220,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5851"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 295,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7544"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1144"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 389,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5009"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 334,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4660"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 315,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8071"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 391,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4531"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 181,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4331"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "AI is a horse (2024)",
+      "url": "https://kconner.com/2024/08/02/ai-is-a-horse.html",
+      "score": 365,
+      "comments": 182,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Proton Spam and the AI Consent Problem",
+      "url": "https://dbushell.com/2026/01/22/proton-spam/",
+      "score": 400,
+      "comments": 249,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
+      "url": "https://gptzero.me/news/neurips/",
+      "score": 915,
+      "comments": 489,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI Usage Policy",
+      "url": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+      "score": 434,
+      "comments": 216,
+      "source": "Hacker News"
+    },
+    {
+      "title": "I was banned from Claude for scaffolding a Claude.md file?",
+      "url": "https://hugodaniel.com/posts/claude-code-banned-me/",
+      "score": 680,
+      "comments": 587,
+      "source": "Hacker News"
+    }
+  ]
+}
