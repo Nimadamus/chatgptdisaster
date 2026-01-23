@@ -454,4 +454,76 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
+
+  <!-- Stories Archive Pages (January 2026) -->
+  <url>
+    <loc>https://chatgptdisaster.com/stories-page8.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/stories-page9.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/stories-page10.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/stories-page11.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 2026 AI Crisis Landing Pages (High Priority SEO) -->
+  <url>
+    <loc>https://chatgptdisaster.com/ai-layoffs-2026.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/ai-bubble-2026.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/character-ai-google-settlement-2026.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Weekly Roundups & Deep Dives (January 2026) -->
+  <url>
+    <loc>https://chatgptdisaster.com/weekly-ai-failure-roundup-jan-20-2026.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/gpt-5-complete-disaster-timeline.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/chatgpt-security-risks-january-2026.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/ai-actress-suicide-pod-january-2026.html</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
