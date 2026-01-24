@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-24",
+  "date_seed": 306634742,
+  "generated_at": "2026-01-24T18:38:01.416995",
+  "reddit_posts": [
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 320,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2254"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4576"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 270,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_7247"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 350,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3857"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 281,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_6054"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 276,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7327"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 106,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2749"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8377"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 182,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3626"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 183,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8232"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claude Code's new hidden feature: Swarms",
+      "url": "https://twitter.com/NicerInPerson/status/2014989679796347375",
+      "score": 95,
+      "comments": 72,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Ask HN: Gmail spam filtering suddenly marking everything as spam?",
+      "url": "https://news.ycombinator.com/item?id=46744807",
+      "score": 14,
+      "comments": 38,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Traintrackr \u2013 Live LED Maps",
+      "url": "https://www.traintrackr.co.uk/",
+      "score": 87,
+      "comments": 27,
+      "source": "Hacker News"
+    },
+    {
+      "title": "US Vaccine Panel Chair Says Polio and Other Shots Should Be Optional",
+      "url": "https://www.nytimes.com/2026/01/23/health/milhoan-vaccines-optional-polio.html",
+      "score": 15,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Proton spam and the AI consent problem",
+      "url": "https://dbushell.com/2026/01/22/proton-spam/",
+      "score": 535,
+      "comments": 408,
+      "source": "Hacker News"
+    }
+  ]
+}
