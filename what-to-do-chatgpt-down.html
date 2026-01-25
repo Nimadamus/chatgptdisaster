@@ -36,6 +36,56 @@
 }
 </script>
 
+<!-- FAQ Schema for Rich Snippets -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do when ChatGPT is down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "First, check status.openai.com to confirm it's a widespread outage. If ChatGPT is down, use alternatives: Claude at claude.ai for writing and analysis, Google Gemini at gemini.google.com for research, or Perplexity at perplexity.ai for fact-checked answers. Most outages resolve within 1-2 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best alternatives when ChatGPT is not working?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top alternatives include: Claude by Anthropic (excellent for writing, coding, and complex tasks), Google Gemini (great for research with real-time info), Perplexity AI (provides sourced answers), and Microsoft Copilot (integrates with Office). All offer free tiers and work independently of OpenAI servers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I fix ChatGPT not loading?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Try these fixes: 1) Refresh the page (Ctrl+R or Cmd+R), 2) Clear browser cache and cookies, 3) Try incognito/private mode, 4) Disable VPN if using one (ChatGPT blocks many VPN IPs), 5) Try a different browser, 6) Check your internet connection, 7) Wait 5-10 minutes if servers are overloaded."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does ChatGPT say 'Something went wrong'?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Something went wrong' error is ChatGPT's generic error message that can mean: server overload, your session expired, network issues, or an internal error. Fix it by refreshing the page, logging out and back in, clearing cookies, or trying a different browser. If it persists, ChatGPT may be experiencing widespread issues."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do ChatGPT outages usually last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Based on 90 days of data, the median ChatGPT outage duration is 1 hour 34 minutes. Minor incidents typically resolve in 30-60 minutes, while major outages can last several hours. December 2025 saw outages lasting 4+ hours affecting millions of users worldwide."
+      }
+    }
+  ]
+}
+</script>
+
 <!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
 
@@ -227,6 +277,7 @@ footer a { color: #4CAF50; text-decoration: none; }
 <p class="subtitle">Your complete action plan when ChatGPT isn't working</p>
 <nav>
 <a href="index.html">Home</a>
+<a href="chatgpt-live-checker.html" style="background: rgba(76, 175, 80, 0.4); border-color: #4CAF50; font-weight: bold;">🔴 Live Checker</a>
 <a href="chatgpt-status-tracker.html">Status Tracker</a>
 <a href="alternatives.html">All Alternatives</a>
 <a href="chatgpt-not-working.html">Troubleshooting</a>

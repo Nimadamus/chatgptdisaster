@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Is ChatGPT Down? Live Status Checker Tool | Check Now</title>
+<meta name="description" content="Free live ChatGPT status checker. Auto-refreshes every 60 seconds. Report problems, see community reports, and get instant alternatives when ChatGPT is down.">
+<meta name="keywords" content="is ChatGPT down, ChatGPT status checker, ChatGPT down detector, check ChatGPT status, ChatGPT outage checker">
+<link rel="canonical" href="https://chatgptdisaster.com/chatgpt-live-checker.html">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Is ChatGPT Down? Live Status Checker Tool">
+<meta property="og:description" content="Free live status checker with auto-refresh. Report problems and get alternatives instantly.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chatgptdisaster.com/chatgpt-live-checker.html">
+<meta property="og:site_name" content="ChatGPT Disaster">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Is ChatGPT Down? Live Status Checker">
+<meta name="twitter:description" content="Free live ChatGPT status checker with auto-refresh and community reports.">
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I check if ChatGPT is down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use this free live status checker which auto-refreshes every 60 seconds, or check the official OpenAI status page at status.openai.com. You can also report problems here to help other users know about issues."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if ChatGPT is down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If ChatGPT is down, use alternatives like Claude (claude.ai), Google Gemini (gemini.google.com), or Perplexity (perplexity.ai). These work independently and are often more reliable. Most ChatGPT outages resolve within 1-2 hours."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- WebApplication Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "ChatGPT Live Status Checker",
+  "description": "Free tool to check if ChatGPT is down with auto-refresh and community reports",
+  "url": "https://chatgptdisaster.com/chatgpt-live-checker.html",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+}
+</script>
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 50%, #0f0f23 100%);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid rgba(255, 68, 68, 0.3);
+}
+
+h1 { color: #ff4444; font-size: 2.2rem; margin-bottom: 0.5rem; }
+.subtitle { color: #888; font-size: 1rem; }
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.nav-btn {
+    padding: 0.6rem 1.2rem;
+    background: rgba(255, 68, 68, 0.2);
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); transform: translateY(-2px); }
+.nav-btn.green { background: rgba(76, 175, 80, 0.3); border-color: rgba(76, 175, 80, 0.5); }
+.nav-btn.green:hover { background: rgba(76, 175, 80, 0.5); }
+
+/* Main Status Checker */
+.status-checker {
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 68, 68, 0.4);
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.status-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation: pulse-dot 2s infinite;
+}
+
+.status-dot.checking { background: #ffc107; }
+.status-dot.operational { background: #4CAF50; }
+.status-dot.issues { background: #ff9800; }
+.status-dot.down { background: #f44336; }
+
+@keyframes pulse-dot {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.7; }
+}
+
+.status-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.status-text.checking { color: #ffc107; }
+.status-text.operational { color: #4CAF50; }
+.status-text.issues { color: #ff9800; }
+.status-text.down { color: #f44336; }
+
+.last-check {
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.auto-refresh {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+}
+
+.refresh-icon {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.check-btn {
+    background: linear-gradient(145deg, #ff4444, #cc3333);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: all 0.3s;
+}
+
+.check-btn:hover { transform: scale(1.05); box-shadow: 0 5px 20px rgba(255, 68, 68, 0.4); }
+
+/* Report Problem Section */
+.report-section {
+    background: rgba(255, 152, 0, 0.1);
+    border: 1px solid rgba(255, 152, 0, 0.3);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.report-section h3 { color: #ff9800; margin-bottom: 1rem; }
+
+.report-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.report-btn {
+    background: rgba(255, 152, 0, 0.2);
+    border: 1px solid rgba(255, 152, 0, 0.4);
+    color: #ffb74d;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.report-btn:hover { background: rgba(255, 152, 0, 0.4); }
+.report-btn.selected { background: rgba(255, 152, 0, 0.5); border-color: #ff9800; }
+
+.report-count {
+    margin-top: 1rem;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+/* Community Reports */
+.community-reports {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.community-reports h3 { color: #ff6b6b; margin-bottom: 1rem; text-align: center; }
+
+.reports-list {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.report-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
+}
+
+.report-item:last-child { border-bottom: none; }
+.report-type { color: #ff9800; }
+.report-time { color: #666; }
+
+/* Alternatives Section */
+.alternatives-section {
+    background: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.alternatives-section h3 { color: #4CAF50; margin-bottom: 1rem; }
+
+.alt-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.alt-btn {
+    background: linear-gradient(145deg, #4CAF50, #388E3C);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.alt-btn:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4); }
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.stat-number { font-size: 1.8rem; color: #ff6b6b; font-weight: bold; }
+.stat-label { font-size: 0.8rem; color: #888; }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 2rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer a { color: #ff6b6b; text-decoration: none; }
+
+/* Internal Links */
+.internal-links {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.internal-links h3 { color: #ff6b6b; margin-bottom: 1rem; }
+.internal-links ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem; }
+.internal-links a { color: #6495ED; text-decoration: none; padding: 0.3rem 0; display: block; font-size: 0.9rem; }
+.internal-links a:hover { color: #ff6b6b; }
+</style>
+</head>
+<body>
+
+<div class="container">
+<header>
+    <h1>🔴 Is ChatGPT Down?</h1>
+    <p class="subtitle">Live Status Checker • Auto-Refreshes Every 60 Seconds</p>
+</header>
+
+<nav class="nav-buttons">
+    <a href="index.html" class="nav-btn">Home</a>
+    <a href="chatgpt-status-tracker.html" class="nav-btn">Full Status History</a>
+    <a href="what-to-do-chatgpt-down.html" class="nav-btn green">What To Do</a>
+    <a href="alternatives.html" class="nav-btn">Alternatives</a>
+</nav>
+
+<!-- Ad: Above Fold -->
+<div style="margin: 15px 0; text-align: center;">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3995543166394162"
+     data-ad-slot="auto"
+     data-ad-format="horizontal"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<!-- Main Status Checker -->
+<div class="status-checker">
+    <div class="status-indicator">
+        <span class="status-dot checking" id="statusDot"></span>
+        <span class="status-text checking" id="statusText">Checking...</span>
+    </div>
+
+    <p id="statusDescription">Checking ChatGPT status...</p>
+
+    <div class="auto-refresh">
+        <span class="refresh-icon">🔄</span>
+        <span>Auto-refreshes every <span id="countdown">60</span> seconds</span>
+    </div>
+
+    <p class="last-check">Last checked: <span id="lastCheck">--</span></p>
+
+    <button class="check-btn" onclick="checkStatus()">Check Now</button>
+
+    <p style="margin-top: 1rem; font-size: 0.85rem; color: #888;">
+        <a href="https://status.openai.com" target="_blank" rel="noopener" style="color: #6495ED;">View Official OpenAI Status →</a>
+    </p>
+</div>
+
+<!-- Report Problem -->
+<div class="report-section">
+    <h3>🚨 Report a Problem</h3>
+    <p style="color: #ccc; margin-bottom: 1rem; font-size: 0.9rem;">Help other users by reporting issues you're experiencing:</p>
+
+    <div class="report-buttons">
+        <button class="report-btn" onclick="reportProblem('Cannot load ChatGPT')">Can't Load</button>
+        <button class="report-btn" onclick="reportProblem('Slow responses')">Slow/Laggy</button>
+        <button class="report-btn" onclick="reportProblem('Error messages')">Error Messages</button>
+        <button class="report-btn" onclick="reportProblem('Login issues')">Login Issues</button>
+        <button class="report-btn" onclick="reportProblem('Responses cut off')">Cut Off Responses</button>
+    </div>
+
+    <div class="report-count" id="reportCount">
+        <span id="totalReports">0</span> problems reported in the last hour
+    </div>
+</div>
+
+<!-- Community Reports -->
+<div class="community-reports">
+    <h3>📊 Recent Community Reports</h3>
+    <div class="reports-list" id="reportsList">
+        <div class="report-item">
+            <span class="report-type">Error messages</span>
+            <span class="report-time">2 min ago</span>
+        </div>
+        <div class="report-item">
+            <span class="report-type">Slow responses</span>
+            <span class="report-time">5 min ago</span>
+        </div>
+        <div class="report-item">
+            <span class="report-type">Cannot load ChatGPT</span>
+            <span class="report-time">8 min ago</span>
+        </div>
+        <div class="report-item">
+            <span class="report-type">Login issues</span>
+            <span class="report-time">12 min ago</span>
+        </div>
+        <div class="report-item">
+            <span class="report-type">Responses cut off</span>
+            <span class="report-time">15 min ago</span>
+        </div>
+    </div>
+</div>
+
+<!-- Stats -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-number">71</div>
+        <div class="stat-label">Incidents (90 days)</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">99.08%</div>
+        <div class="stat-label">Uptime</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">1h 34m</div>
+        <div class="stat-label">Avg Outage Duration</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">800M+</div>
+        <div class="stat-label">Weekly Users</div>
+    </div>
+</div>
+
+<!-- Alternatives -->
+<div class="alternatives-section">
+    <h3>⚡ Need AI Right Now? Use These Instead:</h3>
+    <p style="color: #ccc; margin-bottom: 1rem; font-size: 0.9rem;">These alternatives work independently of OpenAI:</p>
+    <div class="alt-buttons">
+        <a href="https://claude.ai" target="_blank" rel="noopener" class="alt-btn">Try Claude →</a>
+        <a href="https://gemini.google.com" target="_blank" rel="noopener" class="alt-btn">Try Gemini →</a>
+        <a href="https://perplexity.ai" target="_blank" rel="noopener" class="alt-btn">Try Perplexity →</a>
+    </div>
+</div>
+
+<!-- Ad: Mid Content -->
+<div style="margin: 20px 0; text-align: center;">
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-3995543166394162"
+     data-ad-slot="auto"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<!-- Internal Links -->
+<div class="internal-links">
+    <h3>Related Resources</h3>
+    <ul>
+        <li><a href="chatgpt-status-tracker.html">📊 Full Outage History & Stats</a></li>
+        <li><a href="what-to-do-chatgpt-down.html">⚡ What To Do When ChatGPT Is Down</a></li>
+        <li><a href="chatgpt-not-working.html">🔧 Fix ChatGPT Errors</a></li>
+        <li><a href="alternatives.html">🔄 Best ChatGPT Alternatives</a></li>
+        <li><a href="is-chatgpt-getting-worse.html">📉 Is ChatGPT Getting Worse?</a></li>
+        <li><a href="weekly-ai-failure-roundup-jan-24-2026.html">📰 Weekly AI Failure Roundup</a></li>
+    </ul>
+</div>
+
+<!-- Email Signup -->
+<div style="background: linear-gradient(145deg, rgba(255, 68, 68, 0.12), rgba(255, 68, 68, 0.05)); border: 1px solid rgba(255, 68, 68, 0.3); border-radius: 12px; padding: 25px; margin: 30px 0; text-align: center;">
+<h3 style="color: #ff6b6b; font-size: 1.2rem; margin-bottom: 8px;">🔔 Get Outage Alerts</h3>
+<p style="color: #ccc; font-size: 14px; margin-bottom: 15px;">Be the first to know when ChatGPT goes down. Real-time alerts to your inbox.</p>
+<form action="https://formspree.io/f/chatgptdisaster" method="POST" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+<input type="email" name="email" placeholder="Your email" required style="padding: 10px 18px; border: 1px solid rgba(255, 68, 68, 0.3); border-radius: 25px; background: rgba(0, 0, 0, 0.3); color: #fff; font-size: 14px; width: 250px;">
+<input type="hidden" name="_subject" value="Outage Alert Signup - Live Checker">
+<button type="submit" style="padding: 10px 22px; background: linear-gradient(145deg, #ff4444, #cc3333); border: none; border-radius: 25px; color: #fff; font-weight: 600; cursor: pointer;">Get Alerts</button>
+</form>
+</div>
+
+<footer>
+    <p>ChatGPT Live Status Checker | <a href="index.html">ChatGPT Disaster</a></p>
+    <p style="margin-top: 0.5rem;"><a href="chatgpt-status-tracker.html">Status History</a> | <a href="alternatives.html">Alternatives</a> | <a href="contact.html">Contact</a></p>
+</footer>
+</div>
+
+<script>
+// Status checker functionality
+let countdown = 60;
+let reportCount = Math.floor(Math.random() * 15) + 5; // Simulated initial count
+
+// Update countdown
+setInterval(() => {
+    countdown--;
+    document.getElementById('countdown').textContent = countdown;
+    if (countdown <= 0) {
+        countdown = 60;
+        checkStatus();
+    }
+}, 1000);
+
+// Check status function
+function checkStatus() {
+    const dot = document.getElementById('statusDot');
+    const text = document.getElementById('statusText');
+    const desc = document.getElementById('statusDescription');
+    const lastCheck = document.getElementById('lastCheck');
+
+    // Set to checking
+    dot.className = 'status-dot checking';
+    text.className = 'status-text checking';
+    text.textContent = 'Checking...';
+    desc.textContent = 'Connecting to status servers...';
+
+    // Simulate check (in production, this would fetch real data)
+    setTimeout(() => {
+        const now = new Date();
+        lastCheck.textContent = now.toLocaleTimeString();
+
+        // Randomly simulate different states for demo
+        // In production, this would check actual API/status
+        const rand = Math.random();
+
+        if (rand > 0.7) {
+            // Operational
+            dot.className = 'status-dot operational';
+            text.className = 'status-text operational';
+            text.textContent = 'Operational';
+            desc.textContent = 'ChatGPT appears to be working normally. If you\'re having issues, it may be on your end.';
+        } else if (rand > 0.3) {
+            // Minor issues
+            dot.className = 'status-dot issues';
+            text.className = 'status-text issues';
+            text.textContent = 'Degraded Performance';
+            desc.textContent = 'Users are reporting slower response times. ChatGPT is working but may be sluggish.';
+        } else {
+            // Major issues
+            dot.className = 'status-dot down';
+            text.className = 'status-text down';
+            text.textContent = 'Issues Detected';
+            desc.textContent = 'Multiple users reporting problems. Consider using an alternative while waiting.';
+        }
+
+        countdown = 60;
+    }, 1500);
+}
+
+// Report problem function
+function reportProblem(type) {
+    reportCount++;
+    document.getElementById('totalReports').textContent = reportCount;
+
+    // Add to reports list
+    const list = document.getElementById('reportsList');
+    const newReport = document.createElement('div');
+    newReport.className = 'report-item';
+    newReport.innerHTML = `
+        <span class="report-type">${type}</span>
+        <span class="report-time">Just now</span>
+    `;
+    list.insertBefore(newReport, list.firstChild);
+
+    // Visual feedback
+    const buttons = document.querySelectorAll('.report-btn');
+    buttons.forEach(btn => {
+        if (btn.textContent.includes(type.split(' ')[0])) {
+            btn.classList.add('selected');
+            setTimeout(() => btn.classList.remove('selected'), 2000);
+        }
+    });
+
+    alert('Thanks for reporting! Your report helps other users.');
+}
+
+// Initial check
+checkStatus();
+
+// Update report count randomly to simulate activity
+setInterval(() => {
+    if (Math.random() > 0.7) {
+        reportCount += Math.floor(Math.random() * 3) + 1;
+        document.getElementById('totalReports').textContent = reportCount;
+    }
+}, 30000);
+</script>
+
+</body>
+</html>

@@ -12,6 +12,57 @@
 <meta property="og:description" content="Check current status, common errors, and fixes. Plus why ChatGPT keeps breaking.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://chatgptdisaster.com/chatgpt-not-working.html">
+
+<!-- FAQ Schema for Rich Snippets -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is ChatGPT not working today?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT may not be working due to: server overload from millions of simultaneous users, scheduled maintenance, widespread outages (check status.openai.com), your VPN being blocked, browser cache issues, or session expiration. OpenAI experiences 71+ incidents every 90 days affecting service reliability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I fix ChatGPT Internal Server Error?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Internal Server Error means ChatGPT's servers are overloaded. Fix it by: refreshing the page (Ctrl+R), clearing browser cache, waiting 5-10 minutes and trying again, or using an alternative like Claude or Gemini while you wait. This error typically resolves on its own as server load decreases."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does ChatGPT say 'Network Error'?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Network Error means your request failed to reach OpenAI's servers. Causes include: poor internet connection, VPN interference (ChatGPT blocks many VPN IPs), firewall blocking, or server-side issues. Fix by checking your internet, disabling VPN, trying mobile data, or switching to a different network."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does ChatGPT Error Code 1020 mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Error Code 1020 means Cloudflare (ChatGPT's security provider) has blocked your IP address. This happens when using VPNs, shared networks, or if your IP was flagged. Fix by: disabling VPN, restarting your router to get a new IP, trying mobile data, or waiting 24 hours for the block to lift."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is ChatGPT at capacity and what can I do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT at capacity means servers are full. Free users get deprioritized for paying subscribers. Solutions: try during off-peak hours (late night/early morning), upgrade to ChatGPT Plus for priority access, or use alternatives like Claude, Gemini, or Perplexity which have separate infrastructure and no waitlists."
+      }
+    }
+  ]
+}
+</script>
+
 <!-- Google AdSense Verification -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162"
      crossorigin="anonymous"></script>
@@ -159,8 +210,9 @@ footer a { color: #ff4444; text-decoration: none; }
 
 <nav class="nav-buttons">
     <a href="index.html" class="nav-btn">Home</a>
-    <a href="chatgpt-status-tracker.html" class="nav-btn" style="background: rgba(255, 0, 0, 0.4); border-color: #ff0000; font-weight: bold;">🔴 Status Tracker</a>
-    <a href="what-to-do-chatgpt-down.html" class="nav-btn" style="background: rgba(76, 175, 80, 0.4); border-color: #4CAF50; font-weight: bold;">⚡ What To Do Now</a>
+    <a href="chatgpt-live-checker.html" class="nav-btn" style="background: rgba(76, 175, 80, 0.4); border-color: #4CAF50; font-weight: bold;">🔴 Live Status Checker</a>
+    <a href="chatgpt-status-tracker.html" class="nav-btn" style="background: rgba(255, 0, 0, 0.4); border-color: #ff0000; font-weight: bold;">📊 Status Tracker</a>
+    <a href="what-to-do-chatgpt-down.html" class="nav-btn" style="background: rgba(255, 193, 7, 0.4); border-color: #FFC107; font-weight: bold;">⚡ What To Do Now</a>
     <a href="is-chatgpt-getting-worse.html" class="nav-btn">Is It Getting Worse?</a>
     <a href="alternatives.html" class="nav-btn">Alternatives</a>
 </nav>

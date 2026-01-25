@@ -33,6 +33,56 @@
 }
 </script>
 
+<!-- FAQ Schema for Rich Snippets -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is ChatGPT down right now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check the official OpenAI status page at status.openai.com for real-time updates. ChatGPT has had 71 incidents in the past 90 days including 2 major outages and 69 minor incidents. If you see errors, it may be a widespread issue affecting millions of users."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often does ChatGPT go down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT experiences frequent service disruptions. In the past 90 days alone, there have been 71 documented incidents with a median duration of 1 hour 34 minutes. OpenAI reports 99.08% uptime, meaning roughly 1% downtime which translates to hours of outages monthly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do when ChatGPT is down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When ChatGPT is down: 1) Check status.openai.com to confirm it's not just you, 2) Try alternatives like Claude (claude.ai), Gemini (gemini.google.com), or Perplexity (perplexity.ai), 3) Wait 15-30 minutes and try again, 4) Clear your browser cache if the issue persists after service is restored."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does ChatGPT keep having outages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT outages occur due to: massive user load (800+ million weekly users), server infrastructure strain, software updates and deployments, DDoS attacks, and rapid scaling challenges. OpenAI's infrastructure struggles to handle the unprecedented demand for AI services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are ChatGPT outages getting more frequent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Users report outages and degraded performance are increasing. December 2025 saw major outages affecting millions. January 2026 continues the pattern with elevated error rates reported on January 14. The trend suggests infrastructure is struggling to keep pace with growth."
+      }
+    }
+  ]
+}
+</script>
+
 <!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
 
@@ -250,6 +300,7 @@ footer a:hover { text-decoration: underline; }
 <p class="subtitle">Live Status Tracker & Outage History</p>
 <nav>
 <a href="index.html">Home</a>
+<a href="chatgpt-live-checker.html" style="background: rgba(76, 175, 80, 0.4); border-color: #4CAF50; font-weight: bold;">🔴 Live Status Checker</a>
 <a href="chatgpt-not-working.html">Troubleshooting</a>
 <a href="alternatives.html">Alternatives</a>
 <a href="stories.html">User Stories</a>
