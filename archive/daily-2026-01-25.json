@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-25",
+  "date_seed": 2139627566,
+  "generated_at": "2026-01-25T18:37:49.498388",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 149,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8209"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 173,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8267"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 249,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1502"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 156,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3538"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 116,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7421"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 301,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9081"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 84,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4347"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 282,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2983"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 167,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_3801"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 264,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9736"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "ICE Using Palantir Tool That Feeds on Medicaid Data",
+      "url": "https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data",
+      "score": 183,
+      "comments": 70,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Web-based image editor modeled after Deluxe Paint",
+      "url": "https://github.com/steffest/DPaint-js",
+      "score": 86,
+      "comments": 6,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Adoption of EVs tied to real-world reductions in air pollution: study",
+      "url": "https://keck.usc.edu/news/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution-study-finds/",
+      "score": 528,
+      "comments": 507,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: LLMNet \u2013 The Offline Internet, Search the web without the web",
+      "url": "https://github.com/skorotkiewicz/llmnet",
+      "score": 7,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Will Your AI Teammate Bring Bagels to Standup?",
+      "url": "https://redmonk.com/kholterhoff/2026/01/16/will-your-ai-teammate-bring-bagels-to-standup/",
+      "score": 8,
+      "comments": 3,
+      "source": "Hacker News"
+    }
+  ]
+}
