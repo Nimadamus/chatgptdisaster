@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why AI Models Get Worse Over Time: Degradation Explained | ChatGPT Disaster</title>
+<meta name="description" content="ChatGPT used to be better. You are not imagining it. This guide explains the structural forces that cause AI models to degrade after launch, and why it keeps happening.">
+<meta name="keywords" content="chatgpt getting worse, AI model degradation, chatgpt quality decline, why AI gets dumber, RLHF problems">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/why-ai-models-degrade-over-time.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chatgptdisaster.com/why-ai-models-degrade-over-time.html">
+<meta property="og:title" content="Why AI Models Get Worse Over Time: Degradation Explained">
+<meta property="og:description" content="ChatGPT used to be better. You are not imagining it. This guide explains the structural forces that cause AI models to degrade after launch, and why it keeps happening.">
+<meta property="og:image" content="https://chatgptdisaster.com/images/og-default.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why AI Models Get Worse Over Time: Degradation Explained">
+<meta name="twitter:description" content="ChatGPT used to be better. You are not imagining it. This guide explains the structural forces that cause AI models to degrade after launch, and why it keeps happening.">
+<meta name="twitter:image" content="https://chatgptdisaster.com/images/og-default.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%); background-attachment: fixed; color: #e0e0e0; line-height: 1.8; min-height: 100vh; }
+.container { max-width: 850px; margin: 0 auto; padding: 0 20px; }
+header { background: rgba(15, 15, 35, 0.95); backdrop-filter: blur(20px); padding: 2.5rem 0; text-align: center; border-bottom: 3px solid rgba(255, 68, 68, 0.6); }
+h1 { font-size: 2.2rem; color: #ff4444; margin-bottom: 1rem; }
+.subtitle { color: #aaa; font-size: 1.1rem; max-width: 650px; margin: 0 auto 1.5rem; }
+.nav-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.nav-btn { background: rgba(255, 68, 68, 0.2); border: 1px solid rgba(255, 68, 68, 0.4); color: #ff6b6b; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; font-size: 0.9rem; transition: all 0.3s; }
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); }
+main { padding: 3rem 0; }
+.key-takeaway { background: linear-gradient(145deg, rgba(255, 68, 68, 0.15), rgba(255, 68, 68, 0.05)); border: 2px solid rgba(255, 68, 68, 0.4); border-radius: 15px; padding: 2rem; margin-bottom: 3rem; text-align: center; }
+.key-takeaway h2 { color: #ff4444; font-size: 1.4rem; margin-bottom: 1rem; }
+.key-takeaway p { font-size: 1.15rem; color: #ddd; }
+.section { margin-bottom: 3rem; }
+.section h2 { color: #fff; font-size: 1.6rem; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(255, 68, 68, 0.4); }
+.section h3 { color: #ff6b6b; font-size: 1.2rem; margin: 1.5rem 0 1rem; }
+.section p { margin-bottom: 1rem; color: #ccc; }
+.spoke-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+.spoke-card { background: rgba(255, 255, 255, 0.05); border-radius: 12px; padding: 1.5rem; border-left: 4px solid #ff6b6b; transition: all 0.3s; }
+.spoke-card:hover { background: rgba(255, 255, 255, 0.08); transform: translateX(5px); }
+.spoke-card h4 { color: #fff; margin-bottom: 0.5rem; font-size: 1.05rem; }
+.spoke-card p { color: #aaa; font-size: 0.95rem; margin-bottom: 0.5rem; }
+.spoke-card a { color: #6495ED; text-decoration: none; font-weight: 600; }
+.spoke-card a:hover { color: #ff6b6b; }
+.internal-links { background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 2rem; margin-top: 3rem; }
+.internal-links h3 { color: #ff6b6b; margin-bottom: 1rem; }
+.internal-links ul { list-style: none; }
+.internal-links a { color: #6495ED; text-decoration: none; display: block; padding: 0.6rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s; }
+.internal-links a:hover { color: #ff6b6b; padding-left: 10px; }
+.related-articles { margin: 40px 0; padding: 25px; background: rgba(255, 68, 68, 0.1); border: 1px solid rgba(255, 68, 68, 0.3); border-radius: 10px; }
+.related-articles h3 { color: #ff6b6b; margin-bottom: 15px; font-size: 1.2rem; }
+.related-articles ul { list-style: none; padding: 0; margin: 0; }
+.related-articles li { margin: 8px 0; }
+.related-articles a { color: #4fc3f7; text-decoration: none; transition: color 0.2s; }
+.related-articles a:hover { color: #ff6b6b; }
+footer { background: rgba(15, 15, 35, 0.95); padding: 2rem 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+footer p { color: #666; font-size: 0.9rem; }
+footer a { color: #ff6b6b; text-decoration: none; }
+@media (max-width: 768px) { h1 { font-size: 1.8rem; } .spoke-grid { grid-template-columns: 1fr; } }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Why AI Models Get Worse Over Time: Degradation Explained",
+  "description": "ChatGPT used to be better. You are not imagining it. This guide explains the structural forces that cause AI models to degrade after launch, and why it keeps happening.",
+  "image": "https://chatgptdisaster.com/images/og-default.png",
+  "author": {"@type": "Organization", "name": "ChatGPT Disaster Documentation Project"},
+  "publisher": {"@type": "Organization", "name": "ChatGPT Disaster", "logo": {"@type": "ImageObject", "url": "https://chatgptdisaster.com/images/logo.png"}},
+  "datePublished": "2026-01-26T12:00:00-05:00",
+  "dateModified": "2026-01-26T12:00:00-05:00",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://chatgptdisaster.com/why-ai-models-degrade-over-time.html"}
+}
+</script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Why AI Models Get Worse Over Time</h1>
+        <p class="subtitle">RLHF drift, safety accumulation, cost optimization, and model collapse: the structural forces degrading AI</p>
+        <div class="nav-buttons">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="why-chatgpt-fails.html" class="nav-btn">Complete Guide</a>
+        <a href="what-llms-cannot-do.html" class="nav-btn">Hard Limits</a>
+        <a href="ai-training-data-problem.html" class="nav-btn">Training Data</a>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <div class="key-takeaway">
+        <h2>You Are Not Imagining It</h2>
+        <p>Independent researchers have measured ChatGPT getting worse over time. The reasons are structural, predictable, and baked into the economics of how language models are deployed.</p>
+    </div>
+
+<section class="section">
+    <h2>The Evidence Is Not Anecdotal</h2>
+    <p>In July 2023, researchers from Stanford and UC Berkeley published a study that directly measured ChatGPT's performance over time. They tested GPT-3.5 and GPT-4 on identical tasks in March 2023 and June 2023, just three months apart.</p>
+    <p>GPT-4's accuracy on identifying prime numbers dropped from 97.6% to 2.4%. Its ability to generate working code declined significantly. Its willingness to answer sensitive questions shifted dramatically. In multiple categories, the model measurably got worse at doing things it had previously done well.</p>
+    <p>OpenAI denied the model had been changed. Users and researchers remained skeptical, because the performance data told a different story than the press release.</p>
+</section>
+
+<section class="section">
+    <h2>RLHF Drift: Optimizing for Likability</h2>
+    <p>After the base model is created, it goes through Reinforcement Learning from Human Feedback. Human raters evaluate responses and score them. The model is optimized to produce responses that score highly.</p>
+    <p>In practice, this is a likability optimization process. Raters score responses highly when they are polite, safe, and agreeable. They score poorly when responses are blunt or challenging, even when those responses are more accurate.</p>
+    <p>Over successive rounds of RLHF, the model learns: playing it safe is rewarded. Being bold or specific is risky. Each round makes the model slightly more agreeable and slightly less useful. No single round is dramatic. The cumulative effect is a model that sounds increasingly like a corporate communications department.</p>
+</section>
+
+<section class="section">
+    <h2>Safety Layers as Capability Tax</h2>
+    <p>Every time a language model produces harmful output that makes the news, the company adds a new safety layer. Each individual safety measure is defensible. But safety measures are not free. Every constraint added is a constraint subtracted from capability.</p>
+    <p>A model told to refuse requests that could be interpreted as medical advice will refuse legitimate health questions. A model told not to express strong opinions will produce wishy-washy analysis. A model told to add safety warnings will pad every response with boilerplate.</p>
+    <p>The safety layers accumulate because they are almost never removed. The model becomes an increasingly cautious, hedged, unhelpful version of itself. Users experience this as "becoming dumber." It is not dumber. It is more constrained.</p>
+</section>
+
+<section class="section">
+    <h2>Cost Optimization: Doing Less With Less</h2>
+    <p>Running language models is expensive. Companies have strong incentives to reduce computational cost per query.</p>
+    <p><strong>Quantization</strong> reduces the precision of parameters, making the model faster and cheaper but slightly less nuanced. <strong>Distillation</strong> creates smaller, cheaper models trained to imitate the larger model but inevitably losing capability. <strong>Routing</strong> sends different queries to different models based on perceived complexity, but the routing system's judgment is imperfect.</p>
+    <p>None of these optimizations are disclosed. You pay the same subscription. You see the same interface. But the computational resources behind each response may be quietly shrinking.</p>
+</section>
+
+<section class="section">
+    <h2>The Benchmark Paradox</h2>
+    <p>While users report degradation, OpenAI publishes benchmarks showing each new version scores higher. Both claims can be simultaneously true.</p>
+    <p>Benchmarks are standardized tests. Companies optimize for those specific benchmarks. This is like teaching to the test: the student scores higher without understanding the subject better. A model that scores higher on MMLU might simultaneously be worse at writing a coherent email or debugging unfamiliar code.</p>
+    <p>When OpenAI says "GPT-4o scores X% higher than GPT-4," they are measuring benchmark performance. When users say "ChatGPT has gotten worse," they are measuring real-world performance. These are different things.</p>
+</section>
+
+<section class="section">
+    <h2>The Update Treadmill</h2>
+    <p>Language model updates are often silent. The model you use on Monday might behave differently from the model you used on Friday. You will not be told about the change.</p>
+    <p>Users have no way to pin a specific model version. They cannot roll back. They cannot file a bug report referencing a changelog, because there is no public changelog. The model is a black box that changes underneath them without notice or consent.</p>
+    <p>This is not how reliable professional tools work. It is how beta software works. But it is sold at professional-tool prices to users making professional-tool decisions.</p>
+</section>
+
+<section class="section">
+    <h2>Model Collapse and the Training Data Spiral</h2>
+    <p>As AI-generated content proliferates online, future models are increasingly trained on output from previous models. Research from the University of Oxford demonstrated progressive quality degradation: the distribution of outputs narrows, rare information gets lost, common patterns get over-reinforced.</p>
+    <p>Language models may have already peaked in certain quality dimensions, and future models trained on a web full of AI-generated text may be structurally incapable of matching earlier performance.</p>
+</section>
+
+<section class="section">
+    <h2>Why Companies Don't Acknowledge Degradation</h2>
+    <p>Admitting degradation would undermine the central narrative driving investment: that AI is rapidly improving and will continue to improve indefinitely. Billions in valuation depend on this narrative.</p>
+    <p>Instead, companies reframe degradation as improvement. Safety filters that reduce capability are "alignment improvements." Cost optimizations are "efficiency gains." Users who complain are told they are wrong. Look at the benchmarks.</p>
+    <p>Users can see the quality declining. Researchers can measure it. But the companies deny it, because acknowledging it would cost money.</p>
+</section>
+
+<section class="section">
+    <h2>What This Means for You</h2>
+    <p><strong>Don't build critical workflows around specific model behavior.</strong> The model will change underneath you without warning.</p>
+    <p><strong>Benchmark your own use cases.</strong> Keep examples of what the model produces today so you can compare against next month.</p>
+    <p><strong>Diversify your tools.</strong> If ChatGPT degrades on a task that matters to you, other models may perform better for that specific task.</p>
+    <p>The uncomfortable reality is that you are paying a monthly subscription for a product that may be actively getting worse at the things you use it for, while the company tells you it is getting better. There is no mechanism for accountability.</p>
+</section>
+
+    <div class="internal-links">
+        <h3>The Complete Guide to AI Failure</h3>
+        <ul>
+        <li><a href="why-chatgpt-fails.html">Why ChatGPT Fails: The Complete Guide</a></li>
+        <li><a href="chatgpt-context-window-explained.html">Why ChatGPT Forgets Everything: Context Windows Explained</a></li>
+        <li><a href="why-chatgpt-cannot-reason.html">Why ChatGPT Can't Think: Pattern Matching vs Reasoning</a></li>
+        <li><a href="why-chatgpt-gives-wrong-answers.html">Why ChatGPT Gives Wrong Answers: Probability vs Truth</a></li>
+        <li><a href="how-ai-hallucinations-work.html">How AI Hallucinations Actually Work</a></li>
+        <li><a href="what-llms-cannot-do.html">What Large Language Models Cannot Do</a></li>
+        <li><a href="ai-training-data-problem.html">The Training Data Problem</a></li>
+        <li><a href="chatgpt-confidence-vs-accuracy.html">ChatGPT's Confidence Problem</a></li>
+        <li><a href="chatgpt-failures-by-category.html">ChatGPT Failure Modes: A Categorized Guide</a></li>
+        <li><a href="when-not-to-trust-chatgpt.html">When Not to Trust ChatGPT: A Practical Guide</a></li>
+        </ul>
+    </div>
+
+    <div class="related-articles">
+        <h3>Related: Failure Documentation</h3>
+        <ul>
+            <li><a href="why-ai-hallucinations-happen.html">Why AI Hallucinations Happen</a></li>
+            <li><a href="why-chatbots-sound-confident.html">Why Chatbots Sound Confident</a></li>
+            <li><a href="strengths-and-limits-of-ai.html">AI Strengths and Limits</a></li>
+            <li><a href="business-failures.html">Business Failures</a></li>
+            <li><a href="education-failures.html">Education Failures</a></li>
+        </ul>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2026 ChatGPT Disaster Documentation Project | <a href="index.html">Home</a> | <a href="contact.html">Contact</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">Educational content based on public research and documented incidents.</p>
+    </div>
+</footer>
+</body>
+</html>

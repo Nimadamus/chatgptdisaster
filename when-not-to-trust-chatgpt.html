@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>When Not to Trust ChatGPT: A Practical Guide | ChatGPT Disaster</title>
+<meta name="description" content="When should you trust ChatGPT and when should you walk away? This practical guide gives you a framework based on stakes, verifiability, and domain expertise.">
+<meta name="keywords" content="when to trust chatgpt, chatgpt reliability, should I trust AI, chatgpt safe to use, AI trust framework">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/when-not-to-trust-chatgpt.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chatgptdisaster.com/when-not-to-trust-chatgpt.html">
+<meta property="og:title" content="When Not to Trust ChatGPT: A Practical Guide">
+<meta property="og:description" content="When should you trust ChatGPT and when should you walk away? This practical guide gives you a framework based on stakes, verifiability, and domain expertise.">
+<meta property="og:image" content="https://chatgptdisaster.com/images/og-default.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="When Not to Trust ChatGPT: A Practical Guide">
+<meta name="twitter:description" content="When should you trust ChatGPT and when should you walk away? This practical guide gives you a framework based on stakes, verifiability, and domain expertise.">
+<meta name="twitter:image" content="https://chatgptdisaster.com/images/og-default.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%); background-attachment: fixed; color: #e0e0e0; line-height: 1.8; min-height: 100vh; }
+.container { max-width: 850px; margin: 0 auto; padding: 0 20px; }
+header { background: rgba(15, 15, 35, 0.95); backdrop-filter: blur(20px); padding: 2.5rem 0; text-align: center; border-bottom: 3px solid rgba(255, 68, 68, 0.6); }
+h1 { font-size: 2.2rem; color: #ff4444; margin-bottom: 1rem; }
+.subtitle { color: #aaa; font-size: 1.1rem; max-width: 650px; margin: 0 auto 1.5rem; }
+.nav-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.nav-btn { background: rgba(255, 68, 68, 0.2); border: 1px solid rgba(255, 68, 68, 0.4); color: #ff6b6b; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; font-size: 0.9rem; transition: all 0.3s; }
+.nav-btn:hover { background: rgba(255, 68, 68, 0.4); }
+main { padding: 3rem 0; }
+.key-takeaway { background: linear-gradient(145deg, rgba(255, 68, 68, 0.15), rgba(255, 68, 68, 0.05)); border: 2px solid rgba(255, 68, 68, 0.4); border-radius: 15px; padding: 2rem; margin-bottom: 3rem; text-align: center; }
+.key-takeaway h2 { color: #ff4444; font-size: 1.4rem; margin-bottom: 1rem; }
+.key-takeaway p { font-size: 1.15rem; color: #ddd; }
+.section { margin-bottom: 3rem; }
+.section h2 { color: #fff; font-size: 1.6rem; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(255, 68, 68, 0.4); }
+.section h3 { color: #ff6b6b; font-size: 1.2rem; margin: 1.5rem 0 1rem; }
+.section p { margin-bottom: 1rem; color: #ccc; }
+.spoke-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+.spoke-card { background: rgba(255, 255, 255, 0.05); border-radius: 12px; padding: 1.5rem; border-left: 4px solid #ff6b6b; transition: all 0.3s; }
+.spoke-card:hover { background: rgba(255, 255, 255, 0.08); transform: translateX(5px); }
+.spoke-card h4 { color: #fff; margin-bottom: 0.5rem; font-size: 1.05rem; }
+.spoke-card p { color: #aaa; font-size: 0.95rem; margin-bottom: 0.5rem; }
+.spoke-card a { color: #6495ED; text-decoration: none; font-weight: 600; }
+.spoke-card a:hover { color: #ff6b6b; }
+.internal-links { background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 2rem; margin-top: 3rem; }
+.internal-links h3 { color: #ff6b6b; margin-bottom: 1rem; }
+.internal-links ul { list-style: none; }
+.internal-links a { color: #6495ED; text-decoration: none; display: block; padding: 0.6rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s; }
+.internal-links a:hover { color: #ff6b6b; padding-left: 10px; }
+.related-articles { margin: 40px 0; padding: 25px; background: rgba(255, 68, 68, 0.1); border: 1px solid rgba(255, 68, 68, 0.3); border-radius: 10px; }
+.related-articles h3 { color: #ff6b6b; margin-bottom: 15px; font-size: 1.2rem; }
+.related-articles ul { list-style: none; padding: 0; margin: 0; }
+.related-articles li { margin: 8px 0; }
+.related-articles a { color: #4fc3f7; text-decoration: none; transition: color 0.2s; }
+.related-articles a:hover { color: #ff6b6b; }
+footer { background: rgba(15, 15, 35, 0.95); padding: 2rem 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+footer p { color: #666; font-size: 0.9rem; }
+footer a { color: #ff6b6b; text-decoration: none; }
+@media (max-width: 768px) { h1 { font-size: 1.8rem; } .spoke-grid { grid-template-columns: 1fr; } }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "When Not to Trust ChatGPT: A Practical Guide",
+  "description": "When should you trust ChatGPT and when should you walk away? This practical guide gives you a framework based on stakes, verifiability, and domain expertise.",
+  "image": "https://chatgptdisaster.com/images/og-default.png",
+  "author": {"@type": "Organization", "name": "ChatGPT Disaster Documentation Project"},
+  "publisher": {"@type": "Organization", "name": "ChatGPT Disaster", "logo": {"@type": "ImageObject", "url": "https://chatgptdisaster.com/images/logo.png"}},
+  "datePublished": "2026-01-26T12:00:00-05:00",
+  "dateModified": "2026-01-26T12:00:00-05:00",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://chatgptdisaster.com/when-not-to-trust-chatgpt.html"}
+}
+</script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>When Not to Trust ChatGPT</h1>
+        <p class="subtitle">A practical framework for deciding when AI output is safe to rely on and when it is a liability</p>
+        <div class="nav-buttons">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="why-chatgpt-fails.html" class="nav-btn">Complete Guide</a>
+        <a href="chatgpt-confidence-vs-accuracy.html" class="nav-btn">Confidence Problem</a>
+        <a href="chatgpt-failures-by-category.html" class="nav-btn">Failure Modes</a>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <div class="key-takeaway">
+        <h2>Trust Is Not About the Model</h2>
+        <p>Whether ChatGPT is trustworthy depends on what you are asking, what you would lose if the answer is wrong, and whether you can check the answer yourself. The model is the same every time. Your risk tolerance is not.</p>
+    </div>
+
+<section class="section">
+    <h2>The Trust Framework: Stakes and Verifiability</h2>
+    <p>The question is not whether ChatGPT is trustworthy. It is the same system producing the same kind of output regardless of topic. The question is whether the consequences of a wrong answer are tolerable, and whether you can check the answer before relying on it.</p>
+    <p>These two variables, stakes and verifiability, create a simple framework for deciding when to use ChatGPT and when to step away from it.</p>
+    <p><strong>Low stakes, easy to verify:</strong> Use freely. Draft emails, brainstorm ideas, generate options, explore topics. If the output is wrong, the cost is minimal and you will catch it.</p>
+    <p><strong>Low stakes, hard to verify:</strong> Use cautiously. The cost of being wrong is small, but you may not catch errors. Fine for exploration, not for final output.</p>
+    <p><strong>High stakes, easy to verify:</strong> Use as a starting point only. The model can draft, but you must verify every claim before acting on it.</p>
+    <p><strong>High stakes, hard to verify:</strong> Do not use. When wrong answers have serious consequences and you cannot check the output, ChatGPT is a liability, not a tool.</p>
+</section>
+
+<section class="section">
+    <h2>Where ChatGPT Is Genuinely Useful</h2>
+    <p>ChatGPT is good at tasks where the format matters more than the facts. Writing assistance, where you are providing the content and the model is helping with structure and language. Code boilerplate, where you know what you need and the model saves you typing. Brainstorming, where you are generating options you will evaluate yourself. Translation, for getting the gist of text in another language. Summarization, when you can compare the summary against the original.</p>
+    <p>In all of these cases, the user has independent knowledge or access to the source material. ChatGPT is accelerating work the user could do, not replacing expertise the user lacks.</p>
+</section>
+
+<section class="section">
+    <h2>Where ChatGPT Is Dangerous</h2>
+    <p><strong>Medical information.</strong> The model can describe symptoms, conditions, and treatments with convincing fluency. It can also be completely wrong. Medical decisions based on ChatGPT's output have no quality assurance, no liability, and no recourse when the information is incorrect. Medical information requires a licensed professional, not a probability engine.</p>
+    <p><strong>Legal research.</strong> The lawyer who submitted fabricated case citations is the most famous example, but the problem is broader. Legal reasoning requires precise interpretation of specific statutes, precedents, and jurisdictional rules. ChatGPT produces text that looks like legal analysis without performing legal analysis.</p>
+    <p><strong>Financial advice.</strong> The model can generate financial analysis, projections, and recommendations that sound like they came from a financial advisor. They did not. They came from a statistical model that has no fiduciary duty, no regulatory oversight, and no accountability for losses.</p>
+    <p><strong>Academic research.</strong> Fabricated citations, invented statistics, and plausible-sounding claims that have no basis in the literature. For any research where accuracy matters, ChatGPT's output must be independently verified claim by claim, which is often as much work as doing the research from scratch.</p>
+</section>
+
+<section class="section">
+    <h2>The Domain Expertise Requirement</h2>
+    <p>There is a paradox at the heart of using ChatGPT for professional work: the tool is most useful when you already know enough to evaluate its output. And when you know enough to evaluate its output, you often do not need the tool.</p>
+    <p>A senior developer can use ChatGPT to generate code boilerplate and immediately spot errors. A junior developer using ChatGPT for the same task may introduce bugs they lack the experience to catch. The tool is equally confident in both cases. The difference is the user's ability to filter.</p>
+    <p>This creates an expertise tax. ChatGPT is safest for people who need it least. People who need it most, because they lack domain knowledge, are the most vulnerable to its failures.</p>
+</section>
+
+<section class="section">
+    <h2>Red Flags That the Output Is Unreliable</h2>
+    <p><strong>Excessive specificity.</strong> When ChatGPT provides very specific numbers, dates, percentages, or citations without being asked for them, these are frequently fabricated. Real experts hedge on specifics they are unsure about. ChatGPT invents them.</p>
+    <p><strong>Uniform confidence.</strong> If every sentence in a response sounds equally certain, the model is not calibrating its confidence. Some claims should be more tentative than others. If none are, the tone is a performance.</p>
+    <p><strong>Suspiciously perfect structure.</strong> When a complex question receives a perfectly organized, comprehensive response with no loose ends, the tidiness itself is a warning sign. Real expertise involves acknowledging gaps, exceptions, and uncertainties. A response that has none of these is likely smoothing over things it does not know.</p>
+    <p><strong>Mirrors your framing.</strong> If you ask a leading question and the model enthusiastically agrees, it is probably reflecting your framing back rather than independently evaluating the claim.</p>
+    <p><strong>Long conversation, detailed response.</strong> The longer the conversation, the more likely the model has lost critical context. A highly detailed response late in a long conversation is more likely to contain errors than the same response early in a fresh conversation.</p>
+</section>
+
+<section class="section">
+    <h2>The Verification Checklist</h2>
+    <p>Before acting on any ChatGPT output where accuracy matters, run through this list:</p>
+    <p><strong>Can I verify this independently?</strong> If yes, do it. If no, do not rely on it.</p>
+    <p><strong>What happens if this is wrong?</strong> If the consequences are minor, proceed. If serious, verify or get expert input.</p>
+    <p><strong>Am I asking because I don't know, or because I want a faster draft?</strong> If you lack the knowledge to evaluate the answer, you are in dangerous territory.</p>
+    <p><strong>Is this a mainstream, well-documented topic?</strong> If yes, the output is more likely to be accurate. If niche or recent, the risk of fabrication increases.</p>
+    <p><strong>Has this conversation been going on for a long time?</strong> If yes, the model may have lost context. Start a new conversation for critical questions.</p>
+    <p><strong>Did the model provide specific citations or statistics?</strong> If yes, verify each one. These are the most commonly fabricated elements.</p>
+</section>
+
+<section class="section">
+    <h2>A Better Mental Model</h2>
+    <p>Stop thinking of ChatGPT as an oracle that might occasionally be wrong. Think of it as an intern who is enthusiastic, fast, and articulate but has no way to distinguish between what they know and what they are making up.</p>
+    <p>You would not let an intern file your legal brief without checking it. You would not let an intern diagnose your medical condition. You would not let an intern publish financial projections to your investors. But you might let an intern draft an email, brainstorm meeting agenda items, or summarize a document you are going to read anyway.</p>
+    <p>That is the correct scope for ChatGPT. Not because the model is stupid, but because the model cannot tell when it is wrong, and that single limitation determines everything about when it should and should not be trusted.</p>
+</section>
+
+<section class="section">
+    <h2>The Bottom Line</h2>
+    <p>Trust is not binary. It is a function of what you are asking, what you would lose if the answer is wrong, and whether you can check the answer before relying on it.</p>
+    <p>ChatGPT will never tell you when to stop trusting it. It will never flag a response as unreliable. That judgment is entirely on you. The model is a tool. Tools do not know when they are being misused.</p>
+    <p>Use it for what it is good at: drafting, brainstorming, formatting, exploring. Do not use it for what it is structurally incapable of: reliable factual claims, verified analysis, or any task where you cannot afford to be wrong. That is not a limitation of this particular model. It is a limitation of the technology as it exists today.</p>
+</section>
+
+    <div class="internal-links">
+        <h3>The Complete Guide to AI Failure</h3>
+        <ul>
+        <li><a href="why-chatgpt-fails.html">Why ChatGPT Fails: The Complete Guide</a></li>
+        <li><a href="chatgpt-context-window-explained.html">Why ChatGPT Forgets Everything: Context Windows Explained</a></li>
+        <li><a href="why-chatgpt-cannot-reason.html">Why ChatGPT Can't Think: Pattern Matching vs Reasoning</a></li>
+        <li><a href="why-chatgpt-gives-wrong-answers.html">Why ChatGPT Gives Wrong Answers: Probability vs Truth</a></li>
+        <li><a href="how-ai-hallucinations-work.html">How AI Hallucinations Actually Work</a></li>
+        <li><a href="why-ai-models-degrade-over-time.html">Why AI Models Get Worse Over Time</a></li>
+        <li><a href="what-llms-cannot-do.html">What Large Language Models Cannot Do</a></li>
+        <li><a href="ai-training-data-problem.html">The Training Data Problem</a></li>
+        <li><a href="chatgpt-confidence-vs-accuracy.html">ChatGPT's Confidence Problem</a></li>
+        <li><a href="chatgpt-failures-by-category.html">ChatGPT Failure Modes: A Categorized Guide</a></li>
+        </ul>
+    </div>
+
+    <div class="related-articles">
+        <h3>Related: Failure Documentation</h3>
+        <ul>
+            <li><a href="why-ai-hallucinations-happen.html">Why AI Hallucinations Happen</a></li>
+            <li><a href="why-chatbots-sound-confident.html">Why Chatbots Sound Confident</a></li>
+            <li><a href="strengths-and-limits-of-ai.html">AI Strengths and Limits</a></li>
+            <li><a href="business-failures.html">Business Failures</a></li>
+            <li><a href="education-failures.html">Education Failures</a></li>
+        </ul>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2026 ChatGPT Disaster Documentation Project | <a href="index.html">Home</a> | <a href="contact.html">Contact</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">Educational content based on public research and documented incidents.</p>
+    </div>
+</footer>
+</body>
+</html>
