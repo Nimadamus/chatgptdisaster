@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-26",
+  "date_seed": 1688410396,
+  "generated_at": "2026-01-26T18:45:34.566678",
+  "reddit_posts": [
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 88,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_1653"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 241,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9342"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 133,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8529"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 356,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5629"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 188,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4649"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 225,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4913"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 66,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_2178"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 374,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3299"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 202,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2344"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 127,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1831"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "There is an AI code review bubble",
+      "url": "https://www.greptile.com/blog/ai-code-review-bubble",
+      "score": 14,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The mountain that weighed the Earth",
+      "url": "https://signoregalilei.com/2026/01/18/the-mountain-that-weighed-the-earth/",
+      "score": 32,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Google AI Overviews cite YouTube more than any medical site for health queries",
+      "url": "https://www.theguardian.com/technology/2026/jan/24/google-ai-overviews-youtube-medical-citations-study",
+      "score": 226,
+      "comments": 119,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OSS ChatGPT WebUI \u2013 530 Models, MCP, Tools, Gemini RAG, Image/Audio Gen",
+      "url": "https://llmspy.org/docs/v3",
+      "score": 72,
+      "comments": 21,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OracleGPT: Thought Experiment on an AI Powered Executive",
+      "url": "https://senteguard.com/blog/#post-7fYcaQrAcfsldmSb7zVM",
+      "score": 38,
+      "comments": 33,
+      "source": "Hacker News"
+    }
+  ]
+}
