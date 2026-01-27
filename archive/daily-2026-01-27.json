@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-27",
+  "date_seed": 1080729209,
+  "generated_at": "2026-01-27T18:49:15.839696",
+  "reddit_posts": [
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 351,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9781"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 342,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7123"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 278,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9681"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 375,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4439"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 369,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_4875"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 191,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8489"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 336,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1766"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 358,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2370"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 88,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3469"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2470"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Cloudflare claimed they implemented Matrix on Cloudflare workers. They didn't",
+      "url": "https://tech.lgbt/@JadedBlueEyes/115967791152135761",
+      "score": 332,
+      "comments": 126,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Heathrow scraps liquid container limit",
+      "url": "https://www.bbc.com/news/articles/c1evvx89559o",
+      "score": 558,
+      "comments": 719,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A first look at Aperture by Tailscale (private alpha)",
+      "url": "https://tailscale.com/blog/aperture-private-alpha",
+      "score": 43,
+      "comments": 10,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Vargai/SDK \u2013 JSX for AI video, declarative programming language for Claude Code",
+      "url": "https://varg.ai/sdk",
+      "score": 38,
+      "comments": 15,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Management as AI superpower: Thriving in a world of agentic AI",
+      "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower",
+      "score": 43,
+      "comments": 55,
+      "source": "Hacker News"
+    }
+  ]
+}
