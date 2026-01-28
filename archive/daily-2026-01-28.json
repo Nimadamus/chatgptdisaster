@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-28",
+  "date_seed": 3475473504,
+  "generated_at": "2026-01-28T18:45:52.795367",
+  "reddit_posts": [
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 215,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5746"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 241,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3363"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 161,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4283"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 60,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_8525"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 144,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8399"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 198,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2959"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 142,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2329"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 305,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3200"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 235,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3053"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 195,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7352"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Airfoil (2024)",
+      "url": "https://ciechanow.ski/airfoil/",
+      "score": 210,
+      "comments": 36,
+      "source": "Hacker News"
+    },
+    {
+      "title": "That's Not How Email Works, HSBC",
+      "url": "https://danq.me/2026/01/28/hsbc-dont-understand-email/",
+      "score": 25,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Cua-Bench \u2013 a benchmark for AI agents in GUI environments",
+      "url": "https://github.com/trycua/cua",
+      "score": 23,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A few random notes from Claude coding quite a bit last few weeks",
+      "url": "https://twitter.com/karpathy/status/2015883857489522876",
+      "score": 837,
+      "comments": 735,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon axes 16,000 jobs as it pushes AI and efficiency",
+      "url": "https://www.reuters.com/legal/litigation/amazon-cuts-16000-jobs-globally-broader-restructuring-2026-01-28/",
+      "score": 297,
+      "comments": 364,
+      "source": "Hacker News"
+    }
+  ]
+}
