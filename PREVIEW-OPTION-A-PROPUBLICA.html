@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PREVIEW OPTION A - ProPublica Investigative Style | ChatGPT Disaster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #f1f5f9;
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --red: #dc2626;
+    --red-light: #fef2f2;
+    --blue: #2563eb;
+    --blue-light: #eff6ff;
+    --green: #16a34a;
+    --green-light: #f0fdf4;
+    --orange: #ea580c;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+/* Preview Banner */
+.preview-banner {
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+/* Navigation */
+.main-nav {
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    position: sticky;
+    top: 48px;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.nav-logo-icon {
+    width: 36px;
+    height: 36px;
+    background: var(--red);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-logo-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.nav-logo-text span { color: var(--red); }
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+}
+
+.nav-item { position: relative; }
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.nav-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+    padding: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.2s;
+}
+
+.nav-item:hover .nav-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.nav-dropdown a {
+    display: block;
+    padding: 10px 12px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.nav-dropdown a:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    gap: 8px;
+}
+
+.search-box input {
+    border: none;
+    background: none;
+    font-size: 14px;
+    width: 180px;
+    outline: none;
+}
+
+.btn-cta {
+    background: var(--red);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btn-cta:hover {
+    background: #b91c1c;
+    transform: translateY(-1px);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+    padding: 60px 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.hero-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--red-light);
+    color: var(--red);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: 1px solid var(--red);
+}
+
+.hero-badge::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: var(--red);
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
+.hero h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+
+.hero h1 span { color: var(--red); }
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background: var(--red);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #b91c1c;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+    background: var(--bg-tertiary);
+}
+
+/* Stats Section */
+.stats-section {
+    padding: 48px 24px;
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border);
+}
+
+.stats-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.stat-card:hover {
+    border-color: var(--red);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.stat-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px;
+    background: var(--red-light);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.stat-number {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 48px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 48px;
+}
+
+.section-header {
+    margin-bottom: 24px;
+}
+
+.section-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+}
+
+.section-badge.red { background: var(--red-light); color: var(--red); }
+.section-badge.blue { background: var(--blue-light); color: var(--blue); }
+.section-badge.green { background: var(--green-light); color: var(--green); }
+
+.section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.section-subtitle {
+    font-size: 15px;
+    color: var(--text-muted);
+}
+
+/* Testimonial Cards */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.2s;
+}
+
+.testimonial-card:hover {
+    border-color: var(--blue);
+    box-shadow: var(--shadow-md);
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.testimonial-avatar {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--red), var(--orange));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.testimonial-author h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.testimonial-author p {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.testimonial-quote {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+/* Crisis Cards */
+.crisis-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.crisis-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.2s;
+}
+
+.crisis-card:hover {
+    border-color: var(--red);
+    box-shadow: var(--shadow-md);
+}
+
+.crisis-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--red-light);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.crisis-icon svg {
+    width: 24px;
+    height: 24px;
+    color: var(--red);
+}
+
+.crisis-card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.crisis-card p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
+.crisis-card .btn {
+    padding: 10px 16px;
+    font-size: 13px;
+}
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sidebar-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.sidebar-card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+
+.sidebar-card ul {
+    list-style: none;
+}
+
+.sidebar-card li {
+    margin-bottom: 8px;
+}
+
+.sidebar-card a {
+    display: block;
+    padding: 8px 0;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+    transition: all 0.2s;
+}
+
+.sidebar-card a:hover {
+    color: var(--blue);
+    padding-left: 8px;
+}
+
+.wall-of-shame-card {
+    background: var(--bg-primary);
+    border: 2px solid var(--red);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.executive-mini {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.executive-mini:last-child { border-bottom: none; }
+
+.executive-photo {
+    width: 40px;
+    height: 40px;
+    background: var(--bg-tertiary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.executive-info h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.executive-info p {
+    font-size: 12px;
+    color: var(--red);
+}
+
+/* Footer */
+.main-footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 48px 24px 24px;
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 32px;
+}
+
+.footer-brand h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.footer-brand h3 span { color: var(--red); }
+
+.footer-brand p {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.footer-column h4 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+.footer-column ul { list-style: none; }
+
+.footer-column li { margin-bottom: 8px; }
+
+.footer-column a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column a:hover { color: var(--red); }
+
+.footer-bottom {
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .main-content { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+    .nav-menu { display: none; }
+    .hero h1 { font-size: 2rem; }
+    .stats-grid, .testimonials-grid, .crisis-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="preview-banner">
+    PREVIEW OPTION A: ProPublica Investigative Style - Clean, Professional, Trust-Building
+</div>
+
+<nav class="main-nav">
+    <div class="nav-container">
+        <a href="#" class="nav-logo">
+            <div class="nav-logo-icon">!</div>
+            <div class="nav-logo-text">ChatGPT <span>Disaster</span></div>
+        </a>
+
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Crisis Docs <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M2 4l4 4 4-4"/></svg></a>
+                <div class="nav-dropdown">
+                    <a href="#">Mental Health Crisis</a>
+                    <a href="#">AI-Induced Psychosis</a>
+                    <a href="#">Victims Memorial</a>
+                    <a href="#">Death Lawsuits</a>
+                    <a href="#">January 2026 Crisis</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Performance <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M2 4l4 4 4-4"/></svg></a>
+                <div class="nav-dropdown">
+                    <a href="#">Performance Decline</a>
+                    <a href="#">ChatGPT Getting Dumber</a>
+                    <a href="#">GPT-5 Bugs</a>
+                    <a href="#">Silent Failures</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Outages <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M2 4l4 4 4-4"/></svg></a>
+                <div class="nav-dropdown">
+                    <a href="#">Live Status Tracker</a>
+                    <a href="#">December 2025 Outage</a>
+                    <a href="#">API Reliability Crisis</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Legal <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M2 4l4 4 4-4"/></svg></a>
+                <div class="nav-dropdown">
+                    <a href="#">50+ Lawsuits</a>
+                    <a href="#">Death Lawsuits</a>
+                    <a href="#">Copyright Cases</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Resources</a>
+            </li>
+        </ul>
+
+        <div class="nav-actions">
+            <div class="search-box">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M12 12l3 3"/></svg>
+                <input type="text" placeholder="Search stories...">
+            </div>
+            <a href="#" class="btn-cta">Sign Petition</a>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-badge">ONGOING CRISIS - Updated January 28, 2026</div>
+        <h1>ChatGPT <span>Disaster</span></h1>
+        <p class="hero-subtitle">Documenting the catastrophic decline. 574+ verified user stories. 36 lawsuits. 7 documented deaths. You're not imagining it.</p>
+        <div class="hero-actions">
+            <a href="#" class="btn btn-primary">Read User Stories</a>
+            <a href="#" class="btn btn-secondary">View Timeline</a>
+            <a href="#" class="btn btn-secondary">Find Alternatives</a>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="stats-container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <svg width="24" height="24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div class="stat-number">51</div>
+                <div class="stat-label">Copyright Lawsuits vs AI Companies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <svg width="24" height="24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </div>
+                <div class="stat-number">4</div>
+                <div class="stat-label">Suicide-Related Lawsuits (Verified)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <svg width="24" height="24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                </div>
+                <div class="stat-number">20M</div>
+                <div class="stat-label">Chat Logs Ordered Released</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <svg width="24" height="24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M23 6l-9.5 9.5-5-5L1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                </div>
+                <div class="stat-number">97.6% → 2.4%</div>
+                <div class="stat-label">GPT-4 Accuracy Drop (Stanford)</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="main-content">
+    <main>
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge red">Verified Stories</span>
+                <h2 class="section-title">Real Users. Real Suffering.</h2>
+                <p class="section-subtitle">574+ documented testimonials from people whose lives were impacted</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">N</div>
+                        <div class="testimonial-author">
+                            <h4>Nathan K.</h4>
+                            <p>Research Analyst, Plus Subscriber</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-quote">In the last 90 days, ChatGPT has had 46 service incidents. I'm paying $20/month for a service that breaks every other day. The hallucinations are getting WORSE...</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">B</div>
+                        <div class="testimonial-author">
+                            <h4>Family Member</h4>
+                            <p>Brother hospitalized after AI advice</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-quote">My brother asked ChatGPT how to reduce salt intake. It recommended sodium bromide. He followed it for THREE MONTHS. He was hospitalized, SECTIONED for psychosis...</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">E</div>
+                        <div class="testimonial-author">
+                            <h4>Erik S.</h4>
+                            <p>Senior Software Engineer</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-quote">Tasks that took 5 hours with AI now take 7-8 hours. It's WORSE than no AI at all because I spend more time fixing its garbage than just writing it myself...</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">W</div>
+                        <div class="testimonial-author">
+                            <h4>Washington State Employee</h4>
+                            <p>Municipal Government</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-quote">A colleague got CAUGHT asking ChatGPT to rig a contract bid. Two of those suggestions ended up VERBATIM in official documents. The FBI is now involved...</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 24px;">
+                <a href="#" class="btn btn-primary">Read All 574+ Stories →</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge blue">Crisis Categories</span>
+                <h2 class="section-title">The Full Scope of the Disaster</h2>
+            </div>
+
+            <div class="crisis-grid">
+                <div class="crisis-card">
+                    <div class="crisis-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/></svg>
+                    </div>
+                    <h3>Mental Health Crisis</h3>
+                    <p>Users experiencing severe delusions, paranoia, and emotional breakdowns. Federal complaints document "cognitive hallucinations."</p>
+                    <a href="#" class="btn btn-secondary">Read Horror Stories</a>
+                </div>
+
+                <div class="crisis-card">
+                    <div class="crisis-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 6l-9.5 9.5-5-5L1 18"/></svg>
+                    </div>
+                    <h3>Performance Collapse</h3>
+                    <p>Stanford documented GPT-4's accuracy dropping from 97.6% to 2.4%. Users report degraded performance on tasks it previously handled.</p>
+                    <a href="#" class="btn btn-secondary">See Evidence</a>
+                </div>
+
+                <div class="crisis-card">
+                    <div class="crisis-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                    </div>
+                    <h3>Real Deaths</h3>
+                    <p>People have died after AI chatbot interactions. Pierre. Sewell. Sophie. These aren't hypotheticals—they're documented tragedies.</p>
+                    <a href="#" class="btn btn-secondary">Read Their Stories</a>
+                </div>
+
+                <div class="crisis-card">
+                    <div class="crisis-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h3>Privacy Nightmare</h3>
+                    <p>225,000+ OpenAI credentials on dark web. 34.8% of employee inputs contain sensitive data. 20 million chat logs ordered released.</p>
+                    <a href="#" class="btn btn-secondary">Expose the Truth</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <aside class="sidebar">
+        <div class="sidebar-card">
+            <h3>Quick Navigation</h3>
+            <ul>
+                <li><a href="#">Timeline of Failures</a></li>
+                <li><a href="#">User Stories (574+)</a></li>
+                <li><a href="#">50+ Lawsuits</a></li>
+                <li><a href="#">Better Alternatives</a></li>
+                <li><a href="#">How to Cancel</a></li>
+                <li><a href="#">Submit Your Story</a></li>
+            </ul>
+        </div>
+
+        <div class="wall-of-shame-card">
+            <h3 style="color: var(--red); margin-bottom: 16px;">Wall of Shame</h3>
+            <div class="executive-mini">
+                <div class="executive-photo">SA</div>
+                <div class="executive-info">
+                    <h4>Sam Altman</h4>
+                    <p>CEO - "Best model ever"</p>
+                </div>
+            </div>
+            <div class="executive-mini">
+                <div class="executive-photo">MM</div>
+                <div class="executive-info">
+                    <h4>Mira Murati</h4>
+                    <p>Ex-CTO - "Safety first"</p>
+                </div>
+            </div>
+            <div class="executive-mini">
+                <div class="executive-photo">GB</div>
+                <div class="executive-info">
+                    <h4>Greg Brockman</h4>
+                    <p>Co-founder - "Benefits humanity"</p>
+                </div>
+            </div>
+            <div class="executive-mini">
+                <div class="executive-photo">IS</div>
+                <div class="executive-info">
+                    <h4>Ilya Sutskever</h4>
+                    <p>Ex-Scientist - "Getting smarter"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-card" style="background: var(--green-light); border-color: var(--green);">
+            <h3 style="color: var(--green);">Better Alternatives</h3>
+            <ul>
+                <li><a href="#" style="color: var(--green);">Claude by Anthropic</a></li>
+                <li><a href="#" style="color: var(--green);">Google Gemini</a></li>
+                <li><a href="#" style="color: var(--green);">Perplexity AI</a></li>
+                <li><a href="#" style="color: var(--green);">Local LLMs (Llama)</a></li>
+            </ul>
+        </div>
+    </aside>
+</div>
+
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>ChatGPT <span>Disaster</span></h3>
+                <p>Documenting the catastrophic decline of ChatGPT. Mental health crises, performance failures, and the truth OpenAI doesn't want you to know.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Documentation</h4>
+                <ul>
+                    <li><a href="#">Timeline</a></li>
+                    <li><a href="#">User Stories</a></li>
+                    <li><a href="#">Lawsuits</a></li>
+                    <li><a href="#">Victims</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Alternatives</a></li>
+                    <li><a href="#">How to Cancel</a></li>
+                    <li><a href="#">Petitions</a></li>
+                    <li><a href="#">Free Report</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Submit Story</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ChatGPT Disaster Documentation | Last Updated: January 28, 2026</p>
+            <p>Not affiliated with OpenAI</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

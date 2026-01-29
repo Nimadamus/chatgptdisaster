@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Disaster - Documenting User Experiences</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Bebas+Neue&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --gold: #ffd700;
+    --gold-light: #ffea00;
+    --black: #000000;
+    --black-card: #0a0a0a;
+    --red: #ff4444;
+    --green: #00cc88;
+    --blue: #4a9eff;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: var(--black);
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* BACKGROUND */
+.bg-base {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background:
+        radial-gradient(ellipse at 50% 0%, rgba(255, 215, 0, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 20% 80%, rgba(255, 215, 0, 0.04) 0%, transparent 40%),
+        radial-gradient(ellipse at 80% 80%, rgba(255, 215, 0, 0.04) 0%, transparent 40%),
+        #000;
+}
+
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image:
+        radial-gradient(1px 1px at 100px 100px, rgba(255,215,0,0.5), transparent),
+        radial-gradient(1px 1px at 300px 200px, rgba(255,255,255,0.3), transparent),
+        radial-gradient(1.5px 1.5px at 500px 80px, rgba(255,215,0,0.6), transparent),
+        radial-gradient(1px 1px at 700px 300px, rgba(255,255,255,0.25), transparent),
+        radial-gradient(1px 1px at 200px 400px, rgba(255,215,0,0.4), transparent),
+        radial-gradient(1.5px 1.5px at 600px 450px, rgba(255,215,0,0.5), transparent);
+    background-size: 1000px 500px;
+}
+
+.accent-line-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%);
+    z-index: 100;
+    box-shadow: 0 0 30px var(--gold);
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 10;
+}
+
+/* NEWS TICKER */
+.news-ticker {
+    background: linear-gradient(90deg, #8b0000, #cc0000, #8b0000);
+    padding: 12px 0;
+    overflow: hidden;
+    border-bottom: 2px solid var(--gold);
+}
+
+.ticker-content {
+    display: flex;
+    animation: ticker 120s linear infinite;
+    white-space: nowrap;
+}
+
+.ticker-item {
+    padding: 0 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ticker-item::before {
+    content: '⚠ ';
+    color: var(--gold);
+}
+
+@keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* NAVIGATION */
+.navbar {
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.nav-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 35px;
+    letter-spacing: 3px;
+    border-right: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.nav-logo .gold {
+    color: var(--gold);
+    text-shadow: 0 0 20px var(--gold);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    flex: 1;
+}
+
+.nav-menu > li { position: relative; }
+
+.nav-menu > li > a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    padding: 22px 24px;
+    display: block;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    border-left: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.nav-menu > li > a:hover {
+    color: var(--gold);
+    background: rgba(255, 215, 0, 0.1);
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 240px;
+    background: rgba(0, 0, 0, 0.98);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-top: 3px solid var(--gold);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: all 0.25s;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.nav-menu > li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown a {
+    display: block;
+    padding: 14px 20px;
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+    transition: all 0.2s;
+}
+
+.dropdown a:hover {
+    background: rgba(255, 215, 0, 0.15);
+    color: var(--gold);
+    padding-left: 26px;
+}
+
+.nav-cta {
+    margin-left: auto;
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-cta a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #000;
+    background: var(--gold);
+    text-decoration: none;
+    padding: 14px 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+}
+
+/* HERO - LARGE */
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 40px;
+    position: relative;
+}
+
+.corner {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--gold);
+    opacity: 0.5;
+}
+
+.corner-tl { top: 50px; left: 50px; border-right: none; border-bottom: none; }
+.corner-tr { top: 50px; right: 50px; border-left: none; border-bottom: none; }
+.corner-bl { bottom: 50px; left: 50px; border-right: none; border-top: none; }
+.corner-br { bottom: 50px; right: 50px; border-left: none; border-top: none; }
+
+.hero-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background: radial-gradient(ellipse, rgba(255, 215, 0, 0.1) 0%, transparent 70%);
+}
+
+.hero-content {
+    max-width: 1000px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-tagline {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+}
+
+.hero-title .the-word {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.hero-title .main-line {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 160px;
+    letter-spacing: 12px;
+    line-height: 0.85;
+    display: block;
+}
+
+.hero-title .main-line .white { color: #fff; }
+.hero-title .main-line .gold {
+    color: var(--gold);
+    text-shadow: 0 0 40px var(--gold), 0 0 80px rgba(255, 215, 0, 0.6);
+}
+
+.hero-title .disaster-line {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 140px;
+    color: #fff;
+    letter-spacing: 35px;
+    display: block;
+    margin-top: 5px;
+}
+
+.hero-divider {
+    width: 350px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 50px auto;
+    box-shadow: 0 0 25px var(--gold);
+}
+
+.hero-subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 4px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 8px;
+}
+
+.section-header h2 span { color: var(--gold); }
+
+/* COMPARISON TABLE */
+.comparison-section {
+    background: rgba(255, 215, 0, 0.02);
+    border-top: 1px solid rgba(255, 215, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--black-card);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.comparison-table th {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+    background: rgba(255, 215, 0, 0.1);
+    border-bottom: 2px solid var(--gold);
+}
+
+.comparison-table th:first-child { color: var(--gold); }
+.comparison-table th:last-child { color: var(--red); }
+
+.comparison-table td {
+    padding: 18px 20px;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+    font-size: 15px;
+}
+
+.comparison-table tr:hover { background: rgba(255, 215, 0, 0.03); }
+
+.check-bad {
+    color: var(--red);
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+/* FAQ SECTION */
+.faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: var(--black-card);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    margin-bottom: 12px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 20px 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.faq-question:hover { background: rgba(255, 215, 0, 0.05); }
+
+.faq-question h4 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.faq-toggle {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 215, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold);
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.faq-answer {
+    padding: 0 25px 20px;
+    font-size: 15px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.7;
+    display: none;
+}
+
+.faq-item.active .faq-answer { display: block; }
+.faq-item.active .faq-toggle { transform: rotate(45deg); }
+
+/* DOCUMENTATION INDEX */
+.docs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.docs-category {
+    background: var(--black-card);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 4px;
+    padding: 25px;
+}
+
+.docs-category h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.docs-category ul { list-style: none; }
+.docs-category li { margin-bottom: 10px; }
+
+.docs-category a {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.docs-category a:hover { color: var(--gold); }
+.docs-category a.highlight { color: var(--red); }
+
+/* EMAIL CAPTURE */
+.email-section {
+    padding: 60px;
+    background: rgba(255, 215, 0, 0.03);
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.email-box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.email-box h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.email-box p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 25px;
+}
+
+.email-form {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.email-form input {
+    padding: 14px 20px;
+    background: var(--black-card);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    color: #fff;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.email-form button {
+    padding: 14px 28px;
+    background: var(--gold);
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+/* CTA SECTION */
+.cta-section {
+    padding: 80px 60px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 60, 60, 0.05), transparent);
+}
+
+.cta-section h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 35px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cta-buttons a {
+    padding: 14px 28px;
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    border-radius: 4px;
+}
+
+.cta-buttons a:hover {
+    background: var(--gold);
+    color: #000;
+}
+
+/* FOOTER */
+.footer {
+    padding: 60px;
+    border-top: 2px solid var(--gold);
+    background: var(--black);
+}
+
+.footer-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 60px;
+}
+
+.footer-brand h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.footer-brand h3 span { color: var(--gold); }
+.footer-brand p { font-size: 14px; color: rgba(255,255,255,0.4); line-height: 1.7; }
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.footer-col h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 8px; }
+.footer-col a { color: rgba(255,255,255,0.4); text-decoration: none; font-size: 13px; }
+.footer-col a:hover { color: var(--gold); }
+
+.footer-bottom {
+    max-width: 1400px;
+    margin: 40px auto 0;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255, 215, 0, 0.15);
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .docs-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero-title .main-line { font-size: 110px; }
+    .hero-title .disaster-line { font-size: 95px; }
+    .corner { display: none; }
+}
+
+@media (max-width: 900px) {
+    .nav-menu { display: none; }
+    .hero-title .main-line { font-size: 80px; }
+    .hero-title .disaster-line { font-size: 70px; }
+    .footer-inner { grid-template-columns: 1fr; }
+    .footer-links { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .docs-grid { grid-template-columns: 1fr; }
+    .hero-title .main-line { font-size: 55px; }
+    .hero-title .disaster-line { font-size: 50px; }
+    .email-form { flex-direction: column; }
+    .email-form input { width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<div class="bg-base"></div>
+<div class="stars"></div>
+<div class="accent-line-top"></div>
+
+<div class="content-wrapper">
+
+<!-- NEWS TICKER -->
+<div class="news-ticker">
+    <div class="ticker-content">
+        <span class="ticker-item">JAN 2026: Judge Orders OpenAI to Produce ChatGPT Logs in Copyright Lawsuit</span>
+        <span class="ticker-item">ChatGPT Market Share Drops as Users Switch to Alternatives</span>
+        <span class="ticker-item">ShadowLeak Vulnerability Allows Data Exfiltration From ChatGPT</span>
+        <span class="ticker-item">ChatGPT to Start Showing Users Ads Based on Conversations</span>
+        <span class="ticker-item">Multiple Lawsuits Claim ChatGPT Interactions Caused Harm</span>
+        <span class="ticker-item">OpenAI Admits Millions of Weekly Interactions Involve Mental Health</span>
+        <span class="ticker-item">OpenAI Credentials Found for Sale on Dark Web</span>
+        <span class="ticker-item">Browser Extension Scrape Affects Millions of ChatGPT Users</span>
+        <!-- duplicate for seamless scroll -->
+        <span class="ticker-item">JAN 2026: Judge Orders OpenAI to Produce ChatGPT Logs in Copyright Lawsuit</span>
+        <span class="ticker-item">ChatGPT Market Share Drops as Users Switch to Alternatives</span>
+        <span class="ticker-item">ShadowLeak Vulnerability Allows Data Exfiltration From ChatGPT</span>
+        <span class="ticker-item">ChatGPT to Start Showing Users Ads Based on Conversations</span>
+    </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">CHATGPT <span class="gold">DISASTER</span></a>
+
+        <ul class="nav-menu">
+            <li>
+                <a href="#">Crisis Docs</a>
+                <div class="dropdown">
+                    <a href="mental-health-crisis.html">Mental Health Crisis</a>
+                    <a href="clinical-cases.html">AI-Induced Psychosis</a>
+                    <a href="victims.html">Victims Memorial</a>
+                    <a href="chatgpt-death-lawsuits.html">Death Lawsuits</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">Performance</a>
+                <div class="dropdown">
+                    <a href="performance-decline.html">Performance Decline</a>
+                    <a href="chatgpt-getting-dumber.html">ChatGPT Getting Dumber</a>
+                    <a href="gpt-5-bugs.html">GPT-5 Bugs</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">Outages</a>
+                <div class="dropdown">
+                    <a href="chatgpt-status-tracker.html" style="color:#ff6b6b;">Live Status Tracker</a>
+                    <a href="what-to-do-chatgpt-down.html">ChatGPT Down? What To Do</a>
+                </div>
+            </li>
+            <li><a href="stories.html">User Stories</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="lawsuits.html">Lawsuits</a></li>
+            <li><a href="alternatives.html">Alternatives</a></li>
+        </ul>
+
+        <div class="nav-cta">
+            <a href="petitions/">Sign Petitions</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+    <div class="hero-glow"></div>
+
+    <div class="hero-content">
+        <p class="hero-tagline">Documenting User Experiences</p>
+        <h1 class="hero-title">
+            <span class="the-word">THE</span>
+            <span class="main-line"><span class="white">CHAT</span><span class="gold">GPT</span></span>
+            <span class="disaster-line">DISASTER</span>
+        </h1>
+        <div class="hero-divider"></div>
+        <p class="hero-subtitle">Real stories from real users</p>
+    </div>
+</section>
+
+<!-- COMPARISON TABLE: PROMISE VS REALITY -->
+<section class="section comparison-section">
+    <div class="section-header">
+        <h2>PROMISE VS <span>REALITY</span></h2>
+    </div>
+
+    <table class="comparison-table">
+        <thead>
+            <tr>
+                <th>What They Promised</th>
+                <th>What They Delivered</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>"The most capable AI assistant ever built"</td>
+                <td><span class="check-bad">✗</span> Can't remember context beyond a few messages</td>
+            </tr>
+            <tr>
+                <td>"Constantly improving with every update"</td>
+                <td><span class="check-bad">✗</span> Stanford documented severe accuracy drops over time</td>
+            </tr>
+            <tr>
+                <td>"Safe and beneficial for all users"</td>
+                <td><span class="check-bad">✗</span> Multiple families have filed wrongful death lawsuits</td>
+            </tr>
+            <tr>
+                <td>"Reliable API for enterprise customers"</td>
+                <td><span class="check-bad">✗</span> Unannounced model changes causing business failures</td>
+            </tr>
+            <tr>
+                <td>"Transparent about limitations"</td>
+                <td><span class="check-bad">✗</span> Confidently presents hallucinations as facts</td>
+            </tr>
+            <tr>
+                <td>"$20/month for premium experience"</td>
+                <td><span class="check-bad">✗</span> Users report worse performance than earlier free versions</td>
+            </tr>
+            <tr>
+                <td>"User feedback drives improvements"</td>
+                <td><span class="check-bad">✗</span> Massive backlash forced OpenAI to pull ads</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="section">
+    <div class="section-header">
+        <h2>FREQUENTLY ASKED <span>QUESTIONS</span></h2>
+    </div>
+
+    <div class="faq-list">
+        <div class="faq-item active">
+            <div class="faq-question">
+                <h4>Is ChatGPT really getting worse?</h4>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, and it's documented. Stanford researchers found GPT-4's accuracy on certain tasks dropped dramatically over a 3-month period. This demonstrates "model drift" - how updates can unintentionally degrade specific capabilities. Users across Reddit and professional forums report consistent degradation in coding ability, reasoning, and context retention.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>How can ChatGPT cause mental health problems?</h4>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Clinical research documents several pathways: dependency formation from emotional bonding with AI, validation of delusional thinking when AI agrees with irrational beliefs, social isolation as users prefer AI to human interaction, and identity confusion from treating AI as a person. Psychiatrists are reporting a new category of "AI-induced psychosis."</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>Why doesn't OpenAI fix these problems?</h4>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>OpenAI prioritizes growth metrics over quality. They're racing to add features and capture market share while technical debt accumulates. As they try to make AI safer and more censored, they break the capabilities that made it useful. They're stuck in a cycle of their own making.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>What are the alternatives to ChatGPT?</h4>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Several alternatives offer better reliability: Claude by Anthropic focuses on safety without sacrificing capability. Google's Gemini offers tighter integration with search. Local LLMs like Llama provide privacy and consistency since models don't change without your consent.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>Has anyone actually died from using ChatGPT?</h4>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes. Multiple documented cases exist. Families have filed lawsuits alleging AI chatbots contributed to deaths. These cases are documented in news reports and legal filings. Families are now pursuing legal action against AI companies.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>How do I cancel my ChatGPT subscription?</h4>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Go to Settings > Subscription > Manage Subscription > Cancel. OpenAI deliberately makes this difficult to find. You'll keep access until your billing period ends. Consider exporting your chat history first via Settings > Data Controls > Export Data.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DOCUMENTATION INDEX -->
+<section class="section">
+    <div class="section-header">
+        <h2>COMPLETE <span>DOCUMENTATION</span></h2>
+    </div>
+
+    <div class="docs-grid">
+        <div class="docs-category">
+            <h3>Crisis Documentation</h3>
+            <ul>
+                <li><a href="mental-health-crisis.html">Mental Health Crisis</a></li>
+                <li><a href="clinical-cases.html">AI-Induced Psychosis Cases</a></li>
+                <li><a href="victims.html">Victims Memorial</a></li>
+                <li><a href="january-2026-crisis.html">January 2026 Crisis</a></li>
+                <li><a href="year-end-2025-meltdown.html">2025 Year-End Meltdown</a></li>
+                <li><a href="chatgpt-addiction.html">ChatGPT Addiction Crisis</a></li>
+            </ul>
+        </div>
+
+        <div class="docs-category">
+            <h3>Performance Issues</h3>
+            <ul>
+                <li><a href="performance-decline.html">Performance Decline Evidence</a></li>
+                <li><a href="chatgpt-getting-dumber.html">ChatGPT Getting Dumber</a></li>
+                <li><a href="chatgpt-not-working.html">ChatGPT Not Working</a></li>
+                <li><a href="gpt-5-bugs.html">GPT-5 Bugs</a></li>
+                <li><a href="stealth-downgrades.html">Stealth Downgrades</a></li>
+                <li><a href="silent-failure-ai-code.html">AI Code Silent Failures</a></li>
+            </ul>
+        </div>
+
+        <div class="docs-category">
+            <h3>Outages & Status</h3>
+            <ul>
+                <li><a href="chatgpt-status-tracker.html" class="highlight">🔴 Live Status Tracker</a></li>
+                <li><a href="what-to-do-chatgpt-down.html" class="highlight">⚡ ChatGPT Down? What To Do</a></li>
+                <li><a href="chatgpt-outage-december-2025.html">December 2025 Outage</a></li>
+                <li><a href="december-2025-outages-recap.html">December 2025 Recap</a></li>
+                <li><a href="api-reliability-crisis.html">API Reliability Crisis</a></li>
+            </ul>
+        </div>
+
+        <div class="docs-category">
+            <h3>Business & Enterprise</h3>
+            <ul>
+                <li><a href="business-failures.html">Business Failures</a></li>
+                <li><a href="enterprise-disaster.html">Enterprise Disaster</a></li>
+                <li><a href="developer-exodus.html">Developer Exodus</a></li>
+                <li><a href="financial-failures.html">Financial Failures</a></li>
+                <li><a href="education-failures.html">Education Failures</a></li>
+            </ul>
+        </div>
+
+        <div class="docs-category">
+            <h3>User Stories</h3>
+            <ul>
+                <li><a href="stories.html">User Stories (Page 1)</a></li>
+                <li><a href="stories-page2.html">User Stories (Page 2)</a></li>
+                <li><a href="stories-page3.html">User Stories (Page 3)</a></li>
+                <li><a href="stories-page4.html">User Stories (Page 4)</a></li>
+                <li><a href="stories-page5.html">User Stories (Page 5)</a></li>
+                <li><a href="reddit-testimonials.html">Reddit Testimonials</a></li>
+            </ul>
+        </div>
+
+        <div class="docs-category">
+            <h3>Analysis & Research</h3>
+            <ul>
+                <li><a href="timeline.html">Complete Timeline</a></li>
+                <li><a href="promises-vs-reality.html">Promises vs Reality</a></li>
+                <li><a href="openai-internal-chaos.html">OpenAI Internal Chaos</a></li>
+                <li><a href="privacy-nightmare.html">Privacy Nightmare</a></li>
+                <li><a href="lawsuits.html">Lawsuits</a></li>
+            </ul>
+        </div>
+
+        <div class="docs-category">
+            <h3>Databases</h3>
+            <ul>
+                <li><a href="failures/">AI Failures Database</a></li>
+                <li><a href="failures/gpt-5-launch-disaster.html">GPT-5 Launch Disaster</a></li>
+                <li><a href="failures/lawyer-fake-cases.html">Lawyer Fake Cases</a></li>
+                <li><a href="petitions/">Petitions Hub</a></li>
+                <li><a href="petitions/chatgpt-petition.html">ChatGPT Petition</a></li>
+            </ul>
+        </div>
+
+        <div class="docs-category">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="alternatives.html">Better Alternatives</a></li>
+                <li><a href="resources.html">Resources & Links</a></li>
+                <li><a href="report.html">Free Report</a></li>
+                <li><a href="contact.html">Contact & Consulting</a></li>
+                <li><a href="sitemap.html">Site Map</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- EMAIL CAPTURE -->
+<section class="email-section">
+    <div class="email-box">
+        <h3>GET THE FREE REPORT</h3>
+        <p>Download: "Real ChatGPT Failures That Cost Companies Money" with prevention strategies.</p>
+        <form class="email-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">GET REPORT</button>
+        </form>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <h2>DON'T BE OPENAI'S NEXT VICTIM</h2>
+    <p>The evidence is overwhelming. ChatGPT is failing, users are suffering, and OpenAI is hiding the truth. It's time to demand accountability.</p>
+    <div class="cta-buttons">
+        <a href="timeline.html">Complete Timeline</a>
+        <a href="stories.html">Read User Stories</a>
+        <a href="mental-health-crisis.html">Mental Health Evidence</a>
+        <a href="performance-decline.html">Performance Data</a>
+        <a href="alternatives.html">Better Alternatives</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <h3>CHATGPT <span>DISASTER</span></h3>
+            <p>An independent documentation project collecting real user experiences with ChatGPT failures. Not affiliated with OpenAI.</p>
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-col">
+                <h4>Documentation</h4>
+                <ul>
+                    <li><a href="stories.html">User Stories</a></li>
+                    <li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="lawsuits.html">Lawsuits</a></li>
+                    <li><a href="victims.html">Victims</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Crisis Areas</h4>
+                <ul>
+                    <li><a href="mental-health-crisis.html">Mental Health</a></li>
+                    <li><a href="performance-decline.html">Performance</a></li>
+                    <li><a href="clinical-cases.html">Psychosis Cases</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="alternatives.html">Alternatives</a></li>
+                    <li><a href="petitions/">Petitions</a></li>
+                    <li><a href="report.html">Free Report</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="contact.html">Submit Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sitemap.html">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 ChatGPT Disaster Documentation Project
+    </div>
+</footer>
+
+</div>
+
+<script>
+// FAQ Toggle
+document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+        q.parentElement.classList.toggle('active');
+    });
+});
+</script>
+
+</body>
+</html>

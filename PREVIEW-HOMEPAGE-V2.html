@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Disaster - Documenting User Experiences</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --blue-glow: #00d4ff;
+    --blue-mid: #0099cc;
+    --card-bg: rgba(0, 15, 35, 0.85);
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* =====================
+   BACKGROUND - GALAXY + MATRIX
+   ===================== */
+.bg-galaxy {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background:
+        radial-gradient(ellipse at 10% 15%, rgba(0, 80, 160, 0.5) 0%, transparent 45%),
+        radial-gradient(ellipse at 85% 75%, rgba(0, 60, 140, 0.4) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 40%, rgba(0, 50, 120, 0.3) 0%, transparent 55%),
+        radial-gradient(ellipse at 75% 15%, rgba(0, 100, 200, 0.3) 0%, transparent 40%),
+        linear-gradient(180deg, #000205 0%, #000815 50%, #001228 100%);
+}
+
+.bg-stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image:
+        radial-gradient(1.5px 1.5px at 50px 80px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1px 1px at 150px 200px, rgba(255,255,255,0.7), transparent),
+        radial-gradient(2px 2px at 280px 120px, rgba(0, 212, 255, 0.9), transparent),
+        radial-gradient(1px 1px at 400px 280px, rgba(255,255,255,0.6), transparent),
+        radial-gradient(1.5px 1.5px at 520px 90px, rgba(255,255,255,0.8), transparent),
+        radial-gradient(1px 1px at 650px 240px, rgba(0, 212, 255, 0.7), transparent),
+        radial-gradient(1px 1px at 780px 150px, rgba(255,255,255,0.5), transparent),
+        radial-gradient(2px 2px at 900px 300px, rgba(0, 212, 255, 0.8), transparent),
+        radial-gradient(1px 1px at 100px 400px, rgba(255,255,255,0.6), transparent),
+        radial-gradient(1.5px 1.5px at 300px 450px, rgba(255,255,255,0.7), transparent),
+        radial-gradient(1px 1px at 500px 380px, rgba(0, 212, 255, 0.6), transparent),
+        radial-gradient(1px 1px at 700px 420px, rgba(255,255,255,0.5), transparent);
+    background-size: 1000px 500px;
+}
+
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 10;
+}
+
+/* =====================
+   NAVIGATION BAR - LARGE
+   ===================== */
+.navbar {
+    background: rgba(0, 5, 15, 0.95);
+    border-bottom: 2px solid rgba(0, 212, 255, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(15px);
+}
+
+.nav-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    border-right: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.nav-logo .highlight {
+    color: var(--blue-glow);
+    text-shadow: 0 0 20px var(--blue-glow);
+    margin-left: 8px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    flex: 1;
+}
+
+.nav-menu > li {
+    position: relative;
+}
+
+.nav-menu > li > a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    padding: 24px 26px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    border-left: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.nav-menu > li > a:hover {
+    color: var(--blue-glow);
+    background: rgba(0, 212, 255, 0.15);
+    text-shadow: 0 0 15px var(--blue-glow);
+}
+
+.nav-menu > li > a .icon {
+    font-size: 18px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 240px;
+    background: rgba(5, 10, 25, 0.98);
+    border: 1px solid rgba(0, 212, 255, 0.4);
+    border-top: 3px solid var(--blue-glow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+.nav-menu > li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown a {
+    display: block;
+    padding: 16px 22px;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.15);
+    transition: all 0.2s;
+}
+
+.dropdown a:hover {
+    background: rgba(0, 212, 255, 0.2);
+    color: var(--blue-glow);
+    padding-left: 30px;
+}
+
+.dropdown a:last-child {
+    border-bottom: none;
+}
+
+.nav-cta {
+    margin-left: auto;
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-cta a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--blue-glow);
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid var(--blue-glow);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.nav-cta a:hover {
+    background: var(--blue-glow);
+    color: #000;
+    box-shadow: 0 0 30px var(--blue-glow);
+}
+
+/* =====================
+   HERO - LEFT ALIGNED
+   ===================== */
+.hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-tagline {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.hero-title {
+    margin-bottom: 40px;
+}
+
+.hero-title .the-word {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.hero-title .main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 120px;
+    letter-spacing: 8px;
+    line-height: 1;
+    display: block;
+}
+
+.hero-title .main-title .chat {
+    color: #fff;
+}
+
+.hero-title .main-title .gpt {
+    color: var(--blue-glow);
+    text-shadow: 0 0 40px var(--blue-glow), 0 0 80px var(--blue-glow);
+}
+
+.hero-title .disaster-word {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 20px;
+    display: block;
+    margin-top: -5px;
+}
+
+.hero-subtitle {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 2px;
+}
+
+/* =====================
+   CATEGORY CARDS SECTION
+   ===================== */
+.categories {
+    padding: 80px 60px;
+}
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 6px;
+    color: #fff;
+}
+
+.section-header h2 span {
+    color: var(--blue-glow);
+    text-shadow: 0 0 25px var(--blue-glow);
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1400px;
+}
+
+.category-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.category-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--blue-glow);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+.category-card:hover {
+    background: rgba(0, 40, 80, 0.9);
+    border-color: var(--blue-glow);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 212, 255, 0.2);
+}
+
+.category-card:hover::before {
+    transform: scaleX(1);
+}
+
+.card-icon {
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.category-card h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.category-card p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.card-link {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--blue-glow);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.category-card.highlight {
+    grid-column: span 2;
+    border-color: var(--blue-glow);
+    background: linear-gradient(135deg, rgba(0, 60, 120, 0.4), var(--card-bg));
+}
+
+.category-card.success .card-link { color: #00cc66; }
+.category-card.success { border-color: #00cc66; }
+
+.category-card.danger .card-link { color: #ff4444; }
+.category-card.danger { border-color: #ff4444; }
+
+/* =====================
+   STATS ROW
+   ===================== */
+.stats-row {
+    padding: 60px;
+    background: rgba(0, 20, 50, 0.5);
+    border-top: 1px solid rgba(0, 212, 255, 0.2);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+    color: var(--blue-glow);
+    text-shadow: 0 0 20px var(--blue-glow);
+}
+
+.stat-item p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+/* =====================
+   MORE SECTIONS
+   ===================== */
+.more-cards {
+    padding: 80px 60px;
+}
+
+.cards-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1400px;
+}
+
+/* =====================
+   FOOTER
+   ===================== */
+.footer {
+    padding: 70px 60px 35px;
+    border-top: 2px solid rgba(0, 212, 255, 0.3);
+    background: rgba(0, 5, 15, 0.9);
+}
+
+.footer-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    gap: 80px;
+}
+
+.footer-brand h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.footer-brand h3 span {
+    color: var(--blue-glow);
+}
+
+.footer-brand p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.45);
+    line-height: 1.8;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-col h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--blue-glow);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 12px; }
+
+.footer-col a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-col a:hover {
+    color: var(--blue-glow);
+}
+
+.footer-bottom {
+    max-width: 1400px;
+    margin: 60px auto 0;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* =====================
+   RESPONSIVE
+   ===================== */
+@media (max-width: 1200px) {
+    .cards-grid { grid-template-columns: repeat(2, 1fr); }
+    .cards-row { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero-title .main-title { font-size: 80px; }
+    .hero-title .disaster-word { font-size: 70px; }
+}
+
+@media (max-width: 900px) {
+    .nav-menu { display: none; }
+    .hero { padding: 60px 30px; }
+    .categories { padding: 60px 30px; }
+    .footer-inner { grid-template-columns: 1fr; }
+    .footer-links { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .cards-grid { grid-template-columns: 1fr; }
+    .cards-row { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr; gap: 30px; }
+    .hero-title .main-title { font-size: 50px; }
+    .hero-title .disaster-word { font-size: 45px; }
+    .hero-title .the-word { font-size: 32px; }
+    .category-card.highlight { grid-column: span 1; }
+}
+</style>
+</head>
+<body>
+
+<!-- Backgrounds -->
+<div class="bg-galaxy"></div>
+<div class="bg-stars"></div>
+<canvas id="matrix-canvas"></canvas>
+
+<div class="content-wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                CHATGPT<span class="highlight">DISASTER</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li>
+                    <a href="#"><span class="icon">📖</span> Stories</a>
+                    <div class="dropdown">
+                        <a href="#">All Testimonials</a>
+                        <a href="#">Developer Stories</a>
+                        <a href="#">Student Stories</a>
+                        <a href="#">Professional Stories</a>
+                        <a href="#">Parent Stories</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><span class="icon">📉</span> Issues</a>
+                    <div class="dropdown">
+                        <a href="#">Memory Failures</a>
+                        <a href="#">Quality Decline</a>
+                        <a href="#">Hallucinations</a>
+                        <a href="#">Broken Features</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><span class="icon">⚖️</span> Legal</a>
+                    <div class="dropdown">
+                        <a href="#">Active Lawsuits</a>
+                        <a href="#">Copyright Cases</a>
+                        <a href="#">Privacy Issues</a>
+                    </div>
+                </li>
+                <li><a href="#"><span class="icon">📰</span> Press</a></li>
+                <li><a href="#"><span class="icon">💀</span> Victims</a></li>
+                <li><a href="#"><span class="icon">🏛️</span> Wall of Shame</a></li>
+                <li><a href="#"><span class="icon">✅</span> Alternatives</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="#">Submit Story</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero - LEFT ALIGNED -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-tagline">Documenting User Experiences</p>
+
+            <h1 class="hero-title">
+                <span class="the-word">THE</span>
+                <span class="main-title"><span class="chat">CHAT</span><span class="gpt">GPT</span></span>
+                <span class="disaster-word">DISASTER</span>
+            </h1>
+
+            <p class="hero-subtitle">Real stories. Real problems. Real documentation.</p>
+        </div>
+    </section>
+
+    <!-- Main Category Cards -->
+    <section class="categories">
+        <div class="section-header">
+            <h2>EXPLORE THE <span>DOCUMENTATION</span></h2>
+        </div>
+
+        <div class="cards-grid">
+            <a href="#" class="category-card highlight">
+                <div class="card-icon">📖</div>
+                <h3>USER TESTIMONIALS</h3>
+                <p>Hundreds of documented stories from developers, students, writers, and professionals sharing their actual experiences with ChatGPT failures.</p>
+                <span class="card-link">Browse All Stories →</span>
+            </a>
+
+            <a href="#" class="category-card">
+                <div class="card-icon">🧠</div>
+                <h3>MENTAL HEALTH IMPACT</h3>
+                <p>Documented cases of AI dependency, emotional manipulation, and psychological harm.</p>
+                <span class="card-link">Read Reports →</span>
+            </a>
+
+            <a href="#" class="category-card">
+                <div class="card-icon">📉</div>
+                <h3>QUALITY DECLINE</h3>
+                <p>Tracking memory failures, response degradation, and broken features over time.</p>
+                <span class="card-link">See Evidence →</span>
+            </a>
+
+            <a href="#" class="category-card danger">
+                <div class="card-icon">⚖️</div>
+                <h3>ACTIVE LAWSUITS</h3>
+                <p>Copyright cases, wrongful death suits, and privacy violations currently in courts.</p>
+                <span class="card-link">View Cases →</span>
+            </a>
+
+            <a href="#" class="category-card danger">
+                <div class="card-icon">💀</div>
+                <h3>VICTIMS MEMORIAL</h3>
+                <p>Remembering those whose lives were tragically affected by AI interactions.</p>
+                <span class="card-link">Remember →</span>
+            </a>
+
+            <a href="#" class="category-card">
+                <div class="card-icon">🏛️</div>
+                <h3>WALL OF SHAME</h3>
+                <p>Executives who prioritized growth over safety and made promises they couldn't keep.</p>
+                <span class="card-link">See Who →</span>
+            </a>
+
+            <a href="#" class="category-card">
+                <div class="card-icon">📰</div>
+                <h3>PRESS COVERAGE</h3>
+                <p>Media investigations and news articles documenting the ongoing problems.</p>
+                <span class="card-link">Read Press →</span>
+            </a>
+
+            <a href="#" class="category-card success">
+                <div class="card-icon">✅</div>
+                <h3>ALTERNATIVES</h3>
+                <p>Better options that prioritize reliability, transparency, and user safety.</p>
+                <span class="card-link">Find Alternatives →</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Stats Row -->
+    <section class="stats-row">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>574+</h3>
+                <p>User Stories</p>
+            </div>
+            <div class="stat-item">
+                <h3>36</h3>
+                <p>Active Lawsuits</p>
+            </div>
+            <div class="stat-item">
+                <h3>24</h3>
+                <p>Press Articles</p>
+            </div>
+            <div class="stat-item">
+                <h3>7</h3>
+                <p>Documented Victims</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Cards -->
+    <section class="more-cards">
+        <div class="section-header">
+            <h2>MORE <span>RESOURCES</span></h2>
+        </div>
+
+        <div class="cards-row">
+            <a href="#" class="category-card">
+                <div class="card-icon">📋</div>
+                <h3>HOW TO CANCEL</h3>
+                <p>Step-by-step guide to canceling your ChatGPT subscription and deleting your data.</p>
+                <span class="card-link">View Guide →</span>
+            </a>
+
+            <a href="#" class="category-card">
+                <div class="card-icon">📝</div>
+                <h3>FILE A COMPLAINT</h3>
+                <p>How to file complaints with the FTC, state attorneys general, and other agencies.</p>
+                <span class="card-link">File Now →</span>
+            </a>
+
+            <a href="#" class="category-card">
+                <div class="card-icon">✊</div>
+                <h3>PETITIONS</h3>
+                <p>Sign petitions demanding accountability, transparency, and consumer protections.</p>
+                <span class="card-link">Sign Petitions →</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>CHATGPT <span>DISASTER</span></h3>
+                <p>An independent documentation project collecting real user experiences, tracking failures, and providing alternatives. Not affiliated with OpenAI.</p>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Documentation</h4>
+                    <ul>
+                        <li><a href="#">User Stories</a></li>
+                        <li><a href="#">Timeline</a></li>
+                        <li><a href="#">Lawsuits</a></li>
+                        <li><a href="#">Victims</a></li>
+                        <li><a href="#">Wall of Shame</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Issues</h4>
+                    <ul>
+                        <li><a href="#">Memory Failures</a></li>
+                        <li><a href="#">Quality Decline</a></li>
+                        <li><a href="#">Hallucinations</a></li>
+                        <li><a href="#">Broken Features</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Alternatives</a></li>
+                        <li><a href="#">How to Cancel</a></li>
+                        <li><a href="#">File Complaint</a></li>
+                        <li><a href="#">Petitions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Submit Story</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Press Inquiries</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 ChatGPT Disaster Documentation Project. All testimonials are user-submitted.</p>
+        </div>
+    </footer>
+
+</div>
+
+<!-- REAL Matrix Code Rain -->
+<script>
+const canvas = document.getElementById('matrix-canvas');
+const ctx = canvas.getContext('2d');
+
+let width = canvas.width = window.innerWidth;
+let height = canvas.height = window.innerHeight;
+
+const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const fontSize = 16;
+const columns = Math.floor(width / fontSize);
+const drops = [];
+
+for (let i = 0; i < columns; i++) {
+    drops[i] = Math.random() * -100;
+}
+
+function draw() {
+    ctx.fillStyle = 'rgba(0, 5, 15, 0.08)';
+    ctx.fillRect(0, 0, width, height);
+
+    ctx.font = fontSize + 'px monospace';
+
+    for (let i = 0; i < drops.length; i++) {
+        const char = chars[Math.floor(Math.random() * chars.length)];
+        const x = i * fontSize;
+        const y = drops[i] * fontSize;
+
+        // Head character - bright
+        if (drops[i] > 0) {
+            ctx.fillStyle = 'rgba(200, 255, 255, 0.9)';
+            ctx.fillText(char, x, y);
+
+            // Trail characters
+            for (let j = 1; j < 20; j++) {
+                const trailY = y - j * fontSize;
+                if (trailY > 0) {
+                    const alpha = Math.max(0, 0.6 - j * 0.03);
+                    ctx.fillStyle = `rgba(0, 212, 255, ${alpha})`;
+                    const trailChar = chars[Math.floor(Math.random() * chars.length)];
+                    ctx.fillText(trailChar, x, trailY);
+                }
+            }
+        }
+
+        if (y > height && Math.random() > 0.98) {
+            drops[i] = 0;
+        }
+        drops[i] += 0.5;
+    }
+}
+
+setInterval(draw, 50);
+
+window.addEventListener('resize', () => {
+    width = canvas.width = window.innerWidth;
+    height = canvas.height = window.innerHeight;
+});
+</script>
+
+</body>
+</html>

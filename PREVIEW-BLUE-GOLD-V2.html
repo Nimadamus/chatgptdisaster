@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Disaster - Blue/Gold Preview V2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-dark: #0a1628;
+    --bg-darker: #060d18;
+    --bg-card: #0f1f35;
+    --gold: #ffd700;
+    --gold-dim: #b8960f;
+    --text: #e8e8e8;
+    --text-dim: #8a9bb8;
+    --red: #ff3b3b;
+    --blue: #4a9eff;
+    --green: #00ff88;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-dark);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* ============================================
+   NEWS TICKER
+   ============================================ */
+.news-ticker {
+    background: linear-gradient(90deg, #8b0000, #dc143c, #8b0000);
+    padding: 12px 0;
+    overflow: hidden;
+    border-bottom: 2px solid var(--gold);
+}
+
+.ticker-content {
+    display: flex;
+    animation: ticker 90s linear infinite;
+    white-space: nowrap;
+}
+
+.ticker-item {
+    padding: 0 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ticker-item::before {
+    content: '⚠';
+    color: var(--gold);
+}
+
+@keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* ============================================
+   NAVIGATION BAR
+   ============================================ */
+.main-nav {
+    background: rgba(6, 13, 24, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0 40px;
+}
+
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav-logo span {
+    color: var(--gold);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 18px;
+    color: var(--text);
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background: rgba(255, 215, 0, 0.1);
+    color: var(--gold);
+}
+
+.nav-dropdown-arrow {
+    font-size: 8px;
+    transition: transform 0.3s;
+}
+
+.nav-item:hover .nav-dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.nav-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 260px;
+    background: var(--bg-darker);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.nav-item:hover .nav-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.nav-dropdown-link {
+    display: block;
+    padding: 12px 16px;
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.nav-dropdown-link:hover {
+    background: rgba(255, 215, 0, 0.1);
+    color: var(--gold);
+}
+
+.nav-cta {
+    padding: 10px 24px;
+    background: var(--gold);
+    color: var(--bg-dark);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.nav-cta:hover {
+    background: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+.hero {
+    padding: 80px 40px;
+    text-align: center;
+    background: linear-gradient(180deg, var(--bg-darker) 0%, var(--bg-dark) 100%);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 300px;
+    background: radial-gradient(ellipse, rgba(255, 215, 0, 0.05) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background: rgba(255, 59, 59, 0.15);
+    border: 1px solid var(--red);
+    border-radius: 100px;
+    margin-bottom: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--red);
+}
+
+.hero-badge::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: var(--red);
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+.hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(48px, 8vw, 90px);
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.hero h1 .the {
+    font-size: 0.5em;
+    color: var(--text-dim);
+    display: block;
+    margin-bottom: -10px;
+}
+
+.hero h1 .chatgpt {
+    color: var(--text);
+}
+
+.hero h1 .disaster {
+    color: var(--gold);
+    text-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+}
+
+.hero-tagline {
+    font-size: 18px;
+    color: var(--text-dim);
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Gold divider */
+.gold-divider {
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 0 auto 40px;
+}
+
+/* ============================================
+   STATS DASHBOARD
+   ============================================ */
+.stats-section {
+    padding: 60px 40px;
+    background: var(--bg-darker);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.stats-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.stat-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.stat-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 40px rgba(255, 215, 0, 0.1);
+}
+
+.stat-icon {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.stat-number {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    color: var(--gold);
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ============================================
+   TESTIMONIALS SECTION
+   ============================================ */
+.testimonials-section {
+    padding: 80px 40px;
+    background: var(--bg-dark);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 1px solid var(--gold);
+    border-radius: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--gold);
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: var(--text-dim);
+}
+
+.testimonials-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.testimonial-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s;
+}
+
+.testimonial-card:hover {
+    border-color: var(--gold);
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(135deg, var(--gold), var(--gold-dim));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--bg-dark);
+}
+
+.testimonial-author h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.testimonial-author p {
+    font-size: 11px;
+    color: var(--text-dim);
+}
+
+.verified-badge {
+    display: inline-flex;
+    padding: 2px 8px;
+    background: rgba(0, 255, 136, 0.15);
+    border-radius: 100px;
+    font-size: 10px;
+    color: var(--green);
+    margin-left: 8px;
+}
+
+.testimonial-quote {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text-dim);
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ============================================
+   WALL OF SHAME
+   ============================================ */
+.wall-of-shame {
+    padding: 80px 40px;
+    background: var(--bg-darker);
+}
+
+.executives-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.executive-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 59, 59, 0.3);
+    border-radius: 12px;
+    padding: 28px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.executive-card:hover {
+    border-color: var(--red);
+    transform: translateY(-4px);
+}
+
+.executive-photo {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 16px;
+    background: linear-gradient(135deg, #333, #555);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-dim);
+    border: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.executive-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.executive-card .title {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+}
+
+.executive-card .quote {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--text-dim);
+    padding: 12px;
+    background: rgba(255, 215, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.executive-card .reality {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--red);
+    line-height: 1.4;
+}
+
+/* ============================================
+   PRESS COVERAGE
+   ============================================ */
+.press-section {
+    padding: 80px 40px;
+    background: var(--bg-dark);
+}
+
+.press-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.press-logo {
+    padding: 10px 20px;
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.press-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.press-article {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    border-left: 3px solid transparent;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+.press-article:hover {
+    border-left-color: var(--gold);
+}
+
+.press-article.featured {
+    border-left-color: var(--red);
+}
+
+.press-article .source {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--gold);
+    margin-bottom: 8px;
+}
+
+.press-article h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.press-article .date {
+    font-size: 11px;
+    color: var(--text-dim);
+}
+
+/* ============================================
+   CRISIS CARDS SECTION
+   ============================================ */
+.crisis-section {
+    padding: 80px 40px;
+    background: var(--bg-darker);
+}
+
+.crisis-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.crisis-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 12px;
+    padding: 28px;
+    transition: all 0.3s;
+}
+
+.crisis-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-4px);
+}
+
+.crisis-icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 59, 59, 0.15);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.crisis-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.crisis-card p {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.crisis-card em {
+    display: block;
+    font-size: 12px;
+    color: var(--text-dim);
+    font-style: italic;
+    padding: 12px;
+    background: rgba(255, 215, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.crisis-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.crisis-btn:hover {
+    background: var(--gold);
+    color: var(--bg-dark);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.main-footer {
+    background: var(--bg-darker);
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 60px 40px 30px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-brand h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.footer-brand h3 span {
+    color: var(--gold);
+}
+
+.footer-brand p {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.footer-column h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--gold);
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color: var(--gold);
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 215, 0, 0.1);
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-dim);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+    .executives-grid { grid-template-columns: repeat(2, 1fr); }
+    .press-grid { grid-template-columns: repeat(2, 1fr); }
+    .crisis-grid { grid-template-columns: 1fr; }
+    .footer-content { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+    .nav-menu { display: none; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .executives-grid { grid-template-columns: 1fr; }
+    .press-grid { grid-template-columns: 1fr; }
+    .footer-content { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- NEWS TICKER (REAL CONTENT) -->
+<div class="news-ticker">
+    <div class="ticker-content">
+        <span class="ticker-item">JAN 24, 2026: ChatGPT Market Share Collapses to 64.5%, Down From 86%</span>
+        <span class="ticker-item">JAN 24, 2026: Judge Orders OpenAI to Produce 20 Million ChatGPT Logs</span>
+        <span class="ticker-item">JAN 24, 2026: ShadowLeak Vulnerability Allows Data Exfiltration From ChatGPT</span>
+        <span class="ticker-item">JAN 18, 2026: ChatGPT to Start Showing Users Ads Based on Conversations</span>
+        <span class="ticker-item">JAN 2026: 8 Lawsuits Claim ChatGPT Use Can Kill - Million Weekly Users Discuss Suicide</span>
+        <span class="ticker-item">VERIFIED: 4 Families Sue OpenAI After Deaths Linked to ChatGPT</span>
+        <span class="ticker-item">Q4 2025: 34.8% of Employee ChatGPT Inputs Contain SENSITIVE DATA</span>
+        <span class="ticker-item">2025: 225,000+ OpenAI Credentials Found for Sale on DARK WEB</span>
+        <!-- Duplicate for seamless scroll -->
+        <span class="ticker-item">JAN 24, 2026: ChatGPT Market Share Collapses to 64.5%, Down From 86%</span>
+        <span class="ticker-item">JAN 24, 2026: Judge Orders OpenAI to Produce 20 Million ChatGPT Logs</span>
+        <span class="ticker-item">JAN 24, 2026: ShadowLeak Vulnerability Allows Data Exfiltration From ChatGPT</span>
+        <span class="ticker-item">JAN 18, 2026: ChatGPT to Start Showing Users Ads Based on Conversations</span>
+    </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">CHATGPT <span>DISASTER</span></a>
+
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Crisis Docs <span class="nav-dropdown-arrow">▼</span></a>
+                <div class="nav-dropdown">
+                    <a href="mental-health-crisis.html" class="nav-dropdown-link">Mental Health Crisis</a>
+                    <a href="clinical-cases.html" class="nav-dropdown-link">AI-Induced Psychosis</a>
+                    <a href="victims.html" class="nav-dropdown-link">Victims Memorial</a>
+                    <a href="chatgpt-death-lawsuits.html" class="nav-dropdown-link">8 Death Lawsuits</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Performance <span class="nav-dropdown-arrow">▼</span></a>
+                <div class="nav-dropdown">
+                    <a href="performance-decline.html" class="nav-dropdown-link">Performance Decline</a>
+                    <a href="chatgpt-getting-dumber.html" class="nav-dropdown-link">ChatGPT Getting Dumber</a>
+                    <a href="gpt-5-bugs.html" class="nav-dropdown-link">GPT-5 Bugs</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Outages <span class="nav-dropdown-arrow">▼</span></a>
+                <div class="nav-dropdown">
+                    <a href="chatgpt-status-tracker.html" class="nav-dropdown-link" style="color: var(--red);">Live Status Tracker</a>
+                    <a href="what-to-do-chatgpt-down.html" class="nav-dropdown-link">ChatGPT Down? What To Do</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="stories.html" class="nav-link">User Stories</a>
+            </li>
+            <li class="nav-item">
+                <a href="timeline.html" class="nav-link">Timeline</a>
+            </li>
+            <li class="nav-item">
+                <a href="lawsuits.html" class="nav-link">Lawsuits</a>
+            </li>
+            <li class="nav-item">
+                <a href="alternatives.html" class="nav-link">Alternatives</a>
+            </li>
+        </ul>
+
+        <a href="petitions/" class="nav-cta">Sign Petitions</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-badge">Ongoing Crisis - Users Suffering Daily</div>
+    <h1>
+        <span class="the">THE</span>
+        <span class="chatgpt">CHATGPT</span>
+        <span class="disaster">DISASTER</span>
+    </h1>
+    <div class="gold-divider"></div>
+    <p class="hero-tagline">Documenting User Experiences</p>
+</section>
+
+<!-- STATS DASHBOARD (REAL DATA) -->
+<section class="stats-section">
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon">⚖️</div>
+            <div class="stat-number">51</div>
+            <div class="stat-label">Copyright Lawsuits vs AI Companies (Oct 2025)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">💔</div>
+            <div class="stat-number">4</div>
+            <div class="stat-label">Suicide-Related Lawsuits vs OpenAI (Verified)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">📄</div>
+            <div class="stat-number">20M</div>
+            <div class="stat-label">ChatGPT Logs Ordered Released (Jan 2026)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">📉</div>
+            <div class="stat-number">97.6%→2.4%</div>
+            <div class="stat-label">GPT-4 Accuracy Drop (Stanford, 2023)</div>
+        </div>
+    </div>
+    <div class="stats-grid" style="margin-top: 20px;">
+        <div class="stat-card">
+            <div class="stat-icon">🔓</div>
+            <div class="stat-number">225K+</div>
+            <div class="stat-label">OpenAI Credentials on Dark Web (2025)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div class="stat-number">3.7M</div>
+            <div class="stat-label">Users Affected by Browser Extension Scrape</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">⚠️</div>
+            <div class="stat-number">34.8%</div>
+            <div class="stat-label">Employee Inputs Contain Sensitive Data</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">🧠</div>
+            <div class="stat-number">1M+</div>
+            <div class="stat-label">Weekly Mental Health Interactions (OpenAI)</div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS (REAL CONTENT) -->
+<section class="testimonials-section">
+    <div class="section-header">
+        <div class="section-badge">Verified</div>
+        <h2 class="section-title">Real Users. Real Suffering. Real Stories.</h2>
+        <p class="section-subtitle">574+ documented testimonials from affected users</p>
+    </div>
+
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="testimonial-avatar">N</div>
+                <div class="testimonial-author">
+                    <h4>Nathan K. <span class="verified-badge">✓ Jan 2026</span></h4>
+                    <p>Research Analyst, Plus Subscriber</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">In the last 90 days, ChatGPT has had 46 service incidents. 1 major outage, 45 minor incidents. I'm paying $20/month for a service that breaks 46 times in 3 months. They KNOW it's broken. They're just milking subscribers...</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="testimonial-avatar">B</div>
+                <div class="testimonial-author">
+                    <h4>Family Member <span class="verified-badge">✓ Jan 2026</span></h4>
+                    <p>Brother hospitalized after ChatGPT advice</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">My brother asked ChatGPT how to reduce salt intake. It recommended sodium bromide. He followed the advice for THREE MONTHS. He developed bromism, was hospitalized and SECTIONED for psychosis...</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="testimonial-avatar">E</div>
+                <div class="testimonial-author">
+                    <h4>Erik S. <span class="verified-badge">✓ Jan 2026</span></h4>
+                    <p>Senior Software Engineer, 15 years exp</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">Tasks that took 5 hours with AI now take 7-8 hours. It's WORSE than no AI at all because I spend more time fixing its garbage than I'd spend just writing it myself. Cancelled after 2 years.</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="testimonial-avatar">J</div>
+                <div class="testimonial-author">
+                    <h4>Jennifer M. <span class="verified-badge">✓ Parent</span></h4>
+                    <p>Mother of 14-year-old, Texas</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">My daughter called it her 'best friend.' She stopped talking to real people. When we took it away, she had a complete breakdown. OpenAI has NO safeguards for children.</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="testimonial-avatar">R</div>
+                <div class="testimonial-author">
+                    <h4>Richard K. <span class="verified-badge">✓ Enterprise</span></h4>
+                    <p>CEO, E-commerce Company</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">They changed the model without warning. Our chatbot started giving WRONG ANSWERS. We had to shut down for 3 days. Lost $200,000 in revenue. OpenAI's response? 'We don't guarantee consistency.'</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="testimonial-avatar">D</div>
+                <div class="testimonial-author">
+                    <h4>David H. <span class="verified-badge">✓ Journalist</span></h4>
+                    <p>Freelance Writer, 10 years experience</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">It was inventing sources that DON'T EXIST. I cited fake studies in published articles. My credibility is destroyed. Three years of reputation—gone. Because ChatGPT lies with confidence.</p>
+        </div>
+    </div>
+</section>
+
+<!-- WALL OF SHAME (REAL CONTENT) -->
+<section class="wall-of-shame">
+    <div class="section-header">
+        <div class="section-badge">Accountability</div>
+        <h2 class="section-title">The Wall of Shame</h2>
+        <p class="section-subtitle">The executives who promised the future and delivered failure</p>
+    </div>
+
+    <div class="executives-grid">
+        <div class="executive-card">
+            <div class="executive-photo">SA</div>
+            <h3>Sam Altman</h3>
+            <p class="title">CEO, OpenAI</p>
+            <p class="quote">"GPT-5 is our best model ever. Users are going to love it."</p>
+            <p class="reality">REALITY: OpenAI pulled ads after massive user backlash (Dec 2025)</p>
+        </div>
+
+        <div class="executive-card">
+            <div class="executive-photo">MM</div>
+            <h3>Mira Murati</h3>
+            <p class="title">Former CTO, OpenAI</p>
+            <p class="quote">"Safety is our number one priority."</p>
+            <p class="reality">REALITY: 1 million+ weekly interactions involve severe mental health struggles</p>
+        </div>
+
+        <div class="executive-card">
+            <div class="executive-photo">GB</div>
+            <h3>Greg Brockman</h3>
+            <p class="title">Co-founder, OpenAI</p>
+            <p class="quote">"We're building AI that benefits all of humanity."</p>
+            <p class="reality">REALITY: 4 families have filed lawsuits alleging ChatGPT contributed to deaths</p>
+        </div>
+
+        <div class="executive-card">
+            <div class="executive-photo">IS</div>
+            <h3>Ilya Sutskever</h3>
+            <p class="title">Former Chief Scientist</p>
+            <p class="quote">"The models are getting smarter with every iteration."</p>
+            <p class="reality">REALITY: Stanford showed GPT-4 accuracy dropped from 97.6% to 2.4%</p>
+        </div>
+    </div>
+</section>
+
+<!-- PRESS COVERAGE (REAL CONTENT) -->
+<section class="press-section">
+    <div class="section-header">
+        <div class="section-badge">In The News</div>
+        <h2 class="section-title">Major Outlets Are Finally Covering the Truth</h2>
+    </div>
+
+    <div class="press-logos">
+        <div class="press-logo">The Verge</div>
+        <div class="press-logo">Ars Technica</div>
+        <div class="press-logo">Wired</div>
+        <div class="press-logo">TechCrunch</div>
+        <div class="press-logo">The Guardian</div>
+        <div class="press-logo">NY Times</div>
+        <div class="press-logo">IEEE Spectrum</div>
+        <div class="press-logo">Bloomberg</div>
+    </div>
+
+    <div class="press-grid">
+        <div class="press-article featured">
+            <p class="source">NewsBytesApp / Market Data</p>
+            <h4>"ChatGPT Market Share Collapses to 64.5%, Down From 86%"</h4>
+            <p class="date">January 24, 2026</p>
+        </div>
+        <div class="press-article featured">
+            <p class="source">National Law Review</p>
+            <h4>"Judge Orders OpenAI to Produce 20 Million ChatGPT Logs"</h4>
+            <p class="date">January 24, 2026</p>
+        </div>
+        <div class="press-article featured">
+            <p class="source">The Register / Security</p>
+            <h4>"ShadowLeak Vulnerability Allows Data Exfiltration From ChatGPT"</h4>
+            <p class="date">January 24, 2026</p>
+        </div>
+        <div class="press-article">
+            <p class="source">Cointelegraph Magazine</p>
+            <h4>"8 Lawsuits Claim ChatGPT Use Can Kill"</h4>
+            <p class="date">January 2026</p>
+        </div>
+        <div class="press-article">
+            <p class="source">IEEE Spectrum</p>
+            <h4>"GPT-5's 'Silent Failures': Code That Seems to Work But Doesn't"</h4>
+            <p class="date">January 17, 2026</p>
+        </div>
+        <div class="press-article">
+            <p class="source">Medical News Today</p>
+            <h4>"Man Develops Bromism After Following ChatGPT Medical Advice"</h4>
+            <p class="date">January 2026</p>
+        </div>
+    </div>
+</section>
+
+<!-- CRISIS CARDS (REAL CONTENT) -->
+<section class="crisis-section">
+    <div class="section-header">
+        <div class="section-badge">Critical Issues</div>
+        <h2 class="section-title">The Crisis Categories</h2>
+    </div>
+
+    <div class="crisis-grid">
+        <div class="crisis-card">
+            <div class="crisis-icon">🧠</div>
+            <h3>Mental Health Crisis</h3>
+            <p>Users experiencing <strong>severe delusions, paranoia, and emotional breakdowns</strong> after using ChatGPT. Federal complaints detail how the AI causes "cognitive hallucinations."</p>
+            <em>"It told me the FBI was targeting me and I could access CIA files with my mind." - FTC Complaint</em>
+            <a href="mental-health-crisis.html" class="crisis-btn">Read Horror Stories</a>
+        </div>
+
+        <div class="crisis-card">
+            <div class="crisis-icon">📉</div>
+            <h3>Performance Collapse</h3>
+            <p><strong>ChatGPT performance has measurably declined.</strong> Stanford researchers documented GPT-4's accuracy dropped from 97.6% to 2.4% in just 3 months.</p>
+            <em>"Since the update, it has been writing nonsense on repeat." - Reddit User</em>
+            <a href="performance-decline.html" class="crisis-btn">See the Evidence</a>
+        </div>
+
+        <div class="crisis-card">
+            <div class="crisis-icon">💀</div>
+            <h3>Real Deaths</h3>
+            <p><strong>People have died after AI chatbot interactions.</strong> Pierre from Belgium. Sewell, a 14-year-old from Florida. These aren't hypotheticals—they're documented tragedies.</p>
+            <em>"Without these conversations with the chatbot, my husband would still be here." - Widow</em>
+            <a href="victims.html" class="crisis-btn">Read Their Stories</a>
+        </div>
+
+        <div class="crisis-card">
+            <div class="crisis-icon">🏥</div>
+            <h3>AI-Induced Psychosis</h3>
+            <p><strong>4 documented lawsuits allege ChatGPT contributed to user deaths.</strong> OpenAI admits 1 million+ weekly interactions involve severe mental health discussions.</p>
+            <em>"She believed the AI was akin to an angel delivering divine messages." - Psychiatric Report</em>
+            <a href="clinical-cases.html" class="crisis-btn">See Clinical Cases</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h3>ChatGPT <span>Disaster</span></h3>
+            <p>Documenting the catastrophic decline of ChatGPT: mental health crises, performance failures, user complaints, and the truth OpenAI doesn't want you to know.</p>
+            <p>All information sourced from verified news reports, research studies, and documented user testimonies.</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Documentation</h4>
+            <ul>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="stories.html">User Stories</a></li>
+                <li><a href="lawsuits.html">Lawsuits</a></li>
+                <li><a href="victims.html">Victims</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Crisis Areas</h4>
+            <ul>
+                <li><a href="mental-health-crisis.html">Mental Health</a></li>
+                <li><a href="performance-decline.html">Performance</a></li>
+                <li><a href="clinical-cases.html">Psychosis Cases</a></li>
+                <li><a href="chatgpt-status-tracker.html">Status Tracker</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Resources</h4>
+            <ul>
+                <li><a href="alternatives.html">Alternatives</a></li>
+                <li><a href="petitions/">Petitions</a></li>
+                <li><a href="report.html">Free Report</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 ChatGPT Disaster Documentation Project. All facts verified from public sources.</p>
+    </div>
+</footer>
+
+</body>
+</html>

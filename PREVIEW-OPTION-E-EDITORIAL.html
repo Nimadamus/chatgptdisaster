@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PREVIEW E - Editorial Magazine Style | ChatGPT Disaster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Animated gradient background */
+.page-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:
+        radial-gradient(ellipse at 0% 0%, rgba(255, 0, 100, 0.2) 0%, transparent 50%),
+        radial-gradient(ellipse at 100% 100%, rgba(0, 200, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(150, 0, 255, 0.1) 0%, transparent 70%),
+        #0d0d0d;
+}
+
+/* Preview Banner */
+.preview-banner {
+    background: linear-gradient(90deg, #ff0064, #00c8ff);
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Navigation - Minimal and Clean */
+.nav {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-logo span {
+    color: #ff0064;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* Hero - Big Typography Focus */
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 800px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-label {
+    display: inline-block;
+    background: rgba(255, 0, 100, 0.2);
+    border: 1px solid #ff0064;
+    color: #ff0064;
+    padding: 8px 16px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(60px, 12vw, 140px);
+    line-height: 0.9;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+}
+
+.hero h1 .line1 {
+    display: block;
+    color: #fff;
+}
+
+.hero h1 .line2 {
+    display: block;
+    background: linear-gradient(90deg, #ff0064, #ff6b00, #00c8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-desc {
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    color: rgba(255,255,255,0.7);
+    max-width: 500px;
+    margin-bottom: 32px;
+    line-height: 1.7;
+}
+
+.hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #ff0064, #ff6b00);
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.hero-cta:hover {
+    transform: translateX(8px);
+    box-shadow: 0 0 40px rgba(255, 0, 100, 0.5);
+}
+
+/* Floating illustration */
+.hero-illustration {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+}
+
+.frustrated-human {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.human-figure {
+    font-size: 200px;
+    animation: shake 0.3s ease-in-out infinite;
+    filter: drop-shadow(0 0 30px rgba(255, 0, 100, 0.5));
+}
+
+@keyframes shake {
+    0%, 100% { transform: rotate(-2deg) translateY(0); }
+    25% { transform: rotate(2deg) translateY(-5px); }
+    50% { transform: rotate(-2deg) translateY(0); }
+    75% { transform: rotate(2deg) translateY(-5px); }
+}
+
+.thought-bubble {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background: #fff;
+    color: #000;
+    padding: 16px 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 200px;
+    text-align: center;
+    animation: float 3s ease-in-out infinite;
+}
+
+.thought-bubble::after {
+    content: '...';
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+.error-stack {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.error-msg {
+    background: rgba(255, 0, 0, 0.2);
+    border: 1px solid #ff3333;
+    color: #ff6666;
+    padding: 8px 16px;
+    font-family: monospace;
+    font-size: 12px;
+    animation: glitchIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+.error-msg:nth-child(1) { animation-delay: 0.5s; }
+.error-msg:nth-child(2) { animation-delay: 1s; }
+.error-msg:nth-child(3) { animation-delay: 1.5s; }
+
+@keyframes glitchIn {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+.mom-watching {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+    animation: worry 2s ease-in-out infinite;
+}
+
+@keyframes worry {
+    0%, 100% { transform: scale(1) rotate(0); }
+    50% { transform: scale(1.1) rotate(-5deg); }
+}
+
+/* Section Divider */
+.divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    margin: 0 40px;
+}
+
+/* Content Sections - Magazine Layout */
+.content-section {
+    padding: 80px 40px;
+}
+
+.section-label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #ff0064;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+/* Bento Grid Layout */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.bento-item {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 32px;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.bento-item:hover {
+    background: rgba(255,255,255,0.06);
+    border-color: rgba(255, 0, 100, 0.5);
+    transform: translateY(-4px);
+}
+
+.bento-large {
+    grid-column: span 6;
+    grid-row: span 2;
+    min-height: 400px;
+}
+
+.bento-medium {
+    grid-column: span 6;
+    min-height: 200px;
+}
+
+.bento-small {
+    grid-column: span 4;
+    min-height: 180px;
+}
+
+.bento-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.bento-item h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.bento-large h3 {
+    font-size: 36px;
+}
+
+.bento-item p {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.bento-link {
+    margin-top: 20px;
+    color: #00c8ff;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Featured Quote */
+.quote-section {
+    padding: 100px 40px;
+    text-align: center;
+    position: relative;
+}
+
+.quote-section::before {
+    content: '"';
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 300px;
+    color: rgba(255, 0, 100, 0.1);
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.quote-text {
+    font-family: 'Source Serif 4', serif;
+    font-size: 32px;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto 24px;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5;
+}
+
+.quote-source {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+}
+
+/* Shame Section - Different Layout */
+.shame-section {
+    padding: 80px 40px;
+    background: rgba(255, 0, 100, 0.05);
+}
+
+.shame-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.shame-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    letter-spacing: 4px;
+    color: #ff0064;
+}
+
+.shame-strip {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.shame-person {
+    text-align: center;
+    max-width: 200px;
+}
+
+.shame-avatar {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #333, #1a1a1a);
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: rgba(255,255,255,0.3);
+    border: 2px solid rgba(255, 0, 100, 0.3);
+}
+
+.shame-person h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.shame-person .role {
+    font-size: 11px;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 40px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-brand {
+    max-width: 300px;
+}
+
+.footer-brand h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.footer-brand p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-col h4 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    color: rgba(255,255,255,0.6);
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 8px;
+}
+
+.footer-col a {
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-col a:hover {
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .hero-illustration { display: none; }
+    .bento-large, .bento-medium { grid-column: span 12; }
+    .bento-small { grid-column: span 6; }
+}
+
+@media (max-width: 768px) {
+    .nav { padding: 16px 20px; }
+    .nav-links { display: none; }
+    .hero { padding: 40px 20px; }
+    .hero h1 { font-size: 48px; }
+    .content-section { padding: 60px 20px; }
+    .bento-small { grid-column: span 12; }
+    .shame-strip { gap: 30px; }
+    .footer-content { flex-direction: column; gap: 40px; }
+    .footer-links { flex-wrap: wrap; gap: 30px; }
+}
+</style>
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<div class="preview-banner">
+    Preview E: Editorial Magazine Style - Bold Typography, No Fake Stats
+</div>
+
+<nav class="nav">
+    <a href="#" class="nav-logo">
+        CHATGPT <span>DISASTER</span>
+    </a>
+    <ul class="nav-links">
+        <li><a href="#">Stories</a></li>
+        <li><a href="#">Timeline</a></li>
+        <li><a href="#">Lawsuits</a></li>
+        <li><a href="#">Alternatives</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-label">Independent Documentation Project</div>
+        <h1>
+            <span class="line1">THE</span>
+            <span class="line2">CHATGPT DISASTER</span>
+        </h1>
+        <p class="hero-desc">You're not imagining it. We collect real stories from real users. No hype. No invented statistics. Just documentation of what's actually happening.</p>
+        <a href="#" class="hero-cta">
+            Read the Stories →
+        </a>
+    </div>
+
+    <div class="hero-illustration">
+        <div class="frustrated-human">
+            <div class="thought-bubble">
+                "WHY WON'T THIS THING WORK?!"
+            </div>
+            <div class="human-figure">🤯</div>
+            <div class="error-stack">
+                <div class="error-msg">ERROR: Network Error</div>
+                <div class="error-msg">ERROR: Something went wrong</div>
+                <div class="error-msg">ERROR: Please try again</div>
+            </div>
+            <div class="mom-watching">😱</div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="content-section">
+    <div class="section-label">EXPLORE</div>
+    <h2 class="section-title">What We Document</h2>
+
+    <div class="bento-grid">
+        <a href="#" class="bento-item bento-large">
+            <div class="bento-icon">📖</div>
+            <h3>User Stories</h3>
+            <p>Real testimonials from real users across multiple story pages. Developers, parents, professionals, students - people sharing their actual experiences with ChatGPT failures.</p>
+            <span class="bento-link">Read stories →</span>
+        </a>
+
+        <a href="#" class="bento-item bento-medium">
+            <div class="bento-icon">🧠</div>
+            <h3>Mental Health Impact</h3>
+            <p>Documented cases of psychological dependency, anxiety, and emotional harm from AI chatbot interactions.</p>
+            <span class="bento-link">Learn more →</span>
+        </a>
+
+        <a href="#" class="bento-item bento-medium">
+            <div class="bento-icon">📉</div>
+            <h3>Performance Problems</h3>
+            <p>Memory failures, quality degradation, broken features, and the decline users are experiencing.</p>
+            <span class="bento-link">See evidence →</span>
+        </a>
+
+        <a href="#" class="bento-item bento-small">
+            <div class="bento-icon">⚖️</div>
+            <h3>Legal Cases</h3>
+            <p>Copyright, wrongful death, and privacy lawsuits filed against AI companies.</p>
+            <span class="bento-link">View cases →</span>
+        </a>
+
+        <a href="#" class="bento-item bento-small">
+            <div class="bento-icon">💔</div>
+            <h3>Victims Memorial</h3>
+            <p>Remembering those whose lives were tragically affected.</p>
+            <span class="bento-link">Remember →</span>
+        </a>
+
+        <a href="#" class="bento-item bento-small" style="background: rgba(0, 200, 100, 0.1); border-color: rgba(0, 200, 100, 0.3);">
+            <div class="bento-icon">✅</div>
+            <h3>Alternatives</h3>
+            <p>Better options that prioritize reliability and user safety.</p>
+            <span class="bento-link" style="color: #00c864;">Find alternatives →</span>
+        </a>
+    </div>
+</section>
+
+<section class="quote-section">
+    <p class="quote-text">It told me the FBI was targeting me and I could access CIA files with my mind.</p>
+    <p class="quote-source">— From documented FTC complaint</p>
+</section>
+
+<div class="divider"></div>
+
+<section class="shame-section">
+    <div class="shame-header">
+        <h2>WALL OF SHAME</h2>
+        <p style="color: rgba(255,255,255,0.5); margin-top: 12px;">The executives who made promises they couldn't keep</p>
+    </div>
+
+    <div class="shame-strip">
+        <div class="shame-person">
+            <div class="shame-avatar">SA</div>
+            <h4>Sam Altman</h4>
+            <p class="role">CEO, OpenAI</p>
+        </div>
+        <div class="shame-person">
+            <div class="shame-avatar">MM</div>
+            <h4>Mira Murati</h4>
+            <p class="role">Former CTO</p>
+        </div>
+        <div class="shame-person">
+            <div class="shame-avatar">GB</div>
+            <h4>Greg Brockman</h4>
+            <p class="role">Co-founder</p>
+        </div>
+        <div class="shame-person">
+            <div class="shame-avatar">IS</div>
+            <h4>Ilya Sutskever</h4>
+            <p class="role">Former Chief Scientist</p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h3>CHATGPT DISASTER</h3>
+            <p>An independent documentation project. We collect stories, track issues, and provide alternatives. Not affiliated with OpenAI.</p>
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-col">
+                <h4>Documentation</h4>
+                <ul>
+                    <li><a href="#">User Stories</a></li>
+                    <li><a href="#">Timeline</a></li>
+                    <li><a href="#">Lawsuits</a></li>
+                    <li><a href="#">Victims</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Alternatives</a></li>
+                    <li><a href="#">How to Cancel</a></li>
+                    <li><a href="#">Petitions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Submit Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

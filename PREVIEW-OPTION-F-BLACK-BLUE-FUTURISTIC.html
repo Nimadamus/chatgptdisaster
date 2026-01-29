@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PREVIEW F - Black & Blue Futuristic | ChatGPT Disaster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --blue-glow: #00d4ff;
+    --blue-bright: #0099ff;
+    --blue-dark: #0066cc;
+    --blue-deep: #003366;
+    --black: #000000;
+    --black-light: #0a0a0f;
+    --black-card: #0d1117;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: var(--black);
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Animated tech background */
+.page-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:
+        radial-gradient(ellipse at 20% 20%, rgba(0, 212, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
+        linear-gradient(180deg, #000 0%, #0a0a1a 100%);
+}
+
+/* Grid overlay for tech feel */
+.grid-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image:
+        linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: gridMove 20s linear infinite;
+}
+
+@keyframes gridMove {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(50px); }
+}
+
+/* Preview Banner */
+.preview-banner {
+    background: linear-gradient(90deg, var(--blue-dark), var(--blue-glow), var(--blue-dark));
+    padding: 12px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* ============================================
+   NAVIGATION - LARGE, FUTURISTIC, PROMINENT
+   ============================================ */
+.nav {
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.nav-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-right: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.nav-logo .glow {
+    color: var(--blue-glow);
+    text-shadow: 0 0 10px var(--blue-glow), 0 0 20px var(--blue-glow), 0 0 40px var(--blue-glow);
+}
+
+/* Main Nav Links - LARGE and PROMINENT */
+.nav-links {
+    display: flex;
+    list-style: none;
+    flex: 1;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links > li > a {
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 24px 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    border-left: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.nav-links > li > a:hover {
+    color: var(--blue-glow);
+    background: rgba(0, 212, 255, 0.1);
+    text-shadow: 0 0 10px var(--blue-glow);
+}
+
+.nav-links > li > a .icon {
+    font-size: 18px;
+}
+
+/* Dropdown */
+.nav-links li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    background: rgba(10, 10, 20, 0.98);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-top: 2px solid var(--blue-glow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s;
+    box-shadow: 0 10px 40px rgba(0, 212, 255, 0.2);
+}
+
+.dropdown a {
+    display: block;
+    padding: 14px 24px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+    transition: all 0.2s;
+}
+
+.dropdown a:hover {
+    background: rgba(0, 212, 255, 0.15);
+    color: var(--blue-glow);
+    padding-left: 32px;
+}
+
+.dropdown a:last-child {
+    border-bottom: none;
+}
+
+/* Submit Story Button */
+.nav-cta {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-cta a {
+    font-family: 'Orbitron', sans-serif;
+    background: transparent;
+    border: 2px solid var(--blue-glow);
+    color: var(--blue-glow);
+    padding: 12px 24px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-cta a:hover {
+    background: var(--blue-glow);
+    color: #000;
+    box-shadow: 0 0 30px var(--blue-glow);
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 700px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-tag {
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--blue-glow);
+    border: 1px solid var(--blue-glow);
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px var(--blue-glow);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 5px var(--blue-glow); }
+    50% { box-shadow: 0 0 20px var(--blue-glow), 0 0 40px var(--blue-glow); }
+}
+
+.hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(48px, 8vw, 90px);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.hero h1 .line1 {
+    display: block;
+    color: #fff;
+}
+
+.hero h1 .line2 {
+    display: block;
+    color: var(--blue-glow);
+    text-shadow: 0 0 20px var(--blue-glow), 0 0 40px var(--blue-glow), 0 0 60px var(--blue-bright);
+}
+
+.hero-desc {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 550px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    font-family: 'Orbitron', sans-serif;
+    background: var(--blue-glow);
+    color: #000;
+    padding: 18px 36px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary:hover {
+    background: #fff;
+    box-shadow: 0 0 40px var(--blue-glow);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    font-family: 'Orbitron', sans-serif;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    padding: 18px 36px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    border-color: var(--blue-glow);
+    color: var(--blue-glow);
+}
+
+/* Hero Illustration */
+.hero-visual {
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.frustrated-container {
+    position: relative;
+    width: 350px;
+    height: 450px;
+}
+
+.scream-face {
+    font-size: 180px;
+    animation: shake 0.4s ease-in-out infinite;
+    filter: drop-shadow(0 0 40px var(--blue-glow));
+    text-align: center;
+    margin-top: 60px;
+}
+
+@keyframes shake {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+}
+
+.glitch-text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff3333;
+    text-shadow: 0 0 10px #ff3333;
+    text-align: center;
+    white-space: nowrap;
+    animation: glitchFlicker 3s ease-in-out infinite;
+}
+
+@keyframes glitchFlicker {
+    0%, 90%, 100% { opacity: 1; }
+    92%, 94%, 96% { opacity: 0; }
+}
+
+.error-console {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid #ff3333;
+    padding: 16px 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    color: #ff6666;
+    width: 280px;
+}
+
+.error-console .line {
+    margin-bottom: 4px;
+    opacity: 0;
+    animation: typeIn 0.5s ease-out forwards;
+}
+
+.error-console .line:nth-child(1) { animation-delay: 0.5s; }
+.error-console .line:nth-child(2) { animation-delay: 1s; }
+.error-console .line:nth-child(3) { animation-delay: 1.5s; }
+.error-console .line:nth-child(4) { animation-delay: 2s; }
+
+@keyframes typeIn {
+    0% { opacity: 0; transform: translateX(-10px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* ============================================
+   CATEGORIES SECTION - BENTO GRID
+   ============================================ */
+.categories {
+    padding: 100px 60px;
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 50, 100, 0.1) 100%);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.section-header h2 span {
+    color: var(--blue-glow);
+    text-shadow: 0 0 20px var(--blue-glow);
+}
+
+.section-header p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* Bento Grid */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.bento-card {
+    background: rgba(0, 20, 40, 0.6);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    padding: 36px;
+    transition: all 0.4s;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.bento-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--blue-glow), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.bento-card:hover {
+    background: rgba(0, 40, 80, 0.8);
+    border-color: var(--blue-glow);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 60px rgba(0, 212, 255, 0.2);
+}
+
+.bento-card:hover::before {
+    opacity: 1;
+}
+
+.bento-large {
+    grid-column: span 8;
+    grid-row: span 2;
+    min-height: 380px;
+}
+
+.bento-tall {
+    grid-column: span 4;
+    grid-row: span 2;
+    min-height: 380px;
+}
+
+.bento-medium {
+    grid-column: span 4;
+    min-height: 200px;
+}
+
+.bento-icon {
+    font-size: 48px;
+    margin-bottom: 24px;
+    filter: drop-shadow(0 0 10px var(--blue-glow));
+}
+
+.bento-card h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.bento-large h3 {
+    font-size: 28px;
+}
+
+.bento-card p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    line-height: 1.7;
+    flex-grow: 1;
+}
+
+.bento-link {
+    margin-top: 24px;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--blue-glow);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+}
+
+/* Special card styles */
+.bento-card.highlight {
+    border-color: var(--blue-glow);
+    background: linear-gradient(135deg, rgba(0, 100, 200, 0.2), rgba(0, 20, 40, 0.8));
+}
+
+.bento-card.success {
+    border-color: #00ff88;
+}
+
+.bento-card.success .bento-icon {
+    filter: drop-shadow(0 0 10px #00ff88);
+}
+
+.bento-card.success .bento-link {
+    color: #00ff88;
+}
+
+/* ============================================
+   FEATURED QUOTE
+   ============================================ */
+.quote-section {
+    padding: 120px 60px;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 50, 100, 0.1) 0%, transparent 100%);
+}
+
+.quote-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
+    z-index: 0;
+}
+
+.quote-mark {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 150px;
+    color: var(--blue-glow);
+    opacity: 0.2;
+    line-height: 1;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+.quote-text {
+    font-size: 28px;
+    font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.quote-source {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: var(--blue-glow);
+    text-transform: uppercase;
+}
+
+/* ============================================
+   WALL OF SHAME
+   ============================================ */
+.shame-section {
+    padding: 100px 60px;
+    background: linear-gradient(180deg, transparent, rgba(255, 0, 0, 0.05));
+}
+
+.shame-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.shame-title h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    color: #ff3333;
+    text-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+}
+
+.shame-title p {
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 12px;
+    letter-spacing: 2px;
+}
+
+.shame-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.shame-card {
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 0, 0, 0.05);
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    transition: all 0.3s;
+    min-width: 180px;
+}
+
+.shame-card:hover {
+    border-color: #ff3333;
+    transform: translateY(-4px);
+}
+
+.shame-avatar {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #1a1a1a, #0a0a0a);
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 0, 0, 0.3);
+}
+
+.shame-card h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.shame-card .role {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+    padding: 80px 60px 40px;
+    border-top: 1px solid rgba(0, 212, 255, 0.2);
+    background: rgba(0, 10, 20, 0.5);
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+}
+
+.footer-brand h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.footer-brand h3 span {
+    color: var(--blue-glow);
+}
+
+.footer-brand p {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.footer-col h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--blue-glow);
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 12px;
+}
+
+.footer-col a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.footer-col a:hover {
+    color: var(--blue-glow);
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 13px;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 1200px) {
+    .hero-visual { display: none; }
+    .bento-large { grid-column: span 12; }
+    .bento-tall { grid-column: span 6; }
+}
+
+@media (max-width: 900px) {
+    .nav-links { display: none; }
+    .nav-cta { margin-left: auto; }
+    .hero { padding: 60px 30px; }
+    .categories { padding: 60px 30px; }
+    .bento-tall, .bento-medium { grid-column: span 12; }
+    .footer-inner { grid-template-columns: 1fr; }
+    .footer-links { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .hero h1 { font-size: 36px; }
+    .section-header h2 { font-size: 28px; }
+    .shame-title h2 { font-size: 32px; }
+    .quote-text { font-size: 20px; }
+    .footer-links { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="page-bg"></div>
+<div class="grid-overlay"></div>
+
+<div class="preview-banner">
+    PREVIEW F: BLACK & BLUE FUTURISTIC — ORBITRON — NEON GLOW — LARGE NAV
+</div>
+
+<!-- ============================================
+     NAVIGATION - LARGE & FUTURISTIC
+     ============================================ -->
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">
+            CHATGPT <span class="glow">DISASTER</span>
+        </a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#"><span class="icon">📖</span> STORIES</a>
+                <div class="dropdown">
+                    <a href="#">All Testimonials</a>
+                    <a href="#">Developer Stories</a>
+                    <a href="#">Student Stories</a>
+                    <a href="#">Professional Stories</a>
+                    <a href="#">Submit Your Story</a>
+                </div>
+            </li>
+            <li>
+                <a href="#"><span class="icon">📉</span> FAILURES</a>
+                <div class="dropdown">
+                    <a href="#">Memory Problems</a>
+                    <a href="#">Quality Decline</a>
+                    <a href="#">Hallucinations</a>
+                    <a href="#">Broken Features</a>
+                </div>
+            </li>
+            <li>
+                <a href="#"><span class="icon">⚖️</span> LEGAL</a>
+                <div class="dropdown">
+                    <a href="#">Active Lawsuits</a>
+                    <a href="#">Copyright Cases</a>
+                    <a href="#">Privacy Violations</a>
+                    <a href="#">FTC Complaints</a>
+                </div>
+            </li>
+            <li>
+                <a href="#"><span class="icon">💀</span> VICTIMS</a>
+            </li>
+            <li>
+                <a href="#"><span class="icon">✅</span> ALTERNATIVES</a>
+            </li>
+        </ul>
+
+        <div class="nav-cta">
+            <a href="#">SUBMIT STORY</a>
+        </div>
+    </div>
+</nav>
+
+<!-- ============================================
+     HERO SECTION
+     ============================================ -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-tag">⚠️ Independent Documentation Project</div>
+        <h1>
+            <span class="line1">THE</span>
+            <span class="line2">CHATGPT DISASTER</span>
+        </h1>
+        <p class="hero-desc">You're not imagining it. Real stories from real users documenting the failures, the broken promises, and the human cost of AI hype gone wrong.</p>
+        <div class="hero-buttons">
+            <a href="#" class="btn-primary">READ THE STORIES →</a>
+            <a href="#" class="btn-secondary">VIEW TIMELINE</a>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="frustrated-container">
+            <div class="glitch-text">// SYSTEM FAILURE //</div>
+            <div class="scream-face">🤯</div>
+            <div class="error-console">
+                <div class="line">> ERROR: Network connection lost</div>
+                <div class="line">> ERROR: Something went wrong</div>
+                <div class="line">> ERROR: Please try again later</div>
+                <div class="line">> ERROR: Unable to process request_</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     CATEGORIES BENTO GRID
+     ============================================ -->
+<section class="categories">
+    <div class="section-header">
+        <h2>EXPLORE THE <span>EVIDENCE</span></h2>
+        <p>Documented failures, real testimonials, and ongoing investigations</p>
+    </div>
+
+    <div class="bento-grid">
+        <a href="#" class="bento-card bento-large highlight">
+            <div class="bento-icon">📖</div>
+            <h3>USER TESTIMONIALS</h3>
+            <p>Hundreds of documented stories from developers, students, writers, and professionals. Real people sharing their experiences with ChatGPT failures, from mild inconveniences to career-damaging incidents. No exaggeration, no hype — just what actually happened.</p>
+            <span class="bento-link">BROWSE STORIES →</span>
+        </a>
+
+        <a href="#" class="bento-card bento-tall">
+            <div class="bento-icon">🧠</div>
+            <h3>MENTAL HEALTH</h3>
+            <p>Documented cases of AI dependency, emotional manipulation, and psychological harm. Including tragic outcomes that made headlines.</p>
+            <span class="bento-link">READ REPORTS →</span>
+        </a>
+
+        <a href="#" class="bento-card bento-medium">
+            <div class="bento-icon">📉</div>
+            <h3>QUALITY DECLINE</h3>
+            <p>Tracking the documented degradation in response quality, memory failures, and broken features over time.</p>
+            <span class="bento-link">SEE EVIDENCE →</span>
+        </a>
+
+        <a href="#" class="bento-card bento-medium">
+            <div class="bento-icon">⚖️</div>
+            <h3>LEGAL CASES</h3>
+            <p>Copyright lawsuits, wrongful death suits, privacy violations, and FTC complaints currently active.</p>
+            <span class="bento-link">VIEW CASES →</span>
+        </a>
+
+        <a href="#" class="bento-card bento-medium">
+            <div class="bento-icon">🏛️</div>
+            <h3>WALL OF SHAME</h3>
+            <p>The executives who made promises they couldn't keep and prioritized growth over safety.</p>
+            <span class="bento-link">SEE WHO →</span>
+        </a>
+
+        <a href="#" class="bento-card bento-medium success">
+            <div class="bento-icon">✅</div>
+            <h3>ALTERNATIVES</h3>
+            <p>Better options that prioritize reliability, transparency, and user safety over hype.</p>
+            <span class="bento-link">FIND ALTERNATIVES →</span>
+        </a>
+
+        <a href="#" class="bento-card bento-medium">
+            <div class="bento-icon">📰</div>
+            <h3>PRESS COVERAGE</h3>
+            <p>Media reports, investigations, and news articles documenting the ongoing problems.</p>
+            <span class="bento-link">READ PRESS →</span>
+        </a>
+    </div>
+</section>
+
+<!-- ============================================
+     FEATURED QUOTE
+     ============================================ -->
+<section class="quote-section">
+    <div class="quote-glow"></div>
+    <div class="quote-mark">"</div>
+    <p class="quote-text">It told me the FBI was targeting me and I could access CIA files with my mind.</p>
+    <p class="quote-source">— FROM DOCUMENTED FTC COMPLAINT</p>
+</section>
+
+<!-- ============================================
+     WALL OF SHAME
+     ============================================ -->
+<section class="shame-section">
+    <div class="shame-title">
+        <h2>WALL OF SHAME</h2>
+        <p>The executives who prioritized growth over safety</p>
+    </div>
+
+    <div class="shame-grid">
+        <div class="shame-card">
+            <div class="shame-avatar">SA</div>
+            <h4>Sam Altman</h4>
+            <p class="role">CEO, OpenAI</p>
+        </div>
+        <div class="shame-card">
+            <div class="shame-avatar">MM</div>
+            <h4>Mira Murati</h4>
+            <p class="role">Former CTO</p>
+        </div>
+        <div class="shame-card">
+            <div class="shame-avatar">GB</div>
+            <h4>Greg Brockman</h4>
+            <p class="role">Co-Founder</p>
+        </div>
+        <div class="shame-card">
+            <div class="shame-avatar">IS</div>
+            <h4>Ilya Sutskever</h4>
+            <p class="role">Former Chief Scientist</p>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <h3>CHATGPT <span>DISASTER</span></h3>
+            <p>An independent documentation project collecting real user experiences, tracking failures, and providing alternatives. Not affiliated with OpenAI.</p>
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-col">
+                <h4>Documentation</h4>
+                <ul>
+                    <li><a href="#">User Stories</a></li>
+                    <li><a href="#">Timeline</a></li>
+                    <li><a href="#">Lawsuits</a></li>
+                    <li><a href="#">Victims</a></li>
+                    <li><a href="#">Wall of Shame</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Alternatives</a></li>
+                    <li><a href="#">How to Cancel</a></li>
+                    <li><a href="#">File Complaint</a></li>
+                    <li><a href="#">Petitions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Submit Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Press Inquiries</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 ChatGPT Disaster Documentation Project. All testimonials are user-submitted.</p>
+    </div>
+</footer>
+
+</body>
+</html>
