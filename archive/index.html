@@ -165,8 +165,41 @@ footer {
 footer p { color: #666; font-size: 0.9rem; }
 footer a { color: #ff6b6b; text-decoration: none; }
 </style>
+<style>
+.main-nav { background: rgba(0,0,0,0.95); border-bottom: 1px solid rgba(255,215,0,0.25); position: sticky; top: 0; z-index: 1000; }
+.nav-container { display: flex; align-items: center; justify-content: space-between; padding: 0 40px; max-width: 1600px; margin: 0 auto; height: 70px; }
+.nav-logo { display: flex; align-items: center; text-decoration: none; color: #fff; }
+.nav-logo-text { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.4rem; }
+.nav-logo-text span { color: #ffd700; }
+.nav-menu { display: flex; align-items: center; list-style: none; gap: 10px; margin: 0; padding: 0; }
+.nav-item { position: relative; }
+.nav-link { padding: 12px 18px; color: #fff; text-decoration: none; font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 600; }
+.nav-link:hover { color: #ffd700; }
+.nav-actions { margin-left: auto; }
+.nav-cta { padding: 12px 24px; background: #ffd700; color: #000; text-decoration: none; font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 700; border-radius: 6px; }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <a href="../index.html" class="nav-logo">
+            <div class="nav-logo-text">ChatGPT <span>Review Hub</span></div>
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../stories.html" class="nav-link">User Stories</a></li>
+            <li class="nav-item"><a href="../timeline.html" class="nav-link">Timeline</a></li>
+            <li class="nav-item"><a href="../lawsuits.html" class="nav-link">Lawsuits</a></li>
+            <li class="nav-item"><a href="../alternatives.html" class="nav-link">Alternatives</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="../petitions/" class="nav-cta">Sign Petitions</a>
+        </div>
+    </div>
+</nav>
+
 
 <header>
     <div class="container">
