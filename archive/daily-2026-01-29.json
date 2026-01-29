@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-29",
+  "date_seed": 1407623767,
+  "generated_at": "2026-01-29T18:56:53.732415",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 165,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3967"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 131,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2858"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 58,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3456"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 329,
+      "url": "https://reddit.com/r/law",
+      "author": "user_6475"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 380,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6830"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 319,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5410"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 132,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4820"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 226,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_5000"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 83,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8090"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 67,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1451"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claude Code Daily Benchmarks for Degradation Tracking",
+      "url": "https://marginlab.ai/trackers/claude-code/",
+      "score": 342,
+      "comments": 178,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI's Impact on Engineering Jobs May Be Different Than Expected",
+      "url": "https://semiengineering.com/ais-impact-on-engineering-jobs-may-be-different-than-initial-projections/",
+      "score": 22,
+      "comments": 15,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: AgentMail (YC S25) \u2013 An API that gives agents their own email inboxes",
+      "url": "https://news.ycombinator.com/item?id=46812608",
+      "score": 58,
+      "comments": 58,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OTelBench: AI struggles with simple SRE tasks (Opus 4.5 scores only 29%)",
+      "url": "https://quesma.com/blog/introducing-otel-bench/",
+      "score": 99,
+      "comments": 51,
+      "source": "Hacker News"
+    },
+    {
+      "title": "US cybersecurity chief leaked sensitive government files to ChatGPT: Report",
+      "url": "https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/",
+      "score": 244,
+      "comments": 132,
+      "source": "Hacker News"
+    }
+  ]
+}
