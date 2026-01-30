@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-30",
+  "date_seed": 2322758049,
+  "generated_at": "2026-01-30T18:53:54.612210",
+  "reddit_posts": [
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5544"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 241,
+      "url": "https://reddit.com/r/law",
+      "author": "user_6638"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 162,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8554"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 349,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1619"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 135,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3425"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 74,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5475"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 59,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_5836"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 67,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7467"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 82,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_6030"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 141,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2901"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Show HN: Amla Sandbox \u2013 WASM bash shell sandbox for AI agents",
+      "url": "https://github.com/amlalabs/amla-sandbox",
+      "score": 77,
+      "comments": 47,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenClaw \u2013 Moltbot Renamed Again",
+      "url": "https://openclaw.ai/blog/introducing-openclaw",
+      "score": 482,
+      "comments": 249,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How AI assistance impacts the formation of coding skills",
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "score": 295,
+      "comments": 241,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How AI Impacts Skill Formation",
+      "url": "https://arxiv.org/abs/2601.20245",
+      "score": 197,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models/",
+      "score": 281,
+      "comments": 370,
+      "source": "Hacker News"
+    }
+  ]
+}
