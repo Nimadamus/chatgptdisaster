@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-31",
+  "date_seed": 1135774867,
+  "generated_at": "2026-01-31T18:41:04.820583",
+  "reddit_posts": [
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 345,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4702"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6721"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 157,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9271"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 87,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7233"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 389,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4440"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 171,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5143"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 282,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6163"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 125,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6568"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 376,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_8666"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 275,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5179"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "CPython Internals Explained",
+      "url": "https://github.com/zpoint/CPython-Internals",
+      "score": 83,
+      "comments": 21,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: I trained a 9M speech model to fix my Mandarin tones",
+      "url": "https://simedw.com/2026/01/31/ear-pronunication-via-ctc/",
+      "score": 380,
+      "comments": 113,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Students using \u201chumanizer\u201d programs to beat accusations of cheating with AI",
+      "url": "https://www.nbcnews.com/tech/internet/college-students-ai-cheating-detectors-humanizers-rcna253878",
+      "score": 4,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A Step Behind the Bleeding Edge: A Philosophy on AI in Dev",
+      "url": "https://somehowmanage.com/2026/01/22/a-step-behind-the-bleeding-edge-monarchs-philosophy-on-ai-in-dev/",
+      "score": 122,
+      "comments": 60,
+      "source": "Hacker News"
+    },
+    {
+      "title": "US reportedly investigate claims that Meta can read encrypted WhatsApp messages",
+      "url": "https://www.theguardian.com/technology/2026/jan/31/us-authorities-reportedly-investigate-claims-that-meta-can-read-encrypted-whatsapp-messages",
+      "score": 159,
+      "comments": 156,
+      "source": "Hacker News"
+    }
+  ]
+}
