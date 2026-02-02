@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-01",
+  "date_seed": 454539370,
+  "generated_at": "2026-02-01T18:44:01.258585",
+  "reddit_posts": [
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 246,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4576"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 350,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5778"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 349,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2996"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 327,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7889"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 99,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5440"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 343,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9485"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 339,
+      "url": "https://reddit.com/r/law",
+      "author": "user_9404"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 134,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1960"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 186,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4886"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 229,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3779"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Anciente map of Fairyland. Places from nursery rhymes, fairy tales etc.",
+      "url": "https://collections.leventhalmap.org/search/commonwealth:3f463773q",
+      "score": 29,
+      "comments": 6,
+      "source": "Hacker News"
+    },
+    {
+      "title": "List animals until failure",
+      "url": "https://rose.systems/animalist/",
+      "score": 272,
+      "comments": 146,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Aging muscle stem cells shift from rapid repair to long-term survival",
+      "url": "https://phys.org/news/2026-01-sprint-marathon-aging-muscle-stem.html",
+      "score": 18,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "In praise of \u2013dry-run",
+      "url": "https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/",
+      "score": 252,
+      "comments": 139,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Real engineering failures instead of success stories",
+      "url": "https://failhub.substack.com/p/failhub-issue-1",
+      "score": 17,
+      "comments": 2,
+      "source": "Hacker News"
+    }
+  ]
+}
