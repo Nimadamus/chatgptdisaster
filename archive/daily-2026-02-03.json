@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-03",
+  "date_seed": 2003573496,
+  "generated_at": "2026-02-03T19:03:36.746750",
+  "reddit_posts": [
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 327,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4829"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 154,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4831"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 98,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9631"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 367,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7265"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 300,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6874"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 150,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7596"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 172,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2385"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 333,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6176"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 119,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7491"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 259,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7594"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Show HN: I built \"AI Wattpad\" to eval LLMs on fiction",
+      "url": "https://narrator.sh/llm-leaderboard",
+      "score": 5,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The next steps for Airbus' big bet on open rotor engines",
+      "url": "https://aerospaceamerica.aiaa.org/the-next-steps-for-airbus-big-bet-on-open-rotor-engines/",
+      "score": 26,
+      "comments": 24,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Migrate Wizard \u2013 IMAP Based Email Migration Tool",
+      "url": "https://migratewizard.com/#features",
+      "score": 7,
+      "comments": 7,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Banning lead in gas worked. The proof is in our hair",
+      "url": "https://attheu.utah.edu/health-medicine/banning-lead-in-gas-worked-the-proof-is-in-our-hair/",
+      "score": 281,
+      "comments": 208,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Data Brokers Can Fuel Violence Against Public Servants",
+      "url": "https://www.wired.com/story/how-data-brokers-can-fuel-violence-against-public-servants/",
+      "score": 74,
+      "comments": 34,
+      "source": "Hacker News"
+    }
+  ]
+}
