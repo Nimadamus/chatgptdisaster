@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-04",
+  "date_seed": 3113814895,
+  "generated_at": "2026-02-04T18:59:04.774659",
+  "reddit_posts": [
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 345,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8887"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 224,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_8867"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 236,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3725"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 204,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3899"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 358,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2997"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 364,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5263"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 68,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8241"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 81,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_4599"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 384,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5980"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 233,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1289"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "RS-SDK: Drive RuneScape with Claude Code",
+      "url": "https://github.com/MaxBittker/rs-sdk",
+      "score": 30,
+      "comments": 8,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Is a Space to Think",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "score": 131,
+      "comments": 50,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Procedures for Repair of Potholes in Asphalt-Surfaced Pavements",
+      "url": "https://highways.dot.gov/media/7941",
+      "score": 35,
+      "comments": 29,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Ghidra MCP Server \u2013 110 tools for AI-assisted reverse engineering",
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "score": 229,
+      "comments": 57,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI needs to augment rather than replace humans or the workplace is doomed",
+      "url": "https://www.theguardian.com/technology/2026/jan/25/ai-augment-rather-than-replace-workplace-doomed",
+      "score": 8,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
