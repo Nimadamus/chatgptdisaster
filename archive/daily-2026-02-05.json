@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-05",
+  "date_seed": 1071867248,
+  "generated_at": "2026-02-05T18:57:59.491574",
+  "reddit_posts": [
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 120,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8839"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 159,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9675"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 326,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5273"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 275,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3541"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 145,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7064"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 82,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_8158"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 352,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2020"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 361,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4424"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 362,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_1922"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 161,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8249"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "score": 285,
+      "comments": 96,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Opus 4.6",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "score": 511,
+      "comments": 226,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Code Agent Teams",
+      "url": "https://code.claude.com/docs/en/agent-teams",
+      "score": 94,
+      "comments": 33,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anthropic's Claude Opus 4.6 uncovers 500 zero-day flaws in open-source code",
+      "url": "https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting",
+      "score": 28,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Maihem (YC W24): hiring sr robotics perception engineer (London, on-site)",
+      "url": "https://jobs.ashbyhq.com/maihem/8da3fa8b-5544-45de-a99e-888021519758",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
