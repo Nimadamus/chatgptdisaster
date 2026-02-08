@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-06",
+  "date_seed": 1330017004,
+  "generated_at": "2026-02-06T18:59:45.818942",
+  "reddit_posts": [
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 163,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5208"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 52,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4343"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 211,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4970"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 199,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5960"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 182,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_8378"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 359,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7400"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 348,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5551"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5194"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 84,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4007"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 106,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6334"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "A new bill in New York would require disclaimers on AI-generated news content",
+      "url": "https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/",
+      "score": 415,
+      "comments": 156,
+      "source": "Hacker News"
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "score": 831,
+      "comments": 340,
+      "source": "Hacker News"
+    },
+    {
+      "title": "DNS Explained \u2013 How Domain Names Get Resolved",
+      "url": "https://www.bhusalmanish.com.np/blog/posts/dns-explained.html",
+      "score": 98,
+      "comments": 34,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Opus 4.6",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "score": 2216,
+      "comments": 961,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Daily-updated database of malicious browser extensions",
+      "url": "https://github.com/toborrm9/malicious_extension_sentry",
+      "score": 7,
+      "comments": 3,
+      "source": "Hacker News"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-07",
+  "date_seed": 3317714399,
+  "generated_at": "2026-02-07T18:44:24.150423",
+  "reddit_posts": [
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 322,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9453"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 70,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_4849"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 333,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8306"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 220,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4869"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 69,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5814"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 76,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2917"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 78,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3657"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 333,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3701"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 312,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1742"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 282,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3582"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Al Lowe on model trains, funny deaths and working with Disney",
+      "url": "https://spillhistorie.no/2026/02/06/interview-with-sierra-veteran-al-lowe/",
+      "score": 45,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The AI boom is causing shortages everywhere else",
+      "url": "https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/",
+      "score": 67,
+      "comments": 72,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Monty: A minimal, secure Python interpreter written in Rust for use by AI",
+      "url": "https://github.com/pydantic/monty",
+      "score": 282,
+      "comments": 150,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: If you lose your memory, how to regain access to your computer?",
+      "url": "https://eljojo.github.io/rememory/",
+      "score": 342,
+      "comments": 212,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How to effectively write quality code with AI",
+      "url": "https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/",
+      "score": 308,
+      "comments": 274,
+      "source": "Hacker News"
+    }
+  ]
+}
