@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-09",
+  "date_seed": 3915332054,
+  "generated_at": "2026-02-09T19:24:29.545844",
+  "reddit_posts": [
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 368,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2263"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 219,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7227"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 326,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5275"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 386,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4666"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 305,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7020"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 139,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1253"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 90,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5298"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 294,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_7480"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 187,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_6698"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 114,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5572"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Testing Ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "score": 21,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GitHub is down again",
+      "url": "https://www.githubstatus.com/incidents/54hndjxft5bx",
+      "score": 334,
+      "comments": 342,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Humans peak in midlife: A combined cognitive and personality trait perspective",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160289625000649",
+      "score": 105,
+      "comments": 44,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Eddie Bauer, venerable outdoor apparel retailer, declares bankruptcy",
+      "url": "https://www.cbsnews.com/news/eddie-bauer-bankrupt-outdoor-apparel/",
+      "score": 22,
+      "comments": 14,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Matrix messaging gaining ground in government IT",
+      "url": "https://www.theregister.com/2026/02/09/matrix_element_secure_chat/",
+      "score": 192,
+      "comments": 145,
+      "source": "Hacker News"
+    }
+  ]
+}
