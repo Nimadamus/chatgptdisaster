@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-11",
+  "date_seed": 829709093,
+  "generated_at": "2026-02-11T19:11:37.338545",
+  "reddit_posts": [
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 379,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8115"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 94,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7892"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 177,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_4665"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 58,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6119"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 303,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5743"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 310,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9577"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 381,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3963"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_4369"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 281,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2932"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 79,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1378"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claude Code Is Being Dumbed Down",
+      "url": "https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/",
+      "score": 155,
+      "comments": 107,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Single bone in Spain offers first direct evidence of Hannibal's war elephants",
+      "url": "https://phys.org/news/2026-02-hannibal-famous-war-elephants-bone.html",
+      "score": 16,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "FAA halts all flights at El Paso airport for 10 days",
+      "url": "https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html",
+      "score": 246,
+      "comments": 429,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: AI agents play SimCity through a REST API",
+      "url": "https://hallucinatingsplines.com",
+      "score": 124,
+      "comments": 45,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI-First Company Memos",
+      "url": "https://the-ai-native.company/",
+      "score": 85,
+      "comments": 135,
+      "source": "Hacker News"
+    }
+  ]
+}
