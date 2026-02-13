@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-12",
+  "date_seed": 3472244368,
+  "generated_at": "2026-02-12T19:11:59.179583",
+  "reddit_posts": [
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 197,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5493"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 263,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5802"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 381,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_7255"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 112,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1564"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 176,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3073"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 113,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1763"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 118,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2977"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 295,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8549"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 147,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4697"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 397,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9146"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "GPT\u20115.3\u2011Codex\u2011Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+      "score": 140,
+      "comments": 54,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Gemini 3 Deep Think",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "score": 232,
+      "comments": 113,
+      "source": "Hacker News"
+    },
+    {
+      "title": "An AI agent published a hit piece on me",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+      "score": 732,
+      "comments": 339,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Major European payment processor can't send email to Google Workspace users",
+      "url": "https://atha.io/blog/2026-02-12-viva",
+      "score": 301,
+      "comments": 197,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Omnara (YC S25) \u2013 Run Claude Code and Codex from anywhere",
+      "url": "https://news.ycombinator.com/item?id=46991591",
+      "score": 45,
+      "comments": 62,
+      "source": "Hacker News"
+    }
+  ]
+}

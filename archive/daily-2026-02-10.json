@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-10",
+  "date_seed": 3876791083,
+  "generated_at": "2026-02-10T19:13:43.010615",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 64,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7074"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4444"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 98,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7752"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 278,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9828"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 93,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8693"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 50,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_7957"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 178,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7293"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 262,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7430"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 256,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7051"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 305,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2256"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Launch HN: Livedocs (YC W22) \u2013 An AI-native notebook for data analysis",
+      "url": "https://livedocs.com",
+      "score": 17,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Rowboat \u2013 AI coworker that turns your work into a knowledge graph (OSS)",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "score": 42,
+      "comments": 13,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Oxide raises $200M Series C",
+      "url": "https://oxide.computer/blog/our-200m-series-c",
+      "score": 378,
+      "comments": 195,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Frontier AI agents violate ethical constraints 30\u201350% of time, pressured by KPIs",
+      "url": "https://arxiv.org/abs/2512.20798",
+      "score": 488,
+      "comments": 318,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Open-Source SDK for AI Knowledge Work",
+      "url": "https://github.com/ClioAI/kw-sdk",
+      "score": 11,
+      "comments": 1,
+      "source": "Hacker News"
+    }
+  ]
+}
