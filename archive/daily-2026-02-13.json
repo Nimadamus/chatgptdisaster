@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-13",
+  "date_seed": 3478214657,
+  "generated_at": "2026-02-13T18:59:41.506132",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 99,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4769"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 383,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7844"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 287,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_1123"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_2608"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 335,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2835"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 79,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5876"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 380,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3715"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 345,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3399"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 320,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5692"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 317,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4193"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "CBP Signs Clearview AI Deal to Use Face Recognition for 'Tactical Targeting'",
+      "url": "https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/",
+      "score": 132,
+      "comments": 62,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT\u20115.3\u2011Codex\u2011Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+      "score": 847,
+      "comments": 368,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Gemini 3 Deep Think",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "score": 999,
+      "comments": 656,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Gauntlet AI (YC S17) train you to master building with AI, give you $200k+ job",
+      "url": "http://qualify.gauntletAI.com",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "An AI agent published a hit piece on me",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+      "score": 2166,
+      "comments": 889,
+      "source": "Hacker News"
+    }
+  ]
+}
