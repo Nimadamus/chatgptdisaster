@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-14",
+  "date_seed": 3181811900,
+  "generated_at": "2026-02-14T18:43:49.433164",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 223,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9844"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 80,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3286"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 274,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7947"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 359,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4127"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 174,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1955"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 180,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2916"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 80,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7565"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 85,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3596"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 214,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2252"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 168,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3305"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "My smart sleep mask broadcasts users' brainwaves to an open MQTT broker",
+      "url": "https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/",
+      "score": 173,
+      "comments": 76,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Fun with Algebraic Effects \u2013 From Toy Examples to Hardcaml Simulations",
+      "url": "https://blog.janestreet.com/fun-with-algebraic-effects-hardcaml/",
+      "score": 7,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Ars Technica makes up quotes from Matplotlib maintainer; pulls story",
+      "url": "https://infosec.exchange/@mttaggart/116065340523529645",
+      "score": 440,
+      "comments": 177,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT-5.2 derives a new result in theoretical physics",
+      "url": "https://openai.com/index/new-result-theoretical-physics/",
+      "score": 549,
+      "comments": 375,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anthropic raises $30B in Series G funding at $380B post-money valuation",
+      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "score": 418,
+      "comments": 439,
+      "source": "Hacker News"
+    }
+  ]
+}
