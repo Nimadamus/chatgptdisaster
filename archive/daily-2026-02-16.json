@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-16",
+  "date_seed": 1224173077,
+  "generated_at": "2026-02-16T18:53:57.801058",
+  "reddit_posts": [
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 318,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8518"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 178,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2867"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 177,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2126"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 255,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9139"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 167,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3300"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 198,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6733"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 163,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4031"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 359,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_8316"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 114,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6923"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 341,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5508"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "I\u2019m joining OpenAI",
+      "url": "https://steipete.me/posts/2026/openclaw",
+      "score": 1329,
+      "comments": 1007,
+      "source": "Hacker News"
+    },
+    {
+      "title": "I guess I kinda get why people hate AI",
+      "url": "https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html",
+      "score": 94,
+      "comments": 114,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Maths, CS and AI Compendium",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "score": 19,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anthropic tries to hide Claude's AI actions. Devs hate it",
+      "url": "https://www.theregister.com/2026/02/16/anthropic_claude_ai_edits/",
+      "score": 285,
+      "comments": 165,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Richard Carrington's first portrait has been found",
+      "url": "https://www.cnn.com/2026/02/12/science/solar-storm-richard-carrington-photo",
+      "score": 15,
+      "comments": 3,
+      "source": "Hacker News"
+    }
+  ]
+}
