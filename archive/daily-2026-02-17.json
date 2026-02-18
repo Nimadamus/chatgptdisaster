@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-17",
+  "date_seed": 2937042216,
+  "generated_at": "2026-02-17T19:05:27.385630",
+  "reddit_posts": [
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 52,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4645"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 148,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2950"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 110,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_3276"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 278,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1235"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 204,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_5893"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 188,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1171"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 94,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2252"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 133,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3253"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 212,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6736"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 160,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8868"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claude Sonnet 4.6",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "score": 246,
+      "comments": 151,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Async/Await on the GPU",
+      "url": "https://www.vectorware.com/blog/async-await-on-gpu/",
+      "score": 66,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: I taught LLMs to play Magic: The Gathering against each other",
+      "url": "https://mage-bench.com/",
+      "score": 47,
+      "comments": 34,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Sonarly (YC W26) \u2013 AI agent to triage and fix your production alerts",
+      "url": "https://sonarly.com/",
+      "score": 13,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Continue \u2013 Source-controlled AI checks, enforceable in CI",
+      "url": "https://docs.continue.dev",
+      "score": 21,
+      "comments": 5,
+      "source": "Hacker News"
+    }
+  ]
+}
