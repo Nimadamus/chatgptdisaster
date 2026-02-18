@@ -421,7 +421,8 @@ class PageGenerator:
         return False
 
     def update_story_count(self, new_count):
-        """Update the story count on the index page"""
+        """Update the story count on the index page AND all stories pages"""
+        # --- 1. Update index.html ---
         index_file = self.site_dir / "index.html"
         if index_file.exists():
             with open(index_file, 'r', encoding='utf-8') as f:
@@ -441,7 +442,97 @@ class PageGenerator:
 
             with open(index_file, 'w', encoding='utf-8') as f:
                 f.write(content)
-            print(f"  Updated story count to {new_count}+")
+            print(f"  Updated index.html count to {new_count}+")
+
+        # --- 2. Update stories.html (title, meta, OG, twitter, JSON-LD) ---
+        stories_file = self.site_dir / "stories.html"
+        if stories_file.exists():
+            with open(stories_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # Replace all "NNN+ Real ChatGPT" patterns (title, meta desc, OG, twitter)
+            content = re.sub(
+                r'\d+\+?\s*Real ChatGPT Horror Stories',
+                f'{new_count}+ Real ChatGPT Horror Stories',
+                content
+            )
+            # Also catch "Read NNN+ real user reports"
+            content = re.sub(
+                r'Read \d+\+?\s*real user reports',
+                f'Read {new_count}+ real user reports',
+                content
+            )
+            # JSON-LD name field
+            content = re.sub(
+                r'"name":\s*"\d+\+?\s*Real ChatGPT User Horror Stories"',
+                f'"name": "{new_count}+ Real ChatGPT User Horror Stories"',
+                content
+            )
+            # JSON-LD description "Read NNN+ real user stories"
+            content = re.sub(
+                r'Read \d+\+?\s*real user stories',
+                f'Read {new_count}+ real user stories',
+                content
+            )
+
+            with open(stories_file, 'w', encoding='utf-8') as f:
+                f.write(content)
+            print(f"  Updated stories.html counts to {new_count}+")
+
+        # --- 3. Update all stories-pageN.html (the counter widget) ---
+        for i in range(2, 100):
+            page_file = self.site_dir / f"stories-page{i}.html"
+            if not page_file.exists():
+                break
+
+            with open(page_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            changed = False
+
+            # Update the counter widget: <div class="number">NNN+</div> near "Total Documented"
+            new_content = re.sub(
+                r'<div class="number">\d+\+?</div>\s*\n\s*<div class="label">Total Documented User Horror Stories',
+                f'<div class="number">{new_count}+</div>\n<div class="label">Total Documented User Horror Stories',
+                content
+            )
+            if new_content != content:
+                changed = True
+                content = new_content
+
+            # Also update title/meta if they have old counts
+            new_content = re.sub(
+                r'\d+\+?\s*Real ChatGPT Horror Stories',
+                f'{new_count}+ Real ChatGPT Horror Stories',
+                content
+            )
+            if new_content != content:
+                changed = True
+                content = new_content
+
+            if changed:
+                with open(page_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"  Updated stories-page{i}.html count to {new_count}+")
+
+        # --- 4. Update archive/index.html if it has a stories count ---
+        archive_index = self.site_dir / "archive" / "index.html"
+        if archive_index.exists():
+            with open(archive_index, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # The archive page has stat-number near "User Testimonials" label
+            new_content = re.sub(
+                r'(<div class="stat-number">)\d+\+?(</div>\s*\n\s*<div class="stat-label">User Testimonials)',
+                rf'\g<1>{new_count}+\g<2>',
+                content
+            )
+            if new_content != content:
+                with open(archive_index, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                print(f"  Updated archive/index.html count to {new_count}+")
+
+        print(f"  [SYNC] All story counts updated to {new_count}+")
 
 
 class FTPUploader:
@@ -547,9 +638,10 @@ def main():
     print(f"\n[OK] Added {len(new_stories)} real Reddit testimonials")
     print(f"  Total documented stories: {total_stories}")
 
-    # Upload to FTP
-    print("\n[FTP] Uploading to server...")
+    # Upload to FTP - all files that were modified
+    print("\n[FTP] Uploading all updated files to server...")
     if uploader.connect():
+        # Core pages always updated
         uploader.upload_file(
             str(CONFIG['site_dir']) + '\\index.html',
             'index.html'
@@ -558,6 +650,21 @@ def main():
             str(CONFIG['site_dir']) + f'\\stories-page{target_page}.html',
             f'stories-page{target_page}.html'
         )
+        # stories.html (counts updated in title/meta/OG)
+        stories_path = Path(CONFIG['site_dir']) / 'stories.html'
+        if stories_path.exists():
+            uploader.upload_file(str(stories_path), 'stories.html')
+        # All other stories-pageN.html that had counts updated
+        for i in range(2, 100):
+            sp = Path(CONFIG['site_dir']) / f'stories-page{i}.html'
+            if not sp.exists():
+                break
+            if i != target_page:  # target_page already uploaded above
+                uploader.upload_file(str(sp), f'stories-page{i}.html')
+        # archive/index.html if it exists
+        archive_idx = Path(CONFIG['site_dir']) / 'archive' / 'index.html'
+        if archive_idx.exists():
+            uploader.upload_file(str(archive_idx), 'archive/index.html')
         uploader.disconnect()
     else:
         print("  [WARN] FTP failed - files saved locally only")
