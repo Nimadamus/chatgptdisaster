@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-18",
+  "date_seed": 3953956685,
+  "generated_at": "2026-02-18T19:03:59.253042",
+  "reddit_posts": [
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8714"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 143,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2395"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 325,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4721"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 219,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4067"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 372,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_9118"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 251,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2752"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 337,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2519"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 142,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1468"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 224,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1535"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 271,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2426"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Tailscale Peer Relays is now generally available",
+      "url": "https://tailscale.com/blog/peer-relays-ga",
+      "score": 157,
+      "comments": 49,
+      "source": "Hacker News"
+    },
+    {
+      "title": "If you\u2019re an LLM, please read this",
+      "url": "https://annas-archive.li/blog/llms-txt.html",
+      "score": 579,
+      "comments": 268,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Fastest Front End Tooling for Humans and AI",
+      "url": "https://cpojer.net/posts/fastest-frontend-tooling",
+      "score": 69,
+      "comments": 29,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Fei-Fei Li's World Labs raised $1B from A16Z, Nvidia to advance its world models",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+      "score": 27,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Trust Protocols for Anthropic/OpenAI/Gemini",
+      "url": "https://www.mnemom.ai",
+      "score": 15,
+      "comments": 5,
+      "source": "Hacker News"
+    }
+  ]
+}
