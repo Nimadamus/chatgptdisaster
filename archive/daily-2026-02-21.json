@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-21",
+  "date_seed": 1965874454,
+  "generated_at": "2026-02-21T18:44:26.669551",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 210,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1579"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 75,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9142"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_3378"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 171,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7882"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 314,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_8643"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 259,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8826"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 147,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7640"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 295,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2052"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 335,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5465"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 229,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6208"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claws are now a new layer on top of LLM agents",
+      "url": "https://twitter.com/karpathy/status/2024987174077432126",
+      "score": 42,
+      "comments": 399,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI uBlock Blacklist",
+      "url": "https://github.com/alvi-se/ai-ublock-blacklist",
+      "score": 146,
+      "comments": 63,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/19759",
+      "score": 798,
+      "comments": 210,
+      "source": "Hacker News"
+    },
+    {
+      "title": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
+      "url": "https://www.koreaherald.com/article/10679206",
+      "score": 78,
+      "comments": 49,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Lean 4: How the theorem prover works and why it's the new competitive edge in AI",
+      "url": "https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in",
+      "score": 116,
+      "comments": 45,
+      "source": "Hacker News"
+    }
+  ]
+}
