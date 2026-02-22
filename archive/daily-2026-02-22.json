@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-22",
+  "date_seed": 3279325489,
+  "generated_at": "2026-02-22T18:44:55.551509",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 77,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5421"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 252,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1004"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 267,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9898"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 88,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7141"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 285,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1449"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 164,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_7952"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 178,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7183"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 321,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3207"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 133,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3442"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 78,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_6300"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them",
+      "url": "https://quesma.com/blog/introducing-binaryaudit/",
+      "score": 140,
+      "comments": 56,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Man accidentally gains control of 7k robot vacuums",
+      "url": "https://www.popsci.com/technology/robot-vacuum-army/",
+      "score": 110,
+      "comments": 63,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How Taalas \u201cprints\u201d LLM onto a chip?",
+      "url": "https://www.anuragk.com/blog/posts/Taalas.html",
+      "score": 334,
+      "comments": 199,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How I use Claude Code: Separation of planning and execution",
+      "url": "https://boristane.com/blog/how-i-use-claude-code/",
+      "score": 804,
+      "comments": 515,
+      "source": "Hacker News"
+    },
+    {
+      "title": "zclaw: personal AI assistant in under 888 KB, running on an ESP32",
+      "url": "https://github.com/tnm/zclaw",
+      "score": 241,
+      "comments": 130,
+      "source": "Hacker News"
+    }
+  ]
+}
