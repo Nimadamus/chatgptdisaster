@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-24",
+  "date_seed": 923800676,
+  "generated_at": "2026-02-24T19:11:00.148407",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 304,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6665"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2891"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 197,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9082"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 201,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4733"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 89,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5148"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 234,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9558"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 399,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9903"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 147,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9491"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 186,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9866"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 216,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4873"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "OpenAI, the US government and Persona built an identity surveillance machine",
+      "url": "https://vmfunc.re/blog/persona/",
+      "score": 140,
+      "comments": 36,
+      "source": "Hacker News"
+    },
+    {
+      "title": "IRS Tactics Against Meta Open a New Front in the Corporate Tax Fight",
+      "url": "https://www.nytimes.com/2026/02/24/business/irs-meta-corporate-taxes.html",
+      "score": 131,
+      "comments": 147,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Osaka: Kansai Airport proud to have never lost single piece of luggage (2024)",
+      "url": "https://japannews.yomiuri.co.jp/features/japan-focus/20241228-229891/",
+      "score": 141,
+      "comments": 49,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Verge (YC S15) Is Hiring a Director of Computational Biology and AI Scientists/Eng",
+      "url": "https://jobs.ashbyhq.com/verge-genomics",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: enveil \u2013 hide your .env secrets from prAIng eyes",
+      "url": "https://github.com/GreatScott/enveil",
+      "score": 181,
+      "comments": 117,
+      "source": "Hacker News"
+    }
+  ]
+}
