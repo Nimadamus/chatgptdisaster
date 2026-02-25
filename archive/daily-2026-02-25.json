@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-25",
+  "date_seed": 3064728905,
+  "generated_at": "2026-02-25T19:13:58.324266",
+  "reddit_posts": [
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 217,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_4666"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 228,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3411"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 328,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7530"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 242,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3406"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 197,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8157"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 113,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2354"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 382,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9477"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 372,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3756"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 358,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_1909"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 208,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5378"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Never buy a .online domain",
+      "url": "https://www.0xsid.com/blog/online-tld-is-pain",
+      "score": 532,
+      "comments": 303,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Large-Scale Online Deanonymization with LLMs",
+      "url": "https://simonlermen.substack.com/p/large-scale-online-deanonymization",
+      "score": 68,
+      "comments": 91,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Trellis AI (YC W24) is hiring deployment lead to accelerate medication access",
+      "url": "https://www.ycombinator.com/companies/trellis-ai/jobs/7ZlvQkN-lead-deployment-strategist",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Code Remote Control",
+      "url": "https://code.claude.com/docs/en/remote-control",
+      "score": 392,
+      "comments": 220,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: TeamOut (YC W22) \u2013 AI agent for planning company retreats",
+      "url": "https://app.teamout.com/ai",
+      "score": 27,
+      "comments": 34,
+      "source": "Hacker News"
+    }
+  ]
+}
