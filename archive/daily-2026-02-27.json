@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-27",
+  "date_seed": 2997737797,
+  "generated_at": "2026-02-27T18:54:15.392280",
+  "reddit_posts": [
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 330,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1099"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 85,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_4991"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 254,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7181"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 253,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7846"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 346,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_2326"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 105,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9948"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9625"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 161,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6044"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 155,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9319"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 115,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9940"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "We gave terabytes of CI logs to an LLM",
+      "url": "https://www.mendral.com/blog/llms-are-good-at-sql",
+      "score": 84,
+      "comments": 55,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Get free Claude max 20x for open-source maintainers",
+      "url": "https://claude.com/contact-sales/claude-for-oss",
+      "score": 233,
+      "comments": 124,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Badge that shows how well your codebase fits in an LLM's context window",
+      "url": "https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens",
+      "score": 60,
+      "comments": 34,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Experts sound alarm after ChatGPT Health fails to recognise medical emergencies",
+      "url": "https://www.theguardian.com/technology/2026/feb/26/chatgpt-health-fails-recognise-medical-emergencies",
+      "score": 118,
+      "comments": 92,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Theory of Constraints: \"Blue Light\" creating capacity for nothing (2007)",
+      "url": "http://theoryofconstraints.blogspot.com/2007/06/toc-stories-2-blue-light-creating.html",
+      "score": 5,
+      "comments": 1,
+      "source": "Hacker News"
+    }
+  ]
+}
