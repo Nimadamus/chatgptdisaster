@@ -686,11 +686,11 @@ body {
 
 .section-badge {
     display: inline-block;
-    padding: 6px 14px;
-    font-size: 12px;
-    font-weight: 600;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
     border-radius: 100px;
     margin-bottom: 16px;
 }
@@ -899,11 +899,11 @@ body {
 }
 
 .press-logo {
-    padding: 12px 24px;
+    padding: 14px 28px;
     background: var(--card-bg);
     border: 1px solid var(--border-gold);
     border-radius: var(--radius-md);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--text-muted);
 }
@@ -911,43 +911,46 @@ body {
 .press-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 24px;
 }
 
 .press-article {
     background: var(--card-bg);
     border: 1px solid var(--border-gold);
     border-radius: var(--radius-md);
-    padding: 20px;
+    padding: 28px;
     transition: all var(--transition-fast);
 }
 
 .press-article:hover {
     border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(255, 215, 0, 0.15);
 }
 
 .press-article.featured {
-    /* No special styling */
+    border-top: 3px solid var(--gold);
 }
 
 .press-article .source {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 1px;
     color: var(--gold);
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .press-article h4 {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     color: var(--text-primary);
-    line-height: 1.4;
-    margin-bottom: 8px;
+    line-height: 1.5;
+    margin-bottom: 12px;
 }
 
 .press-article .date {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--text-muted);
 }
 
