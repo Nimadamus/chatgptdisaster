@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-28",
+  "date_seed": 216040640,
+  "generated_at": "2026-02-28T18:41:18.695687",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 163,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9654"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 203,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6259"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 142,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4110"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 297,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5613"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 85,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4301"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 82,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3196"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 343,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6942"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 286,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2069"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 256,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2782"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 300,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4280"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "How Long Is the Coast of Britain? (1967)",
+      "url": "https://www.jstor.org/stable/1721427",
+      "score": 8,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenAI fires an employee for prediction market insider trading",
+      "url": "https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/",
+      "score": 173,
+      "comments": 103,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Future of AI",
+      "url": "https://lucijagregov.com/2026/02/26/the-future-of-ai/",
+      "score": 61,
+      "comments": 57,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Stop Burning Your Context Window \u2013 How We Cut MCP Output by 98% in Claude Code",
+      "url": "https://mksg.lu/blog/context-mode",
+      "score": 86,
+      "comments": 17,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenAI agrees with Dept. of War to deploy models in their classified network",
+      "url": "https://twitter.com/sama/status/2027578652477821175",
+      "score": 1215,
+      "comments": 580,
+      "source": "Hacker News"
+    }
+  ]
+}
