@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-01",
+  "date_seed": 3257403956,
+  "generated_at": "2026-03-01T18:42:01.300676",
+  "reddit_posts": [
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 284,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_2440"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 273,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2344"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6018"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 229,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9223"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 376,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2313"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 180,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5117"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 353,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3343"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 190,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4159"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 276,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1688"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 60,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5649"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "score": 1412,
+      "comments": 250,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Why XML Tags Are So Fundamental to Claude",
+      "url": "https://glthr.com/XML-fundamental-to-Claude",
+      "score": 67,
+      "comments": 30,
+      "source": "Hacker News"
+    },
+    {
+      "title": "I built a demo of what AI chat will look like when it's \"free\" and ad-supported",
+      "url": "https://99helpers.com/tools/ad-supported-chat",
+      "score": 295,
+      "comments": 194,
+      "source": "Hacker News"
+    },
+    {
+      "title": "We do not think Anthropic should be designated as a supply chain risk",
+      "url": "https://twitter.com/OpenAI/status/2027846016423321831",
+      "score": 714,
+      "comments": 387,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Python Type Checker Comparison: Empty Container Inference",
+      "url": "https://pyrefly.org/blog/container-inference-comparison/",
+      "score": 9,
+      "comments": 1,
+      "source": "Hacker News"
+    }
+  ]
+}
