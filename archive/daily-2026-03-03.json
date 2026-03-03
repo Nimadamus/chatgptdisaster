@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-03",
+  "date_seed": 4220925440,
+  "generated_at": "2026-03-03T18:59:45.009763",
+  "reddit_posts": [
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 316,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2845"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 305,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4218"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 156,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_3389"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 170,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1363"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 290,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3539"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 111,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6182"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 307,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9911"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 118,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8383"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 85,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5503"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 61,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8667"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "MacBook Air with M5",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+      "score": 238,
+      "comments": 216,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude is an Electron App because we've lost native",
+      "url": "https://tonsky.me/blog/fall-of-native/",
+      "score": 48,
+      "comments": 38,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude's Cycles [pdf]",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "score": 279,
+      "comments": 130,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Cekura (YC F24) \u2013 Testing and monitoring for voice and chat AI agents",
+      "url": "https://news.ycombinator.com/item?id=47232903",
+      "score": 39,
+      "comments": 7,
+      "source": "Hacker News"
+    },
+    {
+      "title": "When AI Writes the Software, Who Verifies It?",
+      "url": "https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html",
+      "score": 39,
+      "comments": 23,
+      "source": "Hacker News"
+    }
+  ]
+}
