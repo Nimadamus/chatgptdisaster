@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-04",
+  "date_seed": 3966211000,
+  "generated_at": "2026-03-04T18:59:32.708901",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 90,
+      "url": "https://reddit.com/r/law",
+      "author": "user_7491"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 381,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4859"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 321,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1604"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 274,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8194"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 184,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1884"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 133,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3851"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 167,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6181"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 164,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5843"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 356,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9002"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 129,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5468"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "NanoGPT Slowrun: Language Modeling with Limited Data, Infinite Compute",
+      "url": "https://qlabs.sh/slowrun",
+      "score": 18,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Roboflow (YC S20) Is Hiring a Security Engineer for AI Infra",
+      "url": "https://roboflow.com/careers",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Emails to Outlook.com rejected due to a fault or overzealous blocking rules",
+      "url": "https://www.theregister.com/2026/03/04/users_fume_at_outlookcom_email/",
+      "score": 88,
+      "comments": 56,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude's Cycles [pdf]",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "score": 742,
+      "comments": 311,
+      "source": "Hacker News"
+    },
+    {
+      "title": "1.5 Million Users Leave ChatGPT",
+      "url": "https://www.forbes.com/sites/barrycollins/2026/03/02/leaving-chatgpt-make-sure-to-do-this-before-you-cancel/",
+      "score": 43,
+      "comments": 18,
+      "source": "Hacker News"
+    }
+  ]
+}
