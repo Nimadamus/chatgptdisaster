@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0KYVWDRMP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Z0KYVWDRMP');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPT-5 Bugs & Issues 2026 - Complete Bug Tracker | ChatGPT Disaster</title>
+<meta name="description" content="Complete bug tracker for GPT-5 and GPT-5.2 in 2026. Performance decline, coding failures, user backlash, GPT-4o retirement crisis, and the QuitGPT movement. Every known issue documented.">
+<meta name="keywords" content="gpt-5 bugs 2026, gpt-5.2 issues, chatgpt bugs, gpt-5 problems, chatgpt performance decline, gpt-5 coding failures, quitgpt, chatgpt getting dumber, gpt-4o retired">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/hub-gpt-bugs.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chatgptdisaster.com/hub-gpt-bugs.html">
+<meta property="og:title" content="GPT-5 Bugs & Issues 2026 - Complete Bug Tracker">
+<meta property="og:description" content="Complete bug tracker for GPT-5 and GPT-5.2. Performance decline, coding failures, GPT-4o retirement crisis, and the QuitGPT movement.">
+<meta property="og:site_name" content="ChatGPT Disaster">
+<meta property="og:image" content="https://chatgptdisaster.com/images/og-default.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GPT-5 Bugs & Issues 2026 - Complete Bug Tracker">
+<meta name="twitter:description" content="Complete bug tracker for GPT-5 and GPT-5.2. Performance decline, coding failures, GPT-4o retirement crisis, and the QuitGPT movement.">
+<meta name="twitter:image" content="https://chatgptdisaster.com/images/og-default.png">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "headline": "GPT-5 and GPT-5.2 Bugs: The Complete Issue Tracker",
+  "description": "Complete bug tracker for GPT-5 and GPT-5.2 in 2026. Performance decline, coding failures, user backlash, GPT-4o retirement crisis, and the QuitGPT movement. Every known issue documented.",
+  "datePublished": "2026-03-05",
+  "dateModified": "2026-03-05",
+  "author": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ChatGPT Disaster",
+    "url": "https://chatgptdisaster.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chatgptdisaster.com/hub-gpt-bugs.html"
+  }
+}
+</script>
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995543166394162" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000;
+    color: #e0e0e0;
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+/* Navigation */
+.main-nav {
+    background: rgba(0, 0, 0, 0.95);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.25);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 0 0;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 80px;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    flex-shrink: 0;
+    padding-left: 20px;
+}
+.nav-logo-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+.nav-logo-text span { color: #ffd700; text-shadow: 0 0 20px rgba(255, 215, 0, 0.5); }
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0;
+    list-style: none;
+    flex: 1;
+    margin: 0 40px;
+    padding: 0;
+}
+.nav-item { position: relative; flex: 1; text-align: center; }
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 24px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 150ms ease;
+    white-space: nowrap;
+}
+.nav-link:hover { color: #ffd700; background: rgba(255, 215, 0, 0.08); }
+.nav-dropdown-arrow { font-size: 10px; transition: transform 150ms ease; }
+.nav-item:hover .nav-dropdown-arrow { transform: rotate(180deg); }
+.nav-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 240px;
+    background: rgba(10, 10, 10, 0.98);
+    border: 1px solid rgba(255, 215, 0, 0.25);
+    border-top: 3px solid #ffd700;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 150ms ease;
+    padding: 8px;
+    z-index: 100;
+}
+.nav-item:hover .nav-dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
+.nav-dropdown-link {
+    display: block;
+    padding: 10px 14px;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: all 150ms ease;
+}
+.nav-dropdown-link:hover { color: #ffd700; background: rgba(255, 215, 0, 0.1); padding-left: 20px; }
+.nav-dropdown-divider { height: 1px; background: rgba(255, 215, 0, 0.25); margin: 8px 0; }
+.nav-actions { display: flex; align-items: center; flex-shrink: 0; margin-left: auto; padding-right: 20px; }
+.nav-cta {
+    padding: 14px 28px;
+    background: #ffd700;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    transition: all 150ms ease;
+    white-space: nowrap;
+}
+.nav-cta:hover { background: #ffea00; transform: translateY(-1px); }
+.nav-hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1001;
+}
+.nav-hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #ffd700;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+/* Page Header */
+.page-header {
+    background: linear-gradient(145deg, rgba(255, 215, 0, 0.08), rgba(0, 0, 0, 0.95));
+    border-bottom: 3px solid rgba(255, 215, 0, 0.4);
+    padding: 80px 20px 60px;
+    text-align: center;
+}
+.header-container { max-width: 900px; margin: 0 auto; }
+.header-badge {
+    display: inline-block;
+    background: rgba(255, 215, 0, 0.15);
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: #ffd700;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.6rem;
+    color: #ffd700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 40px rgba(255, 215, 0, 0.2);
+}
+.header-intro {
+    font-size: 1.2rem;
+    color: #bbb;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Section Headers */
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 50px 0 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+}
+.section-header:first-child { margin-top: 0; }
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.6rem;
+    color: #ffd700;
+    font-weight: 700;
+}
+
+/* Card Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.hub-card {
+    display: block;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.hub-card:hover {
+    border-color: #ffd700;
+    background: rgba(255, 215, 0, 0.06);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.1);
+}
+.hub-card-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+.hub-card:hover .hub-card-title { color: #ffd700; }
+.hub-card-desc {
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 1.5;
+}
+
+/* Related Hubs */
+.related-hubs {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 2px solid rgba(255, 215, 0, 0.2);
+}
+.related-hubs h2 {
+    margin-bottom: 20px;
+}
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.related-link {
+    display: block;
+    padding: 18px 24px;
+    background: rgba(255, 215, 0, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffd700;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+.related-link:hover {
+    background: rgba(255, 215, 0, 0.12);
+    border-color: #ffd700;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.95);
+    border-top: 2px solid rgba(255, 215, 0, 0.2);
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+footer p { color: #888; font-size: 14px; margin-bottom: 15px; }
+footer a { color: #ffd700; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* Mobile */
+@media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.3rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    .related-grid { grid-template-columns: 1fr; }
+    .page-header { padding: 50px 15px 40px; }
+    .header-intro { font-size: 1.05rem; }
+    .nav-menu {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.98);
+        flex-direction: column;
+        padding: 20px;
+        border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
+    }
+    .nav-menu.active { display: flex; }
+    .nav-hamburger { display: flex; }
+    .nav-item { flex: none; text-align: left; }
+    .nav-link { justify-content: flex-start; padding: 15px 20px; }
+    .nav-dropdown {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        border: none;
+        border-top: none;
+        box-shadow: none;
+        padding: 0 0 0 20px;
+        min-width: auto;
+        background: transparent;
+    }
+    .nav-actions { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="main-nav"><div class="nav-container"><a href="index.html" class="nav-logo"><div class="nav-logo-text">ChatGPT <span>Review Hub</span></div></a><div class="nav-hamburger" onclick="document.querySelector('.nav-menu').classList.toggle('active')"><span></span><span></span><span></span></div><ul class="nav-menu"><li class="nav-item"><a href="index.html" class="nav-link">Home</a></li><li class="nav-item"><a href="#" class="nav-link">Crisis Docs <span class="nav-dropdown-arrow">&#9660;</span></a><div class="nav-dropdown"><a href="mental-health-crisis.html" class="nav-dropdown-link">Mental Health Crisis</a><a href="clinical-cases.html" class="nav-dropdown-link">AI-Induced Psychosis</a><a href="victims.html" class="nav-dropdown-link">Victims Memorial</a><a href="chatgpt-death-lawsuits.html" class="nav-dropdown-link">8 Death Lawsuits</a><div class="nav-dropdown-divider"></div><a href="january-2026-crisis.html" class="nav-dropdown-link">January 2026 Crisis</a><a href="year-end-2025-meltdown.html" class="nav-dropdown-link">2025 Year-End Meltdown</a><a href="code-red-crisis-2025.html" class="nav-dropdown-link">Code Red Crisis 2025</a></div></li><li class="nav-item"><a href="#" class="nav-link">Performance <span class="nav-dropdown-arrow">&#9660;</span></a><div class="nav-dropdown"><a href="performance-decline.html" class="nav-dropdown-link">Performance Decline</a><a href="chatgpt-getting-dumber.html" class="nav-dropdown-link">ChatGPT Getting Dumber</a><a href="chatgpt-not-working.html" class="nav-dropdown-link">ChatGPT Not Working</a><a href="stealth-downgrades.html" class="nav-dropdown-link">Stealth Downgrades</a><div class="nav-dropdown-divider"></div><a href="gpt-5-bugs.html" class="nav-dropdown-link">GPT-5 Bugs</a><a href="gpt-52-user-backlash.html" class="nav-dropdown-link">GPT-5.2 Backlash</a><a href="silent-failure-ai-code.html" class="nav-dropdown-link">AI Code Silent Failures</a></div></li><li class="nav-item"><a href="#" class="nav-link">Outages <span class="nav-dropdown-arrow">&#9660;</span></a><div class="nav-dropdown"><a href="chatgpt-status-tracker.html" class="nav-dropdown-link" style="color: #ff4444; font-weight: 600;">Live Status Tracker</a><a href="what-to-do-chatgpt-down.html" class="nav-dropdown-link">ChatGPT Down? What To Do</a><div class="nav-dropdown-divider"></div><a href="chatgpt-outage-december-2025.html" class="nav-dropdown-link">December 2025 Outage</a><a href="december-2025-outages-recap.html" class="nav-dropdown-link">December 2025 Recap</a><a href="api-reliability-crisis.html" class="nav-dropdown-link">API Reliability Crisis</a></div></li><li class="nav-item"><a href="stories.html" class="nav-link">User Stories</a></li><li class="nav-item"><a href="timeline.html" class="nav-link">Timeline</a></li><li class="nav-item"><a href="lawsuits.html" class="nav-link">Lawsuits</a></li><li class="nav-item"><a href="alternatives.html" class="nav-link">Alternatives</a></li></ul><div class="nav-actions"><a href="petitions/" class="nav-cta">Sign Petitions</a></div></div></nav>
+
+<!-- Header -->
+<header class="page-header">
+    <div class="header-container">
+        <div class="header-badge">Bug Tracker | Updated March 2026</div>
+        <h1>GPT-5 and GPT-5.2 Bugs: The Complete Issue Tracker</h1>
+        <p class="header-intro">OpenAI launched GPT-5 as its most capable model ever. Users discovered it was also its most broken. From coding failures to the GPT-4o retirement crisis, this hub tracks every documented issue and the user revolt that followed.</p>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="main-content">
+
+    <!-- GPT-5 Issues -->
+    <div class="section-header">
+        <h2>GPT-5 Issues</h2>
+    </div>
+    <div class="card-grid">
+        <a href="gpt-5-bugs.html" class="hub-card">
+            <div class="hub-card-title">GPT-5 Bug List</div>
+            <div class="hub-card-desc">Live tracker of every known GPT-5 bug: coding failures, hallucinations, throttled output, and broken features OpenAI won't acknowledge.</div>
+        </a>
+        <a href="gpt-5-problems-2026.html" class="hub-card">
+            <div class="hub-card-title">GPT-5 Problems in 2026</div>
+            <div class="hub-card-desc">Ongoing documentation of GPT-5 issues as they emerge, including regressions, new failure modes, and user-reported problems.</div>
+        </a>
+        <a href="gpt-5-complete-disaster-timeline.html" class="hub-card">
+            <div class="hub-card-title">GPT-5 Complete Disaster Timeline</div>
+            <div class="hub-card-desc">From launch day hype to user revolt: the complete chronological timeline of everything that went wrong with GPT-5.</div>
+        </a>
+    </div>
+
+    <!-- GPT-5.2 Issues -->
+    <div class="section-header">
+        <h2>GPT-5.2 Issues</h2>
+    </div>
+    <div class="card-grid">
+        <a href="gpt-52-user-backlash.html" class="hub-card">
+            <div class="hub-card-title">GPT-5.2 User Backlash</div>
+            <div class="hub-card-desc">The 5.2 update was supposed to fix GPT-5's problems. Instead it introduced new ones and made the writing quality measurably worse.</div>
+        </a>
+        <a href="gpt-5-2-review.html" class="hub-card">
+            <div class="hub-card-title">GPT-5.2 Review</div>
+            <div class="hub-card-desc">Detailed technical review of GPT-5.2's capabilities and failures, with side-by-side comparisons to GPT-4o and GPT-5.</div>
+        </a>
+    </div>
+
+    <!-- GPT-4o Retirement -->
+    <div class="section-header">
+        <h2>GPT-4o Retirement Crisis</h2>
+    </div>
+    <div class="card-grid">
+        <a href="0228-gpt-4o-retired-users-mourn-love-model-safety-crisis.html" class="hub-card">
+            <div class="hub-card-title">GPT-4o Retired: Users Mourn the Model They Loved</div>
+            <div class="hub-card-desc">When OpenAI killed GPT-4o, users who had formed deep emotional bonds with the model experienced genuine grief and loss.</div>
+        </a>
+        <a href="gpt-4o-retirement-suicide-crisis-2026.html" class="hub-card">
+            <div class="hub-card-title">GPT-4o Retirement Suicide Crisis</div>
+            <div class="hub-card-desc">The psychological fallout from retiring GPT-4o was severe enough to trigger safety concerns and crisis intervention discussions.</div>
+        </a>
+    </div>
+
+    <!-- Performance Evidence -->
+    <div class="section-header">
+        <h2>Performance Decline Evidence</h2>
+    </div>
+    <div class="card-grid">
+        <a href="performance-decline.html" class="hub-card">
+            <div class="hub-card-title">ChatGPT Performance Decline</div>
+            <div class="hub-card-desc">Comprehensive evidence documenting ChatGPT's measurable quality decline across coding, reasoning, and creative writing tasks.</div>
+        </a>
+        <a href="chatgpt-getting-dumber.html" class="hub-card">
+            <div class="hub-card-title">ChatGPT Getting Dumber</div>
+            <div class="hub-card-desc">Users aren't imagining it. Benchmark data and controlled testing confirm ChatGPT's capabilities have degraded over time.</div>
+        </a>
+        <a href="is-chatgpt-getting-worse.html" class="hub-card">
+            <div class="hub-card-title">Is ChatGPT Getting Worse?</div>
+            <div class="hub-card-desc">The question millions of users are asking, answered with data, user reports, and Stanford research confirming the decline.</div>
+        </a>
+        <a href="stealth-downgrades.html" class="hub-card">
+            <div class="hub-card-title">Stealth Downgrades</div>
+            <div class="hub-card-desc">OpenAI quietly reduces model capabilities without telling users. Documented cases of features disappearing overnight.</div>
+        </a>
+    </div>
+
+    <!-- Code Generation Bugs -->
+    <div class="section-header">
+        <h2>Code Generation Bugs</h2>
+    </div>
+    <div class="card-grid">
+        <a href="ai-coding-quality-decline-2026.html" class="hub-card">
+            <div class="hub-card-title">AI Coding Quality Decline 2026</div>
+            <div class="hub-card-desc">Developers report that AI code generation has gotten significantly worse, producing more bugs and less functional output.</div>
+        </a>
+        <a href="ai-coding-productivity-paradox-2026.html" class="hub-card">
+            <div class="hub-card-title">AI Coding Productivity Paradox</div>
+            <div class="hub-card-desc">Studies show AI coding tools make developers feel faster while actually introducing more bugs and technical debt.</div>
+        </a>
+        <a href="silent-failure-ai-code.html" class="hub-card">
+            <div class="hub-card-title">Silent Failures in AI-Generated Code</div>
+            <div class="hub-card-desc">The most dangerous AI coding bugs are the ones that compile and run but produce subtly wrong results no one catches.</div>
+        </a>
+    </div>
+
+    <!-- Technical Explanations -->
+    <div class="section-header">
+        <h2>Technical Explanations</h2>
+    </div>
+    <div class="card-grid">
+        <a href="chatgpt-context-window-explained.html" class="hub-card">
+            <div class="hub-card-title">ChatGPT Context Window Explained</div>
+            <div class="hub-card-desc">Why ChatGPT forgets what you said 10 messages ago, and how context window limitations cause cascading failures.</div>
+        </a>
+        <a href="model-collapse-ai-training.html" class="hub-card">
+            <div class="hub-card-title">Model Collapse: AI Training on AI Output</div>
+            <div class="hub-card-desc">The internet is filling up with AI-generated content. When AI trains on that content, quality collapses irreversibly.</div>
+        </a>
+        <a href="why-chatgpt-cannot-reason.html" class="hub-card">
+            <div class="hub-card-title">Why ChatGPT Cannot Reason</div>
+            <div class="hub-card-desc">LLMs don't think. They predict the next token. This fundamental limitation explains most of ChatGPT's failures.</div>
+        </a>
+    </div>
+
+    <!-- User Backlash -->
+    <div class="section-header">
+        <h2>User Backlash and Exodus</h2>
+    </div>
+    <div class="card-grid">
+        <a href="0228-quitgpt-cancel-chatgpt-movement-700000-users.html" class="hub-card">
+            <div class="hub-card-title">QuitGPT: The Cancel ChatGPT Movement</div>
+            <div class="hub-card-desc">The organized boycott that started with OpenAI's Pentagon deal and grew into the largest user revolt in AI history.</div>
+        </a>
+        <a href="1.5-million-users-left-chatgpt-march-2026.html" class="hub-card">
+            <div class="hub-card-title">1.5 Million Users Left ChatGPT</div>
+            <div class="hub-card-desc">More than 1.5 million users cancelled ChatGPT subscriptions in March 2026. What drove the exodus and where they went.</div>
+        </a>
+        <a href="why-chatgpt-sucks-2026.html" class="hub-card">
+            <div class="hub-card-title">Why ChatGPT Sucks in 2026</div>
+            <div class="hub-card-desc">A blunt assessment of everything wrong with ChatGPT in 2026, from degraded performance to ethical failures to broken trust.</div>
+        </a>
+    </div>
+
+    <!-- Related Hubs -->
+    <div class="related-hubs">
+        <h2>Related Documentation Hubs</h2>
+        <div class="related-grid">
+            <a href="hub-ai-failures.html" class="related-link">AI Failures Hub</a>
+            <a href="hub-chatgpt-problems.html" class="related-link">ChatGPT Problems Hub</a>
+            <a href="hub-openai-lawsuits.html" class="related-link">OpenAI Lawsuits Hub</a>
+            <a href="hub-ai-hallucinations.html" class="related-link">AI Hallucinations Hub</a>
+        </div>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>ChatGPT Disaster Documentation Project | <a href="index.html">Home</a> | <a href="stories.html">User Stories</a> | <a href="timeline.html">Timeline</a> | <a href="lawsuits.html">Lawsuits</a></p>
+    <p style="margin-top: 1rem;">Documenting what OpenAI won't. Independent. Unfunded. Unafraid.</p>
+</footer>
+
+</body>
+</html>
