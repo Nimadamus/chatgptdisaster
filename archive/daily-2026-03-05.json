@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-05",
+  "date_seed": 2202618245,
+  "generated_at": "2026-03-05T19:21:03.698807",
+  "reddit_posts": [
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 307,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6689"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 59,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1675"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 220,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6549"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 333,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9762"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 232,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_4213"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 183,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1266"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 239,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7321"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 245,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1124"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 140,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4995"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 103,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4980"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "GPT-5.4 Thinking System Card",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card/",
+      "score": 143,
+      "comments": 100,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Datasets for Reconstructing Visual Perception from Brain Data",
+      "url": "https://github.com/seelikat/neuro-visual-reconstruction-dataset-index",
+      "score": 29,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Vela (YC W26) \u2013 AI for complex scheduling",
+      "url": "https://news.ycombinator.com/item?id=47264741",
+      "score": 13,
+      "comments": 13,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Hardware hotplug events on Linux, the gory details",
+      "url": "https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html",
+      "score": 9,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT-5.4 Thinking and GPT-5.4 Pro",
+      "url": "https://twitter.com/i/status/2029620619743219811",
+      "score": 74,
+      "comments": 21,
+      "source": "Hacker News"
+    }
+  ]
+}
