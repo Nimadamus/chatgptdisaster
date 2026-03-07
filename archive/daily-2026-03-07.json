@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-07",
+  "date_seed": 708976843,
+  "generated_at": "2026-03-07T18:41:50.196751",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4136"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 320,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6681"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 244,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6175"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 73,
+      "url": "https://reddit.com/r/law",
+      "author": "user_7104"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 234,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1511"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 310,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1507"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 102,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_3078"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3926"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 201,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6360"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 196,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8263"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "A Decade of Docker Containers",
+      "url": "https://cacm.acm.org/research/a-decade-of-docker-containers/",
+      "score": 88,
+      "comments": 45,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Verification debt: the hidden cost of AI-generated code",
+      "url": "https://fazy.medium.com/agentic-coding-ais-adolescence-b0d13452f981",
+      "score": 30,
+      "comments": 20,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Self-Portrait by Ernst Mach (1886)",
+      "url": "https://publicdomainreview.org/collection/self-portrait-by-ernst-mach-1886/",
+      "score": 54,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Seurat Most Famous for Paris Park Painting Yet Half His Paintings Were Seascapes",
+      "url": "https://www.smithsonianmag.com/smart-news/georges-seurat-is-most-famous-for-his-pointillist-painting-of-a-paris-park-but-more-than-half-of-his-canvases-were-stunning-seascapes-180988245/",
+      "score": 15,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Uploading Pirated Books via BitTorrent Qualifies as Fair Use, Meta Argues",
+      "url": "https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-use-meta/",
+      "score": 289,
+      "comments": 170,
+      "source": "Hacker News"
+    }
+  ]
+}
