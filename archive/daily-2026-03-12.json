@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-12",
+  "date_seed": 1826232808,
+  "generated_at": "2026-03-12T19:02:08.084197",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 278,
+      "url": "https://reddit.com/r/law",
+      "author": "user_9709"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 340,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6071"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 290,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6020"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 128,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4199"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 312,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_5524"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 324,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8869"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 75,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3314"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 66,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2436"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 395,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7662"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 81,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8814"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Reversing memory loss via gut-brain communication",
+      "url": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html",
+      "score": 77,
+      "comments": 13,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: OneCLI \u2013 Vault for AI Agents in Rust",
+      "url": "https://github.com/onecli/onecli",
+      "score": 59,
+      "comments": 25,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+      "url": "https://codespeak.dev/",
+      "score": 208,
+      "comments": 169,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Axe \u2013\u00a0A 12MB binary that replaces your AI framework",
+      "url": "https://github.com/jrswab/axe",
+      "score": 70,
+      "comments": 58,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Rudel \u2013\u00a0Claude Code Session Analytics",
+      "url": "https://github.com/obsessiondb/rudel",
+      "score": 107,
+      "comments": 64,
+      "source": "Hacker News"
+    }
+  ]
+}
