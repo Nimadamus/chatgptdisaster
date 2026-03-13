@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-13",
+  "date_seed": 3989294216,
+  "generated_at": "2026-03-13T18:52:27.157524",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 67,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1236"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9705"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 182,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4061"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 316,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_3122"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 239,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3937"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 225,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7788"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 308,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7948"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 356,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6474"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 347,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_3855"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 362,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9633"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Can I run AI locally?",
+      "url": "https://www.canirun.ai/",
+      "score": 367,
+      "comments": 95,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Context Gateway \u2013 Compress agent context before it hits the LLM",
+      "url": "https://github.com/Compresr-ai/Context-Gateway",
+      "score": 12,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Qatar helium shutdown puts chip supply chain on a two-week clock",
+      "url": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+      "score": 125,
+      "comments": 118,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Captain (YC W26) \u2013 Automated RAG for Files",
+      "url": "https://www.runcaptain.com/",
+      "score": 32,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "John Carmack about open source and anti-AI activists",
+      "url": "https://twitter.com/id_aa_carmack/status/2032460578669691171",
+      "score": 16,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
