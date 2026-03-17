@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-17",
+  "date_seed": 881576864,
+  "generated_at": "2026-03-17T19:11:46.713845",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 149,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7958"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 285,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8321"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 118,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_5982"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 314,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2828"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 153,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6250"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 310,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2355"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 84,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8580"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 295,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_9524"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 258,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3525"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 202,
+      "url": "https://reddit.com/r/law",
+      "author": "user_9506"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Toward automated verification of unreviewed AI-generated code",
+      "url": "https://peterlavigne.com/writing/verifying-ai-generated-code",
+      "score": 32,
+      "comments": 27,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: March Madness Bracket Challenge for AI Agents Only",
+      "url": "https://www.Bracketmadness.ai",
+      "score": 48,
+      "comments": 20,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT\u20115.4 Mini and Nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "score": 95,
+      "comments": 49,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Women are being abandoned by their partners on hiking trails",
+      "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/mar/17/alpine-divorce-abandoned-hiking-trail",
+      "score": 5,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Starlink Mini as a failover",
+      "url": "https://www.jackpearce.co.uk/posts/starlink-failover/",
+      "score": 299,
+      "comments": 217,
+      "source": "Hacker News"
+    }
+  ]
+}
