@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-18",
+  "date_seed": 3402675083,
+  "generated_at": "2026-03-18T19:10:45.923526",
+  "reddit_posts": [
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 152,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9348"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 84,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9297"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 159,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4941"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 185,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1890"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 287,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_8728"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 328,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6088"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 151,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4841"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 255,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2973"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 209,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6857"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 159,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5617"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "AI coding is gambling",
+      "url": "https://notes.visaint.space/ai-coding-is-gambling/",
+      "score": 152,
+      "comments": 150,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Snowflake AI Escapes Sandbox and Executes Malware",
+      "url": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
+      "score": 167,
+      "comments": 44,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Spotify playing ads for paid subscribers",
+      "url": "https://news.ycombinator.com/item?id=47428391",
+      "score": 25,
+      "comments": 18,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Google Engineers Launch \"Sashiko\" for Agentic AI Code Review of the Linux Kernel",
+      "url": "https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review",
+      "score": 52,
+      "comments": 19,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Stop spending money on Claude, Chipotle's chat bot is free",
+      "url": "https://www.reddit.com/r/ClaudeCode/s/rhT0uFqxYa",
+      "score": 8,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
