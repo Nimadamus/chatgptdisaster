@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-19",
+  "date_seed": 4161013173,
+  "generated_at": "2026-03-19T19:06:54.430298",
+  "reddit_posts": [
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 98,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8840"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 335,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1444"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 299,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5609"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 63,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2144"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 304,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1530"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 130,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7206"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 247,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8775"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 238,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3639"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 377,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4026"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 203,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4526"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Astral to Join OpenAI",
+      "url": "https://astral.sh/blog/openai",
+      "score": 896,
+      "comments": 579,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Voltair (YC W26) \u2013 Drone and charging network for power utilities",
+      "url": "https://news.ycombinator.com/item?id=47442452",
+      "score": 20,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Canary (YC W26) \u2013 AI QA that understands your code",
+      "url": "https://news.ycombinator.com/item?id=47441629",
+      "score": 16,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff",
+      "url": "https://news.ycombinator.com/item?id=47441587",
+      "score": 8,
+      "comments": 13,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A rogue AI led to a serious security incident at Meta",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
+      "score": 4,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
