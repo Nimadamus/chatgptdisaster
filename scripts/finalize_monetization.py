@@ -36,7 +36,7 @@ AFFILIATE_REPLACEMENTS = {
 # Form and CTA updates
 FORM_REPLACEMENTS = {
     # Email capture - using Formspree pattern
-    'action="https://PLACEHOLDER-EMAIL-SERVICE.com/subscribe"': 'action="https://formspree.io/f/chatgptdisaster" ',
+    'action="https://PLACEHOLDER-EMAIL-SERVICE.com/subscribe"': 'action="mailto:nj2121@gmail.com" enctype="text/plain" ',
 
     # Report link
     '<strong>"10 Real ChatGPT Failures That Cost Companies Money"</strong>': '<strong>"10 Real ChatGPT Failures That Cost Companies Money"</strong> (<a href="report.html" style="color: #ffc107;">read it here</a>)',
