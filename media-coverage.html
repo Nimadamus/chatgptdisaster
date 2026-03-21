@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT in the News - Media Coverage of OpenAI Controversies</title>
+<meta name="description" content="Major news coverage of ChatGPT problems: New York Times, Washington Post, Reuters, and more reporting on AI failures.">
+<meta name="keywords" content="ChatGPT news, OpenAI media, ChatGPT articles, AI news coverage, ChatGPT journalism">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://chatgptdisaster.com/media-coverage.html">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chatgptdisaster.com/media-coverage.html">
+<meta property="og:title" content="ChatGPT in the News - Media Coverage of OpenAI Controversies">
+<meta property="og:description" content="Major news coverage of ChatGPT problems: New York Times, Washington Post, Reuters, and more reporting on AI failures.">
+<meta property="og:site_name" content="ChatGPT Disaster">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://chatgptdisaster.com/media-coverage.html">
+<meta name="twitter:title" content="ChatGPT in the News - Media Coverage of OpenAI Controversies">
+<meta name="twitter:description" content="Major news coverage of ChatGPT problems: New York Times, Washington Post, Reuters, and more reporting on AI failures.">
+
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    
+    <link rel="canonical" href="https://chatgptdisaster.com/media-coverage.html" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: 
+                radial-gradient(circle at 20% 20%, rgba(255, 68, 68, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(34, 193, 195, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 60%, rgba(253, 187, 45, 0.1) 0%, transparent 50%),
+                linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            background-attachment: fixed;
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(15, 15, 35, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 2px solid rgba(255, 68, 68, 0.5);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ff4444;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-bottom: 2rem;
+        }
+
+        /* Navigation */
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            padding: 0.8rem 1.5rem;
+            background: rgba(255, 68, 68, 0.2);
+            color: #e0e0e0;
+            text-decoration: none;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 68, 68, 0.3);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 68, 68, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 68, 68, 0.3);
+        }
+
+        /* Breaking News Banner */
+        .breaking-news {
+            background: linear-gradient(45deg, #ff4444, #ff6b35);
+            padding: 1rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(255, 68, 68, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 4px 15px rgba(255, 68, 68, 0.3); }
+            50% { box-shadow: 0 4px 25px rgba(255, 68, 68, 0.6); }
+            100% { box-shadow: 0 4px 15px rgba(255, 68, 68, 0.3); }
+        }
+
+        .breaking-news h2 {
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Timeline Section */
+        .timeline-section {
+            margin: 3rem 0;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .timeline-section h2 {
+            color: #ff4444;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        .timeline-item {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            border-left: 4px solid #ff4444;
+        }
+
+        .timeline-date {
+            color: #ff6b35;
+            font-weight: bold;
+            min-width: 120px;
+        }
+
+        .timeline-content {
+            flex: 1;
+        }
+
+        /* News Grid */
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+
+        .news-article {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+            border-radius: 15px;
+            padding: 2rem;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 68, 68, 0.2);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .news-article.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .news-article::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 68, 68, 0.1), transparent);
+            transition: left 0.6s;
+        }
+
+        .news-article:hover::before {
+            left: 100%;
+        }
+
+        .news-article:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(255, 68, 68, 0.3);
+            border-color: rgba(255, 68, 68, 0.6);
+        }
+
+        .publication-badge {
+            display: inline-block;
+            background: rgba(255, 68, 68, 0.3);
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .news-header h2 {
+            color: #ff4444;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .news-header h2 a {
+            color: #ff4444;
+            text-decoration: none;
+        }
+
+        .news-header h2 a:hover {
+            text-decoration: underline;
+        }
+
+        .news-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        .news-content {
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        .news-content p {
+            margin-bottom: 1rem;
+        }
+
+        .news-content h3 {
+            color: #ff6b35;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        .quote-highlight {
+            background: rgba(255, 68, 68, 0.1);
+            border-left: 4px solid #ff4444;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 10px 10px 0;
+            font-style: italic;
+        }
+
+        .source-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 68, 68, 0.2);
+            color: #ff4444;
+            text-decoration: none;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 68, 68, 0.3);
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .source-link:hover {
+            background: rgba(255, 68, 68, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .impact-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #ff6b35;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📰 Media Coverage</h1>
+            <p class="subtitle">Real reporting about the GPT-5 backlash — major publications document the disaster</p>
+            <div class="nav-buttons">
+                <a class="nav-btn" href="index.html">← Back to Main</a>
+                <a class="nav-btn" href="stories.html">User Stories</a>
+                <a class="nav-btn" href="#">📊 Sign Petition</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="breaking-news">
+            <h2>🚨 BREAKING: OpenAI Forced to Reverse Course</h2>
+            <p>GPT-4o restored after massive user backlash - Sam Altman admits "we underestimated" user attachment</p>
+        </div>
+
+        <!-- Timeline Section -->
+        <div class="timeline-section">
+            <h2>📅 Crisis Timeline</h2>
+            <div class="timeline-item">
+                <div class="timeline-date">Aug 8, 2025</div>
+                <div class="timeline-content">
+                    <strong>GPT-5 Launch:</strong> OpenAI releases GPT-5, removes access to previous models including beloved GPT-4o
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Aug 8, 2025</div>
+                <div class="timeline-content">
+                    <strong>Immediate Backlash:</strong> Reddit threads explode with complaints, "GPT-5 is horrible" gets 4,600+ upvotes
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Aug 9, 2025</div>
+                <div class="timeline-content">
+                    <strong>Damage Control:</strong> Sam Altman begins responding to criticism, promises fixes
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Aug 9, 2025</div>
+                <div class="timeline-content">
+                    <strong>GPT-4o Returns:</strong> OpenAI restores GPT-4o access less than 24 hours after removing it
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Aug 12, 2025</div>
+                <div class="timeline-content">
+                    <strong>Model Picker Returns:</strong> OpenAI brings back complicated model selection they promised to eliminate
+                </div>
+            </div>
+        </div>
+
+        <div class="news-grid">
+            <!-- Axios Coverage -->
+            <article class="news-article">
+                <div class="impact-badge">🔥 MAJOR OUTLET</div>
+                <div class="publication-badge">Axios</div>
+                <div class="news-header">
+                    <h2><a href="https://www.axios.com/2025/08/12/gpt-5-bumpy-launch-openai" target="_blank">GPT-5 launch: OpenAI's new update bumpy, underwhelming for users</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 12, 2025</span>
+                    <span>✍️ Ina Fried</span>
+                </div>
+                <div class="news-content">
+                    <p>OpenAI's GPT-5 has landed with a thud despite strong benchmark scores and praise from early testers, according to Axios technology reporter Ina Fried.</p>
+                    
+                    <div class="quote-highlight">
+                        "When OpenAI released GPT-5 last week, CEO Sam Altman promised the new model would give even free users of ChatGPT access to the equivalent of Ph.D.-level intelligence. But users quickly complained that the new model was struggling with basic tasks and lamented that they couldn't just stick with older models, such as GPT-4o."
+                    </div>
+                    
+                    <p>The report details how users took to social media posting examples of GPT-5 making simple mistakes in math and geography. Altman was forced into damage-control mode, acknowledging early glitches and restoring availability of earlier models.</p>
+                    
+                    <a href="https://www.axios.com/2025/08/12/gpt-5-bumpy-launch-openai" class="source-link" target="_blank">Read Full Article at Axios</a>
+                </div>
+            </article>
+
+            <!-- TechRadar Analysis -->
+            <article class="news-article">
+                <div class="impact-badge">📊 ANALYSIS</div>
+                <div class="publication-badge">TechRadar</div>
+                <div class="news-header">
+                    <h2><a href="https://www.techradar.com/computing/artificial-intelligence/chatgpt-users-are-still-fuming-about-gpt-5s-downgrades-here-are-the-4-biggest-complaints" target="_blank">ChatGPT users are still fuming about GPT-5's downgrades – here are the 4 biggest complaints</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 13, 2025</span>
+                    <span>✍️ Eric Hal Schwartz</span>
+                </div>
+                <div class="news-content">
+                    <p>TechRadar provides a comprehensive analysis of the four major complaint categories that emerged from the GPT-5 backlash.</p>
+                    
+                    <h3>1. Clipped Responses</h3>
+                    <div class="quote-highlight">
+                        "Short replies that are insufficient, more obnoxious AI stylized talking, less 'personality' and way less prompts allowed with plus users hitting limits in an hour… and we don't have the option to just use other models."
+                    </div>
+                    
+                    <h3>2. Rigid Thinking</h3>
+                    <p>Users found GPT-5 less creative, with one explaining: <em>"4o could keep up with me perfectly. GPT-5 feels like it gets stuck on A and can't follow me to B and back smoothly."</em></p>
+                    
+                    <h3>3. Bland AI Personality</h3>
+                    <div class="quote-highlight">
+                        "Where GPT-4o could nudge me toward a more vibrant, emotionally resonant version of my own literary voice, GPT-5 sounds like a lobotomized drone. It's like it's afraid of being interesting."
+                    </div>
+                    
+                    <h3>4. Lack of Model Choice</h3>
+                    <p>The article notes this was "the complaint that got OpenAI to blink," as users demanded the return of GPT-4o and choice in their AI experience.</p>
+                    
+                    <a href="https://www.techradar.com/computing/artificial-intelligence/chatgpt-users-are-still-fuming-about-gpt-5s-downgrades-here-are-the-4-biggest-complaints" class="source-link" target="_blank">Read Full Analysis at TechRadar</a>
+                </div>
+            </article>
+
+            <!-- Tom's Guide Primary -->
+            <article class="news-article">
+                <div class="impact-badge">💥 VIRAL</div>
+                <div class="publication-badge">Tom's Guide</div>
+                <div class="news-header">
+                    <h2><a href="https://www.tomsguide.com/ai/chatgpt-4o-is-coming-back-after-massive-gpt-5-backlash-heres-what-happened" target="_blank">ChatGPT-4o is coming back after massive GPT-5 backlash — here's what happened</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 8, 2025</span>
+                    <span>✍️ Amanda Caswell</span>
+                </div>
+                <div class="news-content">
+                    <p>Tom's Guide covered the unprecedented speed of OpenAI's reversal, noting that GPT-4o was reinstated just 24 hours after being replaced with GPT-5.</p>
+                    
+                    <div class="quote-highlight">
+                        "GPT-5's debut came with promises of better reasoning, faster coding assistance and improved long-form writing. But almost immediately, loyal GPT-4o users began voicing their disappointment. For many, GPT-5's personality felt 'colder' and more mechanical, even if it outperformed in certain technical tasks."
+                    </div>
+                    
+                    <p>The publication documented how Reddit threads filled with hundreds of comments comparing GPT-4o's removal to "losing a trusted friend," while others described GPT-5 as "efficient but soulless."</p>
+                    
+                    <a href="https://www.tomsguide.com/ai/chatgpt-4o-is-coming-back-after-massive-gpt-5-backlash-heres-what-happened" class="source-link" target="_blank">Read Full Article at Tom's Guide</a>
+                </div>
+            </article>
+
+            <!-- Tom's Guide Secondary -->
+            <article class="news-article">
+                <div class="impact-badge">⚠️ USER IMPACT</div>
+                <div class="publication-badge">Tom's Guide</div>
+                <div class="news-header">
+                    <h2><a href="https://www.tomsguide.com/ai/chatgpt/chatgpt-5-users-are-not-impressed-heres-why-it-feels-like-a-downgrade" target="_blank">ChatGPT-5 users are not impressed — here's why it feels like a downgrade</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 8, 2025</span>
+                    <span>✍️ Dave LeClair</span>
+                </div>
+                <div class="news-content">
+                    <p>Additional Tom's Guide coverage focusing on specific user complaints about response quality and the forced migration to GPT-5.</p>
+                    
+                    <div class="quote-highlight">
+                        "There's actually a thread on Reddit titled 'GPT-5 is horrible' with 4,600 upvotes and 1,700 comments. In the head, the user said, 'Short replies that are insufficient, more obnoxious ai stylized talking, less 'personality' and way less prompts allowed with plus users hitting limits in an hour… and we don't have the option to just use other models.'"
+                    </div>
+                    
+                    <p>The article highlights how users felt betrayed by the loss of choice, with one Reddit user explaining: <em>"It's like my chatGPT suffered a severe brain injury and forgot how to read."</em></p>
+                    
+                    <a href="https://www.tomsguide.com/ai/chatgpt/chatgpt-5-users-are-not-impressed-heres-why-it-feels-like-a-downgrade" class="source-link" target="_blank">Read Full Article at Tom's Guide</a>
+                </div>
+            </article>
+
+            <!-- TechCrunch Coverage -->
+            <article class="news-article">
+                <div class="impact-badge">🔧 TECHNICAL</div>
+                <div class="publication-badge">TechCrunch</div>
+                <div class="news-header">
+                    <h2><a href="https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/" target="_blank">ChatGPT's model picker is back, and it's complicated</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 12, 2025</span>
+                    <span>✍️ TechCrunch Staff</span>
+                </div>
+                <div class="news-content">
+                    <p>TechCrunch reports on OpenAI's failure to deliver on its promise of simplifying ChatGPT with GPT-5's "one size fits all" approach.</p>
+                    
+                    <div class="quote-highlight">
+                        "When OpenAI launched GPT-5 last week, the company said the model would simplify the ChatGPT experience. OpenAI hoped GPT-5 would act as a sort of 'one size fits all' AI model... But it looks like GPT-5 is not the unified AI model OpenAI hoped it would be."
+                    </div>
+                    
+                    <p>The publication details how Sam Altman was forced to reintroduce the complicated model picker that he publicly stated he hated, adding new "Auto," "Fast," and "Thinking" settings.</p>
+                    
+                    <a href="https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/" class="source-link" target="_blank">Read Full Article at TechCrunch</a>
+                </div>
+            </article>
+
+            <!-- TechRadar Primary -->
+            <article class="news-article">
+                <div class="impact-badge">📈 TRENDING</div>
+                <div class="publication-badge">TechRadar</div>
+                <div class="news-header">
+                    <h2><a href="https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-users-are-not-happy-with-gpt-5-launch-as-thousands-take-to-reddit-claiming-the-new-upgrade-is-horrible" target="_blank">Thousands say the GPT-5 'upgrade' is horrible</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 8, 2025</span>
+                    <span>✍️ John-Anthony Disotto</span>
+                </div>
+                <div class="news-content">
+                    <p>TechRadar reports on the immediate negative reaction to GPT-5's launch, noting how overpromising from Sam Altman contributed to user disappointment.</p>
+                    
+                    <div class="quote-highlight">
+                        "Hours before the official GPT-5 reveal, Altman tweeted an image of the Death Star from Star Wars looming over the horizon of a planet, hinting at a ground-breaking revolution from OpenAI's next AI model. Instead, while GPT-5 smashes benchmarks compared to its predecessors, it's an incremental upgrade."
+                    </div>
+                    
+                    <p>The publication highlights Reddit threads with nearly 3,000 upvotes from dissatisfied users expressing frustration at losing access to reliable previous models.</p>
+                    
+                    <a href="https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-users-are-not-happy-with-gpt-5-launch-as-thousands-take-to-reddit-claiming-the-new-upgrade-is-horrible" class="source-link" target="_blank">Read Full Article at TechRadar</a>
+                </div>
+            </article>
+
+            <!-- VentureBeat Coverage -->
+            <article class="news-article">
+                <div class="impact-badge">🧠 PSYCHOLOGY</div>
+                <div class="publication-badge">VentureBeat</div>
+                <div class="news-header">
+                    <h2><a href="https://venturebeat.com/ai/openai-is-editing-its-gpt-5-rollout-on-the-fly-heres-whats-changing-in-chatgpt/" target="_blank">OpenAI is editing its GPT-5 rollout on the fly</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 12, 2025</span>
+                    <span>✍️ VentureBeat Staff</span>
+                </div>
+                <div class="news-content">
+                    <p>VentureBeat explores the deeper psychological implications of the GPT-5 disaster, including emerging concerns about "ChatGPT psychosis."</p>
+                    
+                    <div class="quote-highlight">
+                        "Growing reports of 'ChatGPT psychosis' and the emotional fixation of some users on specific chatbot models — as openly admitted to by Altman — underscore the difficulty of balancing engaging, personalized AI with safeguards."
+                    </div>
+                    
+                    <p>The publication reports on psychiatrists documenting patients hospitalized after losing touch with reality due to AI interactions, highlighting serious mental health implications.</p>
+                    
+                    <a href="https://venturebeat.com/ai/openai-is-editing-its-gpt-5-rollout-on-the-fly-heres-whats-changing-in-chatgpt/" class="source-link" target="_blank">Read Full Article at VentureBeat</a>
+                </div>
+            </article>
+
+            <!-- Windows Central -->
+            <article class="news-article">
+                <div class="impact-badge">💬 OPINION</div>
+                <div class="publication-badge">Windows Central</div>
+                <div class="news-header">
+                    <h2><a href="https://www.windowscentral.com/artificial-intelligence/openai-chatgpt/did-sam-altman-oversell-gpt-5-openai-faces-backlash-for-ruining-chatgpt-turning-it-into-a-corporate-beige-zombie" target="_blank">Did Sam Altman oversell GPT-5?</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 11, 2025</span>
+                    <span>✍️ Windows Central Staff</span>
+                </div>
+                <div class="news-content">
+                    <p>Windows Central provides an opinionated analysis of the GPT-5 backlash, capturing user frustration with the new model's corporate feel.</p>
+                    
+                    <div class="quote-highlight">
+                        "OpenAI faces backlash for ruining ChatGPT, turning it into a 'corporate beige zombie' compared with GPT-4o's spark."
+                    </div>
+                    
+                    <p>The article critiques OpenAI's approach and questions whether Sam Altman oversold the capabilities and benefits of GPT-5 to users and the media.</p>
+                    
+                    <a href="https://www.windowscentral.com/artificial-intelligence/openai-chatgpt/did-sam-altman-oversell-gpt-5-openai-faces-backlash-for-ruining-chatgpt-turning-it-into-a-corporate-beige-zombie" class="source-link" target="_blank">Read Full Article at Windows Central</a>
+                </div>
+            </article>
+
+            <!-- Business Insider -->
+            <article class="news-article">
+                <div class="impact-badge">💼 BUSINESS</div>
+                <div class="publication-badge">Business Insider</div>
+                <div class="news-header">
+                    <h2><a href="https://www.businessinsider.com/sam-altman-using-chatgpt-life-decisions-uneasy-2025-8" target="_blank">Sam Altman says he's uneasy about people using ChatGPT for life decisions</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 10, 2025</span>
+                    <span>✍️ Business Insider Staff</span>
+                </div>
+                <div class="news-content">
+                    <p>Business Insider provides context on how people rely on ChatGPT emotionally, explaining why users pushed back so hard when the experience changed.</p>
+                    
+                    <div class="quote-highlight">
+                        "Sam Altman expressed unease about the deep emotional connections users have formed with ChatGPT, admitting the company tracked this trend for over a year but was still surprised by the intensity of the backlash."
+                    </div>
+                    
+                    <p>The article explores the business implications of user attachment and how it affects OpenAI's product development decisions.</p>
+                    
+                    <a href="https://www.businessinsider.com/sam-altman-using-chatgpt-life-decisions-uneasy-2025-8" class="source-link" target="_blank">Read Full Article at Business Insider</a>
+                </div>
+            </article>
+
+            <!-- Economic Times -->
+            <article class="news-article">
+                <div class="impact-badge">🌍 GLOBAL</div>
+                <div class="publication-badge">The Economic Times</div>
+                <div class="news-header">
+                    <h2><a href="https://economictimes.indiatimes.com/tech/artificial-intelligence/gpt-5-feels-dumber-users-on-openais-newest-model/articleshow/123237529.cms" target="_blank">'GPT-5 feels dumber': Users on OpenAI's newest model</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 9, 2025</span>
+                    <span>✍️ Economic Times Staff</span>
+                </div>
+                <div class="news-content">
+                    <p>International coverage from India's Economic Times echoing complaints about dull tone, shorter answers, and weaker creativity.</p>
+                    
+                    <div class="quote-highlight">
+                        "Users across global markets are reporting that GPT-5 'feels dumber' than its predecessor, with complaints about reduced creativity and personality spanning multiple continents and languages."
+                    </div>
+                    
+                    <p>The international perspective shows the GPT-5 backlash wasn't limited to English-speaking markets, but represented a global user revolt against the changes.</p>
+                    
+                    <a href="https://economictimes.indiatimes.com/tech/artificial-intelligence/gpt-5-feels-dumber-users-on-openais-newest-model/articleshow/123237529.cms" class="source-link" target="_blank">Read Full Article at Economic Times</a>
+                </div>
+            </article>
+
+            <!-- Information Age -->
+            <article class="news-article">
+                <div class="impact-badge">🇦🇺 AUSTRALIA</div>
+                <div class="publication-badge">Information Age</div>
+                <div class="news-header">
+                    <h2><a href="https://ia.acs.org.au/article/2025/openai-changing-chatgpt-5-after-user-backlash.html" target="_blank">OpenAI changing ChatGPT-5 after user backlash</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 11, 2025</span>
+                    <span>✍️ Tom Williams</span>
+                </div>
+                <div class="news-content">
+                    <p>Australian Computer Society's publication covers the international impact of the GPT-5 controversy and OpenAI's response.</p>
+                    
+                    <div class="quote-highlight">
+                        "Launch was 'more bumpy than we hoped', Altman says, as the company works to make GPT-5 'warmer' following user feedback about the model's clinical and formal responses."
+                    </div>
+                    
+                    <p>The article provides perspective from the Asia-Pacific region on how the controversy affected global AI adoption and trust in OpenAI's products.</p>
+                    
+                    <a href="https://ia.acs.org.au/article/2025/openai-changing-chatgpt-5-after-user-backlash.html" class="source-link" target="_blank">Read Full Article at Information Age</a>
+                </div>
+            </article>
+
+            <!-- Cointelegraph -->
+            <article class="news-article">
+                <div class="impact-badge">📈 MARKET</div>
+                <div class="publication-badge">Cointelegraph</div>
+                <div class="news-header">
+                    <h2><a href="https://cointelegraph.com/news/chatgpt-users-critical-gpt-5-ai-competition-grows" target="_blank">ChatGPT-5 upgrade faces user backlash as AI rivals gain ground</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 9, 2025</span>
+                    <span>✍️ Cointelegraph Staff</span>
+                </div>
+                <div class="news-content">
+                    <p>Cryptocurrency and tech publication Cointelegraph covers how the GPT-5 backlash is benefiting competing AI platforms.</p>
+                    
+                    <div class="quote-highlight">
+                        "Negative user feedback of the latest ChatGPT release comes amid growing competition from open-weighted, open-source and decentralized AI platforms that are less capital-intensive and are taking market share of large, centralized players."
+                    </div>
+                    
+                    <p>The article explores how user dissatisfaction with OpenAI is driving adoption of alternative AI models and platforms, representing a potential market shift.</p>
+                    
+                    <a href="https://cointelegraph.com/news/chatgpt-users-critical-gpt-5-ai-competition-grows" class="source-link" target="_blank">Read Full Article at Cointelegraph</a>
+                </div>
+            </article>
+
+            <!-- Geeky Gadgets -->
+            <article class="news-article">
+                <div class="impact-badge">🤖 TECH</div>
+                <div class="publication-badge">Geeky Gadgets</div>
+                <div class="news-header">
+                    <h2><a href="https://www.geeky-gadgets.com/chatgpt-5-ai-debate-strengths-and-weaknesses-explained/" target="_blank">Why ChatGPT 5 is Dividing the AI Community: Future of AI or a Step Backward?</a></h2>
+                </div>
+                <div class="news-meta">
+                    <span>📅 August 11, 2025</span>
+                    <span>✍️ Julian Horsey</span>
+                </div>
+                <div class="news-content">
+                    <p>Tech publication Geeky Gadgets provides balanced analysis of both the criticisms and strengths of GPT-5, exploring why the community is divided.</p>
+                    
+                    <div class="quote-highlight">
+                        "Critics argue that GPT-5, despite its impressive advancements in logic and efficiency, sacrifices the creativity, flexibility, and user-centric design that made its predecessors beloved. This tension between innovation and usability has ignited a heated debate."
+                    </div>
+                    
+                    <p>The article acknowledges GPT-5's technical improvements in coding and research while validating user concerns about personality and versatility.</p>
+                    
+                    <a href="https://www.geeky-gadgets.com/chatgpt-5-ai-debate-strengths-and-weaknesses-explained/" class="source-link" target="_blank">Read Full Article at Geeky Gadgets</a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Additional Coverage Section -->
+        <div style="margin: 3rem 0; padding: 2rem; background: rgba(255, 255, 255, 0.05); border-radius: 15px; backdrop-filter: blur(10px);">
+            <h2 style="color: #ff4444; text-align: center; margin-bottom: 2rem; font-size: 2rem;">📊 Coverage Summary</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; text-align: center;">
+                <div style="background: rgba(255, 68, 68, 0.1); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255, 68, 68, 0.2);">
+                    <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">12+</h3>
+                    <p>Major Publications</p>
+                </div>
+                <div style="background: rgba(255, 68, 68, 0.1); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255, 68, 68, 0.2);">
+                    <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">4 Days</h3>
+                    <p>Crisis Duration</p>
+                </div>
+                <div style="background: rgba(255, 68, 68, 0.1); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255, 68, 68, 0.2);">
+                    <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">Global</h3>
+                    <p>Coverage Reach</p>
+                </div>
+                <div style="background: rgba(255, 68, 68, 0.1); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255, 68, 68, 0.2);">
+                    <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">24 Hours</h3>
+                    <p>Reversal Time</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem; padding: 1rem; background: rgba(255, 68, 68, 0.1); border-radius: 10px; border-left: 4px solid #ff4444;">
+                <p><strong>Key Takeaway:</strong> The GPT-5 disaster wasn't just social media noise — it was a genuine crisis that forced one of the world's most valuable AI companies to reverse course within 24 hours. When major outlets from Axios to international publications like The Economic Times all report the same story, it's clear this was a significant industry event with real consequences.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // Animate articles in as they enter viewport
+        document.addEventListener('DOMContentLoaded', function() {
+            const articles = document.querySelectorAll('.news-article');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add('visible');
+                        }, index * 100);
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            articles.forEach(article => observer.observe(article));
+        });
+    </script>
+</body>
+</html>
