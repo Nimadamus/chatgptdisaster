@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-22",
+  "date_seed": 3955499674,
+  "generated_at": "2026-03-22T18:47:05.414509",
+  "reddit_posts": [
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 384,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8264"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 220,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3974"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 171,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6290"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 113,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5383"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 374,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9539"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 184,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7832"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 78,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_9712"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 50,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5347"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 220,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3557"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 154,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3146"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "A case against currying",
+      "url": "https://emi-h.com/articles/a-case-against-currying.html",
+      "score": 65,
+      "comments": 82,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Learnings from training a font recognition model from scratch",
+      "url": "https://www.mixfont.com/blog/learnings-from-training-a-font-recognition-model-from-scratch",
+      "score": 8,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Revise \u2013 An AI Editor for Documents",
+      "url": "https://revise.io",
+      "score": 29,
+      "comments": 28,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Brute-forcing my algorithmic ignorance with an LLM in 7 days",
+      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
+      "score": 73,
+      "comments": 48,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Ask HN: AI productivity gains \u2013 do you fire devs or build better products?",
+      "url": "https://news.ycombinator.com/item?id=47475859",
+      "score": 65,
+      "comments": 98,
+      "source": "Hacker News"
+    }
+  ]
+}
