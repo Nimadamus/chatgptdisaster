@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-24",
+  "date_seed": 4053353015,
+  "generated_at": "2026-03-24T19:12:53.472198",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 361,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4934"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 350,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8143"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 201,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3961"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 392,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5898"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 344,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6322"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 101,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7016"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 54,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2668"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 126,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6276"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 109,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8406"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_4335"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Hypura \u2013 A storage-tier-aware LLM inference scheduler for Apple Silicon",
+      "url": "https://github.com/t8/hypura",
+      "score": 140,
+      "comments": 61,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "score": 130,
+      "comments": 302,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Email.md \u2013 Markdown to responsive, email-safe HTML",
+      "url": "https://www.emailmd.dev/",
+      "score": 73,
+      "comments": 21,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "score": 122,
+      "comments": 38,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains",
+      "url": "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/",
+      "score": 51,
+      "comments": 2,
+      "source": "Hacker News"
+    }
+  ]
+}
