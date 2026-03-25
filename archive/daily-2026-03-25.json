@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-25",
+  "date_seed": 4079093895,
+  "generated_at": "2026-03-25T19:04:01.155341",
+  "reddit_posts": [
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 321,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6388"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 136,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4219"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 87,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4712"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 393,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7458"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 215,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2766"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 123,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6288"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 195,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4419"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 330,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2105"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 351,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5632"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 205,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5126"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "My Astrophotography in the Movie Project Hail Mary",
+      "url": "https://rpastro.square.site/s/stories/phm",
+      "score": 475,
+      "comments": 142,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Local LLM App by Ente",
+      "url": "https://ente.com/blog/ensu/",
+      "score": 279,
+      "comments": 129,
+      "source": "Hacker News"
+    },
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "score": 417,
+      "comments": 118,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Flighty Airports",
+      "url": "https://flighty.com/airports",
+      "score": 481,
+      "comments": 165,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "score": 876,
+      "comments": 465,
+      "source": "Hacker News"
+    }
+  ]
+}
