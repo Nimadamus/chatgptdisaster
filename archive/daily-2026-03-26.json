@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-26",
+  "date_seed": 2870998251,
+  "generated_at": "2026-03-26T19:16:36.866506",
+  "reddit_posts": [
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 256,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6442"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 205,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2914"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 129,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9974"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 373,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4338"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 325,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7360"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 181,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7308"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 160,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1705"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 84,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3870"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 139,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6877"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 282,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8200"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "My minute-by-minute response to the LiteLLM malware attack",
+      "url": "https://futuresearch.ai/blog/litellm-attack-transcript/",
+      "score": 173,
+      "comments": 75,
+      "source": "Hacker News"
+    },
+    {
+      "title": "From zero to a RAG system: successes and failures",
+      "url": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
+      "score": 233,
+      "comments": 72,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
+      "url": "https://john.regehr.org/writing/zero_dof_programming.html",
+      "score": 5,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI users whose lives were wrecked by delusion",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/mar/26/ai-chatbot-users-lives-wrecked-by-delusion",
+      "score": 150,
+      "comments": 156,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Optio \u2013 Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "url": "https://github.com/jonwiggins/optio",
+      "score": 71,
+      "comments": 53,
+      "source": "Hacker News"
+    }
+  ]
+}
