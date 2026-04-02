@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-02",
+  "date_seed": 1222332090,
+  "generated_at": "2026-04-02T19:04:28.942699",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 191,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9525"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 338,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7455"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8929"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 91,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1747"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 260,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9356"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 63,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5395"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 294,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2384"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 138,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5368"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 363,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5484"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 229,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4283"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Tailscale's New macOS Home",
+      "url": "https://tailscale.com/blog/macos-notch-escape",
+      "score": 46,
+      "comments": 15,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Zep AI Is Hiring \u2013 Building the Agent Context Layer (YC W24)",
+      "url": "https://www.ycombinator.com/companies/zep-ai/jobs",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "url": "https://lemonade-server.ai",
+      "score": 325,
+      "comments": 82,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Significant Raise of Reports",
+      "url": "https://lwn.net/Articles/1065620/",
+      "score": 230,
+      "comments": 116,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Email obfuscation: What works in 2026?",
+      "url": "https://spencermortensen.com/articles/email-obfuscation/",
+      "score": 304,
+      "comments": 88,
+      "source": "Hacker News"
+    }
+  ]
+}
