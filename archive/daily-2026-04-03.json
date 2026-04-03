@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-03",
+  "date_seed": 4131535073,
+  "generated_at": "2026-04-03T18:56:43.057592",
+  "reddit_posts": [
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 254,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2858"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 289,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2735"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 203,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5128"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 141,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7348"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 193,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4968"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 169,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9550"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 265,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8387"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 165,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7250"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 179,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3013"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 392,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6614"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
+      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
+      "score": 62,
+      "comments": 38,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A School District Tried to Help Train Waymos to Stop for School Buses",
+      "url": "https://www.wired.com/story/a-school-district-tried-to-help-train-waymos-to-stop-for-school-buses-it-didnt-work/",
+      "score": 13,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Apfel \u2013 The free AI already on your Mac",
+      "url": "https://apfel.franzai.com",
+      "score": 563,
+      "comments": 127,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Solana Drift Protocol drained of $285M via fake token and governance hijack",
+      "url": "https://anonhaven.com/en/news/drift-protocol-hack-285-million-solana/",
+      "score": 50,
+      "comments": 20,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Intel Assured Supply Chain Product Brief",
+      "url": "https://www.intel.com/content/www/us/en/content-details/850997/intel-assured-supply-chain-product-brief.html",
+      "score": 46,
+      "comments": 10,
+      "source": "Hacker News"
+    }
+  ]
+}
