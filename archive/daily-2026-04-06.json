@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-06",
+  "date_seed": 2486108364,
+  "generated_at": "2026-04-06T19:10:25.069699",
+  "reddit_posts": [
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 96,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6560"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 267,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_5933"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1128"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 126,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3477"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 134,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6512"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 146,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4414"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 62,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7097"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 327,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2959"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 271,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8488"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 70,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3055"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Launch HN: Freestyle: Sandboxes for AI Coding Agents",
+      "url": "https://www.freestyle.sh",
+      "score": 95,
+      "comments": 53,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Code is unusable for complex engineering tasks with the Feb updates",
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "score": 423,
+      "comments": 301,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: I built a tiny LLM to demystify how language models work",
+      "url": "https://github.com/arman-bd/guppylm",
+      "score": 792,
+      "comments": 121,
+      "source": "Hacker News"
+    },
+    {
+      "title": "France pulls last gold held in US for $15B gain",
+      "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+      "score": 499,
+      "comments": 272,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+      "url": "https://github.com/fikrikarim/parlor",
+      "score": 231,
+      "comments": 26,
+      "source": "Hacker News"
+    }
+  ]
+}
