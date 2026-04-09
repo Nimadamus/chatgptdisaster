@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-09",
+  "date_seed": 444126182,
+  "generated_at": "2026-04-09T19:17:24.016822",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 258,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1785"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 267,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2507"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 264,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9617"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 341,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4044"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 339,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3484"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 195,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8918"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 93,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2582"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 389,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9389"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 75,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_6615"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 239,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9495"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Reallocating $100/Month Claude Code Spend to Zed and OpenRouter",
+      "url": "https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/",
+      "score": 210,
+      "comments": 165,
+      "source": "Hacker News"
+    },
+    {
+      "title": "ChatGPT Pro now starts at $100/month",
+      "url": "https://chatgpt.com/pricing/",
+      "score": 106,
+      "comments": 111,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Vercel plugin on Claude Code wants to read your prompts",
+      "url": "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry",
+      "score": 233,
+      "comments": 83,
+      "source": "Hacker News"
+    },
+    {
+      "title": "One Brain to Query: Wiring a 60-Person Company into a Single Slack Bot",
+      "url": "https://merylldindin.com/thoughts/company-brain/",
+      "score": 32,
+      "comments": 38,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude mixes up who said what",
+      "url": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
+      "score": 374,
+      "comments": 306,
+      "source": "Hacker News"
+    }
+  ]
+}
