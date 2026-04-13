@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-13",
+  "date_seed": 1096331778,
+  "generated_at": "2026-04-13T19:21:30.378659",
+  "reddit_posts": [
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 393,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1458"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 251,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8269"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 258,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5165"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 340,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4495"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 277,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2953"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 251,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1542"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 375,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7387"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 112,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1053"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 200,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2881"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 144,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_6249"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Servo is now available on crates.io",
+      "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
+      "score": 323,
+      "comments": 112,
+      "source": "Hacker News"
+    },
+    {
+      "title": "MEMS Array Chip Can Project Video the Size of a Grain of Sand",
+      "url": "https://spectrum.ieee.org/mems-photonics",
+      "score": 47,
+      "comments": 18,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Initial mainline video capture and camera support for Rockchip RK3588",
+      "url": "https://www.collabora.com/news-and-blog/news-and-events/mainline-video-capture-and-camera-support-for-rockchip-rk3588.html",
+      "score": 55,
+      "comments": 13,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Michigan 'digital age' bills pulled after privacy concerns raised",
+      "url": "https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html",
+      "score": 171,
+      "comments": 83,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Evaluation of Claude Mythos Preview's cyber capabilities",
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "score": 23,
+      "comments": 13,
+      "source": "Hacker News"
+    }
+  ]
+}
