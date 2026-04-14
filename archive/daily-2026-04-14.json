@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-14",
+  "date_seed": 1373212708,
+  "generated_at": "2026-04-14T19:24:46.387083",
+  "reddit_posts": [
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_5001"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 73,
+      "url": "https://reddit.com/r/law",
+      "author": "user_6098"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 131,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1119"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 329,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8796"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 160,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2908"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 190,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1234"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 319,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1382"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 173,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_3809"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 110,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5033"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 282,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2313"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Spain to expand internet blocks to tennis, golf, movies broadcasting times",
+      "url": "https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731",
+      "score": 267,
+      "comments": 228,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Code Routines",
+      "url": "https://code.claude.com/docs/en/routines",
+      "score": 150,
+      "comments": 95,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "score": 26,
+      "comments": 10,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: LangAlpha \u2013 what if Claude Code was built for Wall Street?",
+      "url": "https://github.com/ginlix-ai/langalpha",
+      "score": 57,
+      "comments": 21,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Plain \u2013 The full-stack Python framework designed for humans and agents",
+      "url": "https://github.com/dropseed/plain",
+      "score": 12,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
