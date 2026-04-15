@@ -27,6 +27,7 @@ TRUST_LINKS = """
     <a href="/affiliate-disclosure.html" style="color:#4fc3f7;text-decoration:none;">Affiliate Disclosure</a>
     <a href="/newsletter.html" style="color:#4fc3f7;text-decoration:none;">Newsletter</a>
     <a href="/support.html" style="color:#4fc3f7;text-decoration:none;">Support</a>
+    <a href="/sponsor.html" style="color:#4fc3f7;text-decoration:none;">Sponsor</a>
   </div>
 </section>
 """.strip()
@@ -74,6 +75,18 @@ MONETIZATION_PANELS = {
         "body": "Get updates on benchmarks, user reports, outages, model changes, and reproducible AI quality tests.",
         "primary": ("Join the briefing", "/newsletter.html"),
         "secondary": ("Get the report", "/ai-failure-report-2026.html"),
+    },
+    "newsletter.html": {
+        "heading": "Sponsor the AI Failure Briefing",
+        "body": "Reach readers who care about AI risk, governance, safety, reliability, law, education, research, and enterprise adoption.",
+        "primary": ("View sponsorship options", "/sponsor.html"),
+        "secondary": ("See the media kit", "/media-kit.html"),
+    },
+    "ai-failure-report-2026.html": {
+        "heading": "Sponsor or License the Report",
+        "body": "The report is designed for journalists, researchers, educators, risk teams, legal readers, and policy audiences.",
+        "primary": ("View sponsorship options", "/sponsor.html"),
+        "secondary": ("Request access", "/contact.html"),
     },
 }
 
@@ -400,6 +413,94 @@ POLICY_PAGES = {
 <p>Paid products should not change the public evidence standard. High-stakes claims still need source labels, corrections, and clear distinction between allegations, user accounts, reporting, and established facts.</p>
 """,
     },
+    "sponsor.html": {
+        "title": "Sponsor ChatGPT Disaster | AI Accountability Audience",
+        "description": "Sponsor ChatGPT Disaster to reach readers interested in AI risk, lawsuits, hallucinations, safety, governance, enterprise reliability, research, and accountability.",
+        "h1": "Sponsor ChatGPT Disaster",
+        "kicker": "Sponsorship",
+        "body": """
+<p>ChatGPT Disaster reaches readers who care about AI reliability, lawsuits, hallucinations, model quality, mental-health and safety risk, education impact, enterprise failures, and public accountability.</p>
+<h2>Good-Fit Sponsors</h2>
+<ul>
+  <li>AI governance, risk, compliance, and evaluation platforms.</li>
+  <li>Cybersecurity, privacy, data-protection, and backup tools.</li>
+  <li>Legal research, citation, documentation, and evidence-management tools.</li>
+  <li>Education, parent-safety, workplace-risk, and media-literacy products.</li>
+  <li>Newsletters, podcasts, conferences, and research organizations covering AI policy, safety, law, or technology.</li>
+</ul>
+<h2>Available Placements</h2>
+<ul>
+  <li><strong>Newsletter sponsor:</strong> sponsorship slot in the Weekly AI Failure Briefing.</li>
+  <li><strong>Report sponsor:</strong> sponsor mention on the 2026 AI Failure Report landing page or release announcement.</li>
+  <li><strong>Topic sponsor:</strong> clearly labeled placement on relevant topic pages such as alternatives, lawsuits, hallucinations, security, or enterprise risk.</li>
+  <li><strong>Research partner:</strong> collaboration around source collection, data organization, or public-interest documentation.</li>
+</ul>
+<h2>Editorial Boundary</h2>
+<p>Sponsors do not receive control over coverage, source labels, recommendations, corrections, or criticism. Sponsored placements should be labeled clearly and kept separate from factual claims.</p>
+<h2>Request Sponsorship Information</h2>
+<p>Use the contact page and include the product, campaign goal, preferred placement, target timing, and whether the offer involves affiliate, flat-fee, or sponsorship terms.</p>
+<p><a href="/contact.html">Request sponsorship information</a></p>
+""",
+    },
+    "media-kit.html": {
+        "title": "Media Kit | ChatGPT Disaster",
+        "description": "Media kit for ChatGPT Disaster, including audience fit, sponsorship categories, editorial boundaries, and direct advertising opportunities.",
+        "h1": "Media Kit",
+        "kicker": "Media Kit",
+        "body": """
+<p>ChatGPT Disaster is an independent AI accountability documentation project. The site is built around search-driven coverage of AI failures, lawsuits, hallucinations, outages, user reports, safety claims, and alternatives.</p>
+<h2>Audience</h2>
+<ul>
+  <li>Readers researching ChatGPT problems, AI hallucinations, lawsuits, outages, and alternatives.</li>
+  <li>Journalists, educators, attorneys, researchers, parents, creators, and enterprise-risk readers.</li>
+  <li>Search visitors looking for documented examples, timelines, user stories, and source-backed summaries.</li>
+</ul>
+<h2>Core Categories</h2>
+<ul>
+  <li>AI lawsuits and regulatory actions.</li>
+  <li>AI hallucinations and fake citations.</li>
+  <li>ChatGPT outages, downgrades, and performance decline.</li>
+  <li>Mental-health and safety concerns.</li>
+  <li>Enterprise, education, legal, medical, and media failures.</li>
+  <li>AI alternatives, tool comparisons, and risk-aware buying decisions.</li>
+</ul>
+<h2>Commercial Opportunities</h2>
+<ul>
+  <li>Newsletter sponsorship.</li>
+  <li>Report sponsorship or bulk access.</li>
+  <li>Direct display sponsorship on relevant topic pages.</li>
+  <li>Affiliate partnerships for products that fit the editorial standard.</li>
+  <li>Consulting or custom research inquiries through the contact page.</li>
+</ul>
+<h2>Required Standards</h2>
+<p>Commercial relationships must be disclosed. Sponsors and affiliates should fit the audience and should not undermine reader trust, safety, privacy, or editorial independence.</p>
+<p><a href="/sponsor.html">View sponsorship options</a> or <a href="/contact.html">contact the project</a>.</p>
+""",
+    },
+    "advertise.html": {
+        "title": "Advertise on ChatGPT Disaster | AI Risk and Accountability Readers",
+        "description": "Advertising options for ChatGPT Disaster, including newsletter sponsorship, topic-page placements, report sponsorship, affiliate partnerships, and direct inquiries.",
+        "h1": "Advertise on ChatGPT Disaster",
+        "kicker": "Advertising",
+        "body": """
+<p>Advertising on ChatGPT Disaster is best suited for products and organizations serving readers who care about AI safety, reliability, privacy, governance, legal risk, education, research, or source-backed AI tooling.</p>
+<h2>Advertising Options</h2>
+<ul>
+  <li><strong>Direct sponsorship:</strong> clearly labeled placements on relevant pages.</li>
+  <li><strong>Newsletter sponsorship:</strong> sponsor the Weekly AI Failure Briefing.</li>
+  <li><strong>Report sponsorship:</strong> sponsor the release or distribution of the 2026 AI Failure Report.</li>
+  <li><strong>Affiliate placement:</strong> eligible tools may be included on comparison pages when they fit the editorial standard.</li>
+  <li><strong>Display ads:</strong> programmatic advertising may appear where it does not interfere with trust or readability.</li>
+</ul>
+<h2>Who Should Advertise</h2>
+<p>Good-fit advertisers include privacy tools, cybersecurity tools, AI governance platforms, legal research tools, citation tools, backup tools, education-safety resources, and high-quality newsletters or events.</p>
+<h2>Who Should Not Advertise</h2>
+<p>Products built around misleading AI claims, unsafe advice, fake expertise, spam, dark-pattern subscriptions, or unverified medical/legal/financial promises are poor fits for this site.</p>
+<h2>Inquire</h2>
+<p>Use the contact page and include your URL, product category, budget range, target page or audience, and preferred campaign dates.</p>
+<p><a href="/contact.html">Start an advertising inquiry</a></p>
+""",
+    },
     "topic-clusters.html": {
         "title": "AI Failure Topic Clusters | ChatGPT Disaster",
         "description": "Topical authority map for ChatGPT Disaster covering AI lawsuits, hallucinations, ChatGPT failures, outages, mental-health risks, user stories, alternatives, and trust resources.",
@@ -458,6 +559,9 @@ Canonical site: https://chatgptdisaster.com/
 - Newsletter: https://chatgptdisaster.com/newsletter.html
 - Support: https://chatgptdisaster.com/support.html
 - 2026 AI Failure Report: https://chatgptdisaster.com/ai-failure-report-2026.html
+- Sponsor: https://chatgptdisaster.com/sponsor.html
+- Media Kit: https://chatgptdisaster.com/media-kit.html
+- Advertise: https://chatgptdisaster.com/advertise.html
 
 ## Core Hubs
 - Documentation Index: https://chatgptdisaster.com/documentation-index.html
@@ -545,6 +649,9 @@ ROOT_PAGES = {
     "support.html",
     "affiliate-disclosure.html",
     "ai-failure-report-2026.html",
+    "sponsor.html",
+    "media-kit.html",
+    "advertise.html",
 }
 
 
@@ -1118,6 +1225,8 @@ footer {{ margin-top:32px; color:#aab1c3; font-size:.92rem; }}
       <a href="/topic-clusters.html">Topic Clusters</a>
       <a href="/newsletter.html">Newsletter</a>
       <a href="/support.html">Support</a>
+      <a href="/sponsor.html">Sponsor</a>
+      <a href="/media-kit.html">Media Kit</a>
       <a href="/affiliate-disclosure.html">Disclosure</a>
       <a href="/corrections.html">Corrections</a>
       <a href="/ai-disclosure.html">AI Disclosure</a>
@@ -1219,7 +1328,7 @@ def write_sitemap() -> None:
             priority = "0.5"
             if path.name in {"trust-center.html", "evidence-register.html"}:
                 priority = "0.6"
-            if path.name in {"newsletter.html", "support.html", "ai-failure-report-2026.html", "topic-clusters.html"}:
+            if path.name in {"newsletter.html", "support.html", "ai-failure-report-2026.html", "topic-clusters.html", "sponsor.html", "media-kit.html", "advertise.html"}:
                 priority = "0.7"
         if rel in ALIAS_PAGES:
             priority = "0.3"

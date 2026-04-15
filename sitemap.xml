@@ -307,6 +307,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chatgptdisaster.com/advertise.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://chatgptdisaster.com/affiliate-disclosure.html</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -961,6 +967,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://chatgptdisaster.com/media-kit.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://chatgptdisaster.com/mental-health-crisis.html</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1127,6 +1139,12 @@
     <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/sponsor.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://chatgptdisaster.com/stealth-downgrades.html</loc>
