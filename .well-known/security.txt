@@ -1,0 +1,4 @@
+Contact: https://chatgptdisaster.com/contact.html
+Policy: https://chatgptdisaster.com/corrections.html
+Preferred-Languages: en
+Canonical: https://chatgptdisaster.com/.well-known/security.txt

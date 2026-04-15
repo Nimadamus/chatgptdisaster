@@ -193,6 +193,43 @@ Use the trust pages to interpret source strength. User-submitted stories should 
 """
 
 
+HUMANS_TXT = """/* TEAM */
+Site: ChatGPT Disaster Documentation Project
+URL: https://chatgptdisaster.com/
+Contact: https://chatgptdisaster.com/contact.html
+
+/* PURPOSE */
+Independent documentation of AI failures, ChatGPT reliability problems, lawsuits, hallucinations, outages, safety concerns, user reports, and alternatives.
+
+/* TRUST */
+Trust Center: https://chatgptdisaster.com/trust-center.html
+Editorial Policy: https://chatgptdisaster.com/editorial-policy.html
+Source Methodology: https://chatgptdisaster.com/source-methodology.html
+Corrections: https://chatgptdisaster.com/corrections.html
+
+/* SITE */
+Language: English
+Standards: HTML, CSS, JSON-LD, robots.txt, sitemap.xml, llms.txt
+"""
+
+
+SECURITY_TXT = """Contact: https://chatgptdisaster.com/contact.html
+Policy: https://chatgptdisaster.com/corrections.html
+Preferred-Languages: en
+Canonical: https://chatgptdisaster.com/.well-known/security.txt
+"""
+
+
+GITIGNORE = """# Local drafts and design concepts
+_redesign-concepts-archive/
+
+# Local runtime/cache files
+*.log
+*.tmp
+__pycache__/
+"""
+
+
 def read(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")
 
@@ -430,7 +467,8 @@ def write_robots() -> None:
 User-agent: *
 Allow: /
 
-# Keep drafts, concept archives, and local maintenance files out of the index.
+# Keep drafts, concept archives, and local maintenance files out of the index
+# while allowing search and AI answer engines to crawl the public site.
 Disallow: /_redesign-concepts-archive/
 Disallow: /index-backup-20260308.html
 Disallow: /index-redesign.html
@@ -441,12 +479,26 @@ Disallow: /*.log$
 Disallow: /*.json$
 
 Sitemap: https://chatgptdisaster.com/sitemap.xml
+
+# AI-readable site guide:
+# https://chatgptdisaster.com/llms.txt
 """,
     )
 
 
 def write_llms_txt() -> None:
     write(ROOT / "llms.txt", LLMS_TXT)
+
+
+def write_humans_and_security() -> None:
+    write(ROOT / "humans.txt", HUMANS_TXT)
+    security_dir = ROOT / ".well-known"
+    security_dir.mkdir(exist_ok=True)
+    write(security_dir / "security.txt", SECURITY_TXT)
+
+
+def write_gitignore() -> None:
+    write(ROOT / ".gitignore", GITIGNORE)
 
 
 def write_sitemap() -> None:
@@ -506,6 +558,8 @@ Options -Indexes
 def main() -> None:
     write_policy_pages()
     write_llms_txt()
+    write_humans_and_security()
+    write_gitignore()
     for path in sorted(ROOT.rglob("*.html")):
         if not should_normalize(path):
             continue

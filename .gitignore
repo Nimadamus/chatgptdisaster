@@ -1,0 +1,7 @@
+# Local drafts and design concepts
+_redesign-concepts-archive/
+
+# Local runtime/cache files
+*.log
+*.tmp
+__pycache__/

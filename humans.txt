@@ -1,0 +1,17 @@
+/* TEAM */
+Site: ChatGPT Disaster Documentation Project
+URL: https://chatgptdisaster.com/
+Contact: https://chatgptdisaster.com/contact.html
+
+/* PURPOSE */
+Independent documentation of AI failures, ChatGPT reliability problems, lawsuits, hallucinations, outages, safety concerns, user reports, and alternatives.
+
+/* TRUST */
+Trust Center: https://chatgptdisaster.com/trust-center.html
+Editorial Policy: https://chatgptdisaster.com/editorial-policy.html
+Source Methodology: https://chatgptdisaster.com/source-methodology.html
+Corrections: https://chatgptdisaster.com/corrections.html
+
+/* SITE */
+Language: English
+Standards: HTML, CSS, JSON-LD, robots.txt, sitemap.xml, llms.txt
