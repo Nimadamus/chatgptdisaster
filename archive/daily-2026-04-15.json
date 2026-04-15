@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-15",
+  "date_seed": 3250222663,
+  "generated_at": "2026-04-15T19:26:23.467525",
+  "reddit_posts": [
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 313,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8508"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 217,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6147"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 389,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_3706"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 59,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7573"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 112,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4976"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5252"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 135,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5567"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 378,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5989"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 75,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3364"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 91,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5349"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "AI-Assisted Cognition Endangers Human Development",
+      "url": "https://heidenstedt.org/posts/2026/ai-assisted-cognition-endangers-human-development/",
+      "score": 106,
+      "comments": 51,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Fix monitor that goes black, off or blinks due to static electricity in chair",
+      "url": "https://aalonso.dev/blog/2023/how-to-fix-monitor-that-goes-black-off-due-to-static-electricity-in-chair/",
+      "score": 45,
+      "comments": 25,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Libretto \u2013 Making AI browser automations deterministic",
+      "url": "https://github.com/saffron-health/libretto",
+      "score": 45,
+      "comments": 9,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Adaptional (YC S25) Is Hiring Founding AI Engineers",
+      "url": "https://www.ycombinator.com/companies/adaptional/jobs/k7W6ge9-founding-engineer",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Gemini Robotics-ER 1.6",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "score": 167,
+      "comments": 53,
+      "source": "Hacker News"
+    }
+  ]
+}
