@@ -3,6 +3,7 @@ from __future__ import annotations
 import datetime as dt
 import html
 import json
+import posixpath
 import re
 from pathlib import Path
 
@@ -230,6 +231,105 @@ __pycache__/
 """
 
 
+ROOT_PAGES = {
+    "index.html",
+    "stories.html",
+    "timeline.html",
+    "lawsuits.html",
+    "alternatives.html",
+    "mental-health-crisis.html",
+    "clinical-cases.html",
+    "victims.html",
+    "chatgpt-death-lawsuits.html",
+    "january-2026-crisis.html",
+    "year-end-2025-meltdown.html",
+    "code-red-crisis-2025.html",
+    "performance-decline.html",
+    "chatgpt-getting-dumber.html",
+    "chatgpt-not-working.html",
+    "stealth-downgrades.html",
+    "gpt-5-bugs.html",
+    "gpt-52-user-backlash.html",
+    "silent-failure-ai-code.html",
+    "chatgpt-status-tracker.html",
+    "what-to-do-chatgpt-down.html",
+    "chatgpt-outage-december-2025.html",
+    "december-2025-outages-recap.html",
+    "api-reliability-crisis.html",
+    "hub-ai-failures.html",
+    "hub-chatgpt-problems.html",
+    "hub-openai-lawsuits.html",
+    "hub-ai-hallucinations.html",
+    "hub-gpt-bugs.html",
+    "resources.html",
+    "documentation-index.html",
+}
+
+
+ALIAS_PAGES = {
+    "blog.html": {
+        "target": "/documentation-index.html",
+        "title": "ChatGPT Disaster Blog and Documentation Index",
+        "description": "Browse ChatGPT Disaster articles, evidence pages, issue hubs, user reports, legal coverage, and AI failure documentation.",
+        "h1": "ChatGPT Disaster Blog and Documentation Index",
+    },
+    "testimonials.html": {
+        "target": "/stories.html",
+        "title": "ChatGPT User Testimonials and Stories",
+        "description": "Read user-submitted ChatGPT experiences, reliability complaints, safety concerns, and documented user stories.",
+        "h1": "ChatGPT User Testimonials and Stories",
+    },
+    "articles.html": {
+        "target": "/documentation-index.html",
+        "title": "ChatGPT Disaster Articles",
+        "description": "Browse ChatGPT Disaster articles on AI failures, hallucinations, lawsuits, outages, reliability problems, and alternatives.",
+        "h1": "ChatGPT Disaster Articles",
+    },
+    "articles/index.html": {
+        "target": "/documentation-index.html",
+        "title": "ChatGPT Disaster Articles Archive",
+        "description": "Article archive for ChatGPT Disaster coverage of AI failures, lawsuits, hallucinations, outages, and product reliability problems.",
+        "h1": "ChatGPT Disaster Articles Archive",
+    },
+    "blog/index.html": {
+        "target": "/documentation-index.html",
+        "title": "ChatGPT Disaster Blog Archive",
+        "description": "Blog archive for ChatGPT Disaster investigations, AI failure coverage, lawsuits, product issues, and user reports.",
+        "h1": "ChatGPT Disaster Blog Archive",
+    },
+    "ai-hallucinations-getting-worse-2026.html": {
+        "target": "/hub-ai-hallucinations.html",
+        "title": "Are AI Hallucinations Getting Worse in 2026?",
+        "description": "A hub for AI hallucination evidence, legal cases, research, examples, and ChatGPT reliability problems in 2026.",
+        "h1": "Are AI Hallucinations Getting Worse in 2026?",
+    },
+    "chatgpt-failure-archive.html": {
+        "target": "/documentation-index.html",
+        "title": "ChatGPT Failure Archive",
+        "description": "Archive of documented ChatGPT failures, outages, hallucinations, lawsuits, safety concerns, and user reports.",
+        "h1": "ChatGPT Failure Archive",
+    },
+    "ai-security-risks-2026.html": {
+        "target": "/chatgpt-security-risks-january-2026.html",
+        "title": "AI Security Risks in 2026",
+        "description": "Security-risk coverage for ChatGPT and AI systems, including privacy, agent security, data exposure, and reliability failures.",
+        "h1": "AI Security Risks in 2026",
+    },
+}
+
+
+TITLE_OVERRIDES = {
+    "0303-ai-chatbot-sexualized-student-book-report.html": "AI Chatbot Sexualized Student Book Report: Early Coverage",
+}
+
+
+DESCRIPTION_OVERRIDES = {
+    "0303-ai-chatbot-sexualized-student-book-report.html": "Early ChatGPT Disaster coverage of the California school AI chatbot book report incident and the safety concerns it raised for students and classrooms.",
+    "reddit-testimonials.html": "Legacy redirect page for Reddit testimonial coverage now consolidated into the ChatGPT Disaster user stories archive.",
+    "articles/openclaw-ai-chaos-2026-02-03.html": "Archived article coverage of OpenClaw and AI agent security concerns, preserved as part of the ChatGPT Disaster article archive.",
+}
+
+
 def read(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")
 
@@ -246,6 +346,7 @@ def page_url(path: Path) -> str:
 
 
 def extract_title(text: str, fallback: str) -> str:
+    fallback_key = fallback
     match = re.search(r"<title>\s*(.*?)\s*</title>", text, flags=re.I | re.S)
     if match:
         return re.sub(r"\s+", " ", match.group(1)).strip()
@@ -286,6 +387,9 @@ def ensure_head_metadata(text: str, path: Path) -> str:
     url = page_url(path)
     title = extract_title(text, path.stem.replace("-", " ").title())
     description = extract_description(text)
+    rel = path.relative_to(ROOT).as_posix()
+    title = TITLE_OVERRIDES.get(rel, title)
+    description = DESCRIPTION_OVERRIDES.get(rel, description)
     escaped_url = html.escape(url, quote=True)
     json_title = json.dumps(title, ensure_ascii=False)
     json_description = json.dumps(description, ensure_ascii=False)
@@ -334,12 +438,81 @@ def ensure_head_metadata(text: str, path: Path) -> str:
     head = re.sub(r'\s*<script type="application/ld\+json" data-trust-schema="true">.*?</script>', "", head, flags=re.I | re.S)
     head = re.sub(r'\s*<script type="application/ld\+json" data-page-schema="true">.*?</script>', "", head, flags=re.I | re.S)
 
+    if rel in TITLE_OVERRIDES:
+        head = re.sub(r"<title>.*?</title>", f"<title>{html.escape(title)}</title>", head, count=1, flags=re.I | re.S)
+
+    if re.search(r'<meta\s+name=["\']description["\']', head, flags=re.I):
+        if rel in DESCRIPTION_OVERRIDES:
+            head = re.sub(
+                r'<meta\s+name=["\']description["\'][^>]*>',
+                f'<meta name="description" content="{html.escape(description, quote=True)}">',
+                head,
+                count=1,
+                flags=re.I,
+            )
+    else:
+        head += f'\n<meta name="description" content="{html.escape(description, quote=True)}">'
+
     if "</title>" in head.lower():
         head = re.sub(r"</title>", "</title>\n" + additions, head, count=1, flags=re.I)
     else:
         head = additions + "\n" + head
 
     return text[: head_match.start(1)] + head + text[head_match.end(1) :]
+
+
+def ensure_hidden_h1(text: str, path: Path) -> str:
+    if len(re.findall(r"<h1\b", text, flags=re.I)) != 0:
+        return text
+    title = TITLE_OVERRIDES.get(path.relative_to(ROOT).as_posix(), extract_title(text, path.stem.replace("-", " ").title()))
+    hidden_h1 = f'<h1 style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">{html.escape(title)}</h1>'
+    if re.search(r"<body([^>]*)>", text, flags=re.I):
+        return re.sub(r"<body([^>]*)>", r"<body\1>\n" + hidden_h1, text, count=1, flags=re.I)
+    return hidden_h1 + "\n" + text
+
+
+def demote_duplicate_brand_h1(text: str) -> str:
+    if len(re.findall(r"<h1\b", text, flags=re.I)) <= 1:
+        return text
+    text = re.sub(
+        r'<h1([^>]*class=["\'][^"\']*site-title[^"\']*["\'][^>]*)>',
+        r"<div\1>",
+        text,
+        count=1,
+        flags=re.I,
+    )
+    return re.sub(r"</h1>", "</div>", text, count=1, flags=re.I)
+
+
+def normalize_subdirectory_links(text: str, path: Path) -> str:
+    rel = path.relative_to(ROOT).as_posix()
+    if "/" not in rel:
+        return text
+
+    def repl(match: re.Match[str]) -> str:
+        quote = match.group(1)
+        href = match.group(2).strip()
+        if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+            return match.group(0)
+        if re.match(r"^[a-z][a-z0-9+.-]*:", href, flags=re.I):
+            return match.group(0)
+        clean_href = href.split("#", 1)[0].split("?", 1)[0]
+        suffix = href[len(clean_href):]
+        clean_no_slash = clean_href.lstrip("/").rstrip("/")
+        if clean_no_slash in ROOT_PAGES:
+            return f'href={quote}/{clean_no_slash}{suffix}{quote}'
+        if clean_no_slash in {"petitions", "failures"}:
+            return f'href={quote}/{clean_no_slash}/{suffix}{quote}'
+        normalized = posixpath.normpath(posixpath.join(posixpath.dirname(rel), clean_href)).lstrip("./")
+        if clean_href.rstrip("/") in {"petitions", "petitions/"}:
+            return f'href={quote}/petitions/{suffix}{quote}'
+        if normalized in ROOT_PAGES:
+            return f'href={quote}/{normalized}{suffix}{quote}'
+        if normalized == "petitions":
+            return f'href={quote}/petitions/{suffix}{quote}'
+        return match.group(0)
+
+    return re.sub(r'href=(["\'])([^"\']+)\1', repl, text, flags=re.I)
 
 
 def add_trust_panel(text: str) -> str:
@@ -355,10 +528,58 @@ def add_trust_panel(text: str) -> str:
 def normalize_html(path: Path) -> None:
     text = read(path)
     original = text
+    text = normalize_subdirectory_links(text, path)
     text = ensure_head_metadata(text, path)
+    text = demote_duplicate_brand_h1(text)
+    text = ensure_hidden_h1(text, path)
     text = add_trust_panel(text)
     if text != original:
         write(path, text)
+
+
+def alias_template(filename: str, data: dict[str, str]) -> str:
+    url = f"{SITE}/{filename}"
+    target = data["target"]
+    canonical = f"{SITE}{target}"
+    title = html.escape(data["title"], quote=True)
+    desc = html.escape(data["description"], quote=True)
+    h1 = html.escape(data["h1"])
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="{canonical}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{url}">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
+<meta http-equiv="refresh" content="0; url={target}">
+<style>
+body {{ margin:0; font-family: Inter, Segoe UI, Arial, sans-serif; background:#101322; color:#f4f5f7; line-height:1.7; }}
+main {{ max-width:760px; margin:0 auto; padding:56px 20px; }}
+a {{ color:#67d5ff; }}
+</style>
+</head>
+<body>
+<main>
+<h1>{h1}</h1>
+<p>{desc}</p>
+<p>Continue to <a href="{target}">{target}</a>.</p>
+</main>
+</body>
+</html>
+"""
+
+
+def write_alias_pages() -> None:
+    for filename, data in ALIAS_PAGES.items():
+        path = ROOT / filename
+        path.parent.mkdir(exist_ok=True)
+        write(path, alias_template(filename, data))
 
 
 def policy_template(filename: str, data: dict[str, str]) -> str:
@@ -455,7 +676,7 @@ def should_normalize(path: Path) -> bool:
     rel = path.relative_to(ROOT).as_posix()
     if rel.startswith("_redesign-concepts-archive/"):
         return False
-    if path.name in {"index-backup-20260308.html", "index-redesign.html", "reddit-testimonials.html"}:
+    if path.name in {"index-backup-20260308.html", "index-redesign.html"}:
         return False
     return True
 
@@ -509,8 +730,13 @@ def write_sitemap() -> None:
         lastmod = dt.date.fromtimestamp(path.stat().st_mtime).isoformat()
         loc = page_url(path)
         priority = "1.0" if path.name == "index.html" and path.parent == ROOT else "0.7"
+        rel = path.relative_to(ROOT).as_posix()
         if path.name in POLICY_PAGES:
             priority = "0.5"
+            if path.name in {"trust-center.html", "evidence-register.html"}:
+                priority = "0.6"
+        if rel in ALIAS_PAGES:
+            priority = "0.3"
         urls.append((loc, lastmod, priority))
 
     body = "\n".join(
@@ -557,6 +783,7 @@ Options -Indexes
 
 def main() -> None:
     write_policy_pages()
+    write_alias_pages()
     write_llms_txt()
     write_humans_and_security()
     write_gitignore()
