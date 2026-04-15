@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Canonical host and HTTPS.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.chatgptdisaster\.com$ [NC]
+RewriteRule ^(.*)$ https://chatgptdisaster.com/$1 [R=301,L]
+
+# Collapse /index.html to the root page.
+RewriteRule ^index\.html$ https://chatgptdisaster.com/ [R=301,L]
+
+# Prevent directory listing.
+Options -Indexes
+
+<FilesMatch "\.(html|htm)$">
+  Header set Cache-Control "public, max-age=300"
+</FilesMatch>

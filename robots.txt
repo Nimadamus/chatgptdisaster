@@ -2,11 +2,14 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chatgptdisaster.com/sitemap.xml
-
-# Block scripts and config files
+# Keep drafts, concept archives, and local maintenance files out of the index.
+Disallow: /_redesign-concepts-archive/
+Disallow: /index-backup-20260308.html
+Disallow: /index-redesign.html
 Disallow: /*.py$
 Disallow: /*.ps1$
 Disallow: /*.bat$
 Disallow: /*.log$
 Disallow: /*.json$
+
+Sitemap: https://chatgptdisaster.com/sitemap.xml
