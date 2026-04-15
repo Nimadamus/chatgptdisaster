@@ -29,6 +29,64 @@ TRUST_LINKS = """
 """.strip()
 
 
+EVIDENCE_PANELS = {
+    "lawsuits.html": {
+        "heading": "Evidence Quality Summary",
+        "intro": "This legal hub should be read as a tracker of allegations, filings, settlements, and reported legal actions. Lawsuits are not proof of liability unless a court, settlement, or admission establishes the outcome.",
+        "items": [
+            ("Primary sources", "Court filings, case captions, docket entries, regulatory complaints, and settlement documents carry the most weight."),
+            ("Reported sources", "Named reporting from legal, technology, and mainstream publications is used to summarize procedural history and public claims."),
+            ("Status standard", "Case counts and outcomes should be updated when filings, rulings, dismissals, settlements, or appeals change the record."),
+        ],
+    },
+    "mental-health-crisis.html": {
+        "heading": "Sensitive-Topic Evidence Standard",
+        "intro": "Mental-health and self-harm coverage is high-stakes. Treat user accounts as reports, not diagnoses, unless supported by clinical records, court filings, official statements, or named reporting.",
+        "items": [
+            ("Clinical caution", "This page does not provide medical advice, diagnosis, or emergency guidance."),
+            ("Source priority", "Primary documents, institutional research, regulator complaints, and named reporting should be prioritized over anonymous posts."),
+            ("Reader safety", "If someone may be at immediate risk, contact local emergency services or a qualified crisis-support resource."),
+        ],
+    },
+    "documentation-index.html": {
+        "heading": "How This Index Is Organized",
+        "intro": "This index is the central crawl and reader map for ChatGPT Disaster. It groups content by evidence type, topic cluster, and user intent so readers and search engines can understand the site structure.",
+        "items": [
+            ("Core hubs", "Failure, hallucination, lawsuit, ChatGPT problem, and GPT bug hubs act as primary topic clusters."),
+            ("Trust pages", "The Trust Center, Evidence Register, Editorial Policy, and Source Methodology explain how claims should be interpreted."),
+            ("Legacy routes", "Bridge pages preserve old links and point readers to the strongest current destination."),
+        ],
+    },
+    "chatgpt-alternatives-2026.html": {
+        "heading": "Comparison Methodology",
+        "intro": "Alternative rankings should be read as editorial analysis based on use case fit, reliability, pricing, source handling, and user workflow needs.",
+        "items": [
+            ("Best for research", "Prioritize tools that cite sources, expose retrieval context, and make verification easier."),
+            ("Best for writing", "Prioritize controllability, long-form coherence, revision quality, and tone control."),
+            ("Best for coding", "Prioritize repository context, testability, code explanation, and low-friction integration with developer workflows."),
+        ],
+    },
+    "stories.html": {
+        "heading": "User Story Verification Standard",
+        "intro": "User stories are valuable evidence of patterns and lived experience, but they are not automatically independent verification of every factual claim inside an account.",
+        "items": [
+            ("User-submitted", "Personal reports are treated as accounts unless corroborated by documents or named reporting."),
+            ("Pattern evidence", "Repeated reports can show recurring product issues even when individual stories remain unverified."),
+            ("Corrections", "Readers can request removals, corrections, clarifications, or right-of-reply through the Corrections page."),
+        ],
+    },
+    "performance-decline.html": {
+        "heading": "Performance Evidence Standard",
+        "intro": "Performance-decline claims should distinguish reproducible benchmarks, user reports, company release notes, and editorial testing.",
+        "items": [
+            ("Benchmarks", "Repeatable prompts, dated outputs, and documented methodology are stronger than one-off anecdotes."),
+            ("User reports", "Community complaints are useful for pattern detection, but they need context and corroboration."),
+            ("Product changes", "Release notes, model routing changes, outages, and moderation changes can affect perceived quality."),
+        ],
+    },
+}
+
+
 POLICY_PAGES = {
     "trust-center.html": {
         "title": "Trust Center | ChatGPT Disaster",
@@ -365,11 +423,18 @@ def extract_description(text: str) -> str:
 
 def remove_duplicate_head_tags(head: str) -> str:
     singleton_patterns = [
+        r'<meta\s+charset=["\'][^"\']+["\'][^>]*>\s*',
+        r'<meta\s+name=["\']viewport["\'][^>]*>\s*',
+        r'<meta\s+name=["\']description["\'][^>]*>\s*',
         r'<link\s+rel=["\']canonical["\'][^>]*>\s*',
         r'<meta\s+property=["\']og:url["\'][^>]*>\s*',
         r'<meta\s+property=["\']og:site_name["\'][^>]*>\s*',
+        r'<meta\s+property=["\']og:title["\'][^>]*>\s*',
+        r'<meta\s+property=["\']og:description["\'][^>]*>\s*',
         r'<meta\s+name=["\']author["\'][^>]*>\s*',
         r'<meta\s+name=["\']robots["\'][^>]*>\s*',
+        r'<meta\s+name=["\']twitter:title["\'][^>]*>\s*',
+        r'<meta\s+name=["\']twitter:description["\'][^>]*>\s*',
         r'<meta\s+property=["\']article:author["\'][^>]*>\s*',
         r'<meta\s+property=["\']article:publisher["\'][^>]*>\s*',
     ]
@@ -395,13 +460,82 @@ def ensure_head_metadata(text: str, path: Path) -> str:
     json_description = json.dumps(description, ensure_ascii=False)
     json_url = json.dumps(url, ensure_ascii=False)
 
+    rel_parts = path.relative_to(ROOT).parts
+    breadcrumb_items = [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": f"{SITE}/",
+        }
+    ]
+    if len(rel_parts) > 1:
+        section = rel_parts[0].replace("-", " ").title()
+        breadcrumb_items.append({
+            "@type": "ListItem",
+            "position": 2,
+            "name": section,
+            "item": f"{SITE}/{rel_parts[0]}/",
+        })
+    breadcrumb_items.append({
+        "@type": "ListItem",
+        "position": len(breadcrumb_items) + 1,
+        "name": title,
+        "item": url,
+    })
+    breadcrumb_json = json.dumps(breadcrumb_items, ensure_ascii=False, indent=2)
+    modified_date = dt.date.fromtimestamp(path.stat().st_mtime).isoformat()
+    is_article = path.suffix == ".html" and path.name not in {
+        "index.html",
+        "about.html",
+        "trust-center.html",
+        "editorial-policy.html",
+        "source-methodology.html",
+        "evidence-register.html",
+        "corrections.html",
+        "ai-disclosure.html",
+        "sitemap.html",
+    } and path.relative_to(ROOT).as_posix() not in ALIAS_PAGES
+    article_schema = ""
+    if is_article:
+        article_schema = f"""
+<script type="application/ld+json" data-article-schema="true">
+{{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {json_title},
+  "description": {json_description},
+  "mainEntityOfPage": {json_url},
+  "dateModified": "{modified_date}",
+  "author": {{
+    "@type": "Organization",
+    "name": "ChatGPT Disaster Documentation Project",
+    "url": "{SITE}/about.html"
+  }},
+  "publisher": {{
+    "@type": "Organization",
+    "name": "ChatGPT Disaster Documentation Project",
+    "url": "{SITE}/"
+  }},
+  "isAccessibleForFree": true
+}}
+</script>
+""".strip()
+
     additions = f"""
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{html.escape(description, quote=True)}">
 <meta name="author" content="ChatGPT Disaster Documentation Project">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{escaped_url}">
+<meta property="og:title" content="{html.escape(title, quote=True)}">
+<meta property="og:description" content="{html.escape(description, quote=True)}">
 <meta property="og:url" content="{escaped_url}">
 <meta property="og:site_name" content="ChatGPT Disaster">
 <meta property="article:publisher" content="ChatGPT Disaster Documentation Project">
+<meta name="twitter:title" content="{html.escape(title, quote=True)}">
+<meta name="twitter:description" content="{html.escape(description, quote=True)}">
 <script type="application/ld+json" data-trust-schema="true">
 {{
   "@context": "https://schema.org",
@@ -432,26 +566,24 @@ def ensure_head_metadata(text: str, path: Path) -> str:
   }}
 }}
 </script>
+<script type="application/ld+json" data-breadcrumb-schema="true">
+{{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": {breadcrumb_json}
+}}
+</script>
+{article_schema}
 """.strip()
 
     # Remove prior script runs before reinserting.
     head = re.sub(r'\s*<script type="application/ld\+json" data-trust-schema="true">.*?</script>', "", head, flags=re.I | re.S)
     head = re.sub(r'\s*<script type="application/ld\+json" data-page-schema="true">.*?</script>', "", head, flags=re.I | re.S)
+    head = re.sub(r'\s*<script type="application/ld\+json" data-breadcrumb-schema="true">.*?</script>', "", head, flags=re.I | re.S)
+    head = re.sub(r'\s*<script type="application/ld\+json" data-article-schema="true">.*?</script>', "", head, flags=re.I | re.S)
 
     if rel in TITLE_OVERRIDES:
         head = re.sub(r"<title>.*?</title>", f"<title>{html.escape(title)}</title>", head, count=1, flags=re.I | re.S)
-
-    if re.search(r'<meta\s+name=["\']description["\']', head, flags=re.I):
-        if rel in DESCRIPTION_OVERRIDES:
-            head = re.sub(
-                r'<meta\s+name=["\']description["\'][^>]*>',
-                f'<meta name="description" content="{html.escape(description, quote=True)}">',
-                head,
-                count=1,
-                flags=re.I,
-            )
-    else:
-        head += f'\n<meta name="description" content="{html.escape(description, quote=True)}">'
 
     if "</title>" in head.lower():
         head = re.sub(r"</title>", "</title>\n" + additions, head, count=1, flags=re.I)
@@ -525,6 +657,35 @@ def add_trust_panel(text: str) -> str:
     return text.rstrip() + "\n\n" + TRUST_LINKS + "\n"
 
 
+def evidence_panel_html(data: dict[str, object]) -> str:
+    items = "\n".join(
+        f'    <li><strong>{html.escape(label)}:</strong> {html.escape(body)}</li>'
+        for label, body in data["items"]
+    )
+    return f"""
+<section class="evidence-quality-panel" style="max-width:900px;margin:34px auto;padding:24px;background:rgba(103,213,255,0.055);border:1px solid rgba(103,213,255,0.2);border-radius:12px;color:inherit;">
+  <h2 style="font-size:1.25rem;margin:0 0 12px;color:inherit;">{html.escape(data["heading"])}</h2>
+  <p style="margin:0 0 14px;line-height:1.6;">{html.escape(data["intro"])}</p>
+  <ul style="margin:0;padding-left:20px;line-height:1.7;">
+{items}
+  </ul>
+  <p style="margin:14px 0 0;font-size:.95rem;opacity:.86;">See also: <a href="/evidence-register.html" style="color:#4fc3f7;">Evidence Register</a> and <a href="/source-methodology.html" style="color:#4fc3f7;">Source Methodology</a>.</p>
+</section>
+""".strip()
+
+
+def add_evidence_panel(text: str, path: Path) -> str:
+    rel = path.relative_to(ROOT).as_posix()
+    if rel not in EVIDENCE_PANELS or "evidence-quality-panel" in text:
+        return text
+    panel = evidence_panel_html(EVIDENCE_PANELS[rel])
+    if re.search(r'<section class="editorial-trust-panel"', text, flags=re.I):
+        return re.sub(r'<section class="editorial-trust-panel"', panel + '\n\n<section class="editorial-trust-panel"', text, count=1, flags=re.I)
+    if re.search(r"</main>", text, flags=re.I):
+        return re.sub(r"</main>", panel + "\n</main>", text, count=1, flags=re.I)
+    return re.sub(r"</body>", panel + "\n</body>", text, count=1, flags=re.I)
+
+
 def normalize_html(path: Path) -> None:
     text = read(path)
     original = text
@@ -532,6 +693,7 @@ def normalize_html(path: Path) -> None:
     text = ensure_head_metadata(text, path)
     text = demote_duplicate_brand_h1(text)
     text = ensure_hidden_h1(text, path)
+    text = add_evidence_panel(text, path)
     text = add_trust_panel(text)
     if text != original:
         write(path, text)
