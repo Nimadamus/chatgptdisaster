@@ -1,0 +1,23 @@
+# ChatGPT Disaster
+
+ChatGPT Disaster is an independent documentation site covering AI failures, ChatGPT reliability issues, AI hallucinations, lawsuits, outages, mental-health and safety concerns, user reports, and alternatives.
+
+Canonical site: https://chatgptdisaster.com/
+
+## Trust and Editorial Pages
+- About: https://chatgptdisaster.com/about.html
+- Trust Center: https://chatgptdisaster.com/trust-center.html
+- Editorial Policy: https://chatgptdisaster.com/editorial-policy.html
+- Source Methodology: https://chatgptdisaster.com/source-methodology.html
+- Evidence Register: https://chatgptdisaster.com/evidence-register.html
+- Corrections: https://chatgptdisaster.com/corrections.html
+- AI Disclosure: https://chatgptdisaster.com/ai-disclosure.html
+
+## Core Hubs
+- Documentation Index: https://chatgptdisaster.com/documentation-index.html
+- OpenAI Lawsuits Hub: https://chatgptdisaster.com/hub-openai-lawsuits.html
+- AI Hallucinations Hub: https://chatgptdisaster.com/hub-ai-hallucinations.html
+- ChatGPT Problems Hub: https://chatgptdisaster.com/hub-chatgpt-problems.html
+- AI Failures Hub: https://chatgptdisaster.com/hub-ai-failures.html
+
+Use the trust pages to interpret source strength. User-submitted stories should be treated as personal accounts unless corroborated by primary documents, institutional reports, or named reporting.

@@ -739,6 +739,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://chatgptdisaster.com/evidence-register.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chatgptdisaster.com/failures/gpt-5-launch-disaster.html</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1163,6 +1169,12 @@
     <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chatgptdisaster.com/trust-center.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chatgptdisaster.com/victims.html</loc>

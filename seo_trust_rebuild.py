@@ -16,9 +16,11 @@ TRUST_LINKS = """
   <h2 style="font-size:1.25rem;margin:0 0 12px;color:inherit;">Editorial Standards and Source Transparency</h2>
   <p style="margin:0 0 14px;line-height:1.6;">ChatGPT Disaster documents AI failures, lawsuits, research, outages, and user-reported harms. We separate primary sources, court filings, peer-reviewed research, mainstream reporting, company statements, and user-submitted accounts so readers can judge the strength of each claim.</p>
   <div style="display:flex;flex-wrap:wrap;gap:10px;">
+    <a href="/trust-center.html" style="color:#4fc3f7;text-decoration:none;">Trust Center</a>
     <a href="/about.html" style="color:#4fc3f7;text-decoration:none;">About</a>
     <a href="/editorial-policy.html" style="color:#4fc3f7;text-decoration:none;">Editorial Policy</a>
     <a href="/source-methodology.html" style="color:#4fc3f7;text-decoration:none;">Source Methodology</a>
+    <a href="/evidence-register.html" style="color:#4fc3f7;text-decoration:none;">Evidence Register</a>
     <a href="/corrections.html" style="color:#4fc3f7;text-decoration:none;">Corrections</a>
     <a href="/ai-disclosure.html" style="color:#4fc3f7;text-decoration:none;">AI Disclosure</a>
   </div>
@@ -27,6 +29,47 @@ TRUST_LINKS = """
 
 
 POLICY_PAGES = {
+    "trust-center.html": {
+        "title": "Trust Center | ChatGPT Disaster",
+        "description": "The ChatGPT Disaster trust center for editorial standards, source methodology, corrections, AI disclosure, evidence classification, and accountability policies.",
+        "h1": "Trust Center",
+        "body": """
+<p>The Trust Center centralizes the policies that support factual accountability across ChatGPT Disaster. The site covers high-stakes AI topics, so readers need to know how claims are sourced, how user stories are handled, and how corrections are made.</p>
+<h2>Trust Resources</h2>
+<ul>
+  <li><a href="/about.html">About ChatGPT Disaster</a> explains the site's purpose and independence.</li>
+  <li><a href="/editorial-policy.html">Editorial Policy</a> explains sourcing, sensitive-topic standards, and independence.</li>
+  <li><a href="/source-methodology.html">Source Methodology</a> ranks source strength and explains how evidence is classified.</li>
+  <li><a href="/evidence-register.html">Evidence Register</a> provides the evidence labels used across the site.</li>
+  <li><a href="/corrections.html">Corrections Policy</a> explains how readers can request factual updates or clarifications.</li>
+  <li><a href="/ai-disclosure.html">AI Use Disclosure</a> explains how AI-assisted tools may be used and what humans remain responsible for.</li>
+</ul>
+<h2>Reader Standard</h2>
+<p>For court cases, medical risks, mental health claims, safety failures, and financial harms, readers should prioritize primary documents and clearly sourced reporting over anonymous posts or viral screenshots. User stories are important evidence of patterns, but they should be treated as accounts unless independently documented.</p>
+""",
+    },
+    "evidence-register.html": {
+        "title": "Evidence Register | ChatGPT Disaster",
+        "description": "Evidence labels and source-strength standards used by ChatGPT Disaster for AI lawsuits, studies, outages, user reports, company statements, and editorial analysis.",
+        "h1": "Evidence Register",
+        "body": """
+<p>The Evidence Register defines the labels used to evaluate claims across ChatGPT Disaster. It is designed to make source strength visible instead of forcing readers to guess whether a claim comes from a filing, a study, a news report, a company statement, or a user account.</p>
+<h2>Evidence Labels</h2>
+<ul>
+  <li><strong>Primary source:</strong> court filings, regulatory records, official company statements, status pages, public datasets, transcripts, and original documents.</li>
+  <li><strong>Peer-reviewed research:</strong> published academic or clinical research, including journal articles and conference papers where methodology is available.</li>
+  <li><strong>Institutional report:</strong> reports from universities, nonprofits, government agencies, safety organizations, or standards bodies.</li>
+  <li><strong>Mainstream reporting:</strong> named reporting from established newsrooms, trade publications, or specialist outlets with editorial accountability.</li>
+  <li><strong>Company statement:</strong> statements, blog posts, release notes, policy updates, status pages, or public comments from AI companies or their executives.</li>
+  <li><strong>User-submitted account:</strong> direct submission, forum post, Reddit comment, social post, email, or interview account. These are treated as testimony unless corroborated.</li>
+  <li><strong>Editorial analysis:</strong> conclusions, rankings, comparisons, or interpretations drawn from multiple sources.</li>
+</ul>
+<h2>High-Stakes Claim Standard</h2>
+<p>Claims involving death, self-harm, psychiatric harm, medical advice, legal sanctions, financial loss, minors, private individuals, or criminal allegations should be tied to the strongest available source and updated when the public record changes.</p>
+<h2>What This Does Not Mean</h2>
+<p>A label is not a guarantee that a claim is final or undisputed. Lawsuits contain allegations. User reports contain personal accounts. Company statements can be incomplete. The label tells readers what kind of evidence is being used.</p>
+""",
+    },
     "about.html": {
         "title": "About ChatGPT Disaster | Independent AI Failure Documentation",
         "description": "About ChatGPT Disaster, an independent documentation project tracking AI failures, lawsuits, outages, research, user reports, and source-backed accountability coverage.",
@@ -122,6 +165,32 @@ POLICY_PAGES = {
 """,
     },
 }
+
+
+LLMS_TXT = """# ChatGPT Disaster
+
+ChatGPT Disaster is an independent documentation site covering AI failures, ChatGPT reliability issues, AI hallucinations, lawsuits, outages, mental-health and safety concerns, user reports, and alternatives.
+
+Canonical site: https://chatgptdisaster.com/
+
+## Trust and Editorial Pages
+- About: https://chatgptdisaster.com/about.html
+- Trust Center: https://chatgptdisaster.com/trust-center.html
+- Editorial Policy: https://chatgptdisaster.com/editorial-policy.html
+- Source Methodology: https://chatgptdisaster.com/source-methodology.html
+- Evidence Register: https://chatgptdisaster.com/evidence-register.html
+- Corrections: https://chatgptdisaster.com/corrections.html
+- AI Disclosure: https://chatgptdisaster.com/ai-disclosure.html
+
+## Core Hubs
+- Documentation Index: https://chatgptdisaster.com/documentation-index.html
+- OpenAI Lawsuits Hub: https://chatgptdisaster.com/hub-openai-lawsuits.html
+- AI Hallucinations Hub: https://chatgptdisaster.com/hub-ai-hallucinations.html
+- ChatGPT Problems Hub: https://chatgptdisaster.com/hub-chatgpt-problems.html
+- AI Failures Hub: https://chatgptdisaster.com/hub-ai-failures.html
+
+Use the trust pages to interpret source strength. User-submitted stories should be treated as personal accounts unless corroborated by primary documents, institutional reports, or named reporting.
+"""
 
 
 def read(path: Path) -> str:
@@ -304,8 +373,10 @@ footer {{ margin-top:32px; color:#aab1c3; font-size:.92rem; }}
     <nav class="nav" aria-label="Trust navigation">
       <a href="/">Home</a>
       <a href="/about.html">About</a>
+      <a href="/trust-center.html">Trust Center</a>
       <a href="/editorial-policy.html">Editorial Policy</a>
       <a href="/source-methodology.html">Source Methodology</a>
+      <a href="/evidence-register.html">Evidence Register</a>
       <a href="/corrections.html">Corrections</a>
       <a href="/ai-disclosure.html">AI Disclosure</a>
     </nav>
@@ -374,6 +445,10 @@ Sitemap: https://chatgptdisaster.com/sitemap.xml
     )
 
 
+def write_llms_txt() -> None:
+    write(ROOT / "llms.txt", LLMS_TXT)
+
+
 def write_sitemap() -> None:
     urls = []
     for path in sorted(ROOT.rglob("*.html")):
@@ -430,6 +505,7 @@ Options -Indexes
 
 def main() -> None:
     write_policy_pages()
+    write_llms_txt()
     for path in sorted(ROOT.rglob("*.html")):
         if not should_normalize(path):
             continue
