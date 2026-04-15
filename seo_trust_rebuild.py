@@ -87,6 +87,46 @@ EVIDENCE_PANELS = {
 }
 
 
+FAQ_PANELS = {
+    "lawsuits.html": [
+        ("What lawsuits are covered on ChatGPT Disaster?", "The lawsuits hub tracks public legal actions, regulatory complaints, settlements, and reported claims involving ChatGPT, OpenAI, and related AI systems."),
+        ("Does a lawsuit mean OpenAI has been found liable?", "No. A lawsuit is an allegation unless a court ruling, settlement, regulator action, or company admission establishes an outcome."),
+        ("What sources should readers prioritize for legal claims?", "Court filings, docket records, regulator documents, settlement papers, and named legal reporting should carry more weight than anonymous commentary."),
+        ("How often should lawsuit pages be updated?", "Legal pages should be updated when new filings, dismissals, settlements, rulings, appeals, or regulator actions materially change the public record."),
+    ],
+    "mental-health-crisis.html": [
+        ("Is this page medical advice?", "No. The mental-health crisis page is documentation and analysis, not medical advice, diagnosis, treatment guidance, or emergency support."),
+        ("How are self-harm and psychiatric-harm claims evaluated?", "The strongest evidence comes from court filings, clinical records, institutional research, regulator documents, company statements, and named reporting."),
+        ("Are user stories treated as verified medical facts?", "No. User stories are treated as personal accounts unless they are corroborated by documents, named reporting, clinical records, or legal filings."),
+        ("What should someone do in an immediate crisis?", "If someone may be at immediate risk, contact local emergency services or a qualified crisis-support resource in their country."),
+    ],
+    "documentation-index.html": [
+        ("What is the documentation index?", "The documentation index is the central map of ChatGPT Disaster pages, including lawsuits, hallucinations, failures, outages, safety concerns, user stories, and alternatives."),
+        ("Which pages are the main topic hubs?", "The main hubs include AI failures, ChatGPT problems, OpenAI lawsuits, AI hallucinations, GPT bugs, user stories, and the trust center."),
+        ("Why does the site use hub pages?", "Hub pages help readers and search engines understand how individual incidents connect to larger recurring AI failure patterns."),
+        ("How should readers evaluate claims across the site?", "Readers should use the Evidence Register, Source Methodology, Editorial Policy, and Corrections pages to understand source strength and update standards."),
+    ],
+    "chatgpt-alternatives-2026.html": [
+        ("What is the best ChatGPT alternative for research?", "Tools that cite sources, expose retrieval context, and make verification easier are usually stronger for research workflows."),
+        ("What is the best ChatGPT alternative for writing?", "The best writing alternative depends on long-form coherence, revision quality, tone control, file handling, and how much factual verification the user needs."),
+        ("What is the best ChatGPT alternative for coding?", "The best coding alternative depends on repository context, test integration, code explanation quality, and whether the tool fits the developer workflow."),
+        ("Should users rely on one AI tool for everything?", "No. High-stakes work should use multiple tools, source checking, domain expertise, and human review instead of relying on one chatbot."),
+    ],
+    "stories.html": [
+        ("Are all user stories independently verified?", "No. User stories are treated as accounts unless they are corroborated by primary documents, institutional records, or named reporting."),
+        ("Why publish user stories if they are not all independently verified?", "Repeated user reports can show recurring patterns, product pain points, and failure modes that deserve investigation and documentation."),
+        ("Can someone request a correction or removal?", "Yes. Readers can use the Corrections page to request corrections, clarifications, removals, privacy review, or right-of-reply."),
+        ("How should readers interpret anonymous stories?", "Anonymous stories should be read as personal testimony and pattern evidence, not as final proof of every factual claim inside the account."),
+    ],
+    "performance-decline.html": [
+        ("Is ChatGPT getting worse?", "Some users and researchers have reported degraded outputs, but performance claims should distinguish benchmarks, dated examples, model changes, outages, and anecdotes."),
+        ("What is the strongest evidence for performance decline?", "Repeatable benchmarks, dated outputs, transparent methodology, release notes, and reproducible comparisons are stronger than one-off complaints."),
+        ("Can product changes affect perceived quality?", "Yes. Model routing, system prompts, moderation changes, outages, context limits, and UI changes can all affect perceived quality."),
+        ("How should users test AI quality?", "Users should keep dated prompts, save outputs, compare across tools, rerun tests, and document model or product changes when possible."),
+    ],
+}
+
+
 POLICY_PAGES = {
     "trust-center.html": {
         "title": "Trust Center | ChatGPT Disaster",
@@ -223,6 +263,41 @@ POLICY_PAGES = {
 <p>AI may help organize the work. Humans remain responsible for publishing decisions, corrections, and context.</p>
 """,
     },
+    "topic-clusters.html": {
+        "title": "AI Failure Topic Clusters | ChatGPT Disaster",
+        "description": "Topical authority map for ChatGPT Disaster covering AI lawsuits, hallucinations, ChatGPT failures, outages, mental-health risks, user stories, alternatives, and trust resources.",
+        "h1": "AI Failure Topic Clusters",
+        "body": """
+<p>This page maps the core topic clusters on ChatGPT Disaster. It is built for readers who want the fastest path from a broad AI failure topic to the strongest supporting pages.</p>
+<h2>Core Ranking Hubs</h2>
+<ul>
+  <li><a href="/documentation-index.html">Documentation Index</a> - complete site map for AI failures, ChatGPT problems, lawsuits, user reports, and research.</li>
+  <li><a href="/hub-ai-failures.html">AI Failures Hub</a> - central coverage of AI failures across law, medicine, media, education, business, and software.</li>
+  <li><a href="/hub-chatgpt-problems.html">ChatGPT Problems Hub</a> - reliability, quality, outage, downgrade, and user-experience failures.</li>
+  <li><a href="/hub-openai-lawsuits.html">OpenAI Lawsuits Hub</a> - legal actions, complaints, settlements, and court-related documentation.</li>
+  <li><a href="/hub-ai-hallucinations.html">AI Hallucinations Hub</a> - fake citations, fabricated cases, false medical claims, and reliability research.</li>
+  <li><a href="/hub-gpt-bugs.html">GPT Bugs Hub</a> - GPT-5 issues, regressions, launch failures, and model quality complaints.</li>
+</ul>
+<h2>High-Intent Reader Paths</h2>
+<ul>
+  <li><a href="/lawsuits.html">ChatGPT Lawsuits</a> - legal claims, evidence standards, and lawsuit status tracking.</li>
+  <li><a href="/mental-health-crisis.html">ChatGPT Mental Health Crisis</a> - sensitive-topic documentation, crisis-risk claims, and safety concerns.</li>
+  <li><a href="/performance-decline.html">ChatGPT Performance Decline</a> - quality degradation, benchmark evidence, and user-reported decline.</li>
+  <li><a href="/stories.html">ChatGPT User Stories</a> - user reports, complaints, and recurring product-harm patterns.</li>
+  <li><a href="/chatgpt-alternatives-2026.html">ChatGPT Alternatives</a> - safer or more reliable options by workflow.</li>
+  <li><a href="/chatgpt-not-working.html">ChatGPT Not Working</a> - outage and troubleshooting coverage.</li>
+</ul>
+<h2>Trust and Source Evaluation</h2>
+<ul>
+  <li><a href="/trust-center.html">Trust Center</a> - standards and accountability policies.</li>
+  <li><a href="/evidence-register.html">Evidence Register</a> - source labels and evidence-strength definitions.</li>
+  <li><a href="/source-methodology.html">Source Methodology</a> - how claims are classified and evaluated.</li>
+  <li><a href="/editorial-policy.html">Editorial Policy</a> - source handling, corrections, sensitive-topic standards, and independence.</li>
+</ul>
+<h2>How To Use This Map</h2>
+<p>Start with a hub page when researching a broad topic. Use individual articles for incidents, timelines, studies, court filings, or user reports. Use the trust pages to judge whether a claim is based on a primary source, reporting, user testimony, or editorial analysis.</p>
+""",
+    },
 }
 
 
@@ -240,9 +315,11 @@ Canonical site: https://chatgptdisaster.com/
 - Evidence Register: https://chatgptdisaster.com/evidence-register.html
 - Corrections: https://chatgptdisaster.com/corrections.html
 - AI Disclosure: https://chatgptdisaster.com/ai-disclosure.html
+- Topic Clusters: https://chatgptdisaster.com/topic-clusters.html
 
 ## Core Hubs
 - Documentation Index: https://chatgptdisaster.com/documentation-index.html
+- Topic Clusters: https://chatgptdisaster.com/topic-clusters.html
 - OpenAI Lawsuits Hub: https://chatgptdisaster.com/hub-openai-lawsuits.html
 - AI Hallucinations Hub: https://chatgptdisaster.com/hub-ai-hallucinations.html
 - ChatGPT Problems Hub: https://chatgptdisaster.com/hub-chatgpt-problems.html
@@ -321,6 +398,7 @@ ROOT_PAGES = {
     "hub-gpt-bugs.html",
     "resources.html",
     "documentation-index.html",
+    "topic-clusters.html",
 }
 
 
@@ -425,18 +503,18 @@ def remove_duplicate_head_tags(head: str) -> str:
     singleton_patterns = [
         r'<meta\s+charset=["\'][^"\']+["\'][^>]*>\s*',
         r'<meta\s+name=["\']viewport["\'][^>]*>\s*',
-        r'<meta\s+name=["\']description["\'][^>]*>\s*',
+        r'<meta\b(?=[^>]*\bname=["\']description["\'])[^>]*>\s*',
         r'<link\s+rel=["\']canonical["\'][^>]*>\s*',
-        r'<meta\s+property=["\']og:url["\'][^>]*>\s*',
-        r'<meta\s+property=["\']og:site_name["\'][^>]*>\s*',
-        r'<meta\s+property=["\']og:title["\'][^>]*>\s*',
-        r'<meta\s+property=["\']og:description["\'][^>]*>\s*',
-        r'<meta\s+name=["\']author["\'][^>]*>\s*',
-        r'<meta\s+name=["\']robots["\'][^>]*>\s*',
-        r'<meta\s+name=["\']twitter:title["\'][^>]*>\s*',
-        r'<meta\s+name=["\']twitter:description["\'][^>]*>\s*',
-        r'<meta\s+property=["\']article:author["\'][^>]*>\s*',
-        r'<meta\s+property=["\']article:publisher["\'][^>]*>\s*',
+        r'<meta\b(?=[^>]*\bproperty=["\']og:url["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bproperty=["\']og:site_name["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bproperty=["\']og:title["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bproperty=["\']og:description["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bname=["\']author["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bname=["\']robots["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bname=["\']twitter:title["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bname=["\']twitter:description["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bproperty=["\']article:author["\'])[^>]*>\s*',
+        r'<meta\b(?=[^>]*\bproperty=["\']article:publisher["\'])[^>]*>\s*',
     ]
     for pattern in singleton_patterns:
         head = re.sub(pattern, "", head, flags=re.I)
@@ -521,6 +599,29 @@ def ensure_head_metadata(text: str, path: Path) -> str:
 }}
 </script>
 """.strip()
+    faq_schema = ""
+    if rel in FAQ_PANELS:
+        faq_entities = [
+            {
+                "@type": "Question",
+                "name": question,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": answer,
+                },
+            }
+            for question, answer in FAQ_PANELS[rel]
+        ]
+        faq_json = json.dumps(faq_entities, ensure_ascii=False, indent=2)
+        faq_schema = f"""
+<script type="application/ld+json" data-faq-schema="true">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": {faq_json}
+}}
+</script>
+""".strip()
 
     additions = f"""
 <meta charset="UTF-8">
@@ -574,6 +675,7 @@ def ensure_head_metadata(text: str, path: Path) -> str:
 }}
 </script>
 {article_schema}
+{faq_schema}
 """.strip()
 
     # Remove prior script runs before reinserting.
@@ -581,6 +683,7 @@ def ensure_head_metadata(text: str, path: Path) -> str:
     head = re.sub(r'\s*<script type="application/ld\+json" data-page-schema="true">.*?</script>', "", head, flags=re.I | re.S)
     head = re.sub(r'\s*<script type="application/ld\+json" data-breadcrumb-schema="true">.*?</script>', "", head, flags=re.I | re.S)
     head = re.sub(r'\s*<script type="application/ld\+json" data-article-schema="true">.*?</script>', "", head, flags=re.I | re.S)
+    head = re.sub(r'\s*<script type="application/ld\+json" data-faq-schema="true">.*?</script>', "", head, flags=re.I | re.S)
 
     if rel in TITLE_OVERRIDES:
         head = re.sub(r"<title>.*?</title>", f"<title>{html.escape(title)}</title>", head, count=1, flags=re.I | re.S)
@@ -674,6 +777,38 @@ def evidence_panel_html(data: dict[str, object]) -> str:
 """.strip()
 
 
+def faq_panel_html(faqs: list[tuple[str, str]]) -> str:
+    items = "\n".join(
+        f"""  <div style="margin:0 0 18px;">
+    <h3 style="font-size:1.05rem;margin:0 0 6px;color:inherit;">{html.escape(question)}</h3>
+    <p style="margin:0;line-height:1.65;">{html.escape(answer)}</p>
+  </div>"""
+        for question, answer in faqs
+    )
+    return f"""
+<section class="seo-faq-panel" style="max-width:900px;margin:34px auto;padding:24px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);border-radius:12px;color:inherit;">
+  <h2 style="font-size:1.25rem;margin:0 0 16px;color:inherit;">Frequently Asked Questions</h2>
+{items}
+</section>
+""".strip()
+
+
+def add_faq_panel(text: str, path: Path) -> str:
+    rel = path.relative_to(ROOT).as_posix()
+    if rel not in FAQ_PANELS:
+        return text
+    panel = faq_panel_html(FAQ_PANELS[rel])
+    if "seo-faq-panel" in text:
+        return re.sub(r'<section class="seo-faq-panel".*?</section>', panel, text, count=1, flags=re.I | re.S)
+    if re.search(r'<section class="evidence-quality-panel"', text, flags=re.I):
+        return re.sub(r'<section class="evidence-quality-panel"', panel + '\n\n<section class="evidence-quality-panel"', text, count=1, flags=re.I)
+    if re.search(r'<section class="editorial-trust-panel"', text, flags=re.I):
+        return re.sub(r'<section class="editorial-trust-panel"', panel + '\n\n<section class="editorial-trust-panel"', text, count=1, flags=re.I)
+    if re.search(r"</main>", text, flags=re.I):
+        return re.sub(r"</main>", panel + "\n</main>", text, count=1, flags=re.I)
+    return re.sub(r"</body>", panel + "\n</body>", text, count=1, flags=re.I)
+
+
 def add_evidence_panel(text: str, path: Path) -> str:
     rel = path.relative_to(ROOT).as_posix()
     if rel not in EVIDENCE_PANELS or "evidence-quality-panel" in text:
@@ -693,6 +828,7 @@ def normalize_html(path: Path) -> None:
     text = ensure_head_metadata(text, path)
     text = demote_duplicate_brand_h1(text)
     text = ensure_hidden_h1(text, path)
+    text = add_faq_panel(text, path)
     text = add_evidence_panel(text, path)
     text = add_trust_panel(text)
     if text != original:
@@ -797,6 +933,7 @@ footer {{ margin-top:32px; color:#aab1c3; font-size:.92rem; }}
       <a href="/editorial-policy.html">Editorial Policy</a>
       <a href="/source-methodology.html">Source Methodology</a>
       <a href="/evidence-register.html">Evidence Register</a>
+      <a href="/topic-clusters.html">Topic Clusters</a>
       <a href="/corrections.html">Corrections</a>
       <a href="/ai-disclosure.html">AI Disclosure</a>
     </nav>

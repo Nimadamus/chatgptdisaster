@@ -12,9 +12,11 @@ Canonical site: https://chatgptdisaster.com/
 - Evidence Register: https://chatgptdisaster.com/evidence-register.html
 - Corrections: https://chatgptdisaster.com/corrections.html
 - AI Disclosure: https://chatgptdisaster.com/ai-disclosure.html
+- Topic Clusters: https://chatgptdisaster.com/topic-clusters.html
 
 ## Core Hubs
 - Documentation Index: https://chatgptdisaster.com/documentation-index.html
+- Topic Clusters: https://chatgptdisaster.com/topic-clusters.html
 - OpenAI Lawsuits Hub: https://chatgptdisaster.com/hub-openai-lawsuits.html
 - AI Hallucinations Hub: https://chatgptdisaster.com/hub-ai-hallucinations.html
 - ChatGPT Problems Hub: https://chatgptdisaster.com/hub-chatgpt-problems.html
