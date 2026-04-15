@@ -13,6 +13,10 @@ Canonical site: https://chatgptdisaster.com/
 - Corrections: https://chatgptdisaster.com/corrections.html
 - AI Disclosure: https://chatgptdisaster.com/ai-disclosure.html
 - Topic Clusters: https://chatgptdisaster.com/topic-clusters.html
+- Affiliate Disclosure: https://chatgptdisaster.com/affiliate-disclosure.html
+- Newsletter: https://chatgptdisaster.com/newsletter.html
+- Support: https://chatgptdisaster.com/support.html
+- 2026 AI Failure Report: https://chatgptdisaster.com/ai-failure-report-2026.html
 
 ## Core Hubs
 - Documentation Index: https://chatgptdisaster.com/documentation-index.html

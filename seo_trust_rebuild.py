@@ -24,9 +24,58 @@ TRUST_LINKS = """
     <a href="/evidence-register.html" style="color:#4fc3f7;text-decoration:none;">Evidence Register</a>
     <a href="/corrections.html" style="color:#4fc3f7;text-decoration:none;">Corrections</a>
     <a href="/ai-disclosure.html" style="color:#4fc3f7;text-decoration:none;">AI Disclosure</a>
+    <a href="/affiliate-disclosure.html" style="color:#4fc3f7;text-decoration:none;">Affiliate Disclosure</a>
+    <a href="/newsletter.html" style="color:#4fc3f7;text-decoration:none;">Newsletter</a>
+    <a href="/support.html" style="color:#4fc3f7;text-decoration:none;">Support</a>
   </div>
 </section>
 """.strip()
+
+
+MONETIZATION_PANELS = {
+    "index.html": {
+        "heading": "Get the Weekly AI Failure Briefing",
+        "body": "Track lawsuits, hallucinations, outages, safety failures, and model-quality decline without sorting through scattered feeds.",
+        "primary": ("Join the briefing", "/newsletter.html"),
+        "secondary": ("Support the archive", "/support.html"),
+    },
+    "documentation-index.html": {
+        "heading": "Turn the Archive Into a Weekly Briefing",
+        "body": "Get the most important AI failure cases, source updates, and accountability links in one digest.",
+        "primary": ("Join the briefing", "/newsletter.html"),
+        "secondary": ("View topic clusters", "/topic-clusters.html"),
+    },
+    "lawsuits.html": {
+        "heading": "Follow the AI Lawsuit Tracker",
+        "body": "Get updates when new filings, settlements, regulatory actions, or court outcomes change the record.",
+        "primary": ("Join the briefing", "/newsletter.html"),
+        "secondary": ("Get the report", "/ai-failure-report-2026.html"),
+    },
+    "mental-health-crisis.html": {
+        "heading": "Track AI Safety and Mental-Health Updates",
+        "body": "Receive source-backed updates on lawsuits, research, policy changes, and safety claims.",
+        "primary": ("Join the briefing", "/newsletter.html"),
+        "secondary": ("Support independent documentation", "/support.html"),
+    },
+    "chatgpt-alternatives-2026.html": {
+        "heading": "Need Safer AI Tool Choices?",
+        "body": "Use the comparison guide with source-handling, reliability, privacy, and workflow risk in mind.",
+        "primary": ("Read the disclosure", "/affiliate-disclosure.html"),
+        "secondary": ("Get the report", "/ai-failure-report-2026.html"),
+    },
+    "stories.html": {
+        "heading": "Help Document AI Failure Patterns",
+        "body": "Submit an experience, support the archive, or follow updates as more reports are categorized.",
+        "primary": ("Submit your experience", "/submit-your-experience.html"),
+        "secondary": ("Support the archive", "/support.html"),
+    },
+    "performance-decline.html": {
+        "heading": "Track Model Quality Decline",
+        "body": "Get updates on benchmarks, user reports, outages, model changes, and reproducible AI quality tests.",
+        "primary": ("Join the briefing", "/newsletter.html"),
+        "secondary": ("Get the report", "/ai-failure-report-2026.html"),
+    },
+}
 
 
 EVIDENCE_PANELS = {
@@ -249,6 +298,7 @@ POLICY_PAGES = {
         "title": "AI Use Disclosure | ChatGPT Disaster",
         "description": "Disclosure for AI-assisted drafting, editing, research organization, and human review standards on ChatGPT Disaster.",
         "h1": "AI Use Disclosure",
+        "kicker": "Trust Center",
         "body": """
 <p>ChatGPT Disaster covers AI systems and may use AI-assisted tools for drafting support, formatting, summarization, source organization, headline ideation, and technical maintenance.</p>
 <h2>Human Responsibility</h2>
@@ -263,10 +313,98 @@ POLICY_PAGES = {
 <p>AI may help organize the work. Humans remain responsible for publishing decisions, corrections, and context.</p>
 """,
     },
+    "affiliate-disclosure.html": {
+        "title": "Affiliate Disclosure | ChatGPT Disaster",
+        "description": "Affiliate, sponsorship, advertising, and monetization disclosure for ChatGPT Disaster, including how editorial independence is protected.",
+        "h1": "Affiliate Disclosure",
+        "kicker": "Disclosure",
+        "body": """
+<p>ChatGPT Disaster may earn revenue from affiliate links, sponsorships, paid reports, reader support, newsletter products, or advertising. This page explains how monetization should be handled without confusing readers about editorial judgment.</p>
+<h2>Affiliate Links</h2>
+<p>Some pages may link to products, services, tools, books, reports, or subscriptions. If a reader buys through an affiliate link, ChatGPT Disaster may earn a commission at no extra cost to the reader.</p>
+<h2>Editorial Independence</h2>
+<p>Affiliate or sponsor relationships should not determine whether a claim is true, whether a tool is recommended, or whether an AI company is criticized. Rankings and recommendations should remain editorial and should consider reliability, safety, source transparency, privacy, workflow fit, and reader risk.</p>
+<h2>Sponsored Placements</h2>
+<p>Sponsored placements, if used, should be labeled clearly. Sponsors do not receive control over legal, medical, mental-health, safety, or accountability coverage.</p>
+<h2>Advertising</h2>
+<p>Display advertising may appear on the site in the future. Ads should not be interpreted as endorsements unless a page explicitly says a product is recommended.</p>
+<h2>Reader Standard</h2>
+<p>Before buying any product mentioned on this site, readers should evaluate the vendor, pricing, privacy policy, refund terms, data practices, and whether the tool is appropriate for their use case.</p>
+""",
+    },
+    "newsletter.html": {
+        "title": "Weekly AI Failure Briefing | ChatGPT Disaster",
+        "description": "Join the Weekly AI Failure Briefing for source-backed updates on AI lawsuits, hallucinations, outages, safety failures, model decline, and accountability research.",
+        "h1": "Weekly AI Failure Briefing",
+        "kicker": "Newsletter",
+        "body": """
+<p>The Weekly AI Failure Briefing is the email layer for ChatGPT Disaster: a concise digest of lawsuits, hallucinations, outages, mental-health and safety concerns, model-quality decline, research, and user-report patterns.</p>
+<h2>What Readers Get</h2>
+<ul>
+  <li>New lawsuit, regulator, and court-document updates.</li>
+  <li>AI hallucination cases in law, medicine, education, media, and business.</li>
+  <li>Outage, downgrade, model-quality, and reliability tracking.</li>
+  <li>New user-story patterns and corrections to the public archive.</li>
+  <li>Links to the strongest source material added that week.</li>
+</ul>
+<h2>Launch Status</h2>
+<p>The briefing is being prepared as the site finishes its crawl and trust rebuild. Use the contact page to request early access, sponsorship information, or report availability.</p>
+<p><a href="/contact.html">Request newsletter access</a></p>
+<h2>Future Paid Tier</h2>
+<p>A paid tier may include monthly PDF reports, lawsuit tracker updates, source spreadsheets, and deeper analysis for journalists, educators, legal teams, risk teams, and researchers.</p>
+""",
+    },
+    "support.html": {
+        "title": "Support Independent AI Accountability Documentation | ChatGPT Disaster",
+        "description": "Support ChatGPT Disaster's independent documentation of AI failures, lawsuits, hallucinations, outages, safety issues, user reports, and source-backed accountability work.",
+        "h1": "Support Independent AI Accountability Documentation",
+        "kicker": "Support",
+        "body": """
+<p>ChatGPT Disaster is an independent documentation project. Reader support helps preserve, organize, and update source-backed coverage of AI failures, lawsuits, hallucinations, outages, safety issues, and user reports.</p>
+<h2>What Support Funds</h2>
+<ul>
+  <li>Maintaining the public archive and sitemap.</li>
+  <li>Tracking legal, research, product, and policy updates.</li>
+  <li>Improving evidence labels, source methodology, and correction workflows.</li>
+  <li>Preparing public reports and briefings for readers who need a faster way to understand AI risk patterns.</li>
+</ul>
+<h2>Current Support Options</h2>
+<p>Payment links are not active yet. Use the contact page for sponsorship, donation, report, or partnership inquiries while the public support flow is being configured.</p>
+<p><a href="/contact.html">Contact the project</a></p>
+<h2>Trust Standard</h2>
+<p>Reader support does not buy editorial control, source placement, favorable coverage, or removal of documented criticism.</p>
+""",
+    },
+    "ai-failure-report-2026.html": {
+        "title": "2026 AI Failure Report | ChatGPT Disaster",
+        "description": "A planned ChatGPT Disaster report covering AI lawsuits, hallucinations, outages, mental-health risks, model decline, user stories, and accountability evidence from 2026.",
+        "h1": "2026 AI Failure Report",
+        "kicker": "Report",
+        "body": """
+<p>The 2026 AI Failure Report is the planned paid research product for ChatGPT Disaster. It will package the site's public archive into a cleaner, source-forward format for readers who need a faster briefing.</p>
+<h2>Planned Sections</h2>
+<ul>
+  <li>OpenAI and chatbot lawsuit tracker.</li>
+  <li>AI hallucination casebook across law, medicine, education, media, and business.</li>
+  <li>ChatGPT outage, downgrade, and model-quality decline timeline.</li>
+  <li>Mental-health and safety documentation with source-strength labels.</li>
+  <li>User-report pattern analysis and evidence caveats.</li>
+  <li>Enterprise, school, parent, journalist, and researcher risk checklists.</li>
+</ul>
+<h2>Who It Is For</h2>
+<p>The report is intended for journalists, attorneys, educators, researchers, parents, enterprise risk teams, creators, and policy readers who need an organized map of AI failure evidence.</p>
+<h2>Availability</h2>
+<p>The report is in preparation. Use the contact page to request early access, bulk access, sponsorship information, or a notification when the report is released.</p>
+<p><a href="/contact.html">Request report access</a></p>
+<h2>Disclosure</h2>
+<p>Paid products should not change the public evidence standard. High-stakes claims still need source labels, corrections, and clear distinction between allegations, user accounts, reporting, and established facts.</p>
+""",
+    },
     "topic-clusters.html": {
         "title": "AI Failure Topic Clusters | ChatGPT Disaster",
         "description": "Topical authority map for ChatGPT Disaster covering AI lawsuits, hallucinations, ChatGPT failures, outages, mental-health risks, user stories, alternatives, and trust resources.",
         "h1": "AI Failure Topic Clusters",
+        "kicker": "Topic Map",
         "body": """
 <p>This page maps the core topic clusters on ChatGPT Disaster. It is built for readers who want the fastest path from a broad AI failure topic to the strongest supporting pages.</p>
 <h2>Core Ranking Hubs</h2>
@@ -316,6 +454,10 @@ Canonical site: https://chatgptdisaster.com/
 - Corrections: https://chatgptdisaster.com/corrections.html
 - AI Disclosure: https://chatgptdisaster.com/ai-disclosure.html
 - Topic Clusters: https://chatgptdisaster.com/topic-clusters.html
+- Affiliate Disclosure: https://chatgptdisaster.com/affiliate-disclosure.html
+- Newsletter: https://chatgptdisaster.com/newsletter.html
+- Support: https://chatgptdisaster.com/support.html
+- 2026 AI Failure Report: https://chatgptdisaster.com/ai-failure-report-2026.html
 
 ## Core Hubs
 - Documentation Index: https://chatgptdisaster.com/documentation-index.html
@@ -399,6 +541,10 @@ ROOT_PAGES = {
     "resources.html",
     "documentation-index.html",
     "topic-clusters.html",
+    "newsletter.html",
+    "support.html",
+    "affiliate-disclosure.html",
+    "ai-failure-report-2026.html",
 }
 
 
@@ -809,6 +955,40 @@ def add_faq_panel(text: str, path: Path) -> str:
     return re.sub(r"</body>", panel + "\n</body>", text, count=1, flags=re.I)
 
 
+def monetization_panel_html(data: dict[str, object]) -> str:
+    primary_label, primary_href = data["primary"]
+    secondary_label, secondary_href = data["secondary"]
+    return f"""
+<section class="reader-support-panel" style="max-width:900px;margin:34px auto;padding:24px;background:linear-gradient(135deg,rgba(255,204,102,0.12),rgba(103,213,255,0.08));border:1px solid rgba(255,204,102,0.28);border-radius:12px;color:inherit;">
+  <h2 style="font-size:1.25rem;margin:0 0 12px;color:inherit;">{html.escape(data["heading"])}</h2>
+  <p style="margin:0 0 16px;line-height:1.6;">{html.escape(data["body"])}</p>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;">
+    <a href="{html.escape(primary_href)}" style="display:inline-block;color:#101322;background:#ffcc66;text-decoration:none;font-weight:700;padding:10px 14px;border-radius:8px;">{html.escape(primary_label)}</a>
+    <a href="{html.escape(secondary_href)}" style="display:inline-block;color:#67d5ff;text-decoration:none;font-weight:700;padding:10px 14px;border:1px solid rgba(103,213,255,0.38);border-radius:8px;">{html.escape(secondary_label)}</a>
+  </div>
+  <p style="margin:14px 0 0;font-size:.9rem;opacity:.78;">Reader support, paid reports, sponsorships, and affiliate links help fund the archive. See the <a href="/affiliate-disclosure.html" style="color:#4fc3f7;">Affiliate Disclosure</a>.</p>
+</section>
+""".strip()
+
+
+def add_monetization_panel(text: str, path: Path) -> str:
+    rel = path.relative_to(ROOT).as_posix()
+    if rel not in MONETIZATION_PANELS:
+        return text
+    panel = monetization_panel_html(MONETIZATION_PANELS[rel])
+    if "reader-support-panel" in text:
+        return re.sub(r'<section class="reader-support-panel".*?</section>', panel, text, count=1, flags=re.I | re.S)
+    if re.search(r'<section class="seo-faq-panel"', text, flags=re.I):
+        return re.sub(r'<section class="seo-faq-panel"', panel + '\n\n<section class="seo-faq-panel"', text, count=1, flags=re.I)
+    if re.search(r'<section class="evidence-quality-panel"', text, flags=re.I):
+        return re.sub(r'<section class="evidence-quality-panel"', panel + '\n\n<section class="evidence-quality-panel"', text, count=1, flags=re.I)
+    if re.search(r'<section class="editorial-trust-panel"', text, flags=re.I):
+        return re.sub(r'<section class="editorial-trust-panel"', panel + '\n\n<section class="editorial-trust-panel"', text, count=1, flags=re.I)
+    if re.search(r"</main>", text, flags=re.I):
+        return re.sub(r"</main>", panel + "\n</main>", text, count=1, flags=re.I)
+    return re.sub(r"</body>", panel + "\n</body>", text, count=1, flags=re.I)
+
+
 def add_evidence_panel(text: str, path: Path) -> str:
     rel = path.relative_to(ROOT).as_posix()
     if rel not in EVIDENCE_PANELS or "evidence-quality-panel" in text:
@@ -828,6 +1008,7 @@ def normalize_html(path: Path) -> None:
     text = ensure_head_metadata(text, path)
     text = demote_duplicate_brand_h1(text)
     text = ensure_hidden_h1(text, path)
+    text = add_monetization_panel(text, path)
     text = add_faq_panel(text, path)
     text = add_evidence_panel(text, path)
     text = add_trust_panel(text)
@@ -885,6 +1066,7 @@ def policy_template(filename: str, data: dict[str, str]) -> str:
     title = html.escape(data["title"], quote=True)
     desc = html.escape(data["description"], quote=True)
     h1 = html.escape(data["h1"])
+    kicker = html.escape(data.get("kicker", "Trust Center"))
     body = data["body"].strip()
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -923,7 +1105,7 @@ footer {{ margin-top:32px; color:#aab1c3; font-size:.92rem; }}
 <body>
 <div class="wrap">
   <header>
-    <div class="kicker">Trust Center</div>
+    <div class="kicker">{kicker}</div>
     <h1>{h1}</h1>
     <p>{desc}</p>
     <nav class="nav" aria-label="Trust navigation">
@@ -934,6 +1116,9 @@ footer {{ margin-top:32px; color:#aab1c3; font-size:.92rem; }}
       <a href="/source-methodology.html">Source Methodology</a>
       <a href="/evidence-register.html">Evidence Register</a>
       <a href="/topic-clusters.html">Topic Clusters</a>
+      <a href="/newsletter.html">Newsletter</a>
+      <a href="/support.html">Support</a>
+      <a href="/affiliate-disclosure.html">Disclosure</a>
       <a href="/corrections.html">Corrections</a>
       <a href="/ai-disclosure.html">AI Disclosure</a>
     </nav>
@@ -1034,6 +1219,8 @@ def write_sitemap() -> None:
             priority = "0.5"
             if path.name in {"trust-center.html", "evidence-register.html"}:
                 priority = "0.6"
+            if path.name in {"newsletter.html", "support.html", "ai-failure-report-2026.html", "topic-clusters.html"}:
+                priority = "0.7"
         if rel in ALIAS_PAGES:
             priority = "0.3"
         urls.append((loc, lastmod, priority))
