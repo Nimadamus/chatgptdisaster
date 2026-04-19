@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-19",
+  "date_seed": 3796490324,
+  "generated_at": "2026-04-19T19:00:17.498765",
+  "reddit_posts": [
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 396,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6407"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 112,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_1874"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 153,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5544"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 354,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6090"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 258,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6437"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 110,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6459"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 92,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2866"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6907"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 267,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_7430"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 296,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5154"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Notion leaks email addresses of all editors of any public page",
+      "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
+      "score": 176,
+      "comments": 52,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Game devs explain the tricks involved with letting you pause a game",
+      "url": "https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339",
+      "score": 345,
+      "comments": 191,
+      "source": "Hacker News"
+    },
+    {
+      "title": "College instructor turns to typewriters to curb AI-written work",
+      "url": "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/",
+      "score": 418,
+      "comments": 377,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Pairwise Order of a Sequence of Elements",
+      "url": "https://morwenn.github.io//presortedness/2026/04/11/TSB010-pairwise-order-of-a-sequence-of-elements.html",
+      "score": 21,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Uber's AI Push Hits a Wall\u2013CTO Says Budget Struggles Despite $3.4B Spend",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ubers-anthropic-ai-push-hits-223109852.html",
+      "score": 9,
+      "comments": 6,
+      "source": "Hacker News"
+    }
+  ]
+}
