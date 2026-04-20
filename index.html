@@ -881,8 +881,10 @@ a { color: inherit; }
 
 .press-preview-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    grid-auto-rows: 1fr;
+    align-items: stretch;
     margin-bottom: 40px;
 }
 
@@ -893,7 +895,10 @@ a { color: inherit; }
     padding: 28px;
     transition: all 0.3s;
     text-decoration: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 420px;
 }
 
 .press-card:hover {
@@ -917,12 +922,25 @@ a { color: inherit; }
     color: white;
     line-height: 1.6;
     margin-bottom: 10px;
+    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .press-card .date {
     font-size: 12px;
     color: rgba(255,255,255,0.4);
     font-family: 'Space Mono', monospace;
+    margin-top: auto;
+}
+
+.press-card .reading-time {
+    font-size: 11px;
+    color: rgba(255,255,255,0.35);
+    font-family: 'Space Mono', monospace;
+    margin-top: 4px;
 }
 
 /* ===== SHOW MORE TOGGLE ===== */
@@ -1411,6 +1429,10 @@ a { color: inherit; }
     .footer-inner { grid-template-columns: 1fr 1fr; }
 }
 
+@media (max-width: 1100px) and (min-width: 769px) {
+    .press-preview-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media (max-width: 768px) {
     .nav-menu { display: none; }
     .nav-cta { display: none; }
@@ -1442,6 +1464,7 @@ a { color: inherit; }
     .bento-grid { grid-template-columns: 1fr; }
     .testimonials-grid { grid-template-columns: 1fr; }
     .press-preview-grid { grid-template-columns: 1fr; }
+    .press-card { min-height: auto; }
     .executives-grid { grid-template-columns: 1fr; }
 
     .section-header h2 { font-size: 2rem; }
@@ -1481,12 +1504,14 @@ a { color: inherit; }
     border-radius: 19px 19px 0 0;
     overflow: hidden;
     border-bottom: 1px solid rgba(14, 165, 233, 0.2);
+    height: 180px !important;
+    flex-shrink: 0;
 }
 
 .press-card-img-wrap img {
     display: block;
     width: 100%;
-    height: 220px;
+    height: 180px;
     object-fit: cover;
     object-position: center 20%;
 }
@@ -2008,6 +2033,24 @@ a { color: inherit; }
         </div>
 
         <div class="press-preview-grid">
+            <a href="0420-openai-forum-floods-gpt-5-2-regression-reports-like-3-5-2026.html" class="press-card" data-category="investigation" style="border: 1px solid rgba(255,215,0,0.3);">
+                <span class="card-badge badge-new">NEW</span>
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(255,215,0,0.35), rgba(139,100,0,0.55)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">FORUM</span></div>
+                <p class="source" style="color: #ffd700;">INVESTIGATION / OpenAI Forum</p>
+                <h4>"OpenAI's Own Forum Floods With GPT-5.2 Regression Reports: 'I Have Not Seen This Since 3.5'"</h4>
+                <p class="date">April 20, 2026</p>
+                <span class="reading-time">9 min read</span>
+            </a>
+
+            <a href="0420-reddit-mass-cancellations-chatgpt-corporate-bot-lobotomy-april-2026.html" class="press-card" data-category="report" style="border: 1px solid rgba(239,68,68,0.3);">
+                <span class="card-badge badge-new">NEW</span>
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(239,68,68,0.35), rgba(190,30,30,0.55)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">REDDIT</span></div>
+                <p class="source" style="color: #f87171;">REPORT / User Testimonials</p>
+                <h4>"'Corporate Bot,' 'Brain Injury,' 'Lobotomy': Reddit's April 2026 Mass ChatGPT Cancellation Testimonials"</h4>
+                <p class="date">April 20, 2026</p>
+                <span class="reading-time">8 min read</span>
+            </a>
+
             <a href="0418-chatgpt-fails-92-percent-sora-deepfake-detection-openai.html" class="press-card" data-category="research" style="border: 1px solid rgba(239,68,68,0.3);">
                 <span class="card-badge badge-new">NEW</span>
                 <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(239,68,68,0.4), rgba(139,0,0,0.6)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">RESEARCH</span></div>
@@ -2976,11 +3019,12 @@ a { color: inherit; }
             </a>
 
             <a href="reddit-testimonials.html" class="press-card" data-category="report" style="border: 1px solid rgba(255,215,0,0.3);">
-                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(14,165,233,0.3), rgba(3,105,161,0.5)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">USER TESTIMONIALS</span></div>
-                <p class="source" style="color: #ffd700;">USER TESTIMONIALS / Reddit</p>
-                <h4>"250+ Reddit Users Expose ChatGPT's Decline in 2026"</h4>
-                <p class="date">2026</p>
-                <span class="reading-time">5 min read</span>
+                <span class="card-badge badge-new">UPDATED</span>
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(255,215,0,0.25), rgba(120,90,0,0.5)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">USER TESTIMONIALS</span></div>
+                <p class="source" style="color: #ffd700;">USER TESTIMONIALS / Reddit &amp; OpenAI Forum</p>
+                <h4>"Reddit Testimonials: ChatGPT Users on GPT-5.2 Lobotomy, Hallucinations, Cancellations 2026"</h4>
+                <p class="date">April 20, 2026</p>
+                <span class="reading-time">7 min read</span>
             </a>
 
             <a href="replit-database-disaster.html" class="press-card" data-category="report" style="border: 1px solid rgba(239,68,68,0.3);">
@@ -3117,6 +3161,70 @@ a { color: inherit; }
                 <h4>"15 Reasons Everyone Is Saying ChatGPT Sucks Now (January 2026)"</h4>
                 <p class="date">January 2026</p>
                 <span class="reading-time">6 min read</span>
+            </a>
+
+            <a href="0414-openai-illinois-liability-shield-mass-deaths.html" class="press-card" data-category="legal" style="border: 1px solid rgba(239,68,68,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(239,68,68,0.4), rgba(120,30,30,0.6)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">LEGAL</span></div>
+                <p class="source" style="color: #f87171;">LEGAL / Liability Shield</p>
+                <h4>"OpenAI Wants Legal Immunity When AI Kills 100 People - Illinois SB 3444"</h4>
+                <p class="date">April 14, 2026</p>
+                <span class="reading-time">10 min read</span>
+            </a>
+
+            <a href="0310-gpt5-quality-collapse-altman-admits-screwed-up-writing-2026.html" class="press-card" data-category="breaking" style="border: 1px solid rgba(251,146,60,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(251,146,60,0.35), rgba(154,52,18,0.55)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">COLLAPSE</span></div>
+                <p class="source" style="color: #fb923c;">BREAKING / Quality Collapse</p>
+                <h4>"GPT-5 Quality Collapse: Sam Altman Admits OpenAI 'Screwed Up' Writing Quality in 2026"</h4>
+                <p class="date">March 10, 2026</p>
+                <span class="reading-time">8 min read</span>
+            </a>
+
+            <a href="1.5-million-users-left-chatgpt-march-2026.html" class="press-card" data-category="report" style="border: 1px solid rgba(14,165,233,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(14,165,233,0.35), rgba(3,105,161,0.55)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">EXODUS</span></div>
+                <p class="source" style="color: #38bdf8;">REPORT / Subscriber Exodus</p>
+                <h4>"1.5 Million Users Left ChatGPT in March 2026: What Drove the Exodus"</h4>
+                <p class="date">March 2026</p>
+                <span class="reading-time">8 min read</span>
+            </a>
+
+            <a href="ai-failure-report-2026.html" class="press-card" data-category="research" style="border: 1px solid rgba(14,165,233,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(14,165,233,0.3), rgba(3,105,161,0.5)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">REPORT</span></div>
+                <p class="source" style="color: #38bdf8;">RESEARCH / Annual Report</p>
+                <h4>"2026 AI Failure Report: The Year-In-Review of Every Major AI Breakdown"</h4>
+                <p class="date">2026</p>
+                <span class="reading-time">6 min read</span>
+            </a>
+
+            <a href="ai-hallucinations-getting-worse-2026.html" class="press-card" data-category="research" style="border: 1px solid rgba(14,165,233,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(59,130,246,0.35), rgba(12,74,110,0.5)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">ANALYSIS</span></div>
+                <p class="source" style="color: #38bdf8;">RESEARCH / Hallucinations</p>
+                <h4>"Are AI Hallucinations Getting Worse in 2026?"</h4>
+                <p class="date">2026</p>
+                <span class="reading-time">5 min read</span>
+            </a>
+
+            <a href="ai-security-risks-2026.html" class="press-card" data-category="research" style="border: 1px solid rgba(239,68,68,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(239,68,68,0.3), rgba(139,0,0,0.5)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">SECURITY</span></div>
+                <p class="source" style="color: #f87171;">RESEARCH / Security Risks</p>
+                <h4>"AI Security Risks in 2026: What's Actually Breaking"</h4>
+                <p class="date">2026</p>
+                <span class="reading-time">5 min read</span>
+            </a>
+
+            <a href="chatgpt-failure-archive.html" class="press-card" data-category="report" style="border: 1px solid rgba(14,165,233,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(14,165,233,0.3), rgba(3,105,161,0.5)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">ARCHIVE</span></div>
+                <p class="source" style="color: #38bdf8;">REPORT / Master Archive</p>
+                <h4>"ChatGPT Failure Archive: The Complete Index"</h4>
+                <p class="date">2026</p>
+                <span class="reading-time">4 min read</span>
+            </a>
+
+            <a href="topic-clusters.html" class="press-card" data-category="research" style="border: 1px solid rgba(14,165,233,0.3);">
+                <div class="press-card-img-wrap" style="background: linear-gradient(135deg, rgba(59,130,246,0.35), rgba(12,74,110,0.5)); display:flex; align-items:center; justify-content:center; height:140px; position:relative; background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);"><span style="font-size:13px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:rgba(255,255,255,0.2);font-family:Space Mono,monospace;">INDEX</span></div>
+                <p class="source" style="color: #38bdf8;">RESEARCH / Topic Index</p>
+                <h4>"AI Failure Topic Clusters: Navigate the Full Investigation"</h4>
+                <p class="date">2026</p>
+                <span class="reading-time">4 min read</span>
             </a>
         </div>
 
