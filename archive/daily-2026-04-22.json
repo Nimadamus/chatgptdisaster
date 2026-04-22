@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-22",
+  "date_seed": 2122732111,
+  "generated_at": "2026-04-22T19:22:42.929632",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 172,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9939"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 294,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1262"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_1045"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 299,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4809"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 328,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2114"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 272,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_6472"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 199,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5659"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 72,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2303"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 123,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9236"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 108,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8171"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Scores decline again for 13-year-old students in reading and mathematics",
+      "url": "https://www.nationsreportcard.gov/highlights/ltt/2023/",
+      "score": 9,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenAI: Workspace Agents for Business",
+      "url": "https://openai.com/business/workspace-agents/",
+      "score": 34,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Workspace Agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "score": 30,
+      "comments": 7,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Scoring Show HN submissions for AI design patterns",
+      "url": "https://www.adriankrebs.ch/blog/design-slop/",
+      "score": 229,
+      "comments": 178,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anker made its own chip to bring AI to all its products",
+      "url": "https://www.theverge.com/tech/916463/anker-thus-chip-announcement",
+      "score": 40,
+      "comments": 26,
+      "source": "Hacker News"
+    }
+  ]
+}
