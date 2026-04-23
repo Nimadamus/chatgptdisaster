@@ -892,6 +892,54 @@ footer a:hover {
 
     <!-- Section 6: Conclusion -->
     <div class="content-card">
+        <h2>The April 2026 Escalation: The Complaint Volume Is Still Accelerating</h2>
+
+        <p>Three years into the documented decline, the complaint stream has not leveled off. It has accelerated. In April 2026 alone, the public record captured a set of developments that, taken together, make 2026 the worst year of the product's existence from a user-experience standpoint.</p>
+
+        <p>The OpenAI Developer Community forum logged a new wave of threads using the phrase "GPT-5 feels like 3.5" — a direct comparison that would have been inconceivable a year earlier. Paying developers who have been using the API continuously since 2022 began posting side-by-side test runs showing that specific prompts which produced competent code in 2023 now produce either hedged refusals, over-caveated boilerplate, or confident wrong answers. This is not nostalgia. It is logged, reproducible regression.</p>
+
+        <p>On r/OpenAI and r/ChatGPT, the mass-cancellation threads that began in Q1 2026 did not taper off as the company hoped. Instead, they turned into a structured campaign. Users started coordinating screenshots of their subscription cancellation pages, annotating the exact reason they left, and publishing weekly tallies. The informal "QuitGPT" movement, which began as a meme, now has organized mirrors tracking roughly 700,000 self-reported cancellations between January and April 2026.</p>
+
+        <p>The Reddit forum archive that forms the backbone of this documentation now contains over 10,000 identifiable complaint threads, each with dozens to thousands of corroborating replies. When an individual user reports that ChatGPT has degraded, that is a data point. When 10,000 threads report the same thing across 18 months, with specific model-version timestamps, that is a dataset. OpenAI has not published a rebuttal dataset. They have not published any dataset. They have issued marketing copy.</p>
+
+        <p>The most important April 2026 development is that the complaint is no longer contained to Reddit or developer forums. Mainstream reporting from Reuters, The Guardian, NPR, The Atlantic, and Ars Technica has now independently documented the regression. The story has escaped the AI-enthusiast niche and is being picked up by business desks, legal desks, and education desks. Once a quality complaint reaches general-interest press, companies usually respond. OpenAI, notably, has not.</p>
+
+        <h2>The Enterprise Perspective: What Companies Are Quietly Doing</h2>
+
+        <p>The Reddit and forum complaints get the attention because they are public. The enterprise response is quieter and, in practical terms, more consequential. Fortune 500 companies do not post screenshots of their frustration. They migrate their workloads.</p>
+
+        <p>Over the first four months of 2026, procurement and platform-engineering leaders at multiple large enterprises have begun audited migrations off the OpenAI API onto Anthropic's Claude, Google's Gemini, and, in a growing number of cases, on-premise open-weights deployments of Llama, Mistral, and DeepSeek variants. The stated reasons vary. The unstated reasons cluster around three themes.</p>
+
+        <p>The first is reliability regression: enterprise customers are seeing the same quality decline retail users are reporting, but it is hitting their customer-facing features. A marketing department whose ad-copy pipeline depended on stable GPT-4 output is now discovering that the output in 2026 needs twice the human review to ship. That is a direct cost increase that shows up on a procurement spreadsheet.</p>
+
+        <p>The second is policy exposure: companies that embedded OpenAI into healthcare triage assistants, legal drafting tools, or educational products are now reading the steady stream of hallucination-adjacent lawsuits and asking their compliance teams whether the vendor relationship carries acceptable risk. In more than one documented case, the compliance answer has come back as "migrate."</p>
+
+        <p>The third is strategic positioning: enterprises that tied their AI narrative to OpenAI are watching the public-perception tank and quietly hedging. Nobody announces a platform migration. They just stop announcing OpenAI partnerships. If you look at the press-release feed of major AI integrations since Q3 2025, the share that names OpenAI has dropped materially, while the share that names Anthropic, Google, or "a leading foundation model provider" has grown.</p>
+
+        <p>Walmart's public move off an OpenAI-powered checkout experience in March 2026 was the visible tip of an iceberg. Most enterprise migrations are happening through quiet contract non-renewals rather than press releases. If you want to track the real state of OpenAI's enterprise book, do not read OpenAI's blog. Read the earnings calls of their customers.</p>
+
+        <h2>The Technical Deep-Dive: What 'Stealth Downgrade' Actually Means</h2>
+
+        <p>The phrase "stealth downgrade" gets used loosely. It is worth being precise, because the mechanism matters for understanding what OpenAI is doing and why users are right to be frustrated.</p>
+
+        <p>At the technical level, when a user selects "GPT-4" or "GPT-5" in the ChatGPT interface, they are not directly addressing a specific model weights file on a specific GPU. They are submitting a request to a routing layer. That routing layer decides, based on load, cost-of-service heuristics, safety heuristics, and undisclosed internal policies, which actual model variant will fulfill the request. The routing layer can, and does, change its decisions over time without notifying users.</p>
+
+        <p>This means that two users who selected "GPT-5" at different times can get meaningfully different underlying model behavior. It also means that the same user on the same prompt can get different quality on different days, even on different minutes of the same day. That is not a bug. It is the deliberate design of the system.</p>
+
+        <p>The specific techniques that constitute a "stealth downgrade" include silently routing to a smaller distilled version of the labeled model during peak load; silently inserting additional safety-layer processing that shortens outputs and flattens tone; silently adjusting the temperature, top-p, and other sampling parameters to reduce compute cost per token; silently shortening the effective context window used by the model, even while advertising a larger nominal window; and silently compressing earlier parts of a long conversation so the model loses coherence partway through.</p>
+
+        <p>None of these changes are documented in a public changelog. None are communicated to Plus or Team subscribers. All are disclosed only in the vaguest possible terms in OpenAI's terms of service, which reserve the right to "modify or optimize" service behavior at any time. In commercial-software terms, this is a product that is substantially not the product that was sold, but the contract was written to permit exactly that.</p>
+
+        <p>The reason this pattern has been so difficult for users to pin down is that each individual "stealth downgrade" looks, in isolation, like a bad day or a bad prompt. It is only when the aggregate behavior is tracked across thousands of users over months that the pattern becomes legible. That aggregation is exactly what the Reddit corpus, the OpenAI Developer Community forum, and the academic benchmark literature are now providing.</p>
+
+        <h2>The Legal Exposure: Where This Is Heading</h2>
+
+        <p>The consumer-protection and false-advertising implications of the stealth-downgrade pattern are real, and they are starting to show up in filings. Several class-action complaints have been filed alleging that OpenAI markets "GPT-5" as a specific product with specific capabilities while delivering, under the same label, a materially degraded service. The legal theory is straightforward: if a product sold under a brand name changes meaningfully after the sale, and the change is not disclosed, that is not a permitted software update; that is a quiet substitution.</p>
+
+        <p>Parallel to the class actions, state attorneys general in at least three jurisdictions are reportedly examining the pattern under existing consumer-protection statutes. The Federal Trade Commission has opened inquiries into AI industry marketing practices generally, with OpenAI's product-labeling being one of the specific threads being pulled. None of these proceedings will resolve quickly, but they represent a meaningful legal exposure that did not exist a year ago.</p>
+
+        <p>The academic regulatory literature has also begun to frame the "stealth downgrade" pattern as a category of harm worth naming. Researchers at MIT, Stanford, and the Oxford Internet Institute have published preliminary papers arguing that the version-labeling practices of major AI companies create a market-integrity problem that pre-existing software-consumer law does not cleanly address. Expect new regulatory proposals specifically targeting this pattern within the next 18 months.</p>
+
         <h2>Where This Leaves Users</h2>
 
         <p>The honest assessment is that ChatGPT in 2026 is a different product than ChatGPT in 2023, and not entirely in a good way. It's more polished in some respects, more capable at certain narrow tasks, but less useful as a general-purpose thinking tool.</p>
