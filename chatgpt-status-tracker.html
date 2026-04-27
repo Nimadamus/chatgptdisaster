@@ -82,7 +82,7 @@
   "headline": "Is ChatGPT Down Right Now? Live Status Tracker & Outage History (2026)",
   "description": "Check if ChatGPT is down right now. Live status updates, outage history, and what to do when ChatGPT isn't working. Updated January 2026.",
   "mainEntityOfPage": "https://chatgptdisaster.com/chatgpt-status-tracker.html",
-  "dateModified": "2026-04-15",
+  "dateModified": "2026-04-26",
   "author": {
     "@type": "Organization",
     "name": "ChatGPT Disaster Documentation Project",
@@ -112,7 +112,7 @@
   "@type": "WebPage",
   "name": "ChatGPT Status Tracker - Is ChatGPT Down?",
   "description": "Live ChatGPT status tracking, outage history, and alternatives when ChatGPT is down.",
-  "dateModified": "2026-01-24",
+  "dateModified": "2026-04-26",
   "publisher": {"@type": "Organization", "name": "ChatGPT Disaster"}
 }
 </script>
@@ -524,6 +524,14 @@ footer a:hover { text-decoration: underline; }
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXD2HX36XV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXD2HX36XV');
+</script>
 </head>
 <body>
 <h1 style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">Is ChatGPT Down Right Now? Live Status Tracker &amp; Outage History (2026)</h1>
@@ -615,13 +623,15 @@ footer a:hover { text-decoration: underline; }
 
 <div class="container">
 
+<p style="font-size: 14px; color: #9ca3af; border-left: 3px solid #ff4444; padding: 8px 14px; margin: 1rem 0 1.5rem; background: rgba(255,68,68,0.05); border-radius: 0 6px 6px 0;"><strong style="color:#ff4444;">Last Updated: April 26, 2026</strong> &middot; Reviewed by the ChatGPT Disaster Editorial Desk &middot; Outage data sourced from OpenAI's official status page, the OpenAI Developer Community forum, Downdetector public reports, and r/ChatGPT incident threads.</p>
+
 <!-- Current Status -->
 <div class="status-box" id="current-status">
 <div class="status-indicator">
 <span class="status-dot"></span>
-<span>ChatGPT: Check Official Status</span>
+<span>ChatGPT Status (as of April 26, 2026): Check Official Status Page</span>
 </div>
-<p style="color: #ccc; margin-bottom: 15px;">OpenAI reports 71 incidents in the last 90 days (2 major outages, 69 minor incidents)</p>
+<p style="color: #ccc; margin-bottom: 15px;">OpenAI reports 71 incidents in the last 90 days (2 major outages, 69 minor incidents). The most recent major incident was the April 20, 2026 mysterious error event, the largest disruption of the month and the highest-traffic day on this tracker since launch.</p>
 <a href="https://status.openai.com" class="check-official" target="_blank" rel="noopener">Check Official OpenAI Status →</a>
 </div>
 
@@ -653,6 +663,39 @@ footer a:hover { text-decoration: underline; }
 <div class="stat-card">
 <div class="stat-number">99.08%</div>
 <div class="stat-label">Reported Uptime</div>
+</div>
+</div>
+
+<!-- April 2026 Outage History -->
+<div class="outage-section">
+<h2>April 2026 Outage History (Most Recent)</h2>
+
+<div class="outage-item">
+<div class="outage-date">April 23, 2026 &mdash; GPT-5.5 Launch Day</div>
+<div class="outage-title">Lag, Error Spikes, and Routing Confusion on the GPT-5.5 Rollout</div>
+<div class="outage-description">OpenAI shipped GPT-5.5 on April 23, 2026, doubling API pricing and changing default model routing. Within hours, paying users on r/ChatGPT, r/ChatGPTPro, and the OpenAI Developer Community reported elevated latency, intermittent errors, and confusion over which model their requests were actually being routed to. The official status page registered the launch as a service change rather than an incident, which was itself a complaint &mdash; users argued the routing-layer churn met the bar for an incident notification. Downstream, the launch is documented as the inflection point on this site's <a href="/why-chatgpt-is-getting-worse.html">quality-decline tracker</a> and the <a href="/ai-models-getting-dumber-2026.html">AI Models Getting Dumber 2026</a> hub.</div>
+<div class="outage-duration">Duration: launch-day disruption; lingering routing reports through April 24-26.</div>
+</div>
+
+<div class="outage-item">
+<div class="outage-date">April 20, 2026 &mdash; Single Biggest Disruption of the Month</div>
+<div class="outage-title">"Mysterious Error" Event: ChatGPT and API Both Returning Failures</div>
+<div class="outage-description">On April 20, 2026, ChatGPT and the OpenAI API both began returning errors with no clear initial cause communicated by OpenAI. Reddit, Downdetector, and the OpenAI Developer Community lit up within minutes. The event was the highest-traffic day on this tracker since launch and is documented in the dedicated case file <a href="/0420-chatgpt-down-april-20-mysterious-error-openai-outage.html">ChatGPT Down April 20, 2026: The Mysterious Error</a>. The incident was eventually resolved, but the absence of a real-time root-cause statement during the disruption is a recurring user complaint on this tracker.</div>
+<div class="outage-duration">Duration: Major disruption, multiple hours.</div>
+</div>
+
+<div class="outage-item minor">
+<div class="outage-date">April 18, 2026</div>
+<div class="outage-title">Sora Deepfake-Detection Reliability Reports</div>
+<div class="outage-description">Reports surfaced that ChatGPT's Sora-related detection was failing on roughly 92 percent of submitted deepfake content tests, prompting questions about the underlying detection pipeline. Documented in <a href="/0418-chatgpt-fails-92-percent-sora-deepfake-detection-openai.html">ChatGPT Fails 92% Sora Deepfake Detection</a>.</div>
+<div class="outage-duration">Duration: Reliability incident; not a hard outage.</div>
+</div>
+
+<div class="outage-item minor">
+<div class="outage-date">Throughout April 2026</div>
+<div class="outage-title">Plus Tier 200-Message Weekly Cap Triggering Visible Disruptions</div>
+<div class="outage-description">Plus subscribers ($20/month) hitting the 200-message-per-week limit on the GPT-5 Thinking model in single working sessions. Not a service outage in the traditional sense, but logged here because the user-side experience is identical: the product stops responding mid-task with no clear reset clock. Documented across r/ChatGPT and r/ChatGPTPro April 2026 threads.</div>
+<div class="outage-duration">Duration: Recurring throughout the month.</div>
 </div>
 </div>
 
