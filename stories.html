@@ -1163,6 +1163,119 @@
 
 <div class="stories-grid" id="storiesGrid">
 
+<!-- REDDIT / OPENAI COMMUNITY TESTIMONIALS ADDED APRIL 27, 2026 -->
+<article class="story-card" data-category="forced-upgrade">
+<div class="featured-badge">NEW APR 27</div>
+<div class="category-tag">Stealth Model Swap</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"I am repeatedly and without my consent being served GPT-5 responses, despite having GPT-4o clearly selected"</h2>
+<div class="story-info">u/danahavrdova | OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"I am repeatedly and without my consent being served GPT-5 responses, despite having GPT-4o clearly selected. There has been no official announcement, no consent, and OpenAI is now pushing GPT-5 under the GPT-4o label."</div>
+<p>The thread became a lightning rod for paying ChatGPT Plus subscribers who say their model selector is now decorative. A reply from u/Ian_Moone confirmed the pattern: "Doesn't matter what I select it gives me GPT-5 thinking mini. There seems to be no way to get 4o to respond." Another commenter, u/Katelz, flatly told the OP what to do next: "File an FTC complaint. That's what I did." The forum staff response was to redirect users elsewhere rather than address the routing.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 27</div>
+<div class="category-tag">Conversation Lockout</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"Multiple long conversations that I've accessed regularly for over a year are now failing to load"</h2>
+<div class="story-info">u/Athelaperk | OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"Multiple long conversations that I've accessed regularly for over a year are now failing to load. Affects Android, Windows, and web. Shorter old conversations load fine; only the max-length conversations are broken."</div>
+<p>A second user, u/KrEna, narrowed the pattern further: "The old chats that were maxed out no longer open. It mostly affects chats that used the 4o version." Technical analysis from u/Torukoishi pinned the root cause to a server-side change: "Status Code: 413 ('Content Too Large')... conversation_length_exceeds_limit." The backend now refuses to load conversations that were perfectly accessible the day before, and OpenAI's official export tool returns JSON files that u/KrEna says are "missing most of the conversations." Years of work, locked behind a length check that didn't exist when the chats were created.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 27</div>
+<div class="category-tag">Archive Bug</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"When I tried to view an archived old conversation, it did nothing and created a copy within the archived conversation"</h2>
+<div class="story-info">u/Akaset | OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"When I tried to view an archived old conversation, it did nothing and created a copy within the archived conversation. The original chat is now gone and I have a duplicate I can't open either."</div>
+<p>The archive feature, marketed as a way to keep old work safe, is now actively damaging the chats users send to it. The bug fires silently: clicking an archived conversation does not produce an error message, just a fresh duplicate that inherits the same lockout. Users in the same thread reported losing chats they had specifically archived because they were "important to keep." For a tool sold as memory and continuity, the archive is now a paper shredder with a lock on the door.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 27</div>
+<div class="category-tag">Image Quality Crash</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"Now the images come out super grainy, sterile and low quality no matter how much I try to force the prompts"</h2>
+<div class="story-info">u/Ninja_0808 | OpenAI Developer Community | April 26, 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"Image quality has all of a sudden degraded dramatically. Now the images come out super grainy, sterile and low quality no matter how much I try to force the prompts."</div>
+<p>The post landed in the Deprecations category three days after the GPT-5.5 launch. The OP described a clean before-and-after: previously high-quality, optically realistic generations with varied tone and natural lighting suddenly replaced by grainy, sterile, detail-stripped output, regardless of how the prompt was rewritten. A reply from u/LarisaHaster pointed to a parallel thread of users hitting the same wall, suggesting the regression is across-the-board rather than isolated to one account. No version note from OpenAI explaining the change.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 27</div>
+<div class="category-tag">UI Freeze</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"I send a message and nothing happens. The input box freezes. The response doesn't show up."</h2>
+<div class="story-info">u/huzaifasaad | OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"Is it just me or has ChatGPT become much slower and buggy lately? After 20 to 30 messages, I send a message and nothing happens. The input box freezes. The response doesn't show up. The whole chat feels stuck and a page refresh is the only fix."</div>
+<p>A reply from u/bughunter described the same failure pattern from a different angle: "The projects feature often fails to load previous conversations at specific times, the chat often becomes slow." Independent analysis in the same thread traced the issue to the frontend keeping every rendered message in the DOM, which balloons into thousands of nodes and chokes the browser as a session continues. The behavior is deterministic, reproducible across browsers, and unaddressed in any release note.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="subscription-cancelled">
+<div class="featured-badge">NEW APR 27</div>
+<div class="category-tag">Plus Cancellation</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"Finally cancelled my Plus subscription after reduced GPT quality"</h2>
+<div class="story-info">u/JMTT | OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"Since GPT removed some of the older models that were working much better than the new 5-models, the output quality has been so poor. File handling for documents and Excel is unreliable, memory is inconsistent, and the content policies have gotten more restrictive at the same time the answers have gotten worse."</div>
+<p>The thread title was the headline ("Finally cancelled my Plus subscription after reduced GPT quality") and the OP did not bury the lede. JMTT named Claude as the destination for document processing, despite Claude's own rate-limit annoyances, on the grounds that accuracy and reliability now matter more than ergonomics. The thread sat in Feature Requests rather than Bugs, which is its own indictment: a paying user marked a quality regression as a roadmap problem, not a fixable defect.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="token-limits">
+<div class="featured-badge">NEW APR 27</div>
+<div class="category-tag">GPT-5.5 Limit Bug</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"I'm hitting limits very early in GPT-5.5 usage, even though /status shows that much of my limits remain available"</h2>
+<div class="story-info">u/SirTyson | github.com/openai/codex issue #19215 | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"I'm hitting limits very early in GPT-5.5 usage, even though /status shows that much of my limits remain available. The dashboard says 78% of my 5-hour limit and 68% of my weekly limit are still there, and the tool blocks me anyway."</div>
+<p>The Codex repo issue exposes a counter that does not match the gate. Pro and Plus subscribers ran the official /status command, were told they had hours of budget left, and were then refused service the moment they tried to use it. The disconnect between the displayed quota and the enforced quota is the kind of bug that quietly breaks scripted workflows: agents schedule a job against a budget the dashboard promised, and the job dies on the first call. Filed two days after the GPT-5.5 launch and unanswered as of this writing.</p>
+</div>
+</article>
+
 <!-- REDDIT TESTIMONIALS ADDED APRIL 26, 2026 -->
 <article class="story-card" data-category="performance-issues">
 <div class="featured-badge">NEW APR 26</div>
