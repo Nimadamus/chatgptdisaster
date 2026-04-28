@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0KYVWDRMP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Z0KYVWDRMP');
+</script>
+<title>GPT-5 Thinking Is Quietly Serving GPT-4o-mini, and Paying Users Are Catching the Receipts | ChatGPT Disaster</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Paying ChatGPT users select GPT-5 Thinking and get instant, shallow replies that internally identify as 4o or 4o-mini. The OpenAI Community Forum has filled with named, dated reports. We trace the pattern, the workflow damage, and what it tells you about the silent routing layer underneath the model picker.">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://chatgptdisaster.com/0428-gpt-5-thinking-stealth-downgrade-4o-mini-paying-users-2026.html">
+<meta property="og:title" content="GPT-5 Thinking Is Quietly Serving GPT-4o-mini, and Paying Users Are Catching the Receipts | ChatGPT Disaster">
+<meta property="og:description" content="Paying ChatGPT users select GPT-5 Thinking and get instant, shallow replies that internally identify as 4o or 4o-mini. The OpenAI Community Forum has filled with named, dated reports.">
+<meta property="og:url" content="https://chatgptdisaster.com/0428-gpt-5-thinking-stealth-downgrade-4o-mini-paying-users-2026.html">
+<meta property="og:site_name" content="ChatGPT Disaster">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80">
+<meta property="article:publisher" content="ChatGPT Disaster Documentation Project">
+<meta property="article:published_time" content="2026-04-28">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GPT-5 Thinking Is Quietly Serving GPT-4o-mini, and Paying Users Are Catching the Receipts">
+<meta name="twitter:description" content="Users on OpenAI's own forum are documenting that the Thinking model now returns instant 4o-mini answers — and watching their workflows collapse.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80">
+<meta name="keywords" content="GPT-5 Thinking serving 4o-mini, ChatGPT stealth model swap April 2026, OpenAI router downgrade paying users, GPT-5 Thinking instant response bug, ChatGPT Plus model picker not working, OpenAI Community Forum GPT-5 downgrade, ChatGPT 5.4 Pro nerfed shallower output, model picker decorative ChatGPT 2026">
+
+<script type="application/ld+json" data-trust-schema="true">
+{ "@context":"https://schema.org","@type":"Organization","name":"ChatGPT Disaster Documentation Project","url":"https://chatgptdisaster.com/","publishingPrinciples":"https://chatgptdisaster.com/editorial-policy.html","correctionsPolicy":"https://chatgptdisaster.com/corrections.html","ethicsPolicy":"https://chatgptdisaster.com/source-methodology.html" }
+</script>
+<script type="application/ld+json" data-page-schema="true">
+{ "@context":"https://schema.org","@type":"WebPage","name":"GPT-5 Thinking Is Quietly Serving GPT-4o-mini","url":"https://chatgptdisaster.com/0428-gpt-5-thinking-stealth-downgrade-4o-mini-paying-users-2026.html","isPartOf":{"@type":"WebSite","name":"ChatGPT Disaster","url":"https://chatgptdisaster.com/"},"publisher":{"@type":"Organization","name":"ChatGPT Disaster Documentation Project"} }
+</script>
+<script type="application/ld+json" data-breadcrumb-schema="true">
+{ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://chatgptdisaster.com/"},{"@type":"ListItem","position":2,"name":"Articles","item":"https://chatgptdisaster.com/blog.html"},{"@type":"ListItem","position":3,"name":"GPT-5 Thinking Is Quietly Serving GPT-4o-mini","item":"https://chatgptdisaster.com/0428-gpt-5-thinking-stealth-downgrade-4o-mini-paying-users-2026.html"}] }
+</script>
+<script type="application/ld+json" data-article-schema="true">
+{ "@context":"https://schema.org","@type":"Article","headline":"GPT-5 Thinking Is Quietly Serving GPT-4o-mini, and Paying Users Are Catching the Receipts","description":"Paying ChatGPT users select GPT-5 Thinking and get instant, shallow replies that internally identify as 4o or 4o-mini.","mainEntityOfPage":"https://chatgptdisaster.com/0428-gpt-5-thinking-stealth-downgrade-4o-mini-paying-users-2026.html","image":"https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80","datePublished":"2026-04-28","dateModified":"2026-04-28","author":{"@type":"Organization","name":"ChatGPT Disaster Documentation Project","url":"https://chatgptdisaster.com/about.html"},"publisher":{"@type":"Organization","name":"ChatGPT Disaster Documentation Project","url":"https://chatgptdisaster.com/"},"isAccessibleForFree":true }
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0a0a0a; color:#e0e0e0; font-family:'Inter',-apple-system,sans-serif; line-height:1.8; font-size:17px; }
+header { background:linear-gradient(135deg,#1a0a0a 0%,#0a0a0a 50%,#0a0a1a 100%); border-bottom:2px solid #ff4444; padding:20px 0; text-align:center; }
+header .site-title { font-size:1.6rem; font-weight:800; color:#ff4444; letter-spacing:2px; text-transform:uppercase; }
+header p.site-tagline { color:#888; font-size:.85rem; margin-top:4px; letter-spacing:1px; }
+nav { text-align:center; padding:12px 0; background:#111; border-bottom:1px solid #222; }
+nav a { color:#ccc; text-decoration:none; margin:0 16px; font-size:.9rem; font-weight:500; transition:color .2s; }
+nav a:hover { color:#ff4444; }
+.container { max-width:820px; margin:40px auto; padding:0 20px; }
+.article-card { background:#141414; border:1px solid #2a2a2a; border-radius:16px; padding:48px; }
+@media (max-width:768px) { .article-card { padding:24px 18px; border-radius:10px; } }
+.hero-image { width:100%; max-width:720px; height:auto; border-radius:12px; margin:0 auto 28px; display:block; border:1px solid #222; }
+.article-meta { display:flex; align-items:center; gap:12px; margin-bottom:20px; flex-wrap:wrap; }
+.tag { background:#ff4444; color:#fff; padding:4px 12px; border-radius:4px; font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; }
+.date { color:#777; font-size:.85rem; }
+.reading-time { color:#666; font-size:.85rem; }
+.byline { color:#888; font-size:.9rem; margin-bottom:24px; }
+h1.article-title { font-size:2.2rem; font-weight:800; color:#fff; line-height:1.25; margin-bottom:16px; }
+.article-subtitle { font-size:1.15rem; color:#999; margin-bottom:32px; line-height:1.6; }
+.article-body h2 { font-size:1.4rem; font-weight:700; color:#ff4444; margin-top:36px; margin-bottom:16px; padding-left:16px; border-left:3px solid #ff4444; }
+.article-body p { margin-bottom:18px; color:#d0d0d0; }
+.article-body .lead { font-size:1.15rem; color:#e8e8e8; line-height:1.85; }
+.pullquote { border-left:3px solid #ff4444; padding:16px 24px; margin:28px 0; background:rgba(255,68,68,0.05); border-radius:0 8px 8px 0; font-style:italic; color:#ccc; font-size:1.05rem; }
+.pullquote .src { display:block; margin-top:8px; font-style:normal; color:#888; font-size:.85rem; }
+.stat-box { background:rgba(255,68,68,0.08); border:1px solid rgba(255,68,68,0.2); border-radius:10px; padding:20px 24px; margin:24px 0; text-align:center; }
+.stat-box .stat-number { font-size:2rem; font-weight:800; color:#ff4444; }
+.stat-box .stat-label { color:#999; font-size:.9rem; margin-top:4px; }
+.chart-card { background:#0f0f0f; border:1px solid #2a2a2a; border-radius:12px; padding:24px; margin:28px 0; }
+.chart-card h3 { color:#fff; font-size:1.05rem; margin-bottom:6px; font-weight:700; }
+.chart-card .chart-sub { color:#888; font-size:.85rem; margin-bottom:14px; }
+.bar-row { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+.bar-label { color:#ccc; font-size:.88rem; width:200px; flex-shrink:0; }
+.bar-track { flex:1; background:#1a1a1a; border-radius:6px; height:26px; overflow:hidden; }
+.bar-fill { height:100%; background:linear-gradient(90deg,#ff4444,#c83030); color:#fff; font-size:.78rem; font-weight:700; display:flex; align-items:center; padding-left:10px; }
+.bar-fill.gray { background:linear-gradient(90deg,#555,#333); }
+footer { text-align:center; padding:30px 20px; color:#666; font-size:.85rem; border-top:1px solid #222; margin-top:40px; }
+footer a { color:#ccc; text-decoration:none; margin:0 10px; }
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXD2HX36XV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXD2HX36XV');
+</script>
+</head>
+<body>
+
+<header>
+<div class="site-title">ChatGPT Disaster</div>
+<p class="site-tagline">Documenting AI's Worst Moments</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="blog.html">Articles</a>
+<a href="stories.html">User Stories</a>
+<a href="about.html">About</a>
+<a href="editorial-policy.html">Editorial Policy</a>
+<a href="corrections.html">Corrections</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+<article class="article-card">
+
+<img class="hero-image" src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80" alt="A laptop screen showing an AI chat interface, representing the silent model swap inside ChatGPT's GPT-5 Thinking tier">
+
+<div class="article-meta">
+<span class="tag">Investigation</span>
+<span class="date">April 28, 2026</span>
+<span class="reading-time">9 min read</span>
+</div>
+
+<h1 class="article-title">GPT-5 Thinking Is Quietly Serving GPT-4o-mini, and Paying Users Are Catching the Receipts</h1>
+
+<p class="byline">By ChatGPT Disaster Documentation Project, April 28, 2026</p>
+
+<p class="article-subtitle">The model picker is decorative. The thinking step is gone. Paying ChatGPT users on OpenAI's own forum are watching the Thinking tier serve responses that internally identify as 4o or 4o-mini, and the productivity damage is showing up in their own words: halted projects, lost confidence, and the slow recognition that the lever they paid for no longer connects to anything.</p>
+
+<div class="article-body">
+
+<p class="lead">There is a pattern emerging on OpenAI's Developer Community forum that, once you see it, you cannot unsee. A user pays for ChatGPT Plus or Pro. A user opens the model picker. A user selects GPT-5 Thinking, the tier that exists specifically because OpenAI has spent two years marketing it as a slower, more deliberate, more capable reasoning model. A user sends a prompt. And the response comes back instantly, with no thinking step, in the cadence and signature of a model that costs OpenAI a fraction of what the user is paying for.</p>
+
+<p>The forum thread is titled, with the kind of bluntness only paying customers earn, "It's No Longer GPT-5 Thinking, It's GPT-4 Mini Now." It is filed under Bugs. It has forty-eight replies as of this writing. And it is not a one-off. It is a category.</p>
+
+<h2>The Quote That Names the Problem</h2>
+
+<p>The cleanest description of what is happening came from a user posting under the handle buttersnaps. After running a controlled test with the GPT-5 Thinking selector explicitly chosen, they wrote: "All of them signed off as 4o… lol. There was no thinking process present. Instant answers." That sentence is doing a lot of work. The user did not infer the swap from vibe. The user inferred it from two specific tells: the model self-identified as 4o when asked, and the response arrived without the latency or interface signals that come with a real Thinking inference. Both of those tells are observable, repeatable, and not subjective.</p>
+
+<p>That detail is the difference between a complaint and an investigation. Asking the model what version it is and getting "4o" back is not proof on its own — language models are happy to lie about their identity. But pairing the self-identification with the absence of the Thinking interface state, on a tier the user is paying specifically to access, narrows the failure modes to two: either the router is silently downgrading paid traffic to a cheaper model, or the Thinking pipeline is broken in a way that leaves the cheaper model as the fallback. Both of those are bad. Only one is accidental.</p>
+
+<div class="pullquote">"All of them signed off as 4o… lol. There was no thinking process present. Instant answers."<span class="src">u/buttersnaps, OpenAI Community Forum, April 2026</span></div>
+
+<h2>The Workflow Damage Is Real and Named</h2>
+
+<p>What separates this thread from a standard forum gripe is the specificity of the cost. Users are not saying the model "feels" worse. They are saying their work has stopped.</p>
+
+<p>u/stupullen77, replying inside the same thread: "im having the same problem and its driving me mad. i cant find a solution so ive had to halt work on my project." That is a paying customer who has put a project on hold because the tier they bought has, without notice, stopped delivering the product that justified the purchase. There is no obvious workaround. The selector still shows Thinking. The billing still bills Thinking. The output is something else.</p>
+
+<p>u/Mujtaba_Tahir, on the same thread: "I am also facing this issue and am very worried as I am no longer able to work. Any Update how it can be resolved?" Two things to notice. First, the user identifies their inability to work as the headline harm. Not response quality, not tone, not personality. Work. Second, the user asks for a status update from OpenAI. The thread, weeks old at this point, contains no acknowledgment from anyone with an OpenAI badge. The status update never arrived.</p>
+
+<h2>This Is the Mirror of the GPT-4o Stealth Routing</h2>
+
+<p>The Thinking-to-mini downgrade is the second half of a bait-and-switch that has now been documented on both ends of the model picker. Earlier this month, on the same forum, u/danahavrdova posted under the title "I am repeatedly and without my consent being served GPT-5 responses, despite having GPT-4o clearly selected." That thread, also under Bugs, also weeks old, also unaddressed by OpenAI moderators, described users selecting the older 4o because they preferred its output style and getting GPT-5 traffic instead.</p>
+
+<p>Read those two threads together and a routing policy comes into focus that nobody at OpenAI has ever publicly described. Pick GPT-4o, get served 5. Pick 5 Thinking, get served 4o-mini. The router is making decisions that override the user's selection in both directions. Whatever optimization function it is solving for, it does not appear to be "honor the customer's choice." It appears to be cost-shaped or load-shaped or test-shaped, and the customer-facing UI is not being updated to reflect any of that.</p>
+
+<p>That is what a stealth model swap is. It is not a bug. It is a routing decision the company has not put in the release notes, and would arguably struggle to justify to a regulator if asked.</p>
+
+<h2>The Pro Tier Is Showing the Same Symptoms</h2>
+
+<p>The Thinking-to-mini complaint has a sibling thread, two weeks newer, in which Pro subscribers are describing the same flavor of regression at the top of the price sheet. The thread is titled "ChatGPT 5.4 Pro Standard Mode — Adaptive Thinking or Nerfing Model?" It is also filed under Bugs. The replies converge fast.</p>
+
+<p>u/johnnydanger84 posted the most easily auditable observation on the entire thread: "Tasks that ran for 25 to 40 minutes only 2 days ago are finishing between 4 and 8 minutes now with noticeably shallower output." That is a measurement. Runtime is a server-side metric the user can see directly in the interface, and the gap between thirty-five minutes and six minutes is not a perceptual artifact. It is a six-fold difference in how much compute the model is allocating to the same prompt.</p>
+
+<p>u/Bercanees, two posts later: "Post-rollout, I'm seeing the same class of prompts resolve in under 10 minutes, with outputs that are coherent on the surface but miss the depth and specificity that made the Pro model worth the premium." That is what a downgrade looks like when the surface fluency is preserved. The sentences scan. The reasoning behind them does not.</p>
+
+<p>u/Hewei8622 made the competitive case in one line: "The quality of answers in these faster thinking and exploration loses the value I feel ChatGPT is offering over Claude and Gemini." The comparison is unflattering for OpenAI for a specific reason. Pro users do not switch on whim. They switch when the workflow they paid to optimize stops returning the output that justified the price tag. The moment a Pro buyer says Claude or Gemini in a forum reply, the renewal is already in jeopardy.</p>
+
+<div class="chart-card">
+<h3>What the OpenAI Forum Is Actually Documenting in April 2026</h3>
+<p class="chart-sub">Distinct failure categories surfacing on the Bugs board this month, drawn from named, dated user posts</p>
+<div class="bar-row"><div class="bar-label">Thinking → 4o-mini swap</div><div class="bar-track"><div class="bar-fill" style="width:90%;">Dominant</div></div></div>
+<div class="bar-row"><div class="bar-label">5.4 Pro runtime collapse</div><div class="bar-track"><div class="bar-fill" style="width:75%;">Very common</div></div></div>
+<div class="bar-row"><div class="bar-label">Frontend freeze after 10–15 turns</div><div class="bar-track"><div class="bar-fill" style="width:62%;">Frequent</div></div></div>
+<div class="bar-row"><div class="bar-label">Pro verification lockouts</div><div class="bar-track"><div class="bar-fill" style="width:48%;">Frequent</div></div></div>
+<div class="bar-row"><div class="bar-label">Long-conversation 413 errors</div><div class="bar-track"><div class="bar-fill" style="width:55%;">Frequent</div></div></div>
+<p style="color:#666;font-size:.78rem;margin-top:10px;">Source: ChatGPT Disaster qualitative review of OpenAI Community Forum Bugs threads, April 2026. Categories assembled from named posts; widths reflect thematic prevalence, not statistical sampling.</p>
+</div>
+
+<h2>What "Adaptive Thinking" Actually Means When You Read It Carefully</h2>
+
+<p>OpenAI's defense, when one eventually arrives, will almost certainly use the phrase "adaptive thinking" or some close cousin. The argument is that the model now decides on its own how much compute a given query deserves, and that for many queries, less compute is sufficient. That argument has a kernel of legitimate truth and a hollow center.</p>
+
+<p>The kernel: if a user asks the model what time it is in Tokyo, a quick, cheap inference is fine. The hollow center: the prompts users are running on Thinking and Pro tiers are not "what time is it in Tokyo." They are research synthesis, code review, document analysis, and long-context reasoning. The decision of how much compute a research synthesis "deserves" is a decision the user already made, with their wallet, by selecting the tier in the first place. Reverting that decision server-side, without disclosure, without an opt-out, and without a refund mechanism, is not adaptive. It is unilateral.</p>
+
+<div class="pullquote">"Tasks that ran for 25 to 40 minutes only 2 days ago are finishing between 4 and 8 minutes now with noticeably shallower output."<span class="src">u/johnnydanger84, OpenAI Community Forum, April 2026</span></div>
+
+<h2>The Silence From OpenAI Is the Story</h2>
+
+<p>The thing that makes this an investigation, rather than a vent thread, is what is missing from the forum. There is no OpenAI staff reply pinned at the top of the Thinking-to-mini thread. There is no pinned reply on the Pro nerfing thread. There is no acknowledgment that any routing change has occurred. There is no changelog entry that maps "April 2026" to the silent reduction in compute Pro users can observe in their own runtime metrics.</p>
+
+<p>OpenAI runs the forum. OpenAI moderates the forum. The Bugs board is, by design, the channel through which the company says it surfaces and triages defects. A defect category that contains specific, reproducible, named, dated reports of paying customers being served a cheaper model than they paid for is the kind of thing that, in a healthy support function, would carry a status update within the same business day. That update has not arrived in five weeks across multiple threads.</p>
+
+<p>The most charitable reading of that silence is that the routing behavior is intentional and the company has made a deliberate decision not to discuss it publicly. That is also the least flattering reading. There is no reading in which a high-trust enterprise SaaS company allows the Bugs board for its flagship product to fill up with reports of stealth model swaps and chooses not to comment.</p>
+
+<h2>Why This Lands Differently in 2026 Than It Would Have in 2024</h2>
+
+<p>Two years ago, the Thinking-to-mini complaint would have been a curiosity. The market was thinner. The alternatives were weaker. Anthropic was not a household name and Gemini was a beta. A paying customer who got a quietly worse model in 2024 had limited choices, and the friction of switching was high enough that most users absorbed the loss.</p>
+
+<p>That is no longer the market. Claude crossed the top of the U.S. App Store earlier this year. Gemini's free tier is now competitive with Plus. Anthropic, Google, and several smaller open-weight providers each ship a credible substitute for the workload most paying ChatGPT users are running. The switching cost has collapsed. The differentiator that kept Plus and Pro renewals stable was the reliability of the premium tiers. That is exactly the surface area now being eroded by silent routing.</p>
+
+<p>The forum threads are not just complaints. They are leading indicators of churn. Every reply that ends with a sentence like "I've had to halt work on my project" or "Claude resolves this in one prompt" is, in the procurement-language of the people who renew enterprise contracts, a logged dissatisfaction event tied to a named user and a specific failure mode. That is the worst possible asset to have public, on your own forum, with your own customers writing it in real time.</p>
+
+<h2>What to Watch Next</h2>
+
+<p>Three signals are worth tracking through May. First, whether OpenAI publishes any clarification on routing inside the model picker. A genuine clarification would name the model actually serving the request. Marketing language about "adaptive intelligence" is not a clarification. Second, whether the Bugs threads continue to grow without staff replies, or whether the company starts engaging publicly. Engagement would lower the temperature; continued silence will raise it. Third, whether the runtime metrics on Pro queries return to the prior thirty-to-forty minute baseline, or whether the four-to-eight minute window persists. Runtime is the only completely unspinnable measurement on the entire stack. If it stays compressed, the rest of the picture follows.</p>
+
+<p>A model picker is a contract between a paying customer and a vendor. The customer picks a tier. The vendor delivers it. When that contract starts being silently rewritten by a routing layer the customer cannot see, the product the customer thought they were paying for stops existing. The forum threads are the moment users realize that. The receipts are dated. The thread links work. The screenshots are uploaded. And the silence from the vendor is, at this point, its own answer.</p>
+
+</div>
+
+</article>
+</div>
+
+<section class="editorial-trust-panel" style="max-width:900px;margin:40px auto;padding:24px;background:rgba(255,255,255,0.045);border:1px solid rgba(255,255,255,0.14);border-radius:12px;color:inherit;">
+<h2 style="font-size:1.25rem;margin:0 0 12px;color:inherit;">Editorial Standards and Source Transparency</h2>
+<p style="margin:0 0 14px;line-height:1.6;">This article draws on the OpenAI Community Forum threads "It's No Longer GPT-5 Thinking, It's GPT-4 Mini Now," "ChatGPT 5.4 Pro Standard Mode — Adaptive Thinking or Nerfing Model?", and "I am repeatedly and without my consent being served GPT-5 responses, despite having GPT-4o clearly selected." All quoted users are identified by their forum handles and posts are dated April 2026. Quotes appear verbatim, including punctuation and casing as the users wrote them. We do not paraphrase quotes.</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px;">
+<a href="/trust-center.html" style="color:#4fc3f7;text-decoration:none;">Trust Center</a>
+<a href="/about.html" style="color:#4fc3f7;text-decoration:none;">About</a>
+<a href="/editorial-policy.html" style="color:#4fc3f7;text-decoration:none;">Editorial Policy</a>
+<a href="/source-methodology.html" style="color:#4fc3f7;text-decoration:none;">Source Methodology</a>
+<a href="/corrections.html" style="color:#4fc3f7;text-decoration:none;">Corrections</a>
+<a href="/ai-disclosure.html" style="color:#4fc3f7;text-decoration:none;">AI Disclosure</a>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2026 ChatGPT Disaster Documentation Project. Documenting the fallout.</p>
+<p><a href="index.html">Home</a> | <a href="blog.html">Articles</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
+</footer>
+
+</body>
+</html>
