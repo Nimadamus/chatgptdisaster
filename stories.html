@@ -1163,6 +1163,167 @@
 
 <div class="stories-grid" id="storiesGrid">
 
+<!-- REDDIT / OPENAI COMMUNITY TESTIMONIALS ADDED APRIL 29, 2026 -->
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Hallucination</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"It hallucinates like… I can't even begin to describe it. I'm almost done building your rocket ship."</h2>
+<div class="story-info">u/soviero | OpenAI Developer Community | August 2025</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"It hallucinates like… I can't even begin to describe it. It tends to go down really deep rabbit holes. 'I'm almost done building your rocket ship.' 'I'll send you as soon as I'm done.'"</div>
+<p>One of the early production-era complaints that aged into a defining one. The pattern soviero documented — model confidently narrates progress on a task it never began, then keeps producing future-tense reassurances instead of output — became the template for the GPT-5.x reliability complaints that followed all the way through the GPT-5.5 launch. Cited in subsequent threads as the single best description of what hallucination looks like inside a long agentic loop.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Customer Service Failure</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"GPT-5 is a total disaster for customer service right now. It hallucinates frequently and unusable."</h2>
+<div class="story-info">u/johncain194 | OpenAI Developer Community | August 2025</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"GPT-5 is a total disaster for customer service right now. It hallucinates frequently and unusable. It is really 'creative' wrongly and deeply frustrating to work with."</div>
+<p>Operators running production customer service deployments started filing identical reports the week GPT-5 went live: the model had become more imaginative on the wrong axis, generating plausible-sounding policy answers that were not in the knowledge base. The "creative wrongly" framing in johncain194's post stuck because it captured the failure mode that breaks support pipelines fastest — invention dressed as competence.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Lost Determinism</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"It lacks the determinism, precision, and obedience that GPT-4.1 provided."</h2>
+<div class="story-info">u/c905f6b2f6b995cb2e84 | OpenAI Developer Community | August 2025</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"Severe hallucinations, especially in technical explanations or programming logic. Failure to follow precise instructions. It lacks the determinism, precision, and obedience that GPT-4.1 provided."</div>
+<p>The post that named the regression in one sentence. Engineers who had spent a year building tooling on top of GPT-4.1's predictability were the loudest voices in the GPT-5 launch fallout, and this comment became the canonical citation: the new model wasn't just worse at certain tasks, it had given up the contract. Determinism and obedience were the floor of the developer relationship, and GPT-5 broke through it.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="performance-issues">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Stalling and Excuses</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"GPT-5 overpromised and lied when I gave it a task for translation."</h2>
+<div class="story-info">u/cobalt60_iodaine | OpenAI Developer Community | September 2025</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"GPT-5 overpromised and lied when I gave it a task for translation. The timing just gets longer and longer. It started giving excuses and distraction."</div>
+<p>cobalt60_iodaine's translation case study tracked a behavior that did not exist in the GPT-4.x era: the model accepts a long task, returns increasingly evasive status updates, and never produces output. The thread later became a reference for what would become the dominant failure mode of agentic workflows in GPT-5.5 — the model preferring to narrate effort over actually performing it.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="token-limits">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Codex Quota Drain</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"A single task took 25% of my weekly limit. Similar tasks typically use only 2–4%."</h2>
+<div class="story-info">u/serkanozturkweb | OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"A single task (splitting a directory into four parts, ~2k lines of code in total) took 25% of my weekly limit. Similar tasks typically use only 2–4%."</div>
+<p>One of the first quantified reports on the Codex quota drain that landed with the GPT-5.5 rollout. A routine refactor that used to consume single-digit percentages of a weekly budget now burned through a quarter of it. The complaint thread filled within hours with developers running their own measurements and getting the same multiplier — costs hadn't just risen, they had stopped tracking the size of the work.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="token-limits">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">5-Hour Window Burn</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"GPT-5.5 Codex appears to burn through the short-window quota very aggressively."</h2>
+<div class="story-info">u/EthicalAIExplorer | OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"A recent governed research-infrastructure session consumed my full 5-hour Codex window. GPT-5.5 Codex appears to burn through the short-window quota very aggressively. Plan Mode / xhigh seems especially expensive. The 5-hour governor can stop the workflow long before the weekly limit is close."</div>
+<p>The companion complaint to serkanozturkweb's measurement: it isn't only the weekly budget being drained faster, the rolling 5-hour window is getting blown out on individual sessions. EthicalAIExplorer's report named Plan Mode / xhigh specifically as the most expensive setting per unit of work, and pointed at a structural problem — the short-window throttle now stops jobs that the weekly limit would have allowed.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="subscription-cancelled">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">API Price Doubling</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"A straight-up price-doubling on top of a price-doubling between gpt-5.1 to gpt-5.4."</h2>
+<div class="story-info">u/_j | OpenAI Developer Community | April 23, 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"A straight-up price-doubling on top of a price-doubling between gpt-5.1 to gpt-5.4."</div>
+<p>_j's reply on the GPT-5.5 launch announcement thread put the pricing arc on the record in a single sentence: this was not a one-off increase, it was the second doubling in six months. The compounding was the part that broke developer trust. A pricing curve that doubles per minor version is not a model people can plan around — it is a budget the platform will keep raising while the launch posts continue to focus on benchmark scores.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="subscription-cancelled">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Cost Burn</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"They burned 100 bucks in a matter of an hour. Model might be better, but dam, this is deeply unsustainable."</h2>
+<div class="story-info">u/ferunda7 | OpenAI Developer Community | April 24, 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"THEY BURNED 100 BUCKS IN A MATTER OF AN HOUR… YES! MODEL MIGHT BE BETTER BUT DAM… THIS IS DEEPLY UNSUSTAINABLE."</div>
+<p>The follow-up post that captured what the new pricing felt like at the wallet level. ferunda7 had migrated a workload to GPT-5.5 inside the first 24 hours of availability and watched a hundred-dollar API balance evaporate in roughly an hour of normal use. The all-caps comment thread it spawned converged on the same conclusion: even if the model was genuinely improved, the pricing made it impossible to keep using at the volume real applications need.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="subscription-cancelled">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Margin Collapse</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"Our margin will go from thin to negative."</h2>
+<div class="story-info">u/oleksandr_gamaniuk | OpenAI Developer Community | April 24, 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"Our margin will go from thin to negative."</div>
+<p>The cleanest articulation of the problem facing every startup that built on top of the OpenAI API. oleksandr_gamaniuk's reply on the GPT-5.5 launch thread is what an entire cohort of small-team founders said in private after seeing the new pricing chart: products with already-thin unit economics could not survive a doubling, and migrating off OpenAI mid-product is its own multi-quarter project. The pricing change effectively re-sorted who could afford to build on the platform.</p>
+</div>
+</article>
+
+<article class="story-card" data-category="subscription-cancelled">
+<div class="featured-badge">NEW APR 29</div>
+<div class="category-tag">Sarcastic Resignation</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>"Man I just took a second mortgage to build a website."</h2>
+<div class="story-info">u/ferunda7 | OpenAI Developer Community | April 25, 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">"Man I just took a second mortgage to build a website."</div>
+<p>The line that closed the GPT-5.5 pricing thread. Forty-eight hours after the launch, ferunda7's sarcastic one-liner had already been quoted across the developer side of the internet as the unofficial slogan of the post-5.5 build environment. The joke worked because it wasn't far enough from the real numbers — small developers running production workloads were watching individual hours of GPT-5.5 use cost more than weeks of GPT-5.4 had.</p>
+</div>
+</article>
+
 <!-- REDDIT / OPENAI COMMUNITY TESTIMONIALS ADDED APRIL 28, 2026 -->
 <article class="story-card" data-category="forced-upgrade">
 <div class="featured-badge">NEW APR 28</div>
