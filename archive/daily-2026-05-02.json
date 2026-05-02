@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-02",
+  "date_seed": 2636936219,
+  "generated_at": "2026-05-02T19:09:21.741164",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 286,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9411"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 213,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2870"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 263,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1338"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2039"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_2843"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 179,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9506"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 209,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2976"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 148,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4254"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 62,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8717"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 120,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4063"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "score": 302,
+      "comments": 157,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Mljar Studio \u2013 local AI data analyst that saves analysis as notebooks",
+      "url": "https://mljar.com/",
+      "score": 58,
+      "comments": 10,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Filling PDF forms with AI using client-side tool calling",
+      "url": "https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en",
+      "score": 46,
+      "comments": 22,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Richard Dawkins and The Claude Delusion: The great skeptic gets taken in",
+      "url": "https://garymarcus.substack.com/p/richard-dawkins-and-the-claude-delusion",
+      "score": 12,
+      "comments": 3,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Eka\u2019s robotic claw feels like we're approaching a ChatGPT moment",
+      "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
+      "score": 160,
+      "comments": 227,
+      "source": "Hacker News"
+    }
+  ]
+}
