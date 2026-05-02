@@ -1,21 +1,18 @@
 {
-  "date": "2026-04-20 12:15:00",
-  "total": 973,
-  "victim_cards": 5,
-  "grand_total": 978,
+  "date": "2026-04-30 23:29:35",
+  "total": 1172,
   "pages": {
-    "stories.html": 101,
+    "stories.html": 196,
     "stories-page2.html": 84,
     "stories-page3.html": 84,
     "stories-page4.html": 84,
     "stories-page5.html": 84,
     "stories-page6.html": 84,
     "stories-page7.html": 84,
-    "stories-page8.html": 33,
-    "stories-page9.html": 32,
+    "stories-page8.html": 84,
+    "stories-page9.html": 85,
     "stories-page10.html": 84,
     "stories-page11.html": 84,
     "stories-page12.html": 135
-  },
-  "note": "Counts are live verified. Prior manifest claimed 1060 but pages 8 and 9 never actually contained 84/85 cards - they've been at 33/32 since at least the April 19 commit. The 1060 figure was incorrect."
+  }
 }
