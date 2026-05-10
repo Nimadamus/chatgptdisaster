@@ -1,18 +1,22 @@
 {
-  "date": "2026-04-30 23:29:35",
-  "total": 1172,
+  "date": "2026-05-10 01:16:50",
+  "selector": "<article\\s+class=\"story-card\"",
+  "total": 1099,
+  "story_files_found": 12,
+  "newly_added_story_files": [],
+  "removed_story_files": [],
   "pages": {
-    "stories.html": 196,
+    "stories.html": 214,
     "stories-page2.html": 84,
     "stories-page3.html": 84,
     "stories-page4.html": 84,
     "stories-page5.html": 84,
     "stories-page6.html": 84,
     "stories-page7.html": 84,
-    "stories-page8.html": 84,
-    "stories-page9.html": 85,
+    "stories-page8.html": 33,
+    "stories-page9.html": 32,
     "stories-page10.html": 84,
     "stories-page11.html": 84,
-    "stories-page12.html": 135
+    "stories-page12.html": 148
   }
 }
