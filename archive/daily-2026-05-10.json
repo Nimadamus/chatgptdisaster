@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-10",
+  "date_seed": 1174565397,
+  "generated_at": "2026-05-10T19:13:16.489782",
+  "reddit_posts": [
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 295,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4950"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 242,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5253"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 397,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3438"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7549"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 268,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9323"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 199,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1901"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 52,
+      "url": "https://reddit.com/r/law",
+      "author": "user_4102"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 87,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3313"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 72,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7830"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 260,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6353"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Spain just became one of Europe's cheapest power markets. Here is how",
+      "url": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes",
+      "score": 54,
+      "comments": 31,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Task Paralysis and AI",
+      "url": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+      "score": 131,
+      "comments": 80,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Academic Research Skills for Claude Code",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "score": 59,
+      "comments": 20,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "score": 58,
+      "comments": 28,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Gemini API File Search is now multimodal",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+      "score": 139,
+      "comments": 37,
+      "source": "Hacker News"
+    }
+  ]
+}
