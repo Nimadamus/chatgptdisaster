@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-11",
+  "date_seed": 3791393912,
+  "generated_at": "2026-05-11T19:55:55.796330",
+  "reddit_posts": [
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 175,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5883"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 392,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3193"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 294,
+      "url": "https://reddit.com/r/law",
+      "author": "user_5509"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 271,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5628"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 338,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_9407"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 200,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4854"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 190,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2417"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 361,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5873"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 286,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6718"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 372,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8943"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Gmail registration now requires scanning a QR code and sending a text message",
+      "url": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+      "score": 428,
+      "comments": 279,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "score": 176,
+      "comments": 8,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AM\u00c1LIA and the future of European Portuguese LLMs",
+      "url": "https://duarteocarmo.com/blog/amalia-and-the-future-of-european-portuguese-llms",
+      "score": 86,
+      "comments": 40,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+      "url": "https://bild.ai/jobs",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The greatest shot in television: James Burke had one chance to nail this scene (2024)",
+      "url": "https://www.openculture.com/2024/10/the-greatest-shot-in-television.html",
+      "score": 316,
+      "comments": 175,
+      "source": "Hacker News"
+    }
+  ]
+}
