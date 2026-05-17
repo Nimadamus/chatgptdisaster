@@ -913,6 +913,77 @@ a { color: inherit; }
     border-color: rgba(14,165,233,0.5);
 }
 
+/* ===== REDDIT USER SIGNALS ===== */
+.reddit-signals-section {
+    padding: 80px 40px;
+    background: #050a12;
+}
+
+.reddit-signals-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reddit-signals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 34px;
+}
+
+.reddit-signal-card {
+    background: rgba(8, 15, 28, 0.72);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 24px;
+    min-height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reddit-signal-card:hover {
+    border-color: rgba(249,115,22,0.35);
+    background: rgba(13, 22, 38, 0.88);
+}
+
+.reddit-signal-label {
+    color: #fb923c;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.reddit-signal-card p {
+    color: rgba(255,255,255,0.72);
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.reddit-signal-card a {
+    color: #67e8f9;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.reddit-signal-card a:hover {
+    color: #a5f3fc;
+}
+
+.reddit-source-note {
+    color: rgba(255,255,255,0.48);
+    font-size: 13px;
+    line-height: 1.7;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
 /* ===== PRESS SECTION ===== */
 .press-section {
     padding: 80px 40px;
@@ -1484,6 +1555,7 @@ a { color: inherit; }
     .hero h1 { font-size: 3rem; }
     .impact-inner { grid-template-columns: repeat(3, 1fr); }
     .bento-grid { grid-template-columns: repeat(2, 1fr); }
+    .reddit-signals-grid { grid-template-columns: repeat(2, 1fr); }
     .bento-card.span-2 { grid-column: span 1; }
     .executives-grid { grid-template-columns: repeat(2, 1fr); }
     .footer-inner { grid-template-columns: 1fr 1fr; }
@@ -1521,6 +1593,8 @@ a { color: inherit; }
     .impact-inner { grid-template-columns: repeat(2, 1fr); }
     .impact-num { font-size: 2rem; }
 
+    .reddit-signals-section { padding: 60px 20px; }
+    .reddit-signals-grid { grid-template-columns: 1fr; }
     .bento-grid { grid-template-columns: 1fr; }
     .testimonials-grid { grid-template-columns: 1fr; }
     .press-preview-grid { grid-template-columns: 1fr; }
@@ -1930,6 +2004,52 @@ a { color: inherit; }
         </div>
     </div>
 </section>
+<section class="reddit-signals-section" aria-labelledby="reddit-user-signals-title">
+    <div class="reddit-signals-inner">
+        <div class="section-header">
+            <div class="section-badge badge-orange">Public Reddit Sources</div>
+            <h2 id="reddit-user-signals-title">Real Users Are Saying the Same Thing</h2>
+            <p>Pulled from public Reddit discussions, these paraphrased complaints show how widespread the frustration has become.</p>
+        </div>
+
+        <div class="reddit-signals-grid">
+            <article class="reddit-signal-card">
+                <div>
+                    <div class="reddit-signal-label">Memory Problems</div>
+                    <p>One r/ChatGPT poster said saved memories that used to work across chats suddenly behaved as if every conversation was brand new.</p>
+                </div>
+                <a href="https://www.reddit.com/r/ChatGPT/comments/1o23vit/chatgpt_seems_to_forget_all_its_memories_anyone/" target="_blank" rel="noopener nofollow">Source: Reddit discussion</a>
+            </article>
+
+            <article class="reddit-signal-card">
+                <div>
+                    <div class="reddit-signal-label">Context Drift</div>
+                    <p>A user in r/ChatGPT described ChatGPT losing the plot after the second prompt and needing repeated reminders to stay on topic.</p>
+                </div>
+                <a href="https://www.reddit.com/r/ChatGPT/comments/1rg2eg6/is_chatgpt_getting_worse/" target="_blank" rel="noopener nofollow">Source: Reddit discussion</a>
+            </article>
+
+            <article class="reddit-signal-card">
+                <div>
+                    <div class="reddit-signal-label">Inconsistent Output</div>
+                    <p>A recent r/ChatGPTcomplaints post reported that prompts which worked earlier became inconsistent, ignored instructions, or took shortcuts.</p>
+                </div>
+                <a href="https://www.reddit.com/r/ChatGPTcomplaints/comments/1tdb7ge/has_anyone_else_noticed_chatgpt_getting_worse/" target="_blank" rel="noopener nofollow">Source: Reddit discussion</a>
+            </article>
+
+            <article class="reddit-signal-card">
+                <div>
+                    <div class="reddit-signal-label">Account Support Loop</div>
+                    <p>Another r/ChatGPT poster described a broken account, partial responses, and a support loop after sending logs, screenshots, and recordings.</p>
+                </div>
+                <a href="https://www.reddit.com/r/ChatGPT/comments/1tbtgtc/my_chatgpt_account_is_completely_broken_for_4/" target="_blank" rel="noopener nofollow">Source: Reddit discussion</a>
+            </article>
+        </div>
+
+        <p class="reddit-source-note">These are paraphrased summaries of public Reddit posts, not fabricated testimonials. Usernames are intentionally omitted unless needed for verification.</p>
+    </div>
+</section>
+
 
 <!-- Bento Grid - Crisis Categories -->
 <section class="bento-section">
