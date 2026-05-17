@@ -29,3 +29,7 @@ Before any Reddit testimonial or user complaint goes live:
 5. Check that the wording does not exaggerate the source.
 6. Check that no fake testimonial, fake user, or fake screenshot was introduced.
 7. Confirm no canonical tags, SEO metadata, navigation, or unrelated internal links were changed as part of the update.
+
+## Credential Handling Rule
+
+Credentials, secrets, passwords, tokens, FTP URLs containing credentials, and hosting control-panel access details must never be printed, pasted into terminal output, committed, logged, included in diagnostics, uploaded as deployment artifacts, or exposed in screenshots. Diagnostics must use secret names, masked values, or boolean pass/fail checks only.
