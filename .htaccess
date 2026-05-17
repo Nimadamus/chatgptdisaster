@@ -1,5 +1,3 @@
-DirectoryIndex homepage-current.html index.html
-
 RewriteEngine On
 
 # Canonical host and HTTPS.
