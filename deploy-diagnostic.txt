@@ -1,0 +1,10 @@
+time=2026-05-17T07:16:57Z
+ftp_host_set=yes
+ftp_user_set=yes
+ftp_pass_set=yes
+ftp_dir_set=yes
+ftp_dir_length=11
+cd: Login failed: 530 Login authentication failed
+ftp://deploy%40chatgptdisaster.com:Chipper2025!@ftp.chatgptdisaster.com
+put: index.html: Login failed: 530 Login authentication failed
+lftp_exit=1
