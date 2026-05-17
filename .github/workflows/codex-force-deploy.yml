@@ -1,0 +1,29 @@
+name: Codex Forced Homepage Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-homepage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Force upload homepage and protocol doc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp -c "
+            set ssl:verify-certificate no;
+            set ftp:passive-mode yes;
+            set ftp:ssl-allow no;
+            set net:timeout 30;
+            set net:max-retries 3;
+            open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ftp://${{ secrets.FTP_HOST }};
+            cd ${{ secrets.FTP_DIR }};
+            put -O . index.html;
+            mkdir -p docs;
+            put -O docs docs/chatgptdisaster-editorial-protocol.md;
+            quit
+          "
