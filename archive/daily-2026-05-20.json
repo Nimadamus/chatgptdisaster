@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-20",
+  "date_seed": 1157740138,
+  "generated_at": "2026-05-20T20:24:29.712524",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 116,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6935"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 54,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4206"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 189,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7506"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 244,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_4266"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 231,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_5205"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 399,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_2199"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 260,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_4114"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 397,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4529"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 395,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3016"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 72,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7031"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "score": 215,
+      "comments": 134,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Qian Xuesen: The missile genius America lost and China gained (2025)",
+      "url": "https://www.usni.org/magazines/naval-history/2025/december/missile-genius-america-lost-and-china-gained",
+      "score": 29,
+      "comments": 19,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
+      "url": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+      "score": 201,
+      "comments": 151,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Formal Verification Gates for AI Coding Loops",
+      "url": "https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/",
+      "score": 71,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Testing distributed systems with AI agents",
+      "url": "https://github.com/shenli/distributed-system-testing",
+      "score": 62,
+      "comments": 8,
+      "source": "Hacker News"
+    }
+  ]
+}
