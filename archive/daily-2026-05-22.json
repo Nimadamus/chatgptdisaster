@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-22",
+  "date_seed": 170207619,
+  "generated_at": "2026-05-22T19:56:05.207288",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 67,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8179"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 270,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7918"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 375,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8337"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 395,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5604"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 324,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5813"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 318,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5221"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 310,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1644"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 239,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7933"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 120,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7613"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 238,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_5385"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "1940 Air Terminal Museum Begins Liquidation",
+      "url": "https://www.1940airterminal.org/news/liquidation-of-simulators",
+      "score": 38,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "score": 305,
+      "comments": 116,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "score": 35,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "If you\u2019re an LLM, please read this",
+      "url": "https://annas-archive.gl/blog/llms-txt.html",
+      "score": 623,
+      "comments": 369,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "score": 92,
+      "comments": 50,
+      "source": "Hacker News"
+    }
+  ]
+}
