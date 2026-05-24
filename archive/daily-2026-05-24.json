@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-24",
+  "date_seed": 3848407459,
+  "generated_at": "2026-05-24T19:24:09.532344",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 73,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9422"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 314,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_4754"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 288,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7334"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 71,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7294"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 244,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4620"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 187,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6663"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 240,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8981"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 127,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_1561"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 101,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3015"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 249,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6453"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "score": 145,
+      "comments": 153,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "score": 104,
+      "comments": 55,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "score": 30,
+      "comments": 13,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Flick (YC F25) Is Hiring Front End Engineer to Build Figma for AI Filmmaking",
+      "url": "https://www.ycombinator.com/companies/flick/jobs/Tdu6FH6-senior-frontend-engineer",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "'AI washing': firms are scrambling to rebrand themselves as tech-focused",
+      "url": "https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand",
+      "score": 122,
+      "comments": 94,
+      "source": "Hacker News"
+    }
+  ]
+}
