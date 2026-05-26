@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-26",
+  "date_seed": 3343022046,
+  "generated_at": "2026-05-26T20:16:27.735969",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 82,
+      "url": "https://reddit.com/r/law",
+      "author": "user_5649"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 328,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8706"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 61,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8392"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3246"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 347,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_2124"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 358,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2573"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 325,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7886"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 357,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4388"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 174,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5608"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 243,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2097"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
+      "score": 546,
+      "comments": 252,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Outsourcing plus local AI will soon become more economical vs. frontier labs",
+      "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
+      "score": 178,
+      "comments": 198,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Use boring languages with LLMs",
+      "url": "https://jry.io/writing/use-boring-languages-with-llms/",
+      "score": 105,
+      "comments": 86,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Using AI to write better code more slowly",
+      "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "score": 1098,
+      "comments": 406,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
+      "url": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
+      "score": 61,
+      "comments": 20,
+      "source": "Hacker News"
+    }
+  ]
+}
