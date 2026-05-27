@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-27",
+  "date_seed": 821703408,
+  "generated_at": "2026-05-27T20:24:39.035271",
+  "reddit_posts": [
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 315,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1761"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 326,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9645"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 214,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8571"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 341,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5803"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 144,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2985"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 325,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8485"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 341,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1838"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 57,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4805"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 211,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4862"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 177,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_4539"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "YouTube to automatically label AI-generated videos",
+      "url": "https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/",
+      "score": 61,
+      "comments": 30,
+      "source": "Hacker News"
+    },
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "score": 369,
+      "comments": 457,
+      "source": "Hacker News"
+    },
+    {
+      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
+      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
+      "score": 434,
+      "comments": 222,
+      "source": "Hacker News"
+    },
+    {
+      "title": "In-Browser Container Builds",
+      "url": "https://ochagavia.nl/blog/fully-in-browser-container-builds/",
+      "score": 31,
+      "comments": 10,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction",
+      "url": "https://arxiv.org/abs/2605.21779",
+      "score": 21,
+      "comments": 2,
+      "source": "Hacker News"
+    }
+  ]
+}
