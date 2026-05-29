@@ -18,6 +18,18 @@ Any Reddit testimonial, quote, user complaint, or paraphrased Reddit-sourced use
 
 This rule applies to homepage modules, story pages, article pages, screenshots, social embeds, static discovery sections, and automated content-generation scripts.
 
+## Append-Only Rule for Testimonials
+
+New Reddit testimonials are ADDED only, never substituted for existing ones:
+
+- The canonical testimonial store is the `#storiesGrid` block in `stories.html` (`testimonials.html` and `reddit-testimonials.html` redirect to it).
+- Insert new `story-card` articles inside `<div class="stories-grid" id="storiesGrid">`. Never delete, overwrite, reorder destructively, or replace existing cards.
+- Wrap each batch in dated comment markers, for example `<!-- REDDIT TESTIMONIALS BATCH ADDED <date> -->` ... `<!-- END REDDIT BATCH <date> -->`.
+- Match the existing card format: real author handle, real subreddit, paragraph with an inline `Reddit source` link to the exact permalink, a verbatim `quote-highlight`, and the `story-stats` row.
+- Check for duplicates by Reddit permalink before adding; skip any URL already present in `stories.html`.
+- After adding, bump the displayed story count (`N+ Real ChatGPT ...`) by the number of new cards.
+- Always pull `origin/main` (daily automation pushes here) before editing, so new cards land on top of the current live file and never revert daily updates.
+
 ## Pre-Publish Checklist
 
 Before any Reddit testimonial or user complaint goes live:
