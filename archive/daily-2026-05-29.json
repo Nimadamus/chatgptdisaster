@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-29",
+  "date_seed": 4235094217,
+  "generated_at": "2026-05-29T20:33:02.558204",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 333,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7217"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 113,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9872"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8097"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 181,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2949"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 206,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2671"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 363,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_5804"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 319,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7720"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 204,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4635"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 95,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_6562"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 220,
+      "url": "https://reddit.com/r/law",
+      "author": "user_9723"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Notes from the Mistral AI Now Summit in Paris",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "score": 245,
+      "comments": 60,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
+      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+      "score": 76,
+      "comments": 18,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Shift will clean homes for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "score": 14,
+      "comments": 22,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Tiny-vLLM \u2013 high performance LLM inference engine in C++ and CUDA",
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "score": 9,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Is AI causing a repeat of frontend\u2019s lost decade?",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "score": 219,
+      "comments": 197,
+      "source": "Hacker News"
+    }
+  ]
+}
