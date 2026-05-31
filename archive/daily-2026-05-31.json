@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-31",
+  "date_seed": 2645940836,
+  "generated_at": "2026-05-31T19:24:45.291613",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3386"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 310,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3629"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 336,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1683"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 54,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3252"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 193,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7631"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 308,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1238"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 292,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7473"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 164,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6496"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 288,
+      "url": "https://reddit.com/r/law",
+      "author": "user_1229"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 60,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7490"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Creatine raise brain energy levels and slow Alzheimer's cognitive decline by 30%",
+      "url": "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/",
+      "score": 269,
+      "comments": 185,
+      "source": "Hacker News"
+    },
+    {
+      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+      "url": "https://prismml.com/news/bonsai-image-4b",
+      "score": 152,
+      "comments": 57,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Speed of Prototyping in the Age of AI",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "score": 46,
+      "comments": 33,
+      "source": "Hacker News"
+    },
+    {
+      "title": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
+      "url": "https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/",
+      "score": 133,
+      "comments": 178,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Daily pill can double survival time for deadliest cancer, trial shows",
+      "url": "https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial",
+      "score": 99,
+      "comments": 16,
+      "source": "Hacker News"
+    }
+  ]
+}
