@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-04",
+  "date_seed": 3975789275,
+  "generated_at": "2026-06-04T20:11:21.846608",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 346,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4333"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 157,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2633"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 397,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7742"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 103,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2915"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 285,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6064"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 242,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8930"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 119,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1665"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 67,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9799"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 289,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_8084"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 213,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5997"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "score": 102,
+      "comments": 113,
+      "source": "Hacker News"
+    },
+    {
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "score": 91,
+      "comments": 8,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Samurai City",
+      "url": "https://worksinprogress.co/issue/samurai-city/",
+      "score": 29,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+      "score": 665,
+      "comments": 621,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI, Ashby Engineering, and the future",
+      "url": "https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future",
+      "score": 15,
+      "comments": 6,
+      "source": "Hacker News"
+    }
+  ]
+}
