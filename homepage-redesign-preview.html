@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta property="og:title" content="Homepage Redesign Preview | ChatGPT Disaster">
+  <meta property="og:description" content="Documenting ChatGPT failures, outages, and issues. Real stories from users affected by AI chatbot problems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chatgptdisaster.com/homepage-redesign-preview.html">
+  <meta property="og:site_name" content="ChatGPT Disaster">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Homepage Redesign Preview | ChatGPT Disaster">
+  <meta name="twitter:description" content="Documenting ChatGPT failures, outages, and issues. Real stories from users affected by AI chatbot problems.">
+  <title>ChatGPT Disaster Homepage Redesign Preview</title>
+  <meta name="description" content="Documenting ChatGPT failures, outages, and issues. Real stories from users affected by AI chatbot problems.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070a10;
+      --ink: #eef5ff;
+      --muted: #9aa9bb;
+      --panel: rgba(14, 22, 35, .84);
+      --panel-solid: #0f1724;
+      --line: rgba(159, 178, 205, .2);
+      --blue: #41c7ff;
+      --red: #ff5c7a;
+      --gold: #ffd166;
+      --green: #44d7a8;
+      --violet: #a78bfa;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.55;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(7, 10, 16, .88);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav {
+      max-width: 1220px;
+      min-height: 76px;
+      margin: 0 auto;
+      padding: 0 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-weight: 950;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      color: #06121f;
+      background: linear-gradient(135deg, var(--blue), #2563eb);
+      box-shadow: 0 0 34px rgba(65, 199, 255, .28);
+      font-weight: 950;
+    }
+
+    .navlinks {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .nav-item { position: relative; }
+
+    .nav-tab {
+      min-height: 46px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 15px;
+      border-radius: 10px;
+      border: 1px solid rgba(159, 178, 205, .18);
+      background: rgba(15, 23, 36, .58);
+      color: #c8d5e6;
+      font-size: 14px;
+      font-weight: 860;
+      box-shadow: 0 12px 28px rgba(0,0,0,.16);
+    }
+
+    .nav-tab:hover,
+    .nav-item:focus-within .nav-tab,
+    .nav-item:hover .nav-tab {
+      background: rgba(65, 199, 255, .14);
+      color: white;
+      border-color: rgba(65, 199, 255, .34);
+    }
+
+    .chev { color: var(--blue); font-size: 11px; }
+
+    .dropdown {
+      position: absolute;
+      right: 0;
+      top: calc(100% + 10px);
+      width: 310px;
+      display: none;
+      padding: 9px;
+      border: 1px solid rgba(159, 178, 205, .24);
+      border-radius: 12px;
+      background: rgba(8, 13, 22, .98);
+      box-shadow: 0 24px 80px rgba(0,0,0,.44);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav-item:hover .dropdown,
+    .nav-item:focus-within .dropdown { display: block; }
+
+    .dropdown a {
+      display: block;
+      padding: 10px 11px;
+      border-radius: 8px;
+      color: #d9e6f6;
+      font-size: 13px;
+      font-weight: 760;
+    }
+
+    .dropdown a:hover { background: rgba(65, 199, 255, .13); color: white; }
+
+    .dropdown small {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 650;
+    }
+
+    .dropdown-divider {
+      height: 1px;
+      margin: 7px 4px;
+      background: rgba(159, 178, 205, .16);
+    }
+
+    .hero {
+      position: relative;
+      min-height: calc(100vh - 66px);
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(90deg, rgba(7, 10, 16, .96) 0%, rgba(7, 10, 16, .86) 42%, rgba(7, 10, 16, .54) 100%),
+        url("images/og-default.png") center right / cover no-repeat;
+    }
+
+    .hero:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 58px 58px;
+      mask-image: linear-gradient(90deg, rgba(0,0,0,.32), rgba(0,0,0,.82));
+      pointer-events: none;
+    }
+
+    .hero:after {
+      content: "";
+      position: absolute;
+      right: 7vw;
+      top: 19vh;
+      width: min(410px, 38vw);
+      height: min(410px, 38vw);
+      border: 1px solid rgba(65, 199, 255, .28);
+      border-radius: 999px;
+      box-shadow: 0 0 0 22px rgba(65, 199, 255, .035), 0 0 90px rgba(65, 199, 255, .18);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 86px 22px 58px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(310px, .72fr);
+      gap: 34px;
+      align-items: end;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 32px;
+      padding: 0 12px;
+      border: 1px solid rgba(65, 199, 255, .36);
+      border-radius: 999px;
+      background: rgba(65, 199, 255, .08);
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 860;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    h1 {
+      margin: 18px 0 14px;
+      max-width: 790px;
+      font-size: clamp(46px, 8vw, 104px);
+      line-height: .92;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 0;
+      color: #d6e1ef;
+      font-size: clamp(18px, 2vw, 22px);
+    }
+
+    .hero-actions {
+      margin-top: 27px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      min-height: 46px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 17px;
+      border-radius: 8px;
+      border: 1px solid rgba(214, 225, 239, .22);
+      background: rgba(15, 23, 36, .76);
+      color: white;
+      font-weight: 850;
+    }
+
+    .btn.primary { background: var(--blue); border-color: var(--blue); color: #03111d; }
+
+    .hero-panel {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(9, 14, 23, .74);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 24px 80px rgba(0,0,0,.32);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      padding: 15px 17px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .panel-head b { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); }
+    .panel-head span { color: var(--muted); font-size: 12px; font-weight: 800; }
+
+    .signal-list { padding: 8px 17px 14px; }
+
+    .signal {
+      display: grid;
+      grid-template-columns: 10px 1fr auto;
+      gap: 12px;
+      align-items: center;
+      padding: 13px 0;
+      border-bottom: 1px solid rgba(159, 178, 205, .13);
+    }
+
+    .signal:last-child { border-bottom: 0; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--red); box-shadow: 0 0 18px rgba(255, 92, 122, .6); }
+    .dot.blue { background: var(--blue); box-shadow: 0 0 18px rgba(65, 199, 255, .55); }
+    .dot.gold { background: var(--gold); box-shadow: 0 0 18px rgba(255, 209, 102, .48); }
+    .signal strong { display: block; font-size: 14px; }
+    .signal small { color: var(--muted); }
+    .signal em { color: #dce7f6; font-style: normal; font-size: 12px; font-weight: 850; }
+
+    .wrap { max-width: 1220px; margin: 0 auto; padding: 56px 22px; }
+    .section-head { display: flex; justify-content: space-between; gap: 24px; align-items: flex-end; margin-bottom: 20px; }
+    .section-head h2 { margin: 0; font-size: clamp(28px, 4vw, 46px); line-height: 1.05; }
+    .section-head p { margin: 8px 0 0; max-width: 710px; color: var(--muted); }
+
+    .hub-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+
+    .hub {
+      min-height: 240px;
+      padding: 19px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(20, 31, 48, .92), rgba(13, 20, 32, .92));
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hub:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 85% 18%, rgba(65, 199, 255, .18), transparent 34%);
+      pointer-events: none;
+    }
+
+    .hub.safety:before { background: radial-gradient(circle at 85% 18%, rgba(255, 92, 122, .2), transparent 34%); }
+    .hub.legal:before { background: radial-gradient(circle at 85% 18%, rgba(255, 209, 102, .2), transparent 34%); }
+    .hub.guides:before { background: radial-gradient(circle at 85% 18%, rgba(68, 215, 168, .18), transparent 34%); }
+    .hub > * { position: relative; z-index: 1; }
+    .hub-label { color: var(--blue); font-size: 11px; font-weight: 920; text-transform: uppercase; letter-spacing: .08em; }
+    .hub.safety .hub-label { color: var(--red); }
+    .hub.legal .hub-label { color: var(--gold); }
+    .hub.guides .hub-label { color: var(--green); }
+    .hub h3 { margin: 14px 0 10px; font-size: 23px; line-height: 1.05; }
+    .hub p { margin: 0; color: #b7c5d8; font-size: 14px; }
+    .hub strong { margin-top: 18px; color: white; font-size: 13px; }
+
+    .latest-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+
+    .article-card {
+      min-height: 214px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: var(--panel-solid);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .article-visual {
+      height: 94px;
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(135deg, rgba(65, 199, 255, .28), rgba(9, 14, 23, .52)),
+        linear-gradient(90deg, transparent 0 46%, rgba(255,255,255,.1) 46% 47%, transparent 47% 100%),
+        repeating-linear-gradient(0deg, rgba(255,255,255,.08) 0 1px, transparent 1px 10px);
+      position: relative;
+    }
+
+    .article-visual.legal { background: linear-gradient(135deg, rgba(255, 209, 102, .28), rgba(9,14,23,.58)), repeating-linear-gradient(90deg, rgba(255,255,255,.08) 0 1px, transparent 1px 12px); }
+    .article-visual.safety { background: linear-gradient(135deg, rgba(255, 92, 122, .28), rgba(9,14,23,.58)), radial-gradient(circle at 78% 40%, rgba(255,255,255,.15), transparent 28%); }
+    .article-visual.code { background: linear-gradient(135deg, rgba(68, 215, 168, .24), rgba(9,14,23,.58)), repeating-linear-gradient(0deg, rgba(68,215,168,.14) 0 1px, transparent 1px 12px); }
+
+    .article-body { padding: 16px; display: flex; flex-direction: column; flex: 1; justify-content: space-between; }
+    .kicker { color: var(--blue); font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }
+    .article-card h3 { margin: 8px 0 10px; font-size: 18px; line-height: 1.16; }
+    .article-card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .article-card strong { margin-top: 16px; display: inline-flex; color: white; font-size: 13px; }
+
+    .library {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .feature-story {
+      min-height: 360px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(7,10,16,.26), rgba(7,10,16,.96)),
+        url("images/og-default.png") center / cover no-repeat;
+      display: flex;
+      align-items: flex-end;
+      padding: 26px;
+    }
+
+    .feature-story h2 {
+      max-width: 720px;
+      margin: 12px 0 10px;
+      font-size: clamp(30px, 5vw, 56px);
+      line-height: .98;
+    }
+
+    .feature-story p { max-width: 700px; color: #d5e0ee; margin: 0 0 20px; }
+
+    .feature-stack { display: grid; gap: 14px; }
+
+    .mini-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--panel-solid);
+      padding: 18px;
+    }
+
+    .mini-card h3 { margin: 8px 0 8px; font-size: 21px; line-height: 1.12; }
+    .mini-card p { margin: 0 0 14px; color: var(--muted); font-size: 14px; }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .category {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(14, 22, 35, .78);
+      padding: 18px;
+    }
+
+    .category h3 { margin: 9px 0 10px; font-size: 22px; }
+    .category p { margin: 0 0 15px; color: var(--muted); font-size: 14px; }
+    .category a { display: block; padding: 9px 0; border-top: 1px solid rgba(159,178,205,.14); color: #dbeafe; font-weight: 780; font-size: 14px; }
+
+    .timeline-list {
+      display: grid;
+      gap: 11px;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 116px 1fr auto;
+      gap: 16px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(14, 22, 35, .74);
+      padding: 15px;
+    }
+
+    .timeline-date {
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .timeline-item b { display: block; margin-bottom: 2px; }
+    .timeline-item p { margin: 0; color: var(--muted); font-size: 14px; }
+    .timeline-item span:last-child { color: #dbeafe; font-size: 13px; font-weight: 850; }
+
+    .library-feature, .library-list {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--panel);
+      padding: 22px;
+    }
+
+    .library-feature h2 { margin: 0 0 10px; font-size: 31px; line-height: 1.05; }
+    .library-feature p { color: #b7c5d8; margin: 0 0 20px; }
+    .library-list { display: grid; gap: 10px; }
+    .library-list a {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: center;
+      padding: 13px 14px;
+      border: 1px solid rgba(159,178,205,.16);
+      border-radius: 8px;
+      background: rgba(7, 10, 16, .36);
+      font-weight: 820;
+    }
+    .library-list span { color: var(--muted); font-size: 12px; font-weight: 760; }
+
+    .standards-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+    .standard { border: 1px solid var(--line); border-radius: 10px; background: rgba(14, 22, 35, .78); padding: 16px; }
+    .standard b { display: block; margin-bottom: 7px; color: white; }
+    .standard p { margin: 0; color: var(--muted); font-size: 13px; }
+
+    .submit-band {
+      margin-top: 12px;
+      border: 1px solid rgba(65, 199, 255, .28);
+      border-radius: 14px;
+      padding: 30px;
+      background:
+        linear-gradient(90deg, rgba(65,199,255,.14), rgba(255,92,122,.1)),
+        rgba(14,22,35,.8);
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+    }
+    .submit-band h2 { margin: 0 0 8px; font-size: 30px; }
+    .submit-band p { margin: 0; color: #cbd8e8; max-width: 700px; }
+
+    footer { border-top: 1px solid var(--line); color: var(--muted); }
+    footer .wrap { padding-top: 28px; padding-bottom: 38px; }
+
+    @media (max-width: 980px) {
+      .hero { min-height: 0; }
+      .hero-inner { grid-template-columns: 1fr; padding-top: 66px; }
+      .hub-grid, .latest-grid, .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .library, .feature-grid { grid-template-columns: 1fr; }
+      .standards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .timeline-item { grid-template-columns: 1fr; }
+      .submit-band { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (max-width: 660px) {
+      .nav { align-items: flex-start; flex-direction: column; padding-top: 14px; padding-bottom: 14px; }
+      .navlinks { justify-content: flex-start; }
+      .hero-inner, .wrap { padding-left: 18px; padding-right: 18px; }
+      .hub-grid, .latest-grid, .standards-grid, .category-grid { grid-template-columns: 1fr; }
+      .section-head { align-items: flex-start; flex-direction: column; }
+      .hero:after { display: none; }
+    }
+  </style>
+    <link rel="canonical" href="https://chatgptdisaster.com/homepage-redesign-preview.html" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Preview navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">CD</span><span>ChatGPT Disaster</span></a>
+      <div class="navlinks">
+        <div class="nav-item">
+          <a class="nav-tab" href="documentation-index.html">Start Here <span class="chev">▼</span></a>
+          <div class="dropdown">
+            <a href="documentation-index.html">Documentation Index<small>Best first stop for the archive.</small></a>
+            <a href="topic-clusters.html">Topic Clusters<small>Browse the site by investigation theme.</small></a>
+            <a href="timeline.html">Timeline<small>Chronological incident history.</small></a>
+            <a href="resources.html">Research Resources<small>Source and evidence library.</small></a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-tab" href="stories.html">User Reports <span class="chev">▼</span></a>
+          <div class="dropdown">
+            <a href="stories.html">Main Story Library<small>Full user complaint archive.</small></a>
+            <a href="stories-page6.html">GPT-5.2 Backlash<small>Latest model quality reports.</small></a>
+            <a href="stories-page10.html">Reddit Exodus<small>Cancellation and migration reports.</small></a>
+            <a href="submit-your-experience.html">Submit Your Story<small>Add a documented experience.</small></a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-tab" href="mental-health-crisis.html">Safety <span class="chev">▼</span></a>
+          <div class="dropdown">
+            <a href="mental-health-crisis.html">Mental Health Crisis<small>Dependency, psychosis, and safety reports.</small></a>
+            <a href="clinical-cases.html">Clinical Cases<small>Medical and psychiatric case coverage.</small></a>
+            <a href="victims.html">Victims Memorial<small>Serious harm and death case index.</small></a>
+            <a href="chatgpt-death-lawsuits.html">Death Lawsuits<small>Legal claims involving fatalities.</small></a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-tab" href="performance-decline.html">Performance <span class="chev">▼</span></a>
+          <div class="dropdown">
+            <a href="performance-decline.html">Performance Decline<small>Quality regression evidence.</small></a>
+            <a href="chatgpt-getting-dumber.html">Getting Dumber<small>User-facing model degradation reports.</small></a>
+            <a href="gpt-5-bugs.html">GPT-5 Bugs<small>Bug and failure reports.</small></a>
+            <a href="silent-failure-ai-code.html">AI Code Failures<small>Developer and coding reliability failures.</small></a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-tab" href="lawsuits.html">Legal <span class="chev">▼</span></a>
+          <div class="dropdown">
+            <a href="lawsuits.html">Lawsuits Tracker<small>Major filings and case summaries.</small></a>
+            <a href="0404-chatgpt-fabricated-legal-cases-lawyers-sanctioned-courts-worldwide.html">Fake Legal Cases<small>Hallucinated citation sanctions.</small></a>
+            <a href="business-impact.html">Business Impact<small>Company losses and enterprise risk.</small></a>
+            <a href="press-coverage.html">Press Coverage<small>Media coverage and external reporting.</small></a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-tab" href="alternatives.html">Guides <span class="chev">▼</span></a>
+          <div class="dropdown">
+            <a href="alternatives.html">Alternatives<small>Compare other AI assistants.</small></a>
+            <a href="chatgpt-status-tracker.html">Status Tracker<small>Check reliability and outage history.</small></a>
+            <a href="what-to-do-chatgpt-down.html">When ChatGPT Is Down<small>Practical recovery steps.</small></a>
+            <a href="when-not-to-trust-chatgpt.html">When Not To Trust ChatGPT<small>Risk checklist for users.</small></a>
+            <div class="dropdown-divider"></div>
+            <a href="support.html">Support The Archive<small>Help fund the project.</small></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="eyebrow">Independent AI failure archive</span>
+          <h1>ChatGPT Disaster</h1>
+          <p class="lead">A cleaner evidence hub for AI failures, lawsuits, outages, hallucinations, user reports, safety concerns, and reliability breakdowns.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="documentation-index.html">Start Here</a>
+            <a class="btn" href="stories.html">Read User Reports</a>
+            <a class="btn" href="lawsuits.html">View Lawsuits</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Current archive signals">
+          <div class="panel-head">
+            <b>Evidence Dashboard</b>
+            <span>Preview layout</span>
+          </div>
+          <div class="signal-list">
+            <a class="signal" href="stories.html">
+              <span class="dot"></span>
+              <span><strong>User reports library</strong><small>Complaints, testimony, and reported failures</small></span>
+              <em>Open</em>
+            </a>
+            <a class="signal" href="lawsuits.html">
+              <span class="dot gold"></span>
+              <span><strong>Legal case tracker</strong><small>Filings, sanctions, lawsuits, and claims</small></span>
+              <em>Review</em>
+            </a>
+            <a class="signal" href="chatgpt-status-tracker.html">
+              <span class="dot blue"></span>
+              <span><strong>Reliability and outages</strong><small>Status history and service failure guides</small></span>
+              <em>Track</em>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="feature-grid">
+        <a class="feature-story" href="documentation-index.html">
+          <div>
+            <span class="eyebrow">Featured entry point</span>
+            <h2>The archive needs a front door, not a maze.</h2>
+            <p>New visitors should immediately understand the main evidence categories, newest investigations, and where to start.</p>
+            <span class="btn primary">Open the documentation index</span>
+          </div>
+        </a>
+        <div class="feature-stack">
+          <a class="mini-card" href="stories.html">
+            <span class="kicker">User reports</span>
+            <h3>Complaint library</h3>
+            <p>Route readers into the story archive without dumping every story page on the homepage.</p>
+            <strong>Browse stories</strong>
+          </a>
+          <a class="mini-card" href="chatgpt-status-tracker.html">
+            <span class="kicker">Reliability</span>
+            <h3>Status and outage tracker</h3>
+            <p>Make current reliability issues easy to find from the homepage.</p>
+            <strong>Check status</strong>
+          </a>
+          <a class="mini-card" href="press-coverage.html">
+            <span class="kicker">External coverage</span>
+            <h3>Press and source trail</h3>
+            <p>Show outside reporting as credibility support for the archive.</p>
+            <strong>View coverage</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Choose A Research Path</h2>
+          <p>Instead of making visitors parse hundreds of homepage links, the site can route them into four clear evidence areas.</p>
+        </div>
+      </div>
+      <div class="hub-grid">
+        <a class="hub" href="stories.html">
+          <div>
+            <span class="hub-label">User reports</span>
+            <h3>Complaints and testimonies</h3>
+            <p>Browse the user story library by topic, failure type, or model version.</p>
+          </div>
+          <strong>Browse reports</strong>
+        </a>
+        <a class="hub safety" href="mental-health-crisis.html">
+          <div>
+            <span class="hub-label">Safety</span>
+            <h3>Mental health and harm</h3>
+            <p>Clinical cases, dependency reports, victim pages, and crisis resources.</p>
+          </div>
+          <strong>Open safety hub</strong>
+        </a>
+        <a class="hub legal" href="lawsuits.html">
+          <div>
+            <span class="hub-label">Legal</span>
+            <h3>Lawsuits and business fallout</h3>
+            <p>Court filings, sanctions, hallucinated citations, and enterprise failures.</p>
+          </div>
+          <strong>Review cases</strong>
+        </a>
+        <a class="hub guides" href="performance-decline.html">
+          <div>
+            <span class="hub-label">Reliability</span>
+            <h3>Performance and outages</h3>
+            <p>Model regressions, coding failures, outage reports, and practical guides.</p>
+          </div>
+          <strong>Check reliability</strong>
+        </a>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Latest Investigations</h2>
+          <p>Keep this section tight: six featured articles, then send readers to the full archive.</p>
+        </div>
+        <a class="btn" href="archive/index.html">Full Archive</a>
+      </div>
+
+      <div class="latest-grid">
+        <a class="article-card" href="0513-reddit-testimonials-chatgpt-trust-collapse-2026.html">
+          <div class="article-visual safety"></div>
+          <div class="article-body">
+            <div><span class="kicker">User reports</span><h3>Reddit testimonials and the collapse of trust</h3><p>Newer report-style articles should anchor the latest section.</p></div>
+            <strong>Read investigation</strong>
+          </div>
+        </a>
+        <a class="article-card" href="etsy-chatgpt-shopping-integration-risk.html">
+          <div class="article-visual"></div>
+          <div class="article-body">
+            <div><span class="kicker">Consumer risk</span><h3>Etsy, shopping integration, and AI product trust</h3><p>Consumer-facing failures need a clearer visual entry point.</p></div>
+            <strong>Read investigation</strong>
+          </div>
+        </a>
+        <a class="article-card" href="brigandi-oregon-vineyard-ai-hallucination-110000-largest-sanction.html">
+          <div class="article-visual legal"></div>
+          <div class="article-body">
+            <div><span class="kicker">Legal</span><h3>Oregon vineyard hallucination sanction</h3><p>Legal hallucination content should route into the lawsuits hub.</p></div>
+            <strong>Read investigation</strong>
+          </div>
+        </a>
+        <a class="article-card" href="ai-coding-productivity-paradox-2026.html">
+          <div class="article-visual code"></div>
+          <div class="article-body">
+            <div><span class="kicker">Coding failures</span><h3>The AI coding productivity paradox</h3><p>Technical failure reporting belongs under Reliability.</p></div>
+            <strong>Read investigation</strong>
+          </div>
+        </a>
+        <a class="article-card" href="chatgpt-outage-february-2026-ai-healthcare-the-pitt.html">
+          <div class="article-visual"></div>
+          <div class="article-body">
+            <div><span class="kicker">Outage</span><h3>February outage and healthcare dependency</h3><p>Outage coverage should connect to practical status guidance.</p></div>
+            <strong>Read investigation</strong>
+          </div>
+        </a>
+        <a class="article-card" href="raine-v-openai-chatgpt-suicide-lawsuit-2026.html">
+          <div class="article-visual safety"></div>
+          <div class="article-body">
+            <div><span class="kicker">Court filing</span><h3>Raine v. OpenAI lawsuit update</h3><p>Sensitive pages need clear allegation and filing labels.</p></div>
+            <strong>Read investigation</strong>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Browse By Problem Type</h2>
+          <p>These topic blocks give the page more substance while keeping the content easier to scan than the current homepage wall of links.</p>
+        </div>
+      </div>
+      <div class="category-grid">
+        <div class="category">
+          <span class="kicker">Mental health</span>
+          <h3>Dependency, delusion, and crisis reports</h3>
+          <p>For readers looking for the most serious safety content.</p>
+          <a href="mental-health-crisis.html">Mental health crisis</a>
+          <a href="clinical-cases.html">Clinical cases</a>
+          <a href="victims.html">Victims memorial</a>
+        </div>
+        <div class="category">
+          <span class="kicker">Model quality</span>
+          <h3>Performance decline and regressions</h3>
+          <p>For readers focused on product quality, downgraded behavior, and reliability.</p>
+          <a href="performance-decline.html">Performance decline</a>
+          <a href="chatgpt-getting-dumber.html">ChatGPT getting dumber</a>
+          <a href="gpt-52-user-backlash.html">GPT-5.2 backlash</a>
+        </div>
+        <div class="category">
+          <span class="kicker">Legal</span>
+          <h3>Courts, sanctions, and lawsuits</h3>
+          <p>For readers tracking legal risk and hallucinated citation fallout.</p>
+          <a href="lawsuits.html">Lawsuits tracker</a>
+          <a href="0404-chatgpt-fabricated-legal-cases-lawyers-sanctioned-courts-worldwide.html">Fake legal cases</a>
+          <a href="raine-v-openai-chatgpt-suicide-lawsuit-2026.html">Raine v. OpenAI</a>
+        </div>
+        <div class="category">
+          <span class="kicker">Work failures</span>
+          <h3>Coding, business, and enterprise damage</h3>
+          <p>For professionals deciding whether AI tools are reliable enough for real work.</p>
+          <a href="silent-failure-ai-code.html">AI code silent failures</a>
+          <a href="business-impact.html">Business impact</a>
+          <a href="enterprise-failures.html">Enterprise failures</a>
+        </div>
+        <div class="category">
+          <span class="kicker">Outages</span>
+          <h3>Downtime and service reliability</h3>
+          <p>For users who need practical guidance when the service breaks.</p>
+          <a href="chatgpt-status-tracker.html">Live status tracker</a>
+          <a href="what-to-do-chatgpt-down.html">What to do when ChatGPT is down</a>
+          <a href="api-reliability-crisis.html">API reliability crisis</a>
+        </div>
+        <div class="category">
+          <span class="kicker">Guides</span>
+          <h3>How to protect yourself</h3>
+          <p>For readers who need alternatives, verification habits, and risk checklists.</p>
+          <a href="alternatives.html">Compare alternatives</a>
+          <a href="when-not-to-trust-chatgpt.html">When not to trust ChatGPT</a>
+          <a href="why-ai-hallucinations-happen.html">Why hallucinations happen</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="library">
+        <div class="library-feature">
+          <span class="eyebrow">Evidence library</span>
+          <h2>Make the archive easier to trust and easier to browse.</h2>
+          <p>Keep the existing SEO pages alive, but route humans through smaller, clearer directories instead of pushing every link onto the homepage.</p>
+          <a class="btn primary" href="documentation-index.html">Open Documentation Index</a>
+        </div>
+        <div class="library-list">
+          <a href="timeline.html">Timeline <span>Chronology</span></a>
+          <a href="press-coverage.html">Press Coverage <span>Media</span></a>
+          <a href="chatgpt-status-tracker.html">Status Tracker <span>Outages</span></a>
+          <a href="resources.html">Research Resources <span>Sources</span></a>
+          <a href="topic-clusters.html">Topic Clusters <span>Browse</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Current Archive Trail</h2>
+          <p>A compact timeline gives the homepage more depth without becoming a giant archive dump.</p>
+        </div>
+        <a class="btn" href="timeline.html">Full Timeline</a>
+      </div>
+      <div class="timeline-list">
+        <a class="timeline-item" href="0513-reddit-testimonials-chatgpt-trust-collapse-2026.html">
+          <span class="timeline-date">May 13</span>
+          <span><b>Reddit testimonials and trust collapse</b><p>User-report coverage anchors the newest content area.</p></span>
+          <span>Open</span>
+        </a>
+        <a class="timeline-item" href="etsy-chatgpt-shopping-integration-risk.html">
+          <span class="timeline-date">May 2026</span>
+          <span><b>Etsy shopping integration risk</b><p>Consumer AI features get a clearer product-risk lane.</p></span>
+          <span>Open</span>
+        </a>
+        <a class="timeline-item" href="brigandi-oregon-vineyard-ai-hallucination-110000-largest-sanction.html">
+          <span class="timeline-date">Legal</span>
+          <span><b>Largest hallucination sanction coverage</b><p>Legal items become easier to separate from user stories.</p></span>
+          <span>Open</span>
+        </a>
+        <a class="timeline-item" href="chatgpt-outage-february-2026-ai-healthcare-the-pitt.html">
+          <span class="timeline-date">Outage</span>
+          <span><b>Healthcare dependency and service failure</b><p>Outage content connects to reliability and status resources.</p></span>
+          <span>Open</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Source Labels For Serious Claims</h2>
+          <p>The site covers lawsuits, deaths, medical issues, and alleged harms. Every sensitive page should clearly show what kind of evidence it is using.</p>
+        </div>
+      </div>
+      <div class="standards-grid">
+        <div class="standard"><b>Verified fact</b><p>Confirmed by a primary record or reputable source.</p></div>
+        <div class="standard"><b>Court filing</b><p>Claim appears in a legal complaint, brief, or order.</p></div>
+        <div class="standard"><b>Allegation</b><p>Unproven claim that needs careful attribution.</p></div>
+        <div class="standard"><b>User report</b><p>First-person or community report, not independently verified.</p></div>
+        <div class="standard"><b>Analysis</b><p>Editorial interpretation or synthesis.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="submit-band">
+        <div>
+          <h2>Have a documented ChatGPT failure?</h2>
+          <p>Make the submission path obvious, but keep it separate from the research archive so the homepage does not feel like a wall of unrelated calls to action.</p>
+        </div>
+        <a class="btn primary" href="submit-your-experience.html">Submit Your Story</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      This is a local preview only. It preserves existing URLs and does not require sitemap, redirect, or canonical changes.
+    </div>
+  </footer>
+</body>
+</html>

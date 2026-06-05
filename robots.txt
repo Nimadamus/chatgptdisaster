@@ -2,20 +2,11 @@
 User-agent: *
 Allow: /
 
-# Keep drafts, concept archives, and local maintenance files out of the index
-# while allowing search and AI answer engines to crawl the public site.
-Disallow: /_redesign-concepts-archive/
-Disallow: /_research/
-Disallow: /archive/
-Disallow: /index-backup-20260308.html
-Disallow: /index-redesign.html
+Sitemap: https://chatgptdisaster.com/sitemap.xml
+
+# Block scripts and config files
 Disallow: /*.py$
 Disallow: /*.ps1$
 Disallow: /*.bat$
 Disallow: /*.log$
 Disallow: /*.json$
-
-Sitemap: https://chatgptdisaster.com/sitemap.xml
-
-# AI-readable site guide:
-# https://chatgptdisaster.com/llms.txt
