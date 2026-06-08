@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-08",
+  "date_seed": 2915841520,
+  "generated_at": "2026-06-08T20:25:31.543777",
+  "reddit_posts": [
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 60,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1670"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 251,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2249"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 173,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4662"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 356,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_7248"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 126,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_2443"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 100,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4994"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 290,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6711"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 122,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8819"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 261,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2272"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 335,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9820"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "score": 78,
+      "comments": 49,
+      "source": "Hacker News"
+    },
+    {
+      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
+      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
+      "score": 224,
+      "comments": 173,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Siri AI",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "score": 149,
+      "comments": 127,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI Is Slowing Down",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "score": 217,
+      "comments": 250,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Apple Core AI Framework",
+      "url": "https://developer.apple.com/documentation/coreai/",
+      "score": 9,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
