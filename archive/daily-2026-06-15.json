@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-15",
+  "date_seed": 1707424690,
+  "generated_at": "2026-06-15T21:10:51.440158",
+  "reddit_posts": [
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 358,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7848"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 373,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_8274"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 54,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9572"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 100,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_5423"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 113,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6606"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8697"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 392,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7885"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 247,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1846"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 244,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3034"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 70,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4738"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+      "url": "https://tinywind.io",
+      "score": 452,
+      "comments": 89,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "score": 449,
+      "comments": 236,
+      "source": "Hacker News"
+    },
+    {
+      "title": "My Homelab AI Dev Platform",
+      "url": "https://rsgm.dev/post/ai-dev-platform/",
+      "score": 174,
+      "comments": 35,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Fata \u2013 Spaced repetition to fight skill rot from AI coding",
+      "url": "https://fata.dev",
+      "score": 51,
+      "comments": 29,
+      "source": "Hacker News"
+    },
+    {
+      "title": "US Air Force B-52 bomber crashes after takeoff, Edwards Air Force Base says",
+      "url": "https://www.reuters.com/business/aerospace-defense/us-air-force-b-52-bomber-crashes-after-takeoff-edwards-air-force-base-says-2026-06-15/",
+      "score": 48,
+      "comments": 28,
+      "source": "Hacker News"
+    }
+  ]
+}

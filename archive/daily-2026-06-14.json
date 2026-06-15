@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-14",
+  "date_seed": 4124717259,
+  "generated_at": "2026-06-14T19:44:38.122491",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 152,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7350"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_7594"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 117,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5063"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 387,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6658"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 178,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9254"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 396,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7439"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 84,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2828"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 152,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1928"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 380,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4230"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 375,
+      "url": "https://reddit.com/r/law",
+      "author": "user_1209"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "score": 184,
+      "comments": 104,
+      "source": "Hacker News"
+    },
+    {
+      "title": "No, everyone is not using AI for everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "score": 321,
+      "comments": 339,
+      "source": "Hacker News"
+    },
+    {
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "score": 97,
+      "comments": 16,
+      "source": "Hacker News"
+    }
+  ]
+}
