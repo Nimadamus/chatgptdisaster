@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-22",
+  "date_seed": 2621008419,
+  "generated_at": "2026-06-22T20:55:32.104024",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 262,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7875"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 71,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3387"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 284,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9021"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 214,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1591"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 122,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6927"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 233,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9212"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 173,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9754"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 216,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7725"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 370,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1876"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 245,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2727"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
+      "score": 178,
+      "comments": 51,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Blogger defeats photographer's copyright claim",
+      "url": "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm",
+      "score": 59,
+      "comments": 35,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The text in Claude Code\u2019s \u201cExtended Thinking\u201d output",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "score": 236,
+      "comments": 170,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Selector Forge \u2013 browser extension for AI-generated resilient selectors",
+      "url": "https://github.com/Intuned/selector-forge",
+      "score": 28,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Munich 1991: The Roots of the Current AI Boom",
+      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "score": 202,
+      "comments": 89,
+      "source": "Hacker News"
+    }
+  ]
+}
