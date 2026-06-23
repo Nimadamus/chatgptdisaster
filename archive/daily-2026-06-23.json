@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-23",
+  "date_seed": 2108068894,
+  "generated_at": "2026-06-23T20:12:47.879002",
+  "reddit_posts": [
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 50,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4748"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 163,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9425"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 363,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9927"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 59,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3730"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 152,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9614"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 211,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2187"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 219,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4075"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5492"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 304,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_8453"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 379,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3597"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "score": 162,
+      "comments": 85,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
+      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "score": 18,
+      "comments": 5,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Low-Tech AI of Elden Ring",
+      "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "score": 66,
+      "comments": 38,
+      "source": "Hacker News"
+    },
+    {
+      "title": "In praise of memcached",
+      "url": "https://jchri.st/blog/in-praise-of-memcached/",
+      "score": 251,
+      "comments": 101,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Shumai \u2013 open-source Frame.io alternative for creative work",
+      "url": "https://github.com/shumaiOne/shumai",
+      "score": 51,
+      "comments": 4,
+      "source": "Hacker News"
+    }
+  ]
+}
