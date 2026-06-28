@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-28",
+  "date_seed": 900860619,
+  "generated_at": "2026-06-28T19:38:17.082500",
+  "reddit_posts": [
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 195,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_8830"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 126,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6867"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 102,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1014"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 90,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8267"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8934"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 301,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8514"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 107,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2928"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 325,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5417"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 348,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7255"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 306,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7166"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "score": 154,
+      "comments": 237,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Daisugi, the Japanese technique of growing trees out of other trees (2020)",
+      "url": "https://www.openculture.com/2020/10/daisugi.html",
+      "score": 61,
+      "comments": 20,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "url": "https://github.com/openai/codex/issues/2847",
+      "score": 151,
+      "comments": 97,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]",
+      "url": "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
+      "score": 3,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GitHub \u2013 librepods-org/librepods: AirPods liberated from Apple's ecosystem",
+      "url": "https://github.com/librepods-org/librepods",
+      "score": 3,
+      "comments": 1,
+      "source": "Hacker News"
+    }
+  ]
+}
