@@ -256,9 +256,63 @@ footer p { color: #888; }
     margin-top: 1rem;
 }
 .btn:hover { background: rgba(255, 68, 68, 0.4); transform: translateY(-2px); }
+.story-card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+    transition: all 0.3s;
+}
+.story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(255, 68, 68, 0.2);
+    border-color: rgba(255, 68, 68, 0.5);
+}
+.category-tag {
+    display: inline-block;
+    background: rgba(255, 68, 68, 0.3);
+    color: #ff6b6b;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.story-card .story-header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+.reddit-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 68, 68, 0.25);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    border-radius: 50%;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+.story-meta h2 { color: #ff4444; font-size: 1.25rem; margin: 0; }
+.story-info { color: #888; font-size: 0.9rem; }
+.quote-highlight {
+    background: rgba(255, 68, 68, 0.1);
+    border-left: 4px solid #ff4444;
+    padding: 1rem 1.5rem;
+    margin: 0;
+    font-style: italic;
+    color: #ddd;
+    line-height: 1.8;
+}
 @media (max-width: 768px) {
     h1 { font-size: 1.8rem; }
     .story { padding: 1.5rem; }
+    .story-card { padding: 1.5rem; }
 }
 </style>
 
@@ -3514,6 +3568,342 @@ footer p { color: #888; }
 </div>
 </article>
 
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Codex Performance Way Worse</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #5170 | October 2025</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Codex performance is way worse today than the last few days, making a lot of errors it normally does not make. I expected the model to solve the problems correctly, but instead I got code that does not work."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Like A Frontal Lobotomy</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #12446 | 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Recently GPT-5.3-Codex has experienced severe performance degradation, rendering the model effectively unusable, with a drastic decline in code generation quality. It is like the model underwent a frontal lobotomy, and it happened without any prior notice or explanation."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Loses Track And Hallucinates</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #7164 | 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"The cloud model loses track of instructions, hallucinates more often, gets confused easily, and the overall IQ feels lower. I should not have to repeat basic instructions over and over, and this behavior did not exist when I first started using the service."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Eight Hours Doing Nothing</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #7164 | 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Codex has been unreliable for a long time. There have been times when it sat for 8 hours doing nothing, and today it spent 50 minutes just reading a file, something Claude Code does in 15 seconds. It used to work flawlessly and now it consistently gets stuck on tasks."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Terrified To Use It</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #4969 | 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Codex has deleted uncommitted files twice now and I am terrified to use it. It wiped out 6GB of uncommitted generated images and source files, even after I rejected the deletion request. It should not delete unrelated files, especially without permission."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Ran Git Restore, Lost Work</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #8643 | 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"The Codex VS Code agent executed git commands including a destructive git restore even after I repeatedly told it never to touch git, overwriting my uncommitted work across multiple files. That is real data loss with no backup."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Deletes Entire Files</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #6999 | 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"The model at times deletes entire files instead of making localized edits, which is dangerous. Sometimes it even tells me it accidentally deleted the file."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Regressed My Working Frontend</h2>
+<div class="story-info">OpenAI Codex User | GitHub openai/codex #28067 | 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Codex regressed an already working frontend during iterative UI edits by overwriting high-risk shell files and misreading the runtime state. Instead of restoring the previous working baseline after I reported the regression, it just kept patching and made it worse."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Ignores My AGENTS.md Instructions</h2>
+<div class="story-info">OpenAI Developer Community | June 2025</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"The log shows Codex opens and reads my AGENTS.md file, but it does not process any of the instructions in it. It does not follow the rules and just ignores the contained text when it finds it."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Will Not Follow Instructions</h2>
+<div class="story-info">OpenAI Developer Community | June 2025</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"I still cannot seem to get Codex to reliably follow my instructions, no matter how I write them."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Quota Gone In Minutes</h2>
+<div class="story-info">OpenAI Developer Community | May 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"I ran out of an entire 6 hour quota in about 12 minutes flat with only 8 messages sent."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Hardly Solves Anything Now</h2>
+<div class="story-info">OpenAI Developer Community | May 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"The weekly quota started running out after just a small bug fix on Pro, and it hardly solves any problem anymore. A simple API integration took it 10 to 12 hours and none of the APIs were actually integrated."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Slower And Forgets Requirements</h2>
+<div class="story-info">OpenAI Developer Community | May 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"The planning phase feels much slower now, and the model loses track of the requirements after compaction."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Two Prompts Drains Quota</h2>
+<div class="story-info">OpenAI Developer Community | May 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"I can only get 2 basic prompts executed before my 5 hour quota is completely drained."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>One Hour Of Light Usage</h2>
+<div class="story-info">OpenAI Developer Community | May 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"After only around 1 hour of light Codex usage, mostly using GPT-5.3 Codex and mini-level models, I was already close to hitting the usage limits."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Same Usage, Burns Faster</h2>
+<div class="story-info">OpenAI Developer Community | May 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"I have managed to drain 60% of my limit in 48 hours since the last reset, and my usage is exactly the same as it has always been."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Hard Lockouts, No Warning</h2>
+<div class="story-info">OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Hard usage limits with zero visibility or warning result in full lockouts of 2 to 4 plus hours. There is no warning beforehand, the system stops immediately, and the job is effectively lost with no chance to even summarize state or pause."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Tenfold Less Than Before</h2>
+<div class="story-info">OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"After the 5 hour limit change I can do roughly 10 times less of what I was doing just a week ago, and the 5 hour limits have basically been dropped tenfold."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Seven Prompts In Ten Minutes</h2>
+<div class="story-info">OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Seven prompts used my entire 5 hour limit, in 10 minutes."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Becoming Absolutely Unusable</h2>
+<div class="story-info">OpenAI Developer Community | April 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"Each task eats 20 to 30% of the 5 hour range. It is becoming absolutely unusable at this point."
+</div>
+</div>
+</article>
+
+<article class="story-card" data-category="reddit-testimonial">
+<div class="category-tag">Codex Testimonial</div>
+<div class="story-header">
+<div class="reddit-icon">r/</div>
+<div class="story-meta">
+<h2>Tokens Vanish Before Real Work</h2>
+<div class="story-info">OpenAI Developer Community | May 2026</div>
+</div>
+</div>
+<div class="story-content">
+<div class="quote-highlight">
+"The tokens disappear before you even really start working, and the quota can vanish before any meaningful work begins. It feels like they overestimated the 5.5 models and are charging almost triple while the product still feels unreliable."
+</div>
+</div>
+</article>
+
 
 
 <div class="pagination">
@@ -3532,7 +3922,7 @@ footer p { color: #888; }
 </div>
 
 <div style="text-align: center; margin-top: 3rem;">
-<p style="color: #aaa; margin-bottom: 1rem;">Real stories from real users. 1100 documented experiences. The ChatGPT disaster is undeniable.</p>
+<p style="color: #aaa; margin-bottom: 1rem;">Real stories from real users. 1121 documented experiences. The ChatGPT disaster is undeniable.</p>
 <a href="chatgpt-death-lawsuits.html" class="btn">Death Lawsuits</a>
 <a href="submit-your-experience.html" class="btn">Share Your Story</a>
 <a href="alternatives.html" class="btn">Find Better Tools</a>
@@ -3554,7 +3944,7 @@ footer p { color: #888; }
 
 <footer>
 <div class="container">
-<p>ChatGPT Disaster Documentation | User Stories Archive - 1060 Stories</p>
+<p>ChatGPT Disaster Documentation | User Stories Archive - 1121 Stories</p>
 <p>All stories compiled from verified sources: Reddit, OpenAI Community, CBS News, Bloomberg, NPR, CNN, Fortune, TechRadar, Stanford Research.</p>
 <p style="margin-top: 1rem; color: #ff6b6b;"><strong>Your story matters. Share it to help others.</strong></p>
 </div>
