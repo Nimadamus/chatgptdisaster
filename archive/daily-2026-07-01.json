@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-01",
+  "date_seed": 567647150,
+  "generated_at": "2026-07-01T20:03:11.339048",
+  "reddit_posts": [
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 269,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1420"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 243,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_5159"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 170,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6237"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 226,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9581"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 60,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6538"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 313,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3174"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 130,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2496"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 191,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7377"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 238,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_2756"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 224,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7349"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "ZCode: Claude Code from the Makers of GLM",
+      "url": "https://zcode.z.ai/cn",
+      "score": 93,
+      "comments": 27,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Z-Jail \u2013 A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
+      "url": "https://github.com/Division-36/Z-Jail/",
+      "score": 8,
+      "comments": 2,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Fable 5 Promotional Access",
+      "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+      "score": 11,
+      "comments": 4,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Sony Deletes 551 Movies PlayStation Owners Paid For",
+      "url": "https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for",
+      "score": 351,
+      "comments": 172,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Apple 'Hide My Email' vulnerability reveals peoples' real email addresses",
+      "url": "https://easyoptouts.com/guides/apple-hide-my-email-is-leaking-email-addresses",
+      "score": 183,
+      "comments": 36,
+      "source": "Hacker News"
+    }
+  ]
+}
