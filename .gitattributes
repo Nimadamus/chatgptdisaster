@@ -1,0 +1,19 @@
+# Normalize all text files to LF in the repo (deployed to Linux/LiteSpeed).
+# Repo-only: affects committed blobs and working-tree checkout, never live behavior.
+* text=auto eol=lf
+
+# Treat binary assets as binary (never line-ending converted).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.mp4 binary
+*.webm binary
+*.zip binary
