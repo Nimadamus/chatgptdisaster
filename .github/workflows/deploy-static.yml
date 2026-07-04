@@ -6,6 +6,7 @@ on:
     branches:
       - main
     paths:
+      # Deploy triggers. Keep in sync with DEPLOY_ALLOWLIST below.
       - stories.html
       - .github/workflows/deploy-static.yml
 
@@ -13,16 +14,46 @@ jobs:
   deploy-stories:
     runs-on: ubuntu-latest
     steps:
+      - name: Guard - deploy only from the canonical repo and main branch
+        run: |
+          # Permanent prevention of wrong-repo / stale-clone / wrong-branch deploys.
+          # A fork/clone also lacks the FTP secrets, but this fails fast and loud.
+          if [ "${{ github.repository }}" != "Nimadamus/chatgptdisaster" ]; then
+            echo "::error::Refusing to deploy: repository is ${{ github.repository }}, expected Nimadamus/chatgptdisaster"
+            exit 1
+          fi
+          if [ "${{ github.ref }}" != "refs/heads/main" ]; then
+            echo "::error::Refusing to deploy: ref is ${{ github.ref }}, expected refs/heads/main"
+            exit 1
+          fi
+          echo "Guard OK: ${{ github.repository }} @ ${{ github.ref_name }}"
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Upload stories page to LiteSpeed host via FTP
+      - name: Deploy allow-listed files to LiteSpeed host via FTP
+        env:
+          # EXPLICIT ALLOW-LIST. Only these repo files may be uploaded to live.
+          # No mirror, no --delete, no wildcards. To deploy another page, add its
+          # filename here AND to the push paths trigger above (reviewed change).
+          DEPLOY_ALLOWLIST: "stories.html"
         run: |
           sudo apt-get update
           sudo apt-get install -y lftp
-          # Host and docroot are not secrets and are hardcoded so an empty/misset
-          # path secret can never silently drop the upload into the login home dir.
-          # cd && put means a failed cd aborts before put and fails the job loudly.
+          # Build an explicit put+verify chain from the allow-list only.
+          PUTS=""
+          for f in $DEPLOY_ALLOWLIST; do
+            if [ ! -f "$f" ]; then
+              echo "::error::allow-listed file missing in repo working tree: $f"
+              exit 1
+            fi
+            PUTS="$PUTS put $f -o $f && ls -l $f &&"
+          done
+          PUTS="${PUTS% &&}"
+          echo "Deploying allow-list: $DEPLOY_ALLOWLIST"
+          # Host + docroot hardcoded (not secrets) so a misset path can't silently
+          # drop uploads into the login home dir. cd && put means a failed cd aborts
+          # before any upload and fails the job loudly.
           lftp -c "
             set ssl:verify-certificate no;
             set ftp:passive-mode yes;
@@ -30,6 +61,6 @@ jobs:
             set net:timeout 30;
             set net:max-retries 3;
             open -u '${{ secrets.FTP_USER }}','${{ secrets.FTP_PASS }}' ftp://business185.web-hosting.com;
-            cd /public_html/ && put stories.html -o stories.html && ls -l stories.html;
+            cd /public_html/ && $PUTS;
             bye
           "
