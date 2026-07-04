@@ -16,18 +16,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Upload stories page to Namecheap via FTP
+      - name: Upload stories page to LiteSpeed host via FTP
         run: |
           sudo apt-get update
           sudo apt-get install -y lftp
+          # Host and docroot are not secrets and are hardcoded so an empty/misset
+          # path secret can never silently drop the upload into the login home dir.
+          # cd && put means a failed cd aborts before put and fails the job loudly.
           lftp -c "
             set ssl:verify-certificate no;
             set ftp:passive-mode yes;
             set ftp:ssl-allow no;
             set net:timeout 30;
             set net:max-retries 3;
-            open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ftp://${{ secrets.FTP_HOST }};
-            cd ${{ secrets.FTP_DIR }};
-            put stories.html -o stories.html;
-            quit
+            open -u '${{ secrets.FTP_USER }}','${{ secrets.FTP_PASS }}' ftp://business185.web-hosting.com;
+            cd /public_html/ && put stories.html -o stories.html && ls -l stories.html;
+            bye
           "
