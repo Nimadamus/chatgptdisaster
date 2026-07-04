@@ -1,14 +1,13 @@
 # LIVE_ONLY_UNMANAGED.md
 
-Files present on the live server (`business185:/public_html/`, chatgptdisaster.com docroot) but **intentionally NOT managed by this git repo**. Recorded so any future automated deploy/mirror **never deletes or overwrites them**. Generated 2026-07-04 (Phase A) from a read-only live FTP inventory (union of 3 walk passes: [477, 477, 477]).
+Files present on the live server (`business185:/public_html/`, chatgptdisaster.com docroot) but **intentionally NOT managed by this git repo**. Recorded so any future automated deploy/mirror **never deletes or overwrites them**. Generated 2026-07-04 from a read-only live FTP inventory (union of 3 walk passes: [481, 481, 481]).
 
-Live files (union): 477. Live-only after Phase A import: 168. The 5 real CGD articles that were live-only are imported into the repo and NOT listed here.
+Live files (union): 481. Live-only (not in repo): 167.
 
 **Rule:** Any `lftp mirror` MUST run WITHOUT `--delete`, or with an explicit exclude-list covering every path below, until each block is reviewed and approved by the site owner.
 
-### Ownership / domain-verification / SSL — NEVER delete or overwrite  (4)
+### Ownership / domain-verification / SSL — NEVER delete or overwrite  (3)
 - `.well-known/pki-validation/0965D30A969034B13F16360338DF4BA0.txt`
-- `google6f74b54ecd988601 (2).html`
 - `google6f74b54ecd988601.html`
 - `parking-page.shtml`
 
