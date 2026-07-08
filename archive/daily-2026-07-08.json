@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-08",
+  "date_seed": 858429118,
+  "generated_at": "2026-07-08T19:42:02.657747",
+  "reddit_posts": [
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 348,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_7107"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 145,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2578"
+    },
+    {
+      "title": "The code it generates doesn't even compile anymore",
+      "selftext": "Syntax errors in every response. Did they fire the QA team?",
+      "score": 2800,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 188,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1726"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 314,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7069"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 255,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8928"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 300,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2109"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 334,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_3918"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 378,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4262"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 237,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7418"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 136,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6621"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+      "url": "https://cognition.com/blog/swe-1-7",
+      "score": 157,
+      "comments": 91,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "url": "https://microsoft.github.io/flint-chart/#/",
+      "score": 77,
+      "comments": 29,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT\u2011Live",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "score": 390,
+      "comments": 267,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "score": 470,
+      "comments": 180,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Follow London Trains in 3D",
+      "url": "https://ride.nexttrain.london/",
+      "score": 99,
+      "comments": 44,
+      "source": "Hacker News"
+    }
+  ]
+}
