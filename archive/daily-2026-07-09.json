@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-09",
+  "date_seed": 2794232239,
+  "generated_at": "2026-07-09T19:54:09.027428",
+  "reddit_posts": [
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 288,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6523"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 236,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3958"
+    },
+    {
+      "title": "GPT-5 refused to explain how locks work",
+      "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.",
+      "score": 3400,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 141,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2384"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 62,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_5279"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 330,
+      "url": "https://reddit.com/r/law",
+      "author": "user_8875"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 277,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7094"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7161"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 205,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2748"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 251,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3943"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 203,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2396"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "score": 675,
+      "comments": 465,
+      "source": "Hacker News"
+    },
+    {
+      "title": "ChatGPT Work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "score": 248,
+      "comments": 105,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Girls Just Wanna Have Fast MPMC Queues with Bounded Waiting",
+      "url": "https://nahla.dev/blog/waitfree_queue/",
+      "score": 78,
+      "comments": 12,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models",
+      "url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
+      "score": 10,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Train SIM Created by Just One Person Is Being Called the Best Ever Made",
+      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+      "score": 32,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
