@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-15",
+  "date_seed": 842735584,
+  "generated_at": "2026-07-15T19:19:58.483822",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 167,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3198"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 158,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_1734"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 336,
+      "url": "https://reddit.com/r/law",
+      "author": "user_9173"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 268,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1307"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 98,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7193"
+    },
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6968"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 188,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_8047"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 375,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5405"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 86,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5938"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 224,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4300"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Briar is in maintenance mode",
+      "url": "https://briarproject.org/news/2026-maintenance-mode/",
+      "score": 111,
+      "comments": 76,
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenAI loses trademark dispute at EU court",
+      "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
+      "score": 160,
+      "comments": 111,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+      "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "score": 136,
+      "comments": 173,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Jurassic Park computers in excruciating detail",
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "score": 833,
+      "comments": 216,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Painterly \u2013 Turn pictures into digital paintings without generative AI",
+      "url": "https://github.com/jbunke/painterly",
+      "score": 9,
+      "comments": 2,
+      "source": "Hacker News"
+    }
+  ]
+}
