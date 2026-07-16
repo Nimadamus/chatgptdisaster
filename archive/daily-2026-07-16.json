@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-16",
+  "date_seed": 1182277767,
+  "generated_at": "2026-07-16T19:20:30.619583",
+  "reddit_posts": [
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 156,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8169"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 105,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1052"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 374,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5692"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 149,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5351"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 347,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6205"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 216,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8400"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 62,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6707"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 179,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8011"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 56,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_1630"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 327,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5220"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Detecting LLM-Generated Texts with \u201cClassical\u201d Machine Learning",
+      "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
+      "score": 77,
+      "comments": 41,
+      "source": "Hacker News"
+    },
+    {
+      "title": "NotebookLM is now Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "score": 95,
+      "comments": 67,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
+      "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+      "score": 53,
+      "comments": 35,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "url": "https://news.ycombinator.com/item?id=48937020",
+      "score": 15,
+      "comments": 6,
+      "source": "Hacker News"
+    },
+    {
+      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
+      "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+      "score": 39,
+      "comments": 3,
+      "source": "Hacker News"
+    }
+  ]
+}
