@@ -2071,4 +2071,10 @@
     <priority>0.7</priority>
   </url>
 <url><loc>https://chatgptdisaster.com/all-articles.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+<url>
+<loc>https://chatgptdisaster.com/0717-reddit-users-chatgpt-nerfed-lobotomized-cancelled-50-real-quotes.html</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 </urlset>
