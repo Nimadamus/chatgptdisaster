@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-27",
+  "date_seed": 415216000,
+  "generated_at": "2026-07-27T19:42:42.085293",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 65,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3741"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 72,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9673"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 303,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9511"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 207,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5803"
+    },
+    {
+      "title": "Asked for code, got pseudocode and 'implement as needed'",
+      "selftext": "If I could implement it myself, I wouldn't be asking you!",
+      "score": 1670,
+      "subreddit": "programming",
+      "category": "lazy",
+      "num_comments": 385,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_6603"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 375,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5776"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 290,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7238"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 78,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_2749"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 288,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8449"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 201,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9594"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Self-contained highly-portable Python distributions",
+      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
+      "score": 24,
+      "comments": 1,
+      "source": "Hacker News"
+    },
+    {
+      "title": "MAI-Cyber-1-Flash inside MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "score": 173,
+      "comments": 86,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+      "score": 59,
+      "comments": 11,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: FeyNoBg \u2013 Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg/",
+      "score": 39,
+      "comments": 12,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Modern email can be built from borrowed parts",
+      "url": "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/",
+      "score": 138,
+      "comments": 65,
+      "source": "Hacker News"
+    }
+  ]
+}
