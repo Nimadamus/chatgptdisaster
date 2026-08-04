@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-04",
+  "date_seed": 335256782,
+  "generated_at": "2026-08-04T19:43:36.045917",
+  "reddit_posts": [
+    {
+      "title": "It won't write a recipe with alcohol anymore",
+      "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 163,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4459"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 50,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9130"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 299,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_2563"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 291,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1388"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 138,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8160"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 390,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3869"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 137,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_6980"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 394,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1030"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 393,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4024"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 351,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8370"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Launch HN: EdotEnv (YC S26) \u2013 Quant Trading RL Envs to Teach LLMs Research",
+      "url": "https://edotenv.com/",
+      "score": 11,
+      "comments": 3,
+      "source": "Hacker News"
+    },
+    {
+      "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+      "url": "https://arxiv.org/abs/2602.16763",
+      "score": 42,
+      "comments": 53,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "score": 195,
+      "comments": 98,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "score": 222,
+      "comments": 167,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Blackmail Fail (2013)",
+      "url": "https://gwern.net/blackmail",
+      "score": 10,
+      "comments": 0,
+      "source": "Hacker News"
+    }
+  ]
+}
