@@ -1,7 +1,7 @@
 {
   "date": "2026-08-07",
   "date_seed": 794858068,
-  "generated_at": "2026-08-07T00:07:03.220009",
+  "generated_at": "2026-08-07T19:04:10.785771",
   "reddit_posts": [
     {
       "title": "They raised prices and lowered quality simultaneously",
@@ -128,38 +128,38 @@
   ],
   "hn_stories": [
     {
-      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-      "url": "https://www.aleksagordic.com/blog/vllm",
-      "score": 41,
-      "comments": 2,
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "score": 170,
+      "comments": 103,
       "source": "Hacker News"
     },
     {
       "title": "GitHub Actions and Pages are experiencing degraded availability",
       "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
-      "score": 302,
-      "comments": 256,
+      "score": 482,
+      "comments": 400,
+      "source": "Hacker News"
+    },
+    {
+      "title": "This Mine Predicts Major Wars. It's Opening Again",
+      "url": "https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china/",
+      "score": 50,
+      "comments": 15,
       "source": "Hacker News"
     },
     {
       "title": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
-      "score": 133,
-      "comments": 90,
+      "score": 300,
+      "comments": 246,
       "source": "Hacker News"
     },
     {
-      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "score": 240,
-      "comments": 187,
-      "source": "Hacker News"
-    },
-    {
-      "title": "OpenAI and four rivals just agreed on one standard for AI agents",
-      "url": "https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp",
-      "score": 13,
-      "comments": 1,
+      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling to Stop Spending on AI",
+      "url": "https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/",
+      "score": 11,
+      "comments": 3,
       "source": "Hacker News"
     }
   ]
