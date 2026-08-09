@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0KYVWDRMP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Z0KYVWDRMP');
+</script>
+<title>OpenAI's Browser Stopped Working Today. It Never Shipped On Windows.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ChatGPT Atlas was announced as a challenge to Chrome and stopped working 292 days later, still macOS-only. OpenAI moved the agent work into a Chrome extension and a desktop app.">
+<meta name="author" content="ChatGPT Disaster Documentation Project">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://chatgptdisaster.com/0809-openai-atlas-browser-shutdown-macos-only-292-days-chatgpt-work-chrome-extension.html">
+<meta property="og:title" content="OpenAI's Browser Stopped Working Today. It Never Shipped On Windows. | ChatGPT Disaster">
+<meta property="og:description" content="Atlas launched October 21, 2025 on macOS and was scheduled to stop working August 9, 2026. Windows, iOS and Android were promised at launch and never arrived.">
+<meta property="og:url" content="https://chatgptdisaster.com/0809-openai-atlas-browser-shutdown-macos-only-292-days-chatgpt-work-chrome-extension.html">
+<meta property="og:site_name" content="ChatGPT Disaster">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1280px-OpenAI_Logo.svg.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OpenAI's Browser Stopped Working Today. It Never Shipped On Windows.">
+<meta name="twitter:description" content="Atlas launched October 21, 2025 on macOS and was scheduled to stop working August 9, 2026. Windows, iOS and Android were promised at launch and never arrived.">
+<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1280px-OpenAI_Logo.svg.png">
+<meta name="keywords" content="ChatGPT Atlas shutdown, OpenAI Atlas browser discontinued, Atlas stops working, ChatGPT Work, ChatGPT Chrome extension, AI browser prompt injection, OpenAI product cancellations">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "OpenAI's Browser Stopped Working Today. It Never Shipped On Windows.",
+  "description": "Atlas launched October 21, 2025 on macOS and was scheduled to stop working August 9, 2026. Windows, iOS and Android were promised at launch and never arrived.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1280px-OpenAI_Logo.svg.png",
+  "datePublished": "2026-08-09T09:00:00-07:00",
+  "dateModified": "2026-08-09T09:00:00-07:00",
+  "author": {"@type": "Organization", "name": "ChatGPT Disaster Documentation Project"},
+  "publisher": {"@type": "Organization", "name": "ChatGPT Disaster", "logo": {"@type": "ImageObject", "url": "https://chatgptdisaster.com/logo.png"}},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://chatgptdisaster.com/0809-openai-atlas-browser-shutdown-macos-only-292-days-chatgpt-work-chrome-extension.html"}
+}
+</script>
+<style>
+  :root {
+    --gold: #ffd700; --gold-dim: rgba(255, 215, 0, 0.15); --gold-border: rgba(255, 215, 0, 0.3);
+    --bg-dark: #0a0a0a; --bg-card: #111111; --text-primary: #e8e8e8; --text-secondary: #999; --text-muted: #666;
+    --accent-red: #ff3333; --accent-red-dim: rgba(255, 51, 51, 0.1); --accent-green: #22c55e;
+    --radius-md: 12px; --radius-lg: 16px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg-dark); color: var(--text-primary); line-height: 1.8; -webkit-font-smoothing: antialiased; }
+  .main-nav { background: rgba(0,0,0,0.95); border-bottom: 1px solid rgba(255,215,0,0.25); position: sticky; top: 0; z-index: 1000; backdrop-filter: blur(20px); }
+  .nav-container { display: flex; align-items: center; justify-content: space-between; padding: 0 40px 0 0; max-width: 1600px; margin: 0 auto; height: 80px; }
+  .nav-logo { display: flex; align-items: center; text-decoration: none; color: #fff; flex-shrink: 0; padding-left: 20px; }
+  .nav-logo-text { font-weight: 700; font-size: 1.5rem; white-space: nowrap; }
+  .nav-logo-text span { color: #ffd700; text-shadow: 0 0 20px rgba(255,215,0,0.5); }
+  .nav-menu { display: flex; align-items: center; justify-content: space-evenly; list-style: none; flex: 1; margin: 0 40px; padding: 0; }
+  .nav-item { position: relative; flex: 1; text-align: center; }
+  .nav-link { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 20px 24px; color: #fff; text-decoration: none; font-size: 17px; font-weight: 700; letter-spacing: 0.5px; transition: all 150ms ease; white-space: nowrap; }
+  .nav-link:hover { color: #ffd700; background: rgba(255,215,0,0.08); }
+  .nav-actions { display: flex; align-items: center; flex-shrink: 0; margin-left: auto; padding-right: 20px; }
+  .nav-cta { padding: 14px 28px; background: #ffd700; color: #000; text-decoration: none; font-size: 16px; font-weight: 700; border-radius: 6px; white-space: nowrap; }
+  .nav-hamburger { display: none; flex-direction: column; cursor: pointer; padding: 10px; z-index: 1001; }
+  .nav-hamburger span { width: 25px; height: 3px; background: #fff; margin: 3px 0; border-radius: 2px; }
+  @media (max-width: 1100px) {
+    .nav-hamburger { display: flex; }
+    .nav-menu { position: fixed; top: 80px; left: -100%; width: 100%; height: calc(100vh - 80px); background: rgba(0,0,0,0.98); flex-direction: column; align-items: flex-start; padding: 20px; margin: 0; overflow-y: auto; transition: left 0.3s ease; }
+    .nav-menu.active { left: 0; }
+    .nav-item { width: 100%; flex: none; text-align: left; }
+    .nav-link { justify-content: flex-start; padding: 15px 20px; }
+    .nav-actions { display: none; }
+  }
+  .flash-banner { background: linear-gradient(90deg, #ff0000, #cc0000, #ff0000); animation: flash-pulse 2s ease-in-out infinite; color: #fff; text-align: center; padding: 14px 20px; font-weight: 800; font-size: 1rem; letter-spacing: 2px; text-transform: uppercase; }
+  @keyframes flash-pulse { 0% { opacity: 1; } 50% { opacity: 0.78; } 100% { opacity: 1; } }
+  .article-container { max-width: 820px; margin: 0 auto; padding: 40px 24px 80px; }
+  .article-meta { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 2px; }
+  .article-title { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 900; line-height: 1.15; margin-bottom: 20px; color: #fff; }
+  .article-title .gold { color: var(--gold); } .article-title .red { color: var(--accent-red); }
+  .article-subtitle { font-size: 1.25rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 30px; border-left: 4px solid var(--accent-red); padding-left: 20px; }
+  .hero-img { width: 100%; border-radius: var(--radius-lg); margin: 24px 0 8px; border: 1px solid rgba(255,215,0,0.2); }
+  .share-bar { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0 36px; }
+  .share-bar a { padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.9rem; color: #fff; }
+  .x-btn { background: #000; border: 1px solid #444; }
+  .fb-btn { background: #1877f2; }
+  .reddit-btn { background: #ff4500; }
+  .article-body p { margin-bottom: 22px; font-size: 1.08rem; }
+  .article-body h2 { font-size: 1.85rem; font-weight: 800; color: var(--gold); margin: 44px 0 18px; line-height: 1.25; }
+  .stat-row { display: flex; gap: 16px; flex-wrap: wrap; margin: 32px 0; }
+  .stat-box { flex: 1; min-width: 200px; background: var(--bg-card); border: 1px solid var(--gold-border); border-radius: var(--radius-md); padding: 22px 20px; }
+  .stat-box .number { display: block; font-size: 2rem; font-weight: 900; color: var(--gold); line-height: 1.1; margin-bottom: 8px; }
+  .stat-box .label { display: block; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; }
+  .pull-quote { border-left: 4px solid var(--gold); background: var(--gold-dim); padding: 24px 26px; margin: 34px 0; font-size: 1.18rem; font-style: italic; color: #f0e6c0; border-radius: 0 var(--radius-md) var(--radius-md) 0; }
+  .pull-quote .attribution { display: block; margin-top: 12px; font-size: 0.88rem; font-style: normal; color: var(--text-muted); }
+  .verdict-box { background: var(--accent-red-dim); border: 1px solid rgba(255,51,51,0.35); border-radius: var(--radius-lg); padding: 28px; margin: 40px 0; }
+  .verdict-box h3 { color: var(--accent-red); font-size: 1.3rem; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 1px; }
+  .hub-nav { margin-top: 56px; border-top: 1px solid rgba(255,215,0,0.2); padding-top: 30px; }
+  .hub-nav h3 { color: var(--gold); font-size: 1.2rem; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px; }
+  .hub-nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+  .hub-nav-grid a { background: var(--bg-card); border: 1px solid rgba(255,215,0,0.18); border-radius: 8px; padding: 14px 18px; color: var(--text-primary); text-decoration: none; font-size: 0.95rem; font-weight: 600; }
+  .hub-nav-grid a:hover { border-color: var(--gold); color: var(--gold); }
+  .back-link { display: inline-block; margin-top: 34px; color: var(--gold); text-decoration: none; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="flash-banner">
+  OpenAI launched a browser to take on Chrome and switched it off 292 days later, still macOS only
+</div>
+
+<nav class="main-nav">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+            <div class="nav-logo-text">ChatGPT <span>Review Hub</span></div>
+        </a>
+        <div class="nav-hamburger" onclick="document.querySelector('.nav-menu').classList.toggle('active')">
+            <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="stories.html" class="nav-link">User Stories</a></li>
+            <li class="nav-item"><a href="timeline.html" class="nav-link">Timeline</a></li>
+            <li class="nav-item"><a href="lawsuits.html" class="nav-link">Lawsuits</a></li>
+            <li class="nav-item"><a href="alternatives.html" class="nav-link">Alternatives</a></li>
+            <li class="nav-item"><a href="hub-chatgpt-problems.html" class="nav-link">All Problems</a></li>
+        </ul>
+        <div class="nav-actions"><a href="stories.html" class="nav-cta">Share Your Story</a></div>
+    </div>
+</nav>
+
+
+<div class="article-container">
+
+  <p class="article-meta">August 9, 2026 &bull; Product Failures &bull; 8 min read</p>
+
+  <h1 class="article-title">
+    OpenAI's Browser Stopped Working Today.
+    <span class="red">It Never Shipped On Windows.</span>
+  </h1>
+
+  <p class="article-subtitle">
+    ChatGPT Atlas arrived on October 21, 2025 as the product that would take search away from Google. It shipped on macOS only, with Windows, iOS and Android promised next. Two hundred ninety-two days later none of those three had appeared, and the app is scheduled to stop opening.
+  </p>
+
+  <img class="hero-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1280px-OpenAI_Logo.svg.png" alt="The OpenAI logo. OpenAI shut down its ChatGPT Atlas browser on August 9, 2026.">
+
+  <div class="share-bar">
+    <a href="https://twitter.com/intent/tweet?text=OpenAI%20launched%20a%20browser%20to%20take%20on%20Chrome%20and%20shut%20it%20down%20292%20days%20later%2C%20still%20macOS-only.&url=https://chatgptdisaster.com/0809-openai-atlas-browser-shutdown-macos-only-292-days-chatgpt-work-chrome-extension.html" target="_blank" class="x-btn">Share on X</a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://chatgptdisaster.com/0809-openai-atlas-browser-shutdown-macos-only-292-days-chatgpt-work-chrome-extension.html" target="_blank" class="fb-btn">Facebook</a>
+    <a href="https://reddit.com/submit?url=https://chatgptdisaster.com/0809-openai-atlas-browser-shutdown-macos-only-292-days-chatgpt-work-chrome-extension.html&title=OpenAI%27s%20Atlas%20browser%20stopped%20working%20today%2C%20292%20days%20after%20launch" target="_blank" class="reddit-btn">Reddit</a>
+  </div>
+
+  <div class="article-body">
+
+    <p>The notice showed up inside the app itself, which is the part that stings. Not a blog post you could skip, not a footnote in release notes. A banner in the browser you were using, telling you the browser you were using has an expiration date. "Atlas is scheduled to stop working on August 9, 2026," it read. "Before then, export or save any important Atlas data, including bookmarks and pages you want to keep. After that date, Atlas may no longer open, browse, or support browser-based agentic workflows."</p>
+
+    <p>That date is today.</p>
+
+    <p>ChatGPT Atlas launched on October 21, 2025. OpenAI shipped it as a Chromium build with ChatGPT wired into a sidebar, free for everyone, with an agent mode reserved for Plus and Pro subscribers. The framing at launch was unambiguous. This was the company's move on the browser, the thing that stands between a person and Google.</p>
+
+    <p>It ran for 292 days and never left the Mac.</p>
+
+    <div class="stat-row">
+      <div class="stat-box"><span class="number">292</span><span class="label">Days from the October 21, 2025 launch to the August 9, 2026 shutdown</span></div>
+      <div class="stat-box"><span class="number">1</span><span class="label">Operating systems Atlas ever publicly shipped on, out of the four announced</span></div>
+      <div class="stat-box"><span class="number">31</span><span class="label">Days between the July 9 sunset announcement and the day the app stops opening</span></div>
+    </div>
+
+    <h2>The Port That Never Came</h2>
+
+    <p>Windows, iOS and Android were all named at launch as platforms Atlas would reach. None of them got a public release. By June 2026, eight months in, Atlas was still a macOS application, which means the browser built to unseat Chrome was unavailable to the overwhelming majority of desktop users on earth. Statcounter has Chrome sitting near 70 percent of global browser share. Atlas was competing for a slice of the machines Chrome does not already own, on the one platform where Safari is preinstalled and defaults are hard to dislodge.</p>
+
+    <p>OpenAI did keep shipping features in the meantime. Vertical tabs landed in November 2025. Tab groups landed in January 2026. Browser memories, the feature that let Atlas recall what you had been looking at, stored that context on OpenAI servers for 30 days. These are the additions of a team that intended to stay. They are also, in retrospect, the additions of a team polishing a hull while the shipyard was being rezoned.</p>
+
+    <p>In March 2026 OpenAI announced it would merge Atlas with the ChatGPT desktop app and Codex into a single desktop application. That was the tell. A standalone browser does not get folded into a chat client unless somebody has decided the browser was the wrong container.</p>
+
+    <h2>What Actually Killed It</h2>
+
+    <p>On July 9, 2026, James Sun, who leads OpenAI's browsing work, posted the announcement on X alongside the launch of ChatGPT Work. "Finally, with all these updates, we are going to be sunsetting Atlas," he wrote. "All these capabilities were built on what we learned from Atlas users who took a leap of faith on a new browser."</p>
+
+    <p>Leap of faith is doing heavy lifting in that sentence.</p>
+
+    <p>The replacement is three things instead of one: ChatGPT Work, which fuses ChatGPT and Codex; an upgraded browser inside the desktop app, plus a cloud browser that runs agent tasks on OpenAI's own servers; and a Chrome extension that reads the page you are on and can answer questions, summarize it, or start a longer task. The strategic logic is defensible and OpenAI states it plainly enough: it is easier to put AI browsing inside the browser people already use than to convince them to install a different one.</p>
+
+    <div class="pull-quote">
+      All these capabilities were built on what we learned from Atlas users who took a leap of faith on a new browser.
+      <span class="attribution">James Sun, OpenAI, announcing the Atlas sunset on July 9, 2026</span>
+    </div>
+
+    <p>The uncomfortable version is that the product was slow and unsafe in ways nobody solved. The Verge, testing agent mode, watched it take ten full minutes to add three items to an Amazon shopping cart. Ten minutes. A human does that in ninety seconds and does not need a subscription tier.</p>
+
+    <p>Security was worse. In October 2025, within days of launch, LayerX Security published a cross-site request forgery technique it called "ChatGPT Tainted Memories," which chained into prompt injection. OpenAI disputed that the finding reproduced, and no exploitation in the wild was ever documented. But the category never went away. By December 2025 OpenAI was publishing that prompt injection is "one of the most significant risks we actively defend against to help ensure ChatGPT Atlas can operate securely on your behalf," while conceding it may never be fully solved for browser agents, an admission that lines up with the UK National Cyber Security Centre's earlier warning about the same class of attack.</p>
+
+    <p>An agent that browses on your behalf has to read untrusted text and then decide what to do. Those two jobs are in permanent conflict. OpenAI did not fix that. Nobody has.</p>
+
+    <h2>The Side Quest Problem</h2>
+
+    <p>Atlas did not die alone. It died during a company-wide reckoning about how many things OpenAI was building at once. Fidji Simo, then CEO of Applications, told staff in an all-hands that Anthropic's enterprise traction was a "wake-up call" and that OpenAI "can't miss the moment because we are distracted by side quests." Kevin Weil and Bill Peebles both exited in April 2026 as the company shed projects. Simo herself stepped down from the number two role on July 9, 2026, the same day Atlas was sunset, citing a neuroimmune condition whose recovery "proved longer and harder than expected," moving to a part-time advisory seat. Sam Altman's public response was short: "i am really sad about this and very grateful for all fidji has done for openai."</p>
+
+    <p>Read the calendar and the shape is clear. A browser announced as a Google-killer became, inside twenty-one months, a line item in a portfolio cleanup.</p>
+
+    <h2>What Users Have To Do Today</h2>
+
+    <p>Bookmarks do not transfer automatically. Anyone who has been using Atlas as a daily driver has to export them as an HTML file and import them somewhere else by hand. Conversation history is stored separately from the browser and survives. Cookies may be exportable depending on what you were doing. The app itself will stop receiving security updates, which turns any copy left installed on a Mac into an unpatched Chromium build with network access, and that is a genuinely bad object to keep around.</p>
+
+    <p>Workspace admins were told to notify their members. Some of them will not have.</p>
+
+    <h2>The Honest Counterargument</h2>
+
+    <p>Killing Atlas was probably the right call. A browser is an enormous, permanent maintenance obligation: four platforms, a rendering engine you inherit from Google, a security update treadmill that never stops, and an install-base problem that has defeated far better funded companies than OpenAI. If the agentic capability is the actual product, then shipping it as an extension into a browser with 70 percent share reaches more people on day one than a macOS-only browser reached in nine months. Cutting a losing bet quickly is a competence, not a scandal.</p>
+
+    <p>The scandal is the gap between how it was sold and how it ended. Atlas was launched with the rhetoric of a platform, a challenge to the default way people find information. Platforms come with an implied contract that they will still exist in two years. This one did not last one, and the users who moved their bookmarks and their browsing habits into it are the ones spending today doing an export they were given a month's notice to complete.</p>
+
+    <p>Perplexity shipped Comet just before Atlas arrived. Anil Dash described Atlas as an "anti-web browser," a thing that fed you summaries instead of pages. Publishers worried about losing referral traffic to a product that answered questions without sending anyone anywhere. Those criticisms all assumed Atlas would matter. Its actual legacy is smaller and stranger: proof that OpenAI can conceive, build, ship, market, and bury a flagship consumer application inside a single fiscal year, and that a banner in the app is how you find out.</p>
+
+    <div class="verdict-box">
+      <h3>The Verdict</h3>
+      <p>ChatGPT Atlas launched on macOS on October 21, 2025 and was scheduled to stop working on August 9, 2026, 292 days later, without ever publicly shipping the Windows, iOS or Android versions announced at launch. OpenAI moved the capability into ChatGPT Work, an upgraded desktop app browser, a server-side cloud browser and a Chrome extension. The consolidation is a reasonable strategy. The 31 days of notice, the manual bookmark export and the end of security updates are the bill users are paying for it.</p>
+    </div>
+
+  </div>
+
+  <div class="hub-nav">
+    <h3>Keep Digging</h3>
+    <div class="hub-nav-grid">
+      <a href="index.html">Homepage</a>
+      <a href="0613-chatgpt-atlas-ai-browser-prompt-injection-unsolvable-agent-security.html">Atlas And The Prompt Injection Problem Nobody Solved</a>
+      <a href="0807-ohio-state-fair-ai-poster-first-place-larimer-county-farmers-market-linocut-proof.html">An AI Poster Won In Ohio</a>
+      <a href="0806-openai-chatgpt-facebook-pixel-google-analytics-tracking-lawsuit-couture-privacy.html">OpenAI Sued Over Sending Chats To Meta And Google</a>
+      <a href="hub-ai-failures.html">Every AI Failure Category</a>
+      <a href="timeline.html">The Timeline Of AI Failures</a>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-link">&larr; Back to ChatGPT Disaster Homepage</a>
+
+</div>
+
+</body>
+</html>
