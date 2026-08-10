@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-10",
+  "date_seed": 884297897,
+  "generated_at": "2026-08-10T19:03:48.194509",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 241,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6235"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 373,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7855"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 246,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_3307"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 131,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7262"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 343,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3658"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 81,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_8441"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 174,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1298"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 255,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7829"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 350,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_9535"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 339,
+      "url": "https://reddit.com/r/law",
+      "author": "user_3992"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "score": 78,
+      "comments": 42,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Stoa Markets (YC S26) \u2013 A Marketplace for GPUs and AI Servers",
+      "url": "https://www.stoaexchange.com",
+      "score": 38,
+      "comments": 20,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "score": 111,
+      "comments": 126,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Docker Sandboxes \u2013 Disposable, isolated sandboxes for AI agents",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "score": 544,
+      "comments": 321,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas/",
+      "score": 55,
+      "comments": 77,
+      "source": "Hacker News"
+    }
+  ]
+}
