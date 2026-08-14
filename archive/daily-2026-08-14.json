@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-14",
+  "date_seed": 3011876753,
+  "generated_at": "2026-08-14T19:00:43.196586",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 132,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5993"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 397,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_2743"
+    },
+    {
+      "title": "ChatGPT's SQL suggestions would drop my production database",
+      "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.",
+      "score": 3100,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 351,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9143"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 386,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2440"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 357,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7664"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 147,
+      "url": "https://reddit.com/r/law",
+      "author": "user_6126"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 226,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8499"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 334,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2998"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 145,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6373"
+    },
+    {
+      "title": "GPT-5 failed my 8-year-old's homework",
+      "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 194,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5155"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release",
+      "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.",
+      "source": "Wired"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "score": 60,
+      "comments": 30,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI by Hand",
+      "url": "https://www.byhand.ai/",
+      "score": 71,
+      "comments": 7,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "score": 96,
+      "comments": 67,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
+      "url": "https://arxiv.org/abs/2608.12700",
+      "score": 11,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI Model Atlas \u2013 visualizing populations of ML models as interconnected 3D graph",
+      "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+      "score": 35,
+      "comments": 5,
+      "source": "Hacker News"
+    }
+  ]
+}
