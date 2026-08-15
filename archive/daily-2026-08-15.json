@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-15",
+  "date_seed": 1192026693,
+  "generated_at": "2026-08-15T18:36:20.663107",
+  "reddit_posts": [
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 225,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_3201"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 327,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9253"
+    },
+    {
+      "title": "Asked for Python, got a mix of Python and JavaScript",
+      "selftext": "The code has console.log AND print statements. Pick a language!",
+      "score": 1420,
+      "subreddit": "ChatGPT",
+      "category": "coding",
+      "num_comments": 68,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7362"
+    },
+    {
+      "title": "ChatGPT forgets what I said 3 messages ago",
+      "selftext": "Mid-conversation it acts like we never discussed the topic.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 263,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6340"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 235,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6807"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 382,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_2734"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 229,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6833"
+    },
+    {
+      "title": "$20/month for 'please try again later' errors",
+      "selftext": "Peak hours means zero responses. What am I paying for?",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 121,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2387"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 155,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6470"
+    },
+    {
+      "title": "ChatGPT thinks 9.11 is greater than 9.9",
+      "selftext": "String comparison vs numeric comparison - it's been broken for months.",
+      "score": 3200,
+      "subreddit": "OpenAI",
+      "category": "math",
+      "num_comments": 218,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1044"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "score": 45,
+      "comments": 30,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Voltair (YC W26) Is Hiring a Test Flight Engineer",
+      "url": "https://www.ycombinator.com/companies/voltair/jobs/sSOD2Ox-flight-test-engineer",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Working with AI Feels More Like Leadership Than Coding",
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+      "score": 173,
+      "comments": 123,
+      "source": "Hacker News"
+    },
+    {
+      "title": "A controversial Alzheimer's surgery is said to reverse symptoms",
+      "url": "https://www.nature.com/articles/d41586-026-02448-x",
+      "score": 77,
+      "comments": 27,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Could a computer scientist build a brain?",
+      "url": "https://stankerstjens.github.io/could-a-computer-scientist-build-a-brain/",
+      "score": 41,
+      "comments": 26,
+      "source": "Hacker News"
+    }
+  ]
+}
