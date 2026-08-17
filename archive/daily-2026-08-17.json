@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-17",
+  "date_seed": 1075737006,
+  "generated_at": "2026-08-17T18:47:06.815491",
+  "reddit_posts": [
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 371,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_1911"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 323,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9823"
+    },
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 381,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4194"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 88,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4552"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 393,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4882"
+    },
+    {
+      "title": "Memory feature is completely broken in GPT-5",
+      "selftext": "It remembers wrong things and forgets important things. Useless.",
+      "score": 1780,
+      "subreddit": "OpenAI",
+      "category": "memory",
+      "num_comments": 54,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3532"
+    },
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 296,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7022"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 381,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4944"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 108,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5889"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 396,
+      "url": "https://reddit.com/r/law",
+      "author": "user_5634"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "AI-Generated GitHub Copilot \u201cAutofix\u201d Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "score": 202,
+      "comments": 92,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How to disable or avoid intrusive AI",
+      "url": "https://www.librarian.net/notoai/",
+      "score": 155,
+      "comments": 65,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Launch HN: Speko (YC S26) \u2013 OpenRouter for Voice AI",
+      "url": "https://speko.ai/",
+      "score": 60,
+      "comments": 34,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "score": 230,
+      "comments": 120,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anthropic's \u2018watermark\u2019 text adulteration in Claude is a perversion of writing",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "score": 702,
+      "comments": 607,
+      "source": "Hacker News"
+    }
+  ]
+}
