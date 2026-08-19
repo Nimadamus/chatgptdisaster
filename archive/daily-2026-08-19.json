@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-19",
+  "date_seed": 3378386463,
+  "generated_at": "2026-08-19T18:41:27.681303",
+  "reddit_posts": [
+    {
+      "title": "Switched to Claude and never looked back",
+      "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 382,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3956"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 188,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_5730"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 365,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3122"
+    },
+    {
+      "title": "GPT-5 is the laziest AI model ever released",
+      "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'",
+      "score": 3800,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 315,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1115"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 248,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5292"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 290,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_8428"
+    },
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 352,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_8167"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 158,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5986"
+    },
+    {
+      "title": "It told me a restaurant closed in 2019 - I'm sitting in it right now",
+      "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.",
+      "score": 1870,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 302,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_5930"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 91,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6532"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "score": 470,
+      "comments": 61,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Extensible Software in the Age of LLMs",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "score": 39,
+      "comments": 19,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Air Theremin \u2013 a browser theremin you play by waving at your webcam",
+      "url": "https://theremin.bizibah.com/",
+      "score": 189,
+      "comments": 70,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Devices with GrapheneOS support should be available in 2027",
+      "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
+      "score": 501,
+      "comments": 315,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Microgpt in pure C hits 10M tps on Apple m5",
+      "url": "https://github.com/vixhal-baraiya/microgpt-c",
+      "score": 79,
+      "comments": 26,
+      "source": "Hacker News"
+    }
+  ]
+}
