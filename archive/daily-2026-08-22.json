@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-22",
+  "date_seed": 1287683670,
+  "generated_at": "2026-08-22T18:37:13.634718",
+  "reddit_posts": [
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 336,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9246"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 101,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9449"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 100,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3849"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 356,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6915"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 77,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7250"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 198,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3187"
+    },
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 287,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1306"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 320,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7300"
+    },
+    {
+      "title": "Claude is everything ChatGPT should have been",
+      "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.",
+      "score": 3400,
+      "subreddit": "artificial",
+      "category": "comparison",
+      "num_comments": 314,
+      "url": "https://reddit.com/r/artificial",
+      "author": "user_6017"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 392,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_5329"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations",
+      "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism",
+      "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.",
+      "source": "Reuters"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+      "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+      "score": 13,
+      "comments": 6,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week",
+      "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
+      "score": 178,
+      "comments": 142,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How Thailand Resisted Colonization",
+      "url": "https://worksinprogress.co/issue/how-thailand-resisted-colonization/",
+      "score": 107,
+      "comments": 41,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI boosted homework scores, then exam scores dropped: study",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "score": 364,
+      "comments": 364,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "score": 336,
+      "comments": 221,
+      "source": "Hacker News"
+    }
+  ]
+}
