@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-01",
+  "date_seed": 1143141239,
+  "generated_at": "2026-09-01T20:52:29.261836",
+  "reddit_posts": [
+    {
+      "title": "'I cannot provide a complete solution' - then what can you do?",
+      "selftext": "This phrase appears in 90% of my conversations now.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 243,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4979"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 281,
+      "url": "https://reddit.com/r/law",
+      "author": "user_3596"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 243,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_2907"
+    },
+    {
+      "title": "ChatGPT wrote code that deleted my entire project",
+      "selftext": "Asked for help with git, it ran rm -rf on my repo directory.",
+      "score": 4500,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 92,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_7713"
+    },
+    {
+      "title": "They raised prices and lowered quality simultaneously",
+      "selftext": "Incredible business strategy. Make it worse AND more expensive.",
+      "score": 3100,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 277,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_4555"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 375,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_8375"
+    },
+    {
+      "title": "GPT-5 has become unbearably preachy",
+      "selftext": "Every response includes a lecture I didn't ask for.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 342,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3795"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 75,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_4248"
+    },
+    {
+      "title": "Can't get help with my cybersecurity homework anymore",
+      "selftext": "Studying for my degree but it won't explain basic penetration testing.",
+      "score": 1890,
+      "subreddit": "OpenAI",
+      "category": "refusal",
+      "num_comments": 60,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_6820"
+    },
+    {
+      "title": "Basic algebra is broken in the latest update",
+      "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.",
+      "score": 1890,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 329,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3792"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues",
+      "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.",
+      "source": "The Information"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    },
+    {
+      "title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours",
+      "snippet": "Third major outage this month raises reliability concerns for enterprise customers.",
+      "source": "CNBC"
+    },
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "score": 619,
+      "comments": 582,
+      "source": "Hacker News"
+    },
+    {
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "score": 58,
+      "comments": 30,
+      "source": "Hacker News"
+    },
+    {
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "score": 473,
+      "comments": 140,
+      "source": "Hacker News"
+    },
+    {
+      "title": "American Airlines mechanic Azriel \u201cAl\u201d Blackman has died",
+      "url": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
+      "score": 350,
+      "comments": 143,
+      "source": "Hacker News"
+    },
+    {
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "score": 144,
+      "comments": 157,
+      "source": "Hacker News"
+    }
+  ]
+}
