@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-02",
+  "date_seed": 4236293845,
+  "generated_at": "2026-09-02T20:51:57.333466",
+  "reddit_posts": [
+    {
+      "title": "The strawberry problem is STILL not fixed",
+      "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.",
+      "score": 2100,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 144,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_3973"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 125,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3709"
+    },
+    {
+      "title": "ChatGPT refuses to write a villain for my novel",
+      "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.",
+      "score": 2650,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 57,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9965"
+    },
+    {
+      "title": "The constant apologizing is driving me insane",
+      "selftext": "'I apologize for any confusion' - you caused the confusion!",
+      "score": 2200,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 349,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7519"
+    },
+    {
+      "title": "Had to repeat my requirements 5 times in one conversation",
+      "selftext": "Each response ignored something I explicitly stated earlier.",
+      "score": 1340,
+      "subreddit": "ChatGPT",
+      "category": "memory",
+      "num_comments": 355,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_6184"
+    },
+    {
+      "title": "ChatGPT cited a Supreme Court case that doesn't exist",
+      "selftext": "Lawyer almost used it in court. This is getting dangerous.",
+      "score": 5200,
+      "subreddit": "law",
+      "category": "hallucination",
+      "num_comments": 279,
+      "url": "https://reddit.com/r/law",
+      "author": "user_6222"
+    },
+    {
+      "title": "Gemini just destroyed GPT-5 in my benchmark tests",
+      "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.",
+      "score": 2800,
+      "subreddit": "OpenAI",
+      "category": "comparison",
+      "num_comments": 342,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_3597"
+    },
+    {
+      "title": "ChatGPT now just tells me to Google things",
+      "selftext": "Why am I paying for an AI that tells me to use a search engine?",
+      "score": 1950,
+      "subreddit": "ChatGPT",
+      "category": "lazy",
+      "num_comments": 240,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1808"
+    },
+    {
+      "title": "Plus subscription is now worse than the free tier",
+      "selftext": "Free users get GPT-4o, we get rate limits and excuses.",
+      "score": 4200,
+      "subreddit": "ChatGPT",
+      "category": "subscription",
+      "num_comments": 214,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7086"
+    },
+    {
+      "title": "Three hours debugging AI-generated code that was 'working'",
+      "selftext": "It confidently said the code was correct. It wasn't. Not even close.",
+      "score": 1780,
+      "subreddit": "webdev",
+      "category": "coding",
+      "num_comments": 71,
+      "url": "https://reddit.com/r/webdev",
+      "author": "user_1475"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality",
+      "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.",
+      "source": "Vice"
+    },
+    {
+      "title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug",
+      "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025",
+      "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.",
+      "source": "Forbes"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "score": 677,
+      "comments": 399,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Can I opt out of my input or output data being used for training?",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "score": 325,
+      "comments": 138,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI Agents and the Refactoring That Never Happens",
+      "url": "https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/",
+      "score": 16,
+      "comments": 15,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Qantas Airbus A380 catastrophic engine failure in 2010 (2023)",
+      "url": "https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7",
+      "score": 25,
+      "comments": 8,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
+      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "score": 158,
+      "comments": 71,
+      "source": "Hacker News"
+    }
+  ]
+}
