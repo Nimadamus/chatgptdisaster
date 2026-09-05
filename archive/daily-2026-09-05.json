@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-05",
+  "date_seed": 101894737,
+  "generated_at": "2026-09-05T20:10:17.113479",
+  "reddit_posts": [
+    {
+      "title": "Local LLMs are now better than ChatGPT for coding",
+      "selftext": "Running Llama locally beats paying $20/month for worse results.",
+      "score": 2100,
+      "subreddit": "LocalLLaMA",
+      "category": "comparison",
+      "num_comments": 71,
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "author": "user_2292"
+    },
+    {
+      "title": "ChatGPT Pro at $200/month is a scam",
+      "selftext": "Same model, same limits, just a different tier name. Shameless.",
+      "score": 2600,
+      "subreddit": "OpenAI",
+      "category": "subscription",
+      "num_comments": 299,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_7454"
+    },
+    {
+      "title": "The responses keep getting shorter every update",
+      "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?",
+      "score": 2400,
+      "subreddit": "OpenAI",
+      "category": "lazy",
+      "num_comments": 151,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_1203"
+    },
+    {
+      "title": "GPT-5 can't count to 10 correctly anymore",
+      "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.",
+      "score": 2340,
+      "subreddit": "ChatGPT",
+      "category": "math",
+      "num_comments": 231,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1284"
+    },
+    {
+      "title": "Asked about historical battles, got a lecture on peace",
+      "selftext": "I'm writing a history paper, not planning a war. Chill.",
+      "score": 1560,
+      "subreddit": "ChatGPT",
+      "category": "refusal",
+      "num_comments": 377,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_7082"
+    },
+    {
+      "title": "GPT-5 invents functions that don't exist",
+      "selftext": "It keeps using APIs and methods that literally don't exist in any library.",
+      "score": 1950,
+      "subreddit": "programming",
+      "category": "coding",
+      "num_comments": 324,
+      "url": "https://reddit.com/r/programming",
+      "author": "user_9370"
+    },
+    {
+      "title": "Fake medical studies are going to get someone killed",
+      "selftext": "It cited 5 studies on drug interactions. None of them are real.",
+      "score": 4100,
+      "subreddit": "medicine",
+      "category": "hallucination",
+      "num_comments": 294,
+      "url": "https://reddit.com/r/medicine",
+      "author": "user_3778"
+    },
+    {
+      "title": "ChatGPT made up my company's CEO and their biography",
+      "selftext": "I work there. That person has never existed. Completely fabricated.",
+      "score": 2340,
+      "subreddit": "OpenAI",
+      "category": "hallucination",
+      "num_comments": 167,
+      "url": "https://reddit.com/r/OpenAI",
+      "author": "user_9086"
+    },
+    {
+      "title": "Stop adding disclaimers to everything",
+      "selftext": "I asked for a cookie recipe, not a legal waiver.",
+      "score": 1650,
+      "subreddit": "ChatGPT",
+      "category": "personality",
+      "num_comments": 66,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_9526"
+    },
+    {
+      "title": "GPT-5 invented an author and 3 books for my bibliography",
+      "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.",
+      "score": 2900,
+      "subreddit": "ChatGPT",
+      "category": "hallucination",
+      "num_comments": 257,
+      "url": "https://reddit.com/r/ChatGPT",
+      "author": "user_1286"
+    }
+  ],
+  "news_articles": [
+    {
+      "title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch",
+      "snippet": "Community surveys show widespread dissatisfaction with the latest model update.",
+      "source": "The Verge"
+    },
+    {
+      "title": "European Regulators Open Investigation Into ChatGPT Hallucinations",
+      "snippet": "EU concerned about AI-generated misinformation and consumer protection.",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts",
+      "snippet": "Moderators struggle to manage flood of user frustration with AI service.",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee",
+      "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.",
+      "source": "Bloomberg"
+    }
+  ],
+  "hn_stories": [
+    {
+      "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "score": 59,
+      "comments": 0,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "score": 2003,
+      "comments": 1483,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "score": 339,
+      "comments": 201,
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "score": 329,
+      "comments": 286,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "score": 290,
+      "comments": 214,
+      "source": "Hacker News"
+    }
+  ]
+}
