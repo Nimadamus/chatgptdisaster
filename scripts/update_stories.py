@@ -79,8 +79,10 @@ def main():
     
     reddit_posts = data.get('reddit_posts', [])
     if not reddit_posts:
-        print("  No Reddit posts in archive")
-        return 1
+        # Having nothing to add is the normal state since the fabricated pool was
+        # removed on 2026-09-10. This is not a failure and must not fail the deploy.
+        print("  No source-linked posts to add - nothing to do")
+        return 0
     
     # Load stories.html
     stories_file = os.path.join(REPO_DIR, "stories.html")
