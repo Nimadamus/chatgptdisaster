@@ -100,6 +100,11 @@ def main():
         added_titles = set()
     
     # Filter new posts
+    # 2026-09-10: never render an entry without a real, linkable source.
+    def _has_real_source(p):
+        url = (p.get("url") or "").strip()
+        return url.startswith("http") and "/comments/" in url
+    reddit_posts = [p for p in reddit_posts if _has_real_source(p)]
     new_posts = [p for p in reddit_posts if p['title'] not in added_titles]
     if not new_posts:
         print("  No new unique testimonials to add")

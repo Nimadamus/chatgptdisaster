@@ -33,81 +33,14 @@ USER_AGENTS = [
 ]
 
 # Large pool of rotating complaints - different ones shown each day
-COMPLAINT_POOL = [
-    # Math/Logic failures
-    {"title": "GPT-5 can't count to 10 correctly anymore", "selftext": "Asked it to list numbers 1-10 and it skipped 7. Twice.", "score": 2340, "subreddit": "ChatGPT", "category": "math"},
-    {"title": "Basic algebra is broken in the latest update", "selftext": "2x + 5 = 15, it told me x = 7. Elementary school stuff.", "score": 1890, "subreddit": "ChatGPT", "category": "math"},
-    {"title": "ChatGPT thinks 9.11 is greater than 9.9", "selftext": "String comparison vs numeric comparison - it's been broken for months.", "score": 3200, "subreddit": "OpenAI", "category": "math"},
-    {"title": "The strawberry problem is STILL not fixed", "selftext": "How many R's in strawberry? It says 2. Every. Single. Time.", "score": 2100, "subreddit": "ChatGPT", "category": "math"},
-    {"title": "GPT-5 failed my 8-year-old's homework", "selftext": "Simple word problems - got 3 out of 5 wrong. My kid did better.", "score": 1650, "subreddit": "ChatGPT", "category": "math"},
-
-    # Coding failures
-    {"title": "ChatGPT wrote code that deleted my entire project", "selftext": "Asked for help with git, it ran rm -rf on my repo directory.", "score": 4500, "subreddit": "programming", "category": "coding"},
-    {"title": "The code it generates doesn't even compile anymore", "selftext": "Syntax errors in every response. Did they fire the QA team?", "score": 2800, "subreddit": "ChatGPT", "category": "coding"},
-    {"title": "GPT-5 invents functions that don't exist", "selftext": "It keeps using APIs and methods that literally don't exist in any library.", "score": 1950, "subreddit": "programming", "category": "coding"},
-    {"title": "Asked for Python, got a mix of Python and JavaScript", "selftext": "The code has console.log AND print statements. Pick a language!", "score": 1420, "subreddit": "ChatGPT", "category": "coding"},
-    {"title": "ChatGPT's SQL suggestions would drop my production database", "selftext": "It casually suggested DROP TABLE in a SELECT query fix. Terrifying.", "score": 3100, "subreddit": "programming", "category": "coding"},
-    {"title": "Three hours debugging AI-generated code that was 'working'", "selftext": "It confidently said the code was correct. It wasn't. Not even close.", "score": 1780, "subreddit": "webdev", "category": "coding"},
-
-    # Refusals and restrictions
-    {"title": "ChatGPT refuses to write a villain for my novel", "selftext": "It's FICTION. The bad guy is supposed to be bad. That's the point.", "score": 2650, "subreddit": "ChatGPT", "category": "refusal"},
-    {"title": "Can't get help with my cybersecurity homework anymore", "selftext": "Studying for my degree but it won't explain basic penetration testing.", "score": 1890, "subreddit": "OpenAI", "category": "refusal"},
-    {"title": "GPT-5 refused to explain how locks work", "selftext": "I'm a locksmith. This is literally my job. But no, too dangerous.", "score": 3400, "subreddit": "ChatGPT", "category": "refusal"},
-    {"title": "It won't write a recipe with alcohol anymore", "selftext": "Trying to make coq au vin. Apparently cooking wine is too edgy.", "score": 2100, "subreddit": "ChatGPT", "category": "refusal"},
-    {"title": "Asked about historical battles, got a lecture on peace", "selftext": "I'm writing a history paper, not planning a war. Chill.", "score": 1560, "subreddit": "ChatGPT", "category": "refusal"},
-
-    # Hallucinations
-    {"title": "ChatGPT cited a Supreme Court case that doesn't exist", "selftext": "Lawyer almost used it in court. This is getting dangerous.", "score": 5200, "subreddit": "law", "category": "hallucination"},
-    {"title": "GPT-5 invented an author and 3 books for my bibliography", "selftext": "The author doesn't exist. The books don't exist. Professor was not amused.", "score": 2900, "subreddit": "ChatGPT", "category": "hallucination"},
-    {"title": "It told me a restaurant closed in 2019 - I'm sitting in it right now", "selftext": "Eating lunch at a restaurant that ChatGPT insists burned down.", "score": 1870, "subreddit": "ChatGPT", "category": "hallucination"},
-    {"title": "ChatGPT made up my company's CEO and their biography", "selftext": "I work there. That person has never existed. Completely fabricated.", "score": 2340, "subreddit": "OpenAI", "category": "hallucination"},
-    {"title": "Fake medical studies are going to get someone killed", "selftext": "It cited 5 studies on drug interactions. None of them are real.", "score": 4100, "subreddit": "medicine", "category": "hallucination"},
-
-    # Lazy responses
-    {"title": "GPT-5 is the laziest AI model ever released", "selftext": "Ask for 10 examples, get 3 and 'you can figure out the rest.'", "score": 3800, "subreddit": "ChatGPT", "category": "lazy"},
-    {"title": "The responses keep getting shorter every update", "selftext": "Used to get paragraphs, now I get sentences. Paying $20 for this?", "score": 2400, "subreddit": "OpenAI", "category": "lazy"},
-    {"title": "ChatGPT now just tells me to Google things", "selftext": "Why am I paying for an AI that tells me to use a search engine?", "score": 1950, "subreddit": "ChatGPT", "category": "lazy"},
-    {"title": "'I cannot provide a complete solution' - then what can you do?", "selftext": "This phrase appears in 90% of my conversations now.", "score": 2100, "subreddit": "ChatGPT", "category": "lazy"},
-    {"title": "Asked for code, got pseudocode and 'implement as needed'", "selftext": "If I could implement it myself, I wouldn't be asking you!", "score": 1670, "subreddit": "programming", "category": "lazy"},
-
-    # Subscription complaints
-    {"title": "Plus subscription is now worse than the free tier", "selftext": "Free users get GPT-4o, we get rate limits and excuses.", "score": 4200, "subreddit": "ChatGPT", "category": "subscription"},
-    {"title": "$20/month for 'please try again later' errors", "selftext": "Peak hours means zero responses. What am I paying for?", "score": 2800, "subreddit": "OpenAI", "category": "subscription"},
-    {"title": "They raised prices and lowered quality simultaneously", "selftext": "Incredible business strategy. Make it worse AND more expensive.", "score": 3100, "subreddit": "ChatGPT", "category": "subscription"},
-    {"title": "ChatGPT Pro at $200/month is a scam", "selftext": "Same model, same limits, just a different tier name. Shameless.", "score": 2600, "subreddit": "OpenAI", "category": "subscription"},
-    {"title": "Switched to Claude and never looked back", "selftext": "Actually follows instructions, doesn't refuse everything. Night and day.", "score": 1890, "subreddit": "ChatGPT", "category": "subscription"},
-
-    # Memory/Context issues
-    {"title": "ChatGPT forgets what I said 3 messages ago", "selftext": "Mid-conversation it acts like we never discussed the topic.", "score": 2100, "subreddit": "ChatGPT", "category": "memory"},
-    {"title": "Memory feature is completely broken in GPT-5", "selftext": "It remembers wrong things and forgets important things. Useless.", "score": 1780, "subreddit": "OpenAI", "category": "memory"},
-    {"title": "Had to repeat my requirements 5 times in one conversation", "selftext": "Each response ignored something I explicitly stated earlier.", "score": 1340, "subreddit": "ChatGPT", "category": "memory"},
-
-    # Personality/Tone issues
-    {"title": "GPT-5 has become unbearably preachy", "selftext": "Every response includes a lecture I didn't ask for.", "score": 2900, "subreddit": "ChatGPT", "category": "personality"},
-    {"title": "The constant apologizing is driving me insane", "selftext": "'I apologize for any confusion' - you caused the confusion!", "score": 2200, "subreddit": "ChatGPT", "category": "personality"},
-    {"title": "Stop adding disclaimers to everything", "selftext": "I asked for a cookie recipe, not a legal waiver.", "score": 1650, "subreddit": "ChatGPT", "category": "personality"},
-
-    # Comparison complaints
-    {"title": "Claude is everything ChatGPT should have been", "selftext": "Longer responses, fewer refusals, actually helpful. OpenAI is cooked.", "score": 3400, "subreddit": "artificial", "category": "comparison"},
-    {"title": "Gemini just destroyed GPT-5 in my benchmark tests", "selftext": "Google's model is faster, cheaper, and more accurate. The king is dead.", "score": 2800, "subreddit": "OpenAI", "category": "comparison"},
-    {"title": "Local LLMs are now better than ChatGPT for coding", "selftext": "Running Llama locally beats paying $20/month for worse results.", "score": 2100, "subreddit": "LocalLLaMA", "category": "comparison"},
-]
+# 2026-09-10: the hardcoded COMPLAINT_POOL and NEWS_POOL were removed.
+# They contained invented complaints and invented engagement counts that were
+# published as real user posts. Nothing on this site may present fabricated
+# material as real testimony. Do not repopulate these lists.
+COMPLAINT_POOL = []
 
 # News headlines that rotate
-NEWS_POOL = [
-    {"title": "OpenAI Facing Multiple Lawsuits Over AI Hallucinations", "snippet": "Legal experts say fabricated citations and false information have led to real-world damages.", "source": "TechCrunch"},
-    {"title": "ChatGPT Users Report 40% Decline in Response Quality Since GPT-5 Launch", "snippet": "Community surveys show widespread dissatisfaction with the latest model update.", "source": "The Verge"},
-    {"title": "Former OpenAI Employees Warn of 'Rushed' GPT-5 Release", "snippet": "Whistleblowers claim internal testing was cut short to beat competitors.", "source": "Wired"},
-    {"title": "Anthropic's Claude Gains Market Share as ChatGPT Users Flee", "snippet": "Subscription cancellations at OpenAI reach all-time high in Q4 2025.", "source": "Bloomberg"},
-    {"title": "Study: AI Hallucinations Have Cost Businesses $2.1 Billion in 2025", "snippet": "Healthcare, legal, and financial sectors report the highest losses from false AI outputs.", "source": "Forbes"},
-    {"title": "OpenAI Admits GPT-5 'Lazy' Behavior Is a Feature, Not a Bug", "snippet": "Company claims shorter responses improve 'efficiency' despite user backlash.", "source": "Ars Technica"},
-    {"title": "ChatGPT Outage Leaves Millions Without AI Access for 8 Hours", "snippet": "Third major outage this month raises reliability concerns for enterprise customers.", "source": "CNBC"},
-    {"title": "Microsoft Reconsidering OpenAI Partnership After Quality Issues", "snippet": "Internal memos suggest frustration with ChatGPT integration problems in Copilot.", "source": "The Information"},
-    {"title": "Reddit Communities Overwhelmed by ChatGPT Complaint Posts", "snippet": "Moderators struggle to manage flood of user frustration with AI service.", "source": "Gizmodo"},
-    {"title": "OpenAI's Sam Altman Defends GPT-5 Amid Growing Criticism", "snippet": "CEO claims model is 'most capable ever' despite user reports of regression.", "source": "Reuters"},
-    {"title": "European Regulators Open Investigation Into ChatGPT Hallucinations", "snippet": "EU concerned about AI-generated misinformation and consumer protection.", "source": "Financial Times"},
-    {"title": "ChatGPT Plus Subscribers Demand Refunds Over Service Quality", "snippet": "Class action lawsuit brewing over alleged 'bait and switch' tactics.", "source": "Vice"},
-]
+NEWS_POOL = []
 
 
 def get_hacker_news_stories():

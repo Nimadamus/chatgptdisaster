@@ -1,5 +1,10 @@
 RewriteEngine On
 
+# 2026-09-10: SportsBettingPrime material removed from this domain. 410 Gone, not 404,
+# because the removal is deliberate and permanent.
+RewriteRule ^consensus_library/ - [G,L]
+RewriteRule ^college-football\.html$ - [G,L]
+
 # Canonical host and HTTPS.
 RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} ^www\.chatgptdisaster\.com$ [NC]
