@@ -1,21 +1,12 @@
+# www -> non-www canonical 301 (added 2026-07-04, reversible: delete this file)
 RewriteEngine On
-
-# 2026-09-10: SportsBettingPrime material removed from this domain. 410 Gone, not 404,
-# because the removal is deliberate and permanent.
-RewriteRule ^consensus_library/ - [G,L]
-RewriteRule ^college-football\.html$ - [G,L]
-
-# Canonical host and HTTPS.
-RewriteCond %{HTTPS} !=on [OR]
-RewriteCond %{HTTP_HOST} ^www\.chatgptdisaster\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^www\.chatgptdisaster\.com [NC]
 RewriteRule ^(.*)$ https://chatgptdisaster.com/$1 [R=301,L]
 
-# Collapse /index.html to the root page.
-RewriteRule ^index\.html$ https://chatgptdisaster.com/ [R=301,L]
-
-# Prevent directory listing.
-Options -Indexes
-
-<FilesMatch "\.(html|htm)$">
-  Header set Cache-Control "public, max-age=300"
-</FilesMatch>
+# 2026-09-10, recovery gate C: SportsBettingPrime material retired from this
+# domain. 410 Gone rather than 404 because the removal is deliberate and
+# permanent. Reversible by deleting these four lines.
+RedirectMatch 410 ^/consensus_library(/.*)?$
+RedirectMatch 410 ^/college-football\.html$
+RewriteRule ^consensus_library(/|$) - [G,L]
+RewriteRule ^college-football\.html$ - [G,L]
