@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-10",
+  "date_seed": 564018685,
+  "generated_at": "2026-09-10T15:06:48.089161",
+  "reddit_posts": [],
+  "news_articles": [],
+  "hn_stories": [
+    {
+      "title": "Amazon pilots ad services in ChatGPT",
+      "url": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
+      "score": 42,
+      "comments": 24,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+      "url": "https://news.ycombinator.com/item?id=49643556",
+      "score": 210,
+      "comments": 74,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "score": 177,
+      "comments": 81,
+      "source": "Hacker News"
+    },
+    {
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "score": 1098,
+      "comments": 427,
+      "source": "Hacker News"
+    },
+    {
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "score": 482,
+      "comments": 157,
+      "source": "Hacker News"
+    }
+  ]
+}
